@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-24",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "ChatGPT 广告扩至 31 个欧洲市场，AI 答案的\"自然推荐 vs 付费\"边界在欧盟主战场铺开，GEO 占位进入 organic×paid 双轨。",
+    "品牌把创作者/网红内容纳入 AI 搜索剧本，GEO 优化对象从官网/媒体延伸到社媒与创作者内容层。",
+    "免费 AI 可见度平台 Llumo 上线（BYOK），GEO 监测门槛被拉低，中小品牌可零成本起步看板。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-24-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT Ads 扩展至 31 个欧洲市场，AI 答案引擎商业化全面铺开",
+      "summary": "OpenAI 8/18 宣布 ChatGPT 广告将于下周（约 8/24）扩展至 31 个欧洲市场，仅 Free/Go 套餐展示、Plus/Pro/Enterprise 无广告，初期经 Ads Solutions/代理/技术伙伴接入，自助 Ads Manager 夏末上线。",
+      "insight": "ChatGPT广告扩至欧洲31个市场，欧洲客户可开始规划广告与自然引用的组合监测。",
+      "published": null,
+      "links": [
+        {
+          "text": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-24-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "品牌把创作者内容写进 AI 搜索剧本：网红稿也开始为被 LLM 引用而优化",
+      "summary": "CMO Magazine 8/23 报道，Zoom 等品牌聘用创作者型记者、Trevant/Crispin 等机构帮品牌把网红与社媒内容改造为更易被 LLM 在答案中引用的素材，GEO 优化对象从官网/媒体延伸到创作者内容层。",
+      "insight": "创作者内容也被改造为易被LLM引用的素材，客户内容规划应纳入创作者内容层。",
+      "published": null,
+      "links": [
+        {
+          "text": "CMO Magazine：Creators Move Into Brands' AI Search Playbooks",
+          "url": "https://cmomag.com/ai-in-marketing/creators-become-key-to-brands-ai-search-strategy"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-24-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Llumo 发布免费 AI 可见度平台，BYOK 模式拉低 GEO 监测门槛",
+      "summary": "Llumo 8/20 发布免费 AI 可见度/AEO 监测平台，覆盖 ChatGPT/Gemini/Perplexity/Copilot/AI Mode/AI Overviews，用户自带 API key 按量付费，含引用/来源/query fan-out/竞品声量监测。",
+      "insight": "自带API key的免费监测拉低入门门槛，付费方案需突出分析深度与行动建议。",
+      "published": null,
+      "links": [
+        {
+          "text": "FinanzNachrichten（Newsfile）：Llumo Launches Free AI Visibility Platform With BYOK Model",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69366019-tedfuel-llumo-launches-free-ai-visibility-platform-with-bring-your-own-key-model-296.htm"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-24-04",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "惊鸿创科（南京）数智科技获 2 亿元战略投资，深耕 GEO 赛道",
+      "summary": "惊鸿创科完成 2 亿元级产业战略融资，南京浦上信息科技持股 51% 成为控股股东，资金投向 GEO 核心算法迭代与全国市场拓展。",
+      "insight": "资金投向核心算法迭代和全国拓展，区域型GEO公司正在扩张，竞争将加剧。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO赛道亿元级融资在南京诞生！惊鸿创科获2亿元战略投资（江南时报·今日头条）",
+          "url": "https://www.toutiao.com/article/7677427039875400246"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 4,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

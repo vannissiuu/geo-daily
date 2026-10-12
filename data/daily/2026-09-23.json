@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-23",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "\"被引用 ≠ 被点击\"首次有了实验级因果证据：随机田野实验证明强制 AI Mode 显著削减外链点击、移除 AI Overviews 反而增加点击且体验无损——GEO 的 KPI 必须从\"可见度/曝光\"进一步转向\"答案内份额 + 可归因转化\"，单看曝光会系统性高估收益。",
+    "Google 正把 AI Overviews 的\"外链位\"改造为 AI Mode 入口：看似普通的链接不再指向网页而是触发追问——引用位置仍在但点击通路被平台回收，方案商须把\"AI 面内呈现质量（是否被完整表述、是否被署名）\"当作与点击并列的交付指标。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-23-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在 AI Overviews 内放置导向 AI Mode 的链接，外链被替换成追问入口",
+      "summary": "SEO 从业者 Gagan Ghotra 发现、seroundtable 9/22 报道：Google 在 AI Overviews 底部放入看似普通的锚文本链接，点击不跳转网页而是进入 AI Mode 追问，把用户留在 Google 自有答案流内。",
+      "insight": "AI Overviews内链接可能导向AI Mode，监测点击时需区分外链和追问入口。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Google AI Overview Links Taking You To AI Mode Over Web Pages",
+          "url": "https://www.seroundtable.com/google-ai-overview-links-to-ai-mode-42132.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-23-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "宾大与东北大学田野实验：强制 AI Mode 减少外链点击、降低满意度，并推高用户转向竞品搜索",
+      "summary": "1444 人入组、1100 人 7 天追踪的随机田野实验（8 月发布、SEJ 9/21 报道）：强制 AI Mode 显著降低外链点击与搜索满意度，并推高用户转向 Bing/DDG/Yahoo；移除 AI Overviews 反而增加外链且体验无下降。",
+      "insight": "实验显示强制AI Mode会减少外链点击，向客户解释流量下降时可引用该研究。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Journal：Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience",
+          "url": "https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

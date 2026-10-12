@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-24",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "百度搜索资源平台上线\"权威溯源\"内测，让权威内容在文心一言等 AI 回答中获得来源标注与原文引用，中文信源体系从\"链接排名\"转向\"AI 信任标注\"。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-24-01",
+      "category": "平台动态",
+      "platform": "文心",
+      "region": "国内",
+      "title": "百度搜索资源平台上线\"权威溯源\"内测，AI 答案可标注引用来源",
+      "summary": "百度搜索资源平台推出\"权威溯源\"功能（内测、凭邀请码提交），让权威机构与优质创作者在传统与 AI 搜索中获得来源追溯与原文引用标注，文心一言等生成式引擎回答将明确标注引用方，标志中文信源体系从\"链接排名\"转向\"AI 信任标注\"。",
+      "insight": "百度权威溯源在内测，权威机构客户可申请邀请码，方案商可协助准备资质材料。",
+      "published": null,
+      "links": [
+        {
+          "text": "百度搜索资源平台上线\"权威溯源\"：AI搜索时代的\"新闻源\"重构（同花顺财经）",
+          "url": "https://news.10jqka.com.cn/field/20260922/680155147.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

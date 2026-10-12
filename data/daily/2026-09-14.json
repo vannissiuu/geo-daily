@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-14",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "ChatGPT 把\"带引用的深度研究\"从聊天侧推向 Work/Codex 工作流，AI 答案的\"可溯源引用\"成为更高权重的可见度战场——品牌能否进入一份被反复引用、分享、复盘的深度研究报告，成为比单次回答更持久的 visibility 资产。",
+    "GEO 行业从铺量/刷量加速转向白帽结构化内容：Reddit 刷量被 ChatGPT 识别降权（引用占比 3.83%→0.5%），新\"联系出版商植入\"捷径亦引发编辑完整性争议，真实、一致、可被交叉验证的公开证据成为唯一可持续占位路径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-14-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 把 Deep Research 带入 Work/Codex，高引用透明度模式深入工作流",
+      "summary": "OpenAI 9/9 将 Deep Research 扩展至 ChatGPT Work/Codex，跨网络/文件/连接应用做研究并产出带 citation 的可编辑报告；该\"最 source-transparent\"面深入工作流，品牌能否被引进入深度研究报告成更持久可见度资产。",
+      "insight": "Deep Research报告带引用，是高价值引用场景，客户应优先让关键资料可被研究类任务检索。",
+      "published": null,
+      "links": [
+        {
+          "text": "reconnAI：ChatGPT Deep Research 扩展至 Work/Codex 的 AI 可见度含义",
+          "url": "https://reconn-ai.com/news/chatgpt-deep-research-work-codex-ai-visibility"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-14-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "GEO/AEO 服务扩张但捷径被封堵，白帽结构化内容成共识",
+      "summary": "亿邦动力 9/12 观察 GEO/AEO 服务快速扩张，但 Reddit 刷量等捷径被 ChatGPT 识别降权（Reddit 引用占比 7/18–8/7 的 3.83% 降至 8 月中旬 0.5%）；新\"联系出版商植入\"玩法亦引编辑完整性争议，真实一致可验证证据成唯一可持续路径。",
+      "insight": "Reddit刷量等捷径被降权，不要向客户承诺捷径，改以真实一致可验证的证据为主线。",
+      "published": null,
+      "links": [
+        {
+          "text": "亿邦动力：AI搜索优化生意兴起 捷径玩法屡被大模型封堵",
+          "url": "https://www.ebrun.com/20260912/706912.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

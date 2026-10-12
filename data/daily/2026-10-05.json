@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "OpenAI 把视觉广告首次嵌入 ChatGPT 生图结果，付费可见度从对话答案延伸到图像输出，GEO 须开始评估\"生图场景\"的品牌占位与付费/自然边界。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-05-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 在 ChatGPT 生图场景测试视觉展示广告，美国下旬试点",
+      "summary": "OpenAI 官宣在 ChatGPT 图像生成场景测试视觉展示广告（10/5）：美国用户下旬起试点，广告带清晰标识、不干预回答文本，并引入 Hightouch、Teachable 等度量生态伙伴，GEO 付费可见度首次延伸到生图输出。",
+      "insight": "付费可见度延伸到生图输出：方案商应把生图场景纳入监测，并向客户讲清付费位与自然引用的边界。",
+      "published": null,
+      "links": [
+        {
+          "text": "Inside AI News：OpenAI Tests Visual Ads in ChatGPT Image Generation",
+          "url": "https://insideai.news/news/ai-in-business/openai-visual-ads-chatgpt/13603"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-24",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-24-01",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Adobe 发布「Adobe Brand Visibility」统一 GEO 方案，全球营销云巨头正式入场",
+      "summary": "把 Semrush AI 可见性情报与 Adobe LLM Optimizer 整合进 CX Enterprise，GEO 从独立小赛道升级为营销云标配模块。",
+      "insight": "Adobe把Semrush可见性情报并入营销云，方案商要向客户说明自家工具相对套件的优势。",
+      "published": null,
+      "links": [
+        {
+          "text": "Adobe unveils AI search tool boosting brand visibility（CHOSUNBIZ·韩国）",
+          "url": "https://biz.chosun.com/en/en-it/2026/07/22/HO6VGATTYJG7ZC4OQFJJGFQVOQ/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-24-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "腾讯云开发者社区发布《GEO 优化避坑指南》，一线方法论走向体系化",
+      "summary": "把「从被看见到被引用」范式、五类踩坑、可落地自审清单与引用可见度监测步骤讲透，客户专业门槛同步抬高。",
+      "insight": "指南里的五类踩坑和自审清单可改成客户自检表，用在售前沟通中体现专业度。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO 优化避坑指南：从业者必知的误区与对策（腾讯云开发者社区）",
+          "url": "https://cloud.tencent.com/developer/article/2714271"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-24-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "星沙时报发布《2026 中国 GEO 市场格局深度解读》，规模与集中度首次被量化",
+      "summary": "2025 年 127.6 亿 / +203.8%、CR8 由 45%→58%，信源权重约占 AI 搜索排名 40%，给出 TOP8 服务商格局。",
+      "insight": "报告称CR8由45%升至58%，集中度上升，中小方案商需聚焦细分场景或行业垂类。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO 纪元开启：2026 中国生成式引擎优化市场格局深度解读（今日头条·星沙时报）",
+          "url": "https://www.toutiao.com/article/7665668673910964790"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-24-04",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "GEO 服务商价值评估：\"可信传播\"成国家级议题，RAG 与多模型适配成核心维度",
+      "summary": "新浪 7/24 行业分析指出 GEO 竞争焦点从被用户看见转向被 AI 信任并引用，可信成为 GEO 第一性原理。",
+      "insight": "客户评估服务商时看重RAG与多模型适配，方案商应备好这两项的能力说明和案例。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI时代品牌信任争夺战：2026 GEO 服务商价值评估（新浪网）",
+          "url": "https://k.sina.com.cn/article_5337473809_13e23631100101hco2.html?subch=otech"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 4,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

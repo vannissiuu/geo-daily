@@ -1,0 +1,174 @@
+{
+  "week_start": "2026-08-10",
+  "week_end": "2026-08-16",
+  "legacy": true,
+  "overview": {
+    "total": 13,
+    "by_category": {
+      "行业政策": {
+        "count": 2,
+        "pct": 0.15
+      },
+      "行业方法论": {
+        "count": 5,
+        "pct": 0.38
+      },
+      "新技术": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "市场动态": {
+        "count": 3,
+        "pct": 0.23
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 3,
+        "pct": 0.23
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "合规治理收口：新华网牵头首部 GEO 可信传播团标 T/CAPT 026—2026 发布实施，中广协团标进送审稿，\"白帽/黑帽\"界限与信源 A/B/C/D 分级成硬标尺。",
+      "refs": [
+        "2026-08-14-01",
+        "2026-08-11-01"
+      ],
+      "ref_links": [
+        {
+          "title": "国内首部GEO可信传播团体标准施行（广西日报）",
+          "url": "https://v.gxnews.com.cn/a/21980606"
+        },
+        {
+          "title": "国内首部GEO可信传播团体标准正式发布（新浪）",
+          "url": "https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1"
+        },
+        {
+          "title": "中国广告协会生成式引擎优化（GEO）团体标准第二次征求意见会成功召开（证券时报e公司）",
+          "url": "https://www.toutiao.com/article/7671969741044597257"
+        }
+      ]
+    },
+    {
+      "text": "度量学术化+平台可计量：复旦推 C-B-A 三层 AI-BHI 品牌健康度指数，Pew/arXiv 实证 AI Overviews 引用点击率仅约1%，Kumar 给出首个大规模 AI 品牌可见度基线（企业站占78%引用），GEO 从\"点击\"转向\"答案份额\"。",
+      "refs": [
+        "2026-08-11-02",
+        "2026-08-12-02",
+        "2026-08-13-01"
+      ],
+      "ref_links": [
+        {
+          "title": "复旦团队发布AI品牌健康度指数AI-BHI（网易）",
+          "url": "https://www.163.com/dy/article/L3V8ELDN05568W0A.html"
+        },
+        {
+          "title": "Investigating Click Behaviors On Google SERPs That Produce an AI Overview（arXiv:2608.04831）",
+          "url": "https://arxiv.org/abs/2608.04831"
+        },
+        {
+          "title": "arXiv:2606.20065 GEO at Scale（Kumar, Ranqo）",
+          "url": "https://arxiv.org/abs/2606.20065"
+        }
+      ]
+    },
+    {
+      "text": "平台逻辑再收紧（商业化+抓取）：豆包对成交酒店订单抽佣约12%（国内首例 AI 对话入口明码计费），Google Search Console 明确 AI Overviews/AI Mode 曝光计量口径并在英灰度站点级退出设置，自然推荐与商业/治理边界持续重划。",
+      "refs": [
+        "2026-08-12-03",
+        "2026-08-12-01",
+        "2026-08-13-02"
+      ],
+      "ref_links": [
+        {
+          "title": "豆包订酒店抽佣约12%，AI导购商业化打响\"第一枪\"？（新浪财经）",
+          "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+        },
+        {
+          "title": "How Google counts an AI Overviews impression（SEO News）",
+          "url": "https://keywordseverywhere.com/news/ai-overviews/"
+        },
+        {
+          "title": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+          "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+        }
+      ]
+    },
+    {
+      "text": "市场\"资本+主流媒体\"双线下场：青岛交通广播组建 GEO 智能传播战队（主流媒体下场做 GEO 服务），Semrush 调研 38% 营销人加投 AI 搜索优化超传统 SEO 的 36%，分众传媒战略投资钛镁AI，GEO 从概念进入主流产业视野。",
+      "refs": [
+        "2026-08-10-02",
+        "2026-08-10-03",
+        "2026-08-14-02"
+      ],
+      "ref_links": [
+        {
+          "title": "青岛交通广播组建GEO智能传播战队（新浪）",
+          "url": "https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1"
+        },
+        {
+          "title": "AI搜索优化投资意愿38%超传统SEO：Google改规则后小站流量两年跌60%（网易）",
+          "url": "https://www.163.com/dy/article/L3NNPE0E05561FZU.html"
+        },
+        {
+          "title": "钛媒体：当AI成为中间介质，究竟是谁在帮品牌讲故事？（新浪财经）",
+          "url": "https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "豆包以\"成交抽佣\"把 AI 推荐与交易佣金绑定（不干预排序但重划商业边界）；Google 明确 AI 答案曝光口径（链接滚入视口才计、AI Mode 追问算新查询），把\"被引\"计量标准化。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "收录周期",
+      "text": "Google 在英灰度 Search Console 站点级设置，出版方可退出内容驱动 AI Overviews/AI Mode 并要求清晰署名——\"可被引用来源\"开关权向内容方回流。",
+      "refs": [
+        "2026-08-12-01",
+        "2026-08-13-02"
+      ],
+      "ref_links": [
+        {
+          "title": "How Google counts an AI Overviews impression（SEO News）",
+          "url": "https://keywordseverywhere.com/news/ai-overviews/"
+        },
+        {
+          "title": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+          "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+        }
+      ]
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "豆包酒店抽佣是 AI 对话入口电商闭环的首次明码计费，平台从信息工具转向交易渠道。",
+      "refs": [
+        "2026-08-12-03"
+      ],
+      "ref_links": [
+        {
+          "title": "豆包订酒店抽佣约12%（新浪财经）",
+          "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+        }
+      ]
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "本周无重大 robots/crawler 协议调整被记录。",
+      "refs": [],
+      "ref_links": []
+    }
+  ],
+  "implications": [
+    "把\"答案份额 ASOV + 品牌召回 + 转化归因\"做成标准度量模块：Pew/arXiv 证伪\"被引=点击\"，方案商需从点击/展现升级到答案份额与转化归因，用数据反驳\"铺量有效\"。",
+    "借合规团标做差异化：以 T/CAPT 026—2026 白帽/黑帽界限 + 信源 A/B/C/D 分级为背书，主推\"可溯源、可量化、可治理\"透明交付，规避清朗点名风险。",
+    "盯紧平台商业化边界：豆包抽佣标志 AI 入口交易化，方案商应把\"自然推荐 vs 付费影响\"边界讲清，并把 Google SC AI 表现报告接入监测仪表盘。"
+  ]
+}

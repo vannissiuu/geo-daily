@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-09",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "\"自榜清单\"战术在 Google AI Overviews 内正式反噬：引用降 38%、自榜品牌 83% 拿不到推荐、70% 案例给竞品导流——买榜式 GEO 的风险从\"无效\"升级为\"资敌\"，服务商须帮客户下架或改造存量自榜页。",
+    "ChatGPT 商品结果开始挂\"最佳\"评价标签，AI 答案内电商呈现进入\"导购标注\"阶段，商品卡竞争从\"被列出\"升级为\"被标注为什么最佳\"。",
+    "WordPress 官方 MCP Adapter 转正，主流 CMS 的 AI 直连入口标准化，站点内容的\"机器可访问性\"建设有了官方通道。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-09-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Lily Ray 实测：自榜\"最佳\"清单被 AI Overviews 引用降 38%，自榜品牌 83% 被排除在推荐外",
+      "summary": "Amsive 副总裁 Lily Ray 10/4 实测 100 个 B2B 软件查询：AI Overviews 引用服务商自榜\"best of\"页面较 6 月降 38%，自榜品牌 83% 未进入实际推荐（6 月 69%），70% 案例反为竞品导流；叠加 Google 文档收紧，预判大更新临近。",
+      "insight": "自榜清单在 AI Overviews 中引用下降且反向导流：方案商应帮客户评估并下架或改造存量自榜页。",
+      "published": null,
+      "links": [
+        {
+          "text": "PPC Land：Google AI Overviews cut self-ranking listicle citations 38%, Lily Ray finds",
+          "url": "https://ppc.land/google-ai-overviews-cut-self-ranking-listicle-citations-38-lily-ray-finds/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-10-09-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 测试商品结果\"最佳\"标签，绿色高亮主推款",
+      "summary": "OpenAI 正在 ChatGPT 商品结果测试新版标签（10/6，Brodie Clark 观测）：绿色高亮\"best all-rounder\"主推款，灰色标签标注\"best for beginners\"等分项最佳。商品呈现走向导购式标注，改写电商 GEO 在 ChatGPT 内的占位与点击结构。",
+      "insight": "ChatGPT 商品结果出现导购式标签：电商客户需监测自家商品能否获得“最佳”类标注并优化商品信息。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Roundtable：OpenAI Tests New Product Labels On ChatGPT Results",
+          "url": "https://www.seroundtable.com/product-labels-on-chatgpt-results-42237.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-10-09-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "WordPress 官方 MCP Adapter 上架官方插件目录，AI 直连站点入口转正",
+      "summary": "WordPress 官方 MCP Adapter（v0.70）首次上架 wordpress.org 目录（此前仅 GitHub 发布、已 4 万+ 安装）。作为 Anthropic MCP 标准官方实现，它让 AI 以标准化方式安全访问站点内容与功能，WordPress 生态 AI 可达性入口转正。",
+      "insight": "WordPress 官方 MCP 适配器让 AI 标准化访问站点：可为 WordPress 客户做机器可访问性评估。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Journal：WordPress Releases Canonical MCP Adapter Plugin",
+          "url": "https://www.searchenginejournal.com/wordpress-releases-canonical-mcp-adapter-plugin/592159/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

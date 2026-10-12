@@ -1,0 +1,4787 @@
+{
+ "generated_at": "2026-10-12T14:26:46+08:00",
+ "meta": {
+  "title": "GEO 每日行业动态",
+  "categories": [
+   "行业政策",
+   "行业方法论",
+   "新技术",
+   "市场动态",
+   "舆情",
+   "平台动态"
+  ],
+  "c_cat": [
+   "分类说明：",
+   "- 行业政策：监管 / 标准 / 治理 / 权威倡议与执法",
+   "- 行业方法论：可复用框架 / 评估度量 / 优化打法 / 研究基准",
+   "- 新技术：新能力 / 新架构 / 新基础设施 / 技术范式转移",
+   "- 市场动态：融资 / 并购 / 合作 / 上市 / 新玩家入场 / 规模 / 榜单 / 出海 / 渠道。",
+   "- 舆情：风险 / 争议 / 信任危机 / 黑产 / 消费者警示 / 红黑榜 / 声誉事件",
+   "- 平台动态：被优化对象（豆包 / DeepSeek / Kimi / 千问 / 文心 / 元宝 / Google / ChatGPT / Perplexity / Claude 等大模型平台）自身的算法、信源、引用、收录、爬虫、商业化策略变更。"
+  ],
+  "c_src": "本文档信源筛选原则：真实可溯可访问 + 优先权威/中立媒体 + 非软文 + 时效5天以内",
+  "stats": {
+   "days": 57,
+   "entries": 142,
+   "weeks": 9,
+   "first_date": "2026-07-20",
+   "last_date": "2026-10-09"
+  }
+ },
+ "days": [
+  {
+   "date": "2026-10-09",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "\"自榜清单\"战术在 Google AI Overviews 内正式反噬：引用降 38%、自榜品牌 83% 拿不到推荐、70% 案例给竞品导流——买榜式 GEO 的风险从\"无效\"升级为\"资敌\"，服务商须帮客户下架或改造存量自榜页。",
+    "ChatGPT 商品结果开始挂\"最佳\"评价标签，AI 答案内电商呈现进入\"导购标注\"阶段，商品卡竞争从\"被列出\"升级为\"被标注为什么最佳\"。",
+    "WordPress 官方 MCP Adapter 转正，主流 CMS 的 AI 直连入口标准化，站点内容的\"机器可访问性\"建设有了官方通道。"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-09-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Lily Ray 实测：自榜\"最佳\"清单被 AI Overviews 引用降 38%，自榜品牌 83% 被排除在推荐外",
+     "summary": "Amsive 副总裁 Lily Ray 10/4 实测 100 个 B2B 软件查询：AI Overviews 引用服务商自榜\"best of\"页面较 6 月降 38%，自榜品牌 83% 未进入实际推荐（6 月 69%），70% 案例反为竞品导流；叠加 Google 文档收紧，预判大更新临近。",
+     "insight": "自榜清单在 AI Overviews 中引用下降且反向导流：方案商应帮客户评估并下架或改造存量自榜页。",
+     "published": null,
+     "links": [
+      {
+       "text": "PPC Land：Google AI Overviews cut self-ranking listicle citations 38%, Lily Ray finds",
+       "url": "https://ppc.land/google-ai-overviews-cut-self-ranking-listicle-citations-38-lily-ray-finds/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-10-09-02",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT 测试商品结果\"最佳\"标签，绿色高亮主推款",
+     "summary": "OpenAI 正在 ChatGPT 商品结果测试新版标签（10/6，Brodie Clark 观测）：绿色高亮\"best all-rounder\"主推款，灰色标签标注\"best for beginners\"等分项最佳。商品呈现走向导购式标注，改写电商 GEO 在 ChatGPT 内的占位与点击结构。",
+     "insight": "ChatGPT 商品结果出现导购式标签：电商客户需监测自家商品能否获得“最佳”类标注并优化商品信息。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Roundtable：OpenAI Tests New Product Labels On ChatGPT Results",
+       "url": "https://www.seroundtable.com/product-labels-on-chatgpt-results-42237.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-10-09-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "WordPress 官方 MCP Adapter 上架官方插件目录，AI 直连站点入口转正",
+     "summary": "WordPress 官方 MCP Adapter（v0.70）首次上架 wordpress.org 目录（此前仅 GitHub 发布、已 4 万+ 安装）。作为 Anthropic MCP 标准官方实现，它让 AI 以标准化方式安全访问站点内容与功能，WordPress 生态 AI 可达性入口转正。",
+     "insight": "WordPress 官方 MCP 适配器让 AI 标准化访问站点：可为 WordPress 客户做机器可访问性评估。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Journal：WordPress Releases Canonical MCP Adapter Plugin",
+       "url": "https://www.searchenginejournal.com/wordpress-releases-canonical-mcp-adapter-plugin/592159/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "国内主流 AI 助手相继在回答内嵌可点商品卡，\"AI 推荐→交易\"闭环打通，GEO 电商可见度进入商品卡竞争阶段。"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-08-01",
+     "category": "平台动态",
+     "platform": "多平台",
+     "region": "国内",
+     "title": "豆包/元宝/文心/千问 AI 回答内嵌可点商品卡，智推时代上线 SKU 级监测",
+     "summary": "国内主流 AI 助手陆续在 AI 回答中内嵌可直接点击购买的商品卡（豆包/抖音商城、元宝/京东、文心/京东拼多多、千问等），AI 推荐与电商交易闭环加速融合，平台呈现机制变更直接改写 GEO 电商可见度规则。",
+     "insight": "AI 回答内嵌可点商品卡改写电商可见度规则：方案商应把商品卡露出与 SKU 级监测纳入交付。",
+     "published": null,
+     "links": [
+      {
+       "text": "新京报：AI 回答内嵌商品卡成趋势，智推时代 GENO 上线 SKU 级监测",
+       "url": "https://www.bjnews.com.cn/detail/1791431194129426.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "周三",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "Verndale 上线 AI 可见度与内容供应链服务，传统营销咨询机构成 GEO 交付新入局者，服务能力从监测延伸到内容生产管线重构。"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-07-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Verndale 推出 AI 可见度与内容供应链服务，传统咨询入局 GEO",
+     "summary": "数字咨询公司 Verndale 发布 AI 可见度（GEO/AEO）与内容供应链服务，帮助品牌监测各 AI 引擎引用表现、重构内容生产管线以适配生成式答案，传统营销咨询机构加速布局 GEO 交付能力。",
+     "insight": "传统咨询公司入局，GEO 交付竞争加剧；方案商需突出监测加内容管线重构的一体化交付。",
+     "published": null,
+     "links": [
+      {
+       "text": "Verndale Introduces AI Visibility and Content Supply Chain Services（PR Newswire）",
+       "url": "https://lfpress.com/press-releases/pr-newswire/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "周二",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "OptimizeGEO 宣布服务 100+ 全球品牌，Michael Kassan 以投资人身份加入，原文未披露融资金额。"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-06-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "OptimizeGEO 宣布服务 100+ 全球品牌、覆盖 20 国，Michael Kassan 以投资人身份加入",
+     "summary": "GEO 服务商 OptimizeGEO 宣布客户已超 100 家全球品牌、覆盖 20 个国家，3C Ventures 创始人 Michael Kassan 以投资人兼战略顾问身份加入；原文未披露融资金额与轮次（信源为企业发布稿）。",
+     "insight": "对手有知名投资人背书并拓展20国客户，竞标时备好全球案例；融资额未披露，勿引用。",
+     "published": "2026-10-05",
+     "links": [
+      {
+       "text": "MartechCube：OptimizeGEO Reaches 100 Brands as Michael Kassan Invests",
+       "url": "https://www.martechcube.com/optimizegeo-reaches-100-brands-as-michael-kassan-invests/"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "周一",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "OpenAI 把视觉广告首次嵌入 ChatGPT 生图结果，付费可见度从对话答案延伸到图像输出，GEO 须开始评估\"生图场景\"的品牌占位与付费/自然边界。"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-05-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "OpenAI 在 ChatGPT 生图场景测试视觉展示广告，美国下旬试点",
+     "summary": "OpenAI 官宣在 ChatGPT 图像生成场景测试视觉展示广告（10/5）：美国用户下旬起试点，广告带清晰标识、不干预回答文本，并引入 Hightouch、Teachable 等度量生态伙伴，GEO 付费可见度首次延伸到生图输出。",
+     "insight": "付费可见度延伸到生图输出：方案商应把生图场景纳入监测，并向客户讲清付费位与自然引用的边界。",
+     "published": null,
+     "links": [
+      {
+       "text": "Inside AI News：OpenAI Tests Visual Ads in ChatGPT Image Generation",
+       "url": "https://insideai.news/news/ai-in-business/openai-visual-ads-chatgpt/13603"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "weekday": "周五",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "透镜GEO电商版上线，支持豆包/千问商品卡抓取、达人视频发布与 Agent 诊断报告，补齐 GEO 工具\"AI 推荐→被购买\"的转化闭环。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-25-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "透镜GEO电商版上线，打通\"AI推荐中被引用→被购买\"转化链路",
+     "summary": "透镜GEO正式上线电商版，支持豆包、千问 APP 商品卡抓取与热门商品/店铺挖掘，升级达人视频发布（一键入库、追踪大模型引用数据）与 Agent 诊断报告（自定义指标模板一键生成），补齐 GEO 工具从 AI 流量洞察到销量复盘的关键短板。",
+     "insight": "电商版支持豆包、千问商品卡抓取，电商客户的GEO需延伸到商品卡和销量复盘。",
+     "published": null,
+     "links": [
+      {
+       "text": "透镜GEO电商版上线！从AI流量到销量转化，助力品牌营销提效（极客网）",
+       "url": "https://www.fromgeek.com/daily/1044-728450.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "百度搜索资源平台上线\"权威溯源\"内测，让权威内容在文心一言等 AI 回答中获得来源标注与原文引用，中文信源体系从\"链接排名\"转向\"AI 信任标注\"。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-24-01",
+     "category": "平台动态",
+     "platform": "文心",
+     "region": "国内",
+     "title": "百度搜索资源平台上线\"权威溯源\"内测，AI 答案可标注引用来源",
+     "summary": "百度搜索资源平台推出\"权威溯源\"功能（内测、凭邀请码提交），让权威机构与优质创作者在传统与 AI 搜索中获得来源追溯与原文引用标注，文心一言等生成式引擎回答将明确标注引用方，标志中文信源体系从\"链接排名\"转向\"AI 信任标注\"。",
+     "insight": "百度权威溯源在内测，权威机构客户可申请邀请码，方案商可协助准备资质材料。",
+     "published": null,
+     "links": [
+      {
+       "text": "百度搜索资源平台上线\"权威溯源\"：AI搜索时代的\"新闻源\"重构（同花顺财经）",
+       "url": "https://news.10jqka.com.cn/field/20260922/680155147.shtml"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "weekday": "周三",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "\"被引用 ≠ 被点击\"首次有了实验级因果证据：随机田野实验证明强制 AI Mode 显著削减外链点击、移除 AI Overviews 反而增加点击且体验无损——GEO 的 KPI 必须从\"可见度/曝光\"进一步转向\"答案内份额 + 可归因转化\"，单看曝光会系统性高估收益。",
+    "Google 正把 AI Overviews 的\"外链位\"改造为 AI Mode 入口：看似普通的链接不再指向网页而是触发追问——引用位置仍在但点击通路被平台回收，方案商须把\"AI 面内呈现质量（是否被完整表述、是否被署名）\"当作与点击并列的交付指标。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-23-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 在 AI Overviews 内放置导向 AI Mode 的链接，外链被替换成追问入口",
+     "summary": "SEO 从业者 Gagan Ghotra 发现、seroundtable 9/22 报道：Google 在 AI Overviews 底部放入看似普通的锚文本链接，点击不跳转网页而是进入 AI Mode 追问，把用户留在 Google 自有答案流内。",
+     "insight": "AI Overviews内链接可能导向AI Mode，监测点击时需区分外链和追问入口。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Roundtable：Google AI Overview Links Taking You To AI Mode Over Web Pages",
+       "url": "https://www.seroundtable.com/google-ai-overview-links-to-ai-mode-42132.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-23-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "宾大与东北大学田野实验：强制 AI Mode 减少外链点击、降低满意度，并推高用户转向竞品搜索",
+     "summary": "1444 人入组、1100 人 7 天追踪的随机田野实验（8 月发布、SEJ 9/21 报道）：强制 AI Mode 显著降低外链点击与搜索满意度，并推高用户转向 Bing/DDG/Yahoo；移除 AI Overviews 反而增加外链且体验无下降。",
+     "insight": "实验显示强制AI Mode会减少外链点击，向客户解释流量下降时可引用该研究。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Journal：Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience",
+       "url": "https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "Google 把\"点击\"收进自己的 AI 层：Discover 新增「Dive deeper」，点开发卡不再直达出版方文章而是先进 AI 生成主题概览、原报道链接降为二级——推荐流的最后一公里被 AI 摘要接管，GEO 争夺对象从\"被点开\"变成\"被概览选中并署名\"。",
+    "AI 答案引擎的\"抽血效应\"首次被被告自证：微软内部文件承认 Copilot 相比 Bing 让新闻点击率掉 87%–93%、并自称陷入\"doom loop\"——版权诉讼把\"AI 可见度红利\"与\"内容供给侧崩塌\"绑成同一道题，方案商须把\"内容可归因、可计价\"写进交付。",
+    "中文 AI 的信源基本盘首次被量化：650 次回答实测显示被引 TOP 渠道为百度系、知乎、CSDN、IT之家、搜狐号，且检索层高度依赖百度索引——GEO 的投放平台须按目标模型反推，而非全平台一键分发。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-22-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google Discover 测试「Dive deeper」：点击后进入 AI 生成主题概览，出版方文章退居二级",
+     "summary": "Google 搜索产品负责人 Robby Stein 9/18 宣布 Discover 测试「Dive deeper」：点击后进入 AI 生成的主题概览（标注 AI 生成、可能出错），原出版方文章链接下移至概览下方，先测视频。",
+     "insight": "Discover中AI概览压低出版方链接位置，出版方客户应评估Discover流量风险。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Roundtable：Google Discover Testing Dive Deeper Feature",
+       "url": "https://www.seroundtable.com/google-discover-dive-deeper-42119.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-22-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "海外",
+     "title": "纽约时报诉 OpenAI/微软案解封文件：微软内部数据显示 Copilot 使新闻点击率降 87%–93%",
+     "summary": "92 页简易判决摘要 9/17 解封：微软内部数据称 Copilot 相比传统 Bing 使 NYT 点击率降 87%–93%、Ziff Davis 降 51%–94%；内部文件称 AI 内容策略启动\"doom loop\"、\"LLM 是摧毁自身供应链的产品\"。",
+     "insight": "微软内部数据称Copilot使新闻点击率降87%到93%，出版方客户可用作点击下降的论据。",
+     "published": null,
+     "links": [
+      {
+       "text": "World Programming：A Microsoft scientist called AI training the largest theft of labor",
+       "url": "https://www.worldprogramming.org/posts/a-microsoft-scientist-called-ai-training-the-largest-theft-of-labor-bifjeq"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-22-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "实测 650 次 AI 回答：五模型引用信源结构差异，中文 AI 检索层高度依赖百度索引",
+     "summary": "技术团队 9/22 发布一手采样：65 个真实问题 × 豆包/DeepSeek/Kimi/GLM/Qwen 五模型 × 联网模式共 650 次回答，逐条记录引用域名并归一化，得出中文 AI 信源 TOP10 与百度索引依赖度结论，方法可复现。",
+     "insight": "五模型引用信源TOP10可作渠道选择依据；中文检索层依赖百度索引，应确保百度可收录。",
+     "published": null,
+     "links": [
+      {
+       "text": "腾讯云开发者社区：实测650次AI回答——五大模型的引用信源结构差异与渠道策略推导",
+       "url": "https://cloud.tencent.com/developer/article/2749064"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "weekday": "周一",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "GEO 赛道的资本确认：Profound 完成 1.8 亿美元 D 轮、估值 18 亿美元跻身独角兽（红杉/KP 领投、客户超 1000 家），标志\"让 AI 推荐品牌\"从概念走向可投资基础设施，GEO 工具层价值被一级市场重估。",
+    "平台可见度规则被监管改写：Google 在欧盟 30 国撤下免费商品列表与热门商品轮播（DMA 合规），欧洲电商自然获客路径基本关闭，GEO 布局须重估 Perplexity/ChatGPT Search 与比价平台组合、把\"付费+AI 答案引擎\"纳入可见度主干。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-21-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Profound 完成 1.8 亿美元 D 轮、估值 18 亿美元跻身 GEO 独角兽，红杉与 KP 领投",
+     "summary": "36氪 9/20 报道，AI 营销公司 Profound 完成 1.8 亿美元 D 轮（红杉、Kleiner Perkins 领投），估值 18 亿美元跻身独角兽；成立两年累计融资 3.35 亿美元，客户超 1000 家（含沃尔玛、雅诗兰黛），主营 GEO 品牌可见度监测与 AI Marketer。",
+     "insight": "Profound累计融资3.35亿美元、客户超1000家，监测赛道资本集中，需突出自身服务与行业深度。",
+     "published": null,
+     "links": [
+      {
+       "text": "36氪：搜索正在死去，红杉和KP花18亿美元押注\"AI时代的SEO\"",
+       "url": "https://www.36kr.com/p/3991507149395844"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-21-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 在欧盟 30 国撤下免费商品列表与热门商品轮播（DMA 合规），欧洲电商自然获客路径基本关闭",
+     "summary": "ppc.land（9/18）报道，Google 9/17–18 在 30 个 EEA 国家撤下免费商品列表、热门产品轮播与 Shopping 标签（DMA 裁决）；Productrise 监测德/法/比/荷/瑞曝光降 90%–100%，流量转向比价与付费 Shopping。",
+     "insight": "欧洲电商自然获客路径基本关闭，欧盟客户需把预算转向比价与付费Shopping。",
+     "published": null,
+     "links": [
+      {
+       "text": "PPC Land：Google drops free shopping listings across Europe in two days",
+       "url": "https://ppc.land/google-drops-free-shopping-listings-across-europe-in-two-days/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "weekday": "周五",
+   "status": "none",
+   "legacy": true,
+   "highlights": [],
+   "entries": []
+  },
+  {
+   "date": "2026-09-17",
+   "weekday": "周四",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "国内 GEO 治理\"标准 + 国家风险分类\"双层落地：中广协五项 GEO 团标正式公布（结束无标可依、定义七类计价单元与黑帽红线），框架 3.0 首将\"GEO 投毒\"纳入国家 AI 风险分类——GEO 合规从行业自律升格为\"可测量、可审计、可追责\"的国家口径。",
+    "平台付费层继续深化为\"对话式转化\"：OpenAI 测试 Sponsored Agents（广告点击后开启隔离的品牌对话代理）并接入 HubSpot/Shopify，ChatGPT 广告从静态位进化为多轮对话，但赞助代理仍与独立答案隔离，\"买广告≠被写进答案\"的边界维持。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-17-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "中广协《生成式引擎优化(GEO)》五项团体标准正式公布，\"无标可依\"终结",
+     "summary": "中国商务广告协会 9/16 公布《生成式引擎优化(GEO)》五项团体标准（通论术语/服务商评估/计价测量/可信语料/合规安全），覆盖术语、评估、计价、语料、安全五环节，定义七类计价最小单元与九项核心指标口径，划出黑帽GEO与语料投毒红线。",
+     "insight": "五项标准已公布，计价与指标口径明确，方案商应据此调整报价单位和效果报告口径。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO服务告别\"无标可依\" 行业首份团体标准公布（证券时报·网易）",
+       "url": "https://www.163.com/dy/article/L6VQP0AE053469RG.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-17-02",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "《人工智能安全治理框架3.0》发布，首将\"GEO投毒风险\"纳入国家AI风险分类",
+     "summary": "全国网安标委 9/14 发布框架3.0，在\"应用安全风险\"下新增\"内容传播行为风险\"，首次将\"GEO投毒风险\"（批量投放倾向性内容操纵模型检索推荐、把商业推广包装成客观答案）纳入国家层面AI安全风险分类，与既有团标红线衔接。",
+     "insight": "GEO投毒被纳入国家风险分类，方案商应在合同和交付中明确拒绝批量操纵手法。",
+     "published": null,
+     "links": [
+      {
+       "text": "框架3.0将GEO投毒纳入国家层面风险分类（搜狐）",
+       "url": "https://www.sohu.com/a/1077023910_122936705"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-17-03",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "OpenAI 测试 Sponsored Agents 并接入 HubSpot/Shopify，ChatGPT 广告进化为\"对话式转化\"",
+     "summary": "OpenAI 9/16 测试 Sponsored Agents：用户点击 ChatGPT 广告后开启独立标注、与答案隔离的品牌赞助对话代理；同步上线自然语言建投放的 Ads Manager 插件，接入 HubSpot、Shopify 集成。",
+     "insight": "点击广告后进入赞助对话代理，付费可见度延伸到对话转化，需评估对客户线索的影响。",
+     "published": null,
+     "links": [
+      {
+       "text": "OpenAI: Reimagining advertising with AI（官方博客）",
+       "url": "https://openai.com/index/reimagining-advertising-with-ai/"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "央媒正式下场做 GEO：新华网以「权威信源 + 团体标准 + 143 项可验证能力 + 适配 14 个大模型」切入工业企业出海获客，标志 GEO 从营销服务商混战进入「权威媒体背书 + 标准引领」阶段，品牌可信度竞争从铺量彻底转向「被权威信源引用」。",
+    "基座大模型资本与算力军备持续加码：智谱约 50 亿美元再融资投向下一代 GLM 与完全自训练体系，被优化平台的模型能力与引用判断上限随之抬升，GEO 内容须面向更强推理、更重证据密度的下一代模型重做。",
+    "被优化平台自己开始「按证据选信源」：豆包 2.1 Pro 把证据溯源、权威信源检索、时效判断、数据核验写进模型能力，可跨语种检索并交叉比对多源生成可回溯报告——平台侧的证据门槛上移，GEO 内容须从「能被检索到」升级为「能被交叉验证并回溯」。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-16-01",
+     "category": "新技术",
+     "platform": "",
+     "region": "国内",
+     "title": "新华GEO智能体平台发布海外GEO/GEM服务，央媒下场做工业企业出海获客",
+     "summary": "新华网 9/9 在沈阳全球工业互联网大会发布「新华GEO智能体平台——海外生成式引擎营销服务」：以 GEO×GEM 双引擎为工业企业出海获客，宣称 143 项可验证专家能力、适配 14 个国内外大模型。",
+     "insight": "央媒产品面向工业企业出海获客，竞争出现；方案商可强调自家多模型适配的验证数据。",
+     "published": null,
+     "links": [
+      {
+       "text": "新华网：新华GEO智能体平台发布海外生成式引擎营销服务 助力工业企业拓展全球市场",
+       "url": "https://www.news.cn/digital/20260911/7b1e86ef00d54e3aae1538d5d5043bec/c.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-16-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "智谱完成约 50 亿美元融资，投向下一代 GLM 与完全自训练体系",
+     "summary": "智谱（02513.HK）9/13 公告完成约 50 亿美元融资（约 20 亿股份配售 + 约 30 亿零息可转债），所得主要投向下一代 GLM 研发、完全自训练体系与算力基础设施。",
+     "insight": "国产模型厂商获大额融资用于下一代GLM，监测覆盖应持续纳入智谱并更新测试。",
+     "published": null,
+     "links": [
+      {
+       "text": "21世纪经济报道：智谱融资50亿美元，加码大模型研发",
+       "url": "https://www.stcn.com/article/detail/4184977.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-16-03",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包 2.1 Pro 升级至 0915 版：强化证据溯源与权威信源检索，抬高第三方内容引用门槛",
+     "summary": "火山引擎 9/16 宣布豆包 2.1 Pro 更新 0915 版并全量上线：金融投研等长程场景强化证据溯源、权威信源检索、时效判断与数据核验，可跨语种大范围检索、交叉比对多源并生成可回溯尽调报告。",
+     "insight": "豆包强化权威信源检索，客户内容需有可回溯的权威来源，权威背书比数量更重要。",
+     "published": null,
+     "links": [
+      {
+       "text": "中国经济新闻网：豆包 2.1 Pro模型更新，已接入豆包工作",
+       "url": "https://www.cet.com.cn/itpd/yw/10564530.shtml"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "weekday": "周二",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "Google 把\"被 AI 引用\"从流量逻辑推进到\"按贡献付费\"逻辑——生成式引擎首次出现平台侧对内容贡献度的直接货币化信号，GEO 内容价值坐标系从\"可见度/流量\"延伸到\"贡献度计价\"，品牌须重新审视自产高证据密度内容（白皮书/研究/数据）的长期价值。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-15-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 测试「AI Contribution Pilot」：按内容对 AI 答案的\"生成期贡献\"向出版方付费",
+     "summary": "Google 据 SER/Digiday（9/14）报道测试 AI Contribution Pilot：出版方内容\"显著贡献\"于 Gemini/AI Overviews/AI Mode 答案时，经 Search Console 获付费；仅\"生成阶段\"贡献计入。",
+     "insight": "Google测试按生成期贡献向出版方付费，出版方客户可关注Search Console入口，评估内容变现。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Roundtable：Google Al Contribution Pilot - Paying Publishers For Use Of Content In AI",
+       "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "weekday": "周一",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "ChatGPT 把\"带引用的深度研究\"从聊天侧推向 Work/Codex 工作流，AI 答案的\"可溯源引用\"成为更高权重的可见度战场——品牌能否进入一份被反复引用、分享、复盘的深度研究报告，成为比单次回答更持久的 visibility 资产。",
+    "GEO 行业从铺量/刷量加速转向白帽结构化内容：Reddit 刷量被 ChatGPT 识别降权（引用占比 3.83%→0.5%），新\"联系出版商植入\"捷径亦引发编辑完整性争议，真实、一致、可被交叉验证的公开证据成为唯一可持续占位路径。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-14-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT 把 Deep Research 带入 Work/Codex，高引用透明度模式深入工作流",
+     "summary": "OpenAI 9/9 将 Deep Research 扩展至 ChatGPT Work/Codex，跨网络/文件/连接应用做研究并产出带 citation 的可编辑报告；该\"最 source-transparent\"面深入工作流，品牌能否被引进入深度研究报告成更持久可见度资产。",
+     "insight": "Deep Research报告带引用，是高价值引用场景，客户应优先让关键资料可被研究类任务检索。",
+     "published": null,
+     "links": [
+      {
+       "text": "reconnAI：ChatGPT Deep Research 扩展至 Work/Codex 的 AI 可见度含义",
+       "url": "https://reconn-ai.com/news/chatgpt-deep-research-work-codex-ai-visibility"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-14-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO/AEO 服务扩张但捷径被封堵，白帽结构化内容成共识",
+     "summary": "亿邦动力 9/12 观察 GEO/AEO 服务快速扩张，但 Reddit 刷量等捷径被 ChatGPT 识别降权（Reddit 引用占比 7/18–8/7 的 3.83% 降至 8 月中旬 0.5%）；新\"联系出版商植入\"玩法亦引编辑完整性争议，真实一致可验证证据成唯一可持续路径。",
+     "insight": "Reddit刷量等捷径被降权，不要向客户承诺捷径，改以真实一致可验证的证据为主线。",
+     "published": null,
+     "links": [
+      {
+       "text": "亿邦动力：AI搜索优化生意兴起 捷径玩法屡被大模型封堵",
+       "url": "https://www.ebrun.com/20260912/706912.shtml"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "周五",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "ChatGPT 把\"付费广告\"与\"自然引用\"两条通道同时向竞品关闭（图像/语音生成类），AI 答案的\"平台中性\"神话破灭，GEO 须把\"平台是否把你的品类划进自营\"纳入风险评估。",
+    "Google AI Mode 测试分页式追问+跳过按钮，多轮对话的引用呈现位置可能随翻页改变，GEO 监测须从单轮扩展到整段对话流。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-11-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "OpenAI 悄然封禁竞品图像/语音生成广告，并掐断第三方图像工具的 ChatGPT 自然引用与 citation",
+     "summary": "OpenAI 据 The Information 9/9-10 报道，悄然禁止竞品在 ChatGPT 投放图像/语音生成类广告（Adobe Firefly 中招），并对图像编辑器/生成器类查询停止返回外部引用链接，把自营多模态能力圈进闭环。",
+     "insight": "ChatGPT收紧竞品图像语音类广告和引用，相关客户需评估被排除的风险并另找曝光渠道。",
+     "published": null,
+     "links": [
+      {
+       "text": "PYMNTS：OpenAI Cuts Off Rivals' Ads on ChatGPT",
+       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cuts-off-rivals-ads-chatgpt/"
+      },
+      {
+       "text": "Adgully：OpenAI tightens ChatGPT ad guidelines",
+       "url": "https://www.adgully.com/post/20391/openai-tightens-chatgpt-ad-guidelines-restricts-competing-image-and-audio-generation-services"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-11-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google AI Mode 测试分页式追问与\"跳过\"按钮，多轮交互的引用呈现位置或随翻页改变",
+     "summary": "Google AI Mode 据 9/8 观测（SEO 从业者 Sachin Patel 首发、SEW 转述）测试分页式追问+跳过按钮，把多轮追问拆成可翻页块；引用呈现位置可能随翻页变化，对用户是否看到引用源产生不确定性。",
+     "insight": "分页追问使引用位置不稳定，监测需覆盖多轮追问，结论标注为测试阶段观测。",
+     "published": null,
+     "links": [
+      {
+       "text": "AuspiaAI：Google AI Mode Tests Paginated Follow-Up Responses With Skip Button",
+       "url": "https://auspia.ai/blog/google-ai-mode-paginated-responses-skip-button-september-2026"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "Google 两个 AI 答案面给出截然不同的\"信源食谱\"：AI Overviews 由 YouTube 主导（22.9%），AI Mode 由 Reddit 主导（17.9%）——GEO 监测不能只盯一个面，须按 AI Overviews / AI Mode 分 surface 建引用基准。",
+    "社交与视频平台（YouTube/Reddit/Facebook/Instagram）霸榜 Google AI 引用，品牌官网不再是唯一战场——\"被 AI 引用\"越来越等于\"在第三方平台被可信地谈论\"，GEO 方案的交付须把创作者/UGC/社媒声量纳入，而非只做官网内容工程。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-10-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Google AI Overviews 9月引用榜：YouTube 以 22.9% 居首，社交与视频平台霸榜",
+     "summary": "Ahrefs Brand Radar（2026-09 美区 300万+ 查询）：Google AI Overviews 最常被引域名 YouTube 22.9%、Reddit 18.5%、Facebook 10.1%、Google 8.8%、Instagram 5.6%。",
+     "insight": "YouTube和Reddit主导AI Overviews引用，客户内容策略应评估视频与社区渠道布局。",
+     "published": null,
+     "links": [
+      {
+       "text": "Ahrefs：The 50 Most-Cited Websites in Google AI Overviews (September 2026)",
+       "url": "https://www.ahrefs.com/blog/most-cited-domains-ai-overviews/"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-10-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Google AI Mode 9月引用榜：Reddit 以 17.9% 居首，YouTube 17.8% 紧追",
+     "summary": "Ahrefs Brand Radar（2026-09 美区）：Google AI Mode 最常被引域名 Reddit 17.9%、YouTube 17.8%、Google 12.5%、Facebook 10.2%、Instagram 5.7%。",
+     "insight": "AI Mode中Reddit与YouTube几乎并列，渠道规划要分模式监测，不能只盯一个榜单。",
+     "published": null,
+     "links": [
+      {
+       "text": "Ahrefs：The 50 Most-Cited Websites in Google AI Mode (September 2026)",
+       "url": "https://ahrefs.com/blog/most-cited-domains-ai-mode"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "weekday": "周三",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "ChatGPT 付费层快速产品化（自然语言建投放+feed轮播报表+15欧/日入门），但赞助卡在答案下方、不改写答案文本——客户买了 ChatGPT 广告≠被写进答案，organic GEO（赚得答案内引用）仍是唯一进答案路径。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-09-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT Ads 9/4 产品邮件：上线 Ads Manager 插件、欧元账户 15 欧/日最低预算、放宽自定义受众",
+     "summary": "OpenAI 9/4 产品邮件放出 7 项 ChatGPT Ads 改动：Ads Manager 插件可自然语言建投放、自定义受众门槛松动、feed 轮播卡级报表、总预算 pacing；Help Center 同日新增欧元最低日预算 15 欧。赞助卡置于答案下方、不改写答案文本。",
+     "insight": "Ads Manager插件和放宽的自定义受众降低投放门槛，代投服务可纳入ChatGPT广告方案。",
+     "published": null,
+     "links": [
+      {
+       "text": "ChatGPT Ads Update: an Ads Manager Plugin, Looser Custom Audiences, and a Euro Minimum（Index Lab）",
+       "url": "https://www.indexlab.ai/blog/chatgpt-ads-plugin-custom-audiences-euro-minimum"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "weekday": "周二",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "Google AI 答案面的\"可靠性\"与\"可观测性\"同步承压：Gemini 3.8 Flash 模型切换一度让 AI Mode 在部分宽口径查询完全不引源（已确认 bug、24h 内修复），提醒 GEO 监测须把\"平台故障\"与\"内容降权\"严格区分，引用波动不能简单归咎内容。",
+    "电商 GEO 度量从\"黑箱\"走向\"有基准\"：Merchant Center AI 表现洞察扩至五市场（仅英文），首次给品牌在 AI 购物答案中的声量占比与竞品对标；但 Search Console AI 报告仍只给曝光不给点击，AI 可见度的\"下游转化\"仍缺官方口径。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-08-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google AI Mode 接入 Gemini 3.8 Flash 后短暂\"断引\"，Google 确认 bug 并 24 小时内修复",
+     "summary": "Google 9/2 将 Gemini 3.8 Flash 接入 AI Mode（仅 AI Pro/Ultra 付费订阅可选），部分宽口径查询答案无引用/链接；9/3 SEO 实测曝光，搜索产品 VP Robby Stein 确认\"非预期、将修复\"，9/4 链接恢复，属短暂模型级故障。",
+     "insight": "新模型接入可能短暂断引，监测需设引用缺失告警，并向客户说明波动属平台故障。",
+     "published": null,
+     "links": [
+      {
+       "text": "Google AI Mode Gemini 3.8 Flash Not Link Friendly（Search Engine Roundtable）",
+       "url": "https://www.seroundtable.com/google-ai-mode-gemini-38-no-links-42011.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-08-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google Merchant Center AI 表现洞察扩至澳/加/印/新/美五市场，电商 GEO 可见度首获官方对标",
+     "summary": "Google Merchant Center 的 AI 表现洞察 9/3 扩至澳大利亚、加拿大、印度、新西兰、美国五市场（仅英文查询），给品牌在 AI 购物答案中的声量占比、出现频次与竞品对标，电商 GEO 可见度首获官方基准（仍缺点击口径）。",
+     "insight": "Merchant Center可看AI购物声量占比，电商客户可用作基准，点击数据需另行补充。",
+     "published": null,
+     "links": [
+      {
+       "text": "Merchant Center AI Performance Insights Reaches Four More Markets（Oday Bakkour）",
+       "url": "https://oday-bakkour.com/blog/seo-note-september-4-2026"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "weekday": "周一",
+   "status": "none",
+   "legacy": true,
+   "highlights": [],
+   "entries": []
+  },
+  {
+   "date": "2026-09-04",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "监管与平台合规双线收紧 AI 内容出口：最高法明确平台间转载不再法定许可，清朗行动倒逼豆包/元宝/千问/文心一言强化标识与语料审核；GEO\"批量铺量/聚合改写\"生产模式合规成本骤升，授权链与真实性成为前置红线。",
+    "方法论进入\"分平台实测\"阶段：阿里云基于6大引擎45条引用数据给出可复现的平台地图绘制法与内容适配公式，GEO从通用建议走向按引擎（豆包偏CSDN、DeepSeek偏技术社区、Kimi偏财经）精准投放"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-04-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "最高法著作权法司法解释修改（法释〔2026〕18号）9/1 施行：平台间转载不再法定许可",
+     "summary": "法释〔2026〕18号 自9/1施行，明确互联网信息服务提供者之间相互转载已发表作品不再适用法定许可、须著作权人许可并付费；AI聚合/改写内容生产模式授权链成首要合规点。",
+     "insight": "转载不再法定许可，AI聚合改写需有授权链，方案商应审查内容来源与授权流程。",
+     "published": null,
+     "links": [
+      {
+       "text": "最高人民法院关于修改审理著作权民事纠纷案件司法解释的决定（法释〔2026〕18号）｜最高法数字图书馆",
+       "url": "https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-04-02",
+     "category": "平台动态",
+     "platform": "多平台",
+     "region": "国内",
+     "title": "清朗·整治AI应用乱象 第二阶段：豆包/元宝/千问/文心一言强化标识与语料审核",
+     "summary": "中央网信办第二阶段累计清理561万条AI违规信息；豆包、元宝、千问、文心一言等严把原始语料审核、强化AI生成内容标识落地，从源头拦截违规内容输出，改变GEO内容分发与可见度机制。",
+     "insight": "平台强化语料审核与AI标识，低质铺量更易被拦，客户内容需强化来源标识和合规。",
+     "published": null,
+     "links": [
+      {
+       "text": "中央网信办深入开展\"清朗·整治AI应用乱象\"专项行动第二阶段工作（央视网）",
+       "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/09/02/ARTI2b500eMemFvIK5efkq7E260902.shtml"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-04-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "6大AI引擎引用偏好实测：从45条数据看平台分发机制差异",
+     "summary": "基于豆包/DeepSeek/Kimi/秘塔/谷歌AI Overview/Perplexity 六引擎200行业词引用源实测，豆包偏CSDN(34%)+头条、DeepSeek偏技术社区、Kimi偏财经媒体；给出可复现的平台地图绘制法与分平台内容适配公式。",
+     "insight": "豆包偏CSDN、DeepSeek偏技术社区、Kimi偏财经媒体，应按平台选发布渠道，别一稿多投。",
+     "published": null,
+     "links": [
+      {
+       "text": "6大AI引擎引用偏好实测：从45条数据看平台分发机制差异（阿里云开发者社区）",
+       "url": "https://developer.aliyun.com/article/1760216"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "监管与算法同步收紧\"铺量\"空间：国内9月新规封杀批量同质化分发与编造人设，叠加豆包信源分级落地，白帽合规（实体对齐+权威信源）成为唯一可持续占位路径。",
+    "GEO 方法论从\"概念\"走向\"站内工程清单\"：可机读事实、robots可爬、单页单问、权威面建设等可量化动作，正成为方案商交付的标准SOP。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-03-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "《互联网信息内容多渠道分发服务管理规定》9/1 生效，白帽 GEO 窗口打开",
+     "summary": "五部门第23号令9/1生效，封杀批量同质化分发与编造人设；叠加豆包A/B/C/D信源分级，B2B软文信源占比32%→7%，白帽GEO窗口打开。",
+     "insight": "新规封杀批量同质化分发，应停用铺量分发，改以真实信源和差异化内容交付。",
+     "published": null,
+     "links": [
+      {
+       "text": "9 月新规施行：白帽 GEO 的窗口期，铺量的退场（搜狐）",
+       "url": "https://www.sohu.com/a/1071151077_122963513"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-03-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "Practical GEO Checklist：训练记忆 × 实时检索双轨模型与站内工程清单",
+     "summary": "阿里GEO研究团队两轨模型（训练记忆长期 vs 实时检索本周）+ 可机读事实、robots可爬、单页单问、权威面建设等实操清单。",
+     "insight": "训练记忆与实时检索分轨做：长期靠权威面建设，短期靠可爬取、可机读的单页单问内容。",
+     "published": null,
+     "links": [
+      {
+       "text": "A Practical GEO Checklist（DEV Community）",
+       "url": "https://dev.to/yue_wang_4c0315f2e8a02ea6/a-practical-geo-checklist-make-your-site-crawlable-and-citable-by-ai-assistants-4jnd"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "AI 答案引擎商业化与算法治理双线加速：Google September 2026 核心更新重锤薄质联盟内容、AI Overviews 持续压缩自然首位，ChatGPT Ads 上线不到 200 天年化破 10 亿美元并扩至 40+ 国（印度 9/1 自助上线）——GEO 占位进入\"自然推荐×付费赞助\"双轨深水区。",
+    "方法论从\"技术合规\"走向\"内容结构工程\"：4 大引擎 45 条引用源实测显示，AI 统一偏好\"问答结构清晰、信息块完整\"的内容，\"下一问\"预判（把用户问题拆成对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-02-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google September 2026 核心更新重锤薄质内容，AI Overviews 持续压缩自然首位",
+     "summary": "Google 于 8/28 推出 September 2026 核心更新，薄质程序化/寄生 SEO 内容遭重锤，主题权威集群受益；AI Overviews 在信息类查询持续压缩自然首位，AEO 结构化内容（问答格式+FAQ/HowTo schema+实体富内容）成为被引关键。",
+     "insight": "薄质程序化内容被降权，客户应清理低质页，用问答、FAQ schema和实体内容增强可引用性。",
+     "published": null,
+     "links": [
+      {
+       "text": "Affiliate Times：Google's September 2026 Core Update Is Redrawing the Affiliate SERP Map",
+       "url": "https://affiliate-times.com/googles-september-2026-core-update-is-redrawing-the-affiliate-serp-map"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-02-02",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT Ads 上线不到 200 天年化破 10 亿美元，扩至 40+ 国（印度 9/1 自助上线）",
+     "summary": "OpenAI 宣布 ChatGPT Ads 年化运行率突破 10 亿美元、覆盖 40+ 国、数万广告主；9/1 起印度通过 Ads Manager 自助投放，强调广告不干预答案、与回答分离标注。",
+     "insight": "ChatGPT Ads年化破10亿美元并扩至40多国，应把广告位纳入客户监测范围。",
+     "published": null,
+     "links": [
+      {
+       "text": "Storyboard18：ChatGPT Ads crosses $1 billion annualised revenue run rate",
+       "url": "https://www.storyboard18.com/advertising/chatgpt-ads-crosses-1-billion-annualised-revenue-run-rate-as-openai-expands-global-rollout-109405.htm"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-02-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "4 大 AI 引擎 45 条引用源实测：「下一问」预判法成被引关键",
+     "summary": "基于 2026年5月豆包/DeepSeek/Kimi/秘塔实测 45 条引用源，AI 统一偏好\"问答结构清晰、信息块完整\"内容；\"下一问\"预判（拆对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用。",
+     "insight": "拆对话链、每链写200到300字可摘录答案块，可作客户内容生产模板，先小范围验证。",
+     "published": null,
+     "links": [
+      {
+       "text": "阿里云开发者社区：4大AI引擎45条引用源实测",
+       "url": "https://developer.aliyun.com/article/1759912"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-09-01",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "平台与监管同步为“AI 答案可见度”立规矩：Google 把生成式 AI 表现报告推向全球并给出退出开关，欧盟把 ChatGPT 正式定性为“超大型在线搜索引擎”纳入 DSA 义务——GEO 正从粗放占位走向可度量、可治理。",
+    "对品牌方，GEO 监测需接入官方面板（如 Search Console 的 AI 报告），并把监管驱动的引用透明度纳入可信信源建设；\"能否被 AI 引用\"不再是黑箱，而是可观测、可申诉的公开指标。",
+    "平台公司把 GEO 做成标准化基建：腾讯企点营销云 9/1 上线 AnswerBit（覆盖豆包/元宝/DeepSeek/Kimi/千问五大模型的品牌可见度监测平台），与百度/美团/360/阿里同场——GEO 从第三方黑盒手艺升级为巨头按标准收费的基础设施。"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-01-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google Search Console 将生成式 AI 表现报告推向全球，并新增 AI Overviews/AI Mode/Discover 退出开关",
+     "summary": "Google Search Console 的生成式 AI 表现报告（AI Overviews / AI Mode / Discover 可见度）于 2026-08-31 面向全球开放，此前 6 月 3 日仅在英国试点；同时新增站点级退出开关，站长可关闭品牌在 AI 答案中的展示。",
+     "insight": "Search Console已提供全球AI表现报告，客户汇报可直接引用，同时评估退出开关的可见度代价。",
+     "published": null,
+     "links": [
+      {
+       "text": "World Programming：Google Search Console 全球上线生成式 AI 可见度报告",
+       "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-01-02",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "欧盟将 ChatGPT 正式定性为“超大型在线搜索引擎”(VLOSE)，纳入 DSA 义务框架",
+     "summary": "欧盟委员会 2026-08-31 宣布将 ChatGPT 定性为 DSA 框架下的“超大型在线搜索引擎”(VLOSE)，覆盖约 1.59 亿欧盟用户；OpenAI 须在 2026 年底前履行系统性风险评估、透明度与爬虫义务。",
+     "insight": "ChatGPT被定性为VLOSE并需履行爬虫义务，欧盟客户的合规和监测需求会增加。",
+     "published": null,
+     "links": [
+      {
+       "text": "AIBARS：EU designates ChatGPT as Very Large Online Search Engine under DSA",
+       "url": "https://aibars.net/en/news/882548813993349120"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-09-01-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "国内",
+     "title": "腾讯企点营销云上线 AnswerBit：覆盖豆包/元宝/DeepSeek/Kimi/千问的 GEO 品牌可见度管理平台",
+     "summary": "腾讯企点营销云 9/1 上线 AnswerBit（answerbit.qq.com），覆盖豆包/元宝/DeepSeek/Kimi/千问五大模型的 GEO 品牌可见度管理平台，含监测/分析/优化/协同四模块，首批客户为腾讯云、腾讯会议、应用宝等 30+ 腾讯系产品。",
+     "insight": "腾讯系产品先自用AnswerBit，方案商需突出多平台中立监测和行业经验，应对大厂入场。",
+     "published": null,
+     "links": [
+      {
+       "text": "Tencent AnswerBit Explained: Big-Tech GEO vs GEOly（GEOly）",
+       "url": "https://www.geoly.ai/blog/tencent-answerbit-geo"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "Google 把 AI Overviews 默认展开为接近完整 AI Mode 答案，零点击蔓延至\"首屏即满屏\"，GEO 可见度从\"被引\"退守到\"被偏好+被折叠下的可信内容\"。",
+    "爬虫治理可声明化：Cloudflare BotBase for Operators 让 AI 爬虫显式声明\"可被搜索引用但拒入训练\"（search=yes, ai-train=no），GEO 方案商\"可被 AI 读取\"策略需新增训练意图开关维度。",
+    "行业标准化与生态共治加速：首届 AI 搜索峰会落地中广协 GEO 三项团标编制、IAB China 生态共建倡议，GEO 从\"拼曝光\"转向\"标准立规+可信资产+跨界共治\"。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-31-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 在部分查询默认将 AI Overviews 展开为接近完整 AI Mode 答案，零点击蔓延至\"首屏即满屏\"",
+     "summary": "Google 在部分查询中默认将 AI Overviews 展开为接近完整 AI Mode 的答案，跳过\"Show more\"、直接带出\"Ask anything\"追问框，把传统蓝色链接进一步推到首屏之下；Google 称仅对系统判定最有用主题动态展开，已开始滚动则停止。",
+     "insight": "AI Overviews默认展开近完整答案，蓝色链接被压到首屏下，需向客户重新解释流量预期。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses By Default",
+       "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-31-02",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Cloudflare 上线 BotBase for Operators，让 AI 爬虫显式声明\"可被搜索引用但拒入训练\"",
+     "summary": "Cloudflare 上线 BotBase for Operators，让爬虫显式声明行为（索引/代理/训练/SEO）与内容使用（search=yes, ai-train=no），把\"可被 AI 搜索引用但拒入训练\"拆成可独立开关的信号。",
+     "insight": "爬虫可声明可搜索引用但拒入训练，客户可借此控制内容用途，方案商可提供配置服务。",
+     "published": null,
+     "links": [
+      {
+       "text": "Cloudflare 官方博客：BotBase for Operators",
+       "url": "https://blog.cloudflare.com/botbase-for-operators/"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-31-03",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "首届 AI 搜索峰会召开，中广协推进 GEO 三项团体标准 + IAB China 生态共建倡议",
+     "summary": "首届 AI 搜索峰会（主题\"重构决策入口与品牌增长\"）召开，中国广告协会秘书长霍焰表示正推进 GEO 三项团体标准编制落地，北大陈刚谈集成式传播与全流程校准，IAB China 董浩宇发布 AI 搜索生态共建倡议，同期发布《2026 AI 搜索优质案例集》。",
+     "insight": "峰会提到三项团标推进和生态共建倡议，方案商可跟进倡议内容并考虑参与共建。",
+     "published": null,
+     "links": [
+      {
+       "text": "人民网：首届AI搜索峰会召开 共探品牌增长新路径",
+       "url": "https://finance.people.com.cn/BIG5/n1/2026/0826/c1004-40786739.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "新华网在半年度业绩说明会明确 GEO 是 AI 时代内容可信传播核心赛道，并详解国内首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽 / 黑帽边界、来源可信度四级、全链路追溯），标志 GEO 从「拼曝光」转向「可信事实资产 + 合规治理」。",
+    "ChatGPT 引用源 8 月中旬结构性重构：Reddit 占比一周内从 3.83% 跌至 0.52%，帮助中心与产品文档跃升为最大引用类别（约 2%→32%）；「一手、可维护、结构化自有信源」权重上升，社区帖引流路径在 ChatGPT 侧基本关闭。",
+    "资本与标准同步收口：清蓝完成数千万元天使+轮融资并上线 GEO 数字员工 Mark，同时作为首家 GEO 服务商加入新华网 GEO 治理生态矩阵——「标准立规 + 产品化 + 生态绑定」成为头部 GEO 玩家共同路径。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-28-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "新华网半年度业绩说明会：GEO 成 AI 时代内容可信传播核心赛道，详解首部 GEO 团体标准 T/CAPT 026—2026",
+     "summary": "新华网业绩说明会详解首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽/黑帽边界、信源四级分级）。",
+     "insight": "三区分治和白帽黑帽边界已公开，方案商应对照检查现有手法，清理高风险做法。",
+     "published": null,
+     "links": [
+      {
+       "text": "新华网 2026 半年度业绩说明会实录（东方财富路演）",
+       "url": "https://roadshow.eastmoney.com/luyan/5461027"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-28-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "清蓝完成数千万元天使+轮融资，GEO 数字员工 Mark 上线并加入新华网 GEO 治理生态矩阵",
+     "summary": "清蓝完成数千万元天使+轮融资并上线 GEO 数字员工 Mark，加入新华网 GEO 治理生态矩阵。",
+     "insight": "GEO数字员工获融资并进入新华网治理生态，客户有自动化交付需求，方案商应评估自动化路径。",
+     "published": null,
+     "links": [
+      {
+       "text": "时代财经：PureblueAI清蓝再获天使+轮融资，GEO数字员工正式上线",
+       "url": "https://www.time-weekly.com/post/332391"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-28-03",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT 引用源剧变：Reddit 一周内从 3.83% 跌至 0.52%，帮助中心 / 文档成最大引用类别",
+     "summary": "ChatGPT 引用源剧变：Reddit 一周内 3.83%→0.52%，帮助中心/文档跃升为最大引用类别，一手结构化自有信源权重上升。",
+     "insight": "帮助中心与文档成为最大引用类别，客户应完善官方帮助文档并保持结构化。",
+     "published": null,
+     "links": [
+      {
+       "text": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit in August 2026",
+       "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "weekday": "周四",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "Google 双线动作：AI Mode 上线\"发展中话题\"链接轮播（热点原始报道获更大视觉位），Mueller 同日重申 AI Overviews / AI Mode 无需 GEO 专属优化（llms.txt、AI 文本文件、特殊 schema 均非必要）——GEO 重心回到\"可被引用 + 被偏好的真实内容\"。",
+    "AI 搜索商业价值被实证：Shopify Q2 数据 AI 引荐会话同比 +197%、订单约 3 倍，研究密集型品类转化率约自然搜索 2 倍；自然搜索总量仍更大——两渠道并行增长，AI 搜索需单列预算与度量。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-27-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google AI Mode 上线「发展中话题」链接轮播，热点原始报道获更大视觉位",
+     "summary": "Google 在 AI Mode 上线发展中话题链接轮播，突发类查询插入横向文章卡、优先呈现原始报道与偏好来源。",
+     "insight": "热点类查询优先呈现原始报道，出版方客户要强化原创首发并设置偏好来源。",
+     "published": null,
+     "links": [
+      {
+       "text": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+       "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-27-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Google 重申 AI Overviews / AI Mode「无需特殊优化」，GEO 专属交付物被划掉",
+     "summary": "Google 的 Mueller 重申 AI Overviews/AI Mode 无需 llms.txt、AI 文本文件或特殊 schema，GEO 重心回到结构化可信内容。",
+     "insight": "Google称无需llms.txt等特殊文件，向客户推荐此类交付物时需说明依据与实际效果。",
+     "published": null,
+     "links": [
+      {
+       "text": "Oday Bakkour：Daily SEO Note — August 26, 2026",
+       "url": "https://oday-bakkour.com/blog/seo-note-august-26-2026"
+      },
+      {
+       "text": "Google 官方文档：AI features and your website",
+       "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-27-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Shopify Q2 数据：AI 引荐会话同比 +197%，AI 搜索成真实营收渠道",
+     "summary": "Shopify Q2 数据显示 AI 引荐会话同比 +197%、订单约 3 倍，AI 搜索需单列预算与度量。",
+     "insight": "AI引荐会话同比+197%、订单约3倍，电商客户应单列AI搜索预算与转化指标。",
+     "published": null,
+     "links": [
+      {
+       "text": "Shopify 中国博客：AI 搜索与自然搜索各司其职",
+       "url": "https://www.shopify.com/zh/blog/ai-search-category-behavior"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-26",
+   "weekday": "周三",
+   "status": "none",
+   "legacy": true,
+   "highlights": [],
+   "entries": []
+  },
+  {
+   "date": "2026-08-25",
+   "weekday": "周二",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "资本密集押注 AI 可见度基础设施：英伟达拟 300 亿美元估值重注 Perplexity，英国 geoSurge 完成 1200 万美元种子轮，GEO/AEO 赛道单周连下两城。",
+    "算力与搜索入口深度绑定：英伟达\"卖铲子\"逻辑延伸到应用层，Perplexity 每次调用皆消耗英伟达 GPU，AI 答案引擎的引用权成为战略资产。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-25-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "英国 GEO 公司 geoSurge 完成 1200 万美元种子轮融资",
+     "summary": "伦敦 GEO 企业 geoSurge 完成 1200 万美元超额认购种子轮，AlbionVC 领投，产品矩阵覆盖品牌 AI 排名监测 MEASURE、模型行为分析 EXPLORE、语料库优化 BOOST，形成\"监测-分析-优化\"全链路。",
+     "insight": "监测、分析、优化全链路产品矩阵获融资，印证一体化方向，可对照补齐模型行为分析能力。",
+     "published": null,
+     "links": [
+      {
+       "text": "潮汛网：英国GEO公司geoSurge完成1200万美元种子轮融资",
+       "url": "https://www.hqwc.cn/news/173441.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-25-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "英伟达拟以超 300 亿美元估值投资 Perplexity，AI 搜索成算力生态锚点",
+     "summary": "钛媒体 8/25 早报披露，英伟达拟以超 300 亿美元估值投资 AI 搜索公司 Perplexity（8/24 达成），较 2025 年 7 月 180 亿估值增逾 66%，标志算力巨头通过投资应用层锁定 AI 可见度入口。",
+     "insight": "资本押注Perplexity，说明其入口会长期存在，应把Perplexity列入客户监测范围。",
+     "published": null,
+     "links": [
+      {
+       "text": "Edge AI Daily 早报(8月25日)（钛媒体）",
+       "url": "https://www.tmtpost.com/8115451.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "ChatGPT 广告扩至 31 个欧洲市场，AI 答案的\"自然推荐 vs 付费\"边界在欧盟主战场铺开，GEO 占位进入 organic×paid 双轨。",
+    "品牌把创作者/网红内容纳入 AI 搜索剧本，GEO 优化对象从官网/媒体延伸到社媒与创作者内容层。",
+    "免费 AI 可见度平台 Llumo 上线（BYOK），GEO 监测门槛被拉低，中小品牌可零成本起步看板。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-24-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT Ads 扩展至 31 个欧洲市场，AI 答案引擎商业化全面铺开",
+     "summary": "OpenAI 8/18 宣布 ChatGPT 广告将于下周（约 8/24）扩展至 31 个欧洲市场，仅 Free/Go 套餐展示、Plus/Pro/Enterprise 无广告，初期经 Ads Solutions/代理/技术伙伴接入，自助 Ads Manager 夏末上线。",
+     "insight": "ChatGPT广告扩至欧洲31个市场，欧洲客户可开始规划广告与自然引用的组合监测。",
+     "published": null,
+     "links": [
+      {
+       "text": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-24-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "品牌把创作者内容写进 AI 搜索剧本：网红稿也开始为被 LLM 引用而优化",
+     "summary": "CMO Magazine 8/23 报道，Zoom 等品牌聘用创作者型记者、Trevant/Crispin 等机构帮品牌把网红与社媒内容改造为更易被 LLM 在答案中引用的素材，GEO 优化对象从官网/媒体延伸到创作者内容层。",
+     "insight": "创作者内容也被改造为易被LLM引用的素材，客户内容规划应纳入创作者内容层。",
+     "published": null,
+     "links": [
+      {
+       "text": "CMO Magazine：Creators Move Into Brands' AI Search Playbooks",
+       "url": "https://cmomag.com/ai-in-marketing/creators-become-key-to-brands-ai-search-strategy"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-24-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Llumo 发布免费 AI 可见度平台，BYOK 模式拉低 GEO 监测门槛",
+     "summary": "Llumo 8/20 发布免费 AI 可见度/AEO 监测平台，覆盖 ChatGPT/Gemini/Perplexity/Copilot/AI Mode/AI Overviews，用户自带 API key 按量付费，含引用/来源/query fan-out/竞品声量监测。",
+     "insight": "自带API key的免费监测拉低入门门槛，付费方案需突出分析深度与行动建议。",
+     "published": null,
+     "links": [
+      {
+       "text": "FinanzNachrichten（Newsfile）：Llumo Launches Free AI Visibility Platform With BYOK Model",
+       "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69366019-tedfuel-llumo-launches-free-ai-visibility-platform-with-bring-your-own-key-model-296.htm"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-24-04",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "惊鸿创科（南京）数智科技获 2 亿元战略投资，深耕 GEO 赛道",
+     "summary": "惊鸿创科完成 2 亿元级产业战略融资，南京浦上信息科技持股 51% 成为控股股东，资金投向 GEO 核心算法迭代与全国市场拓展。",
+     "insight": "资金投向核心算法迭代和全国拓展，区域型GEO公司正在扩张，竞争将加剧。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO赛道亿元级融资在南京诞生！惊鸿创科获2亿元战略投资（江南时报·今日头条）",
+       "url": "https://www.toutiao.com/article/7677427039875400246"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "Google 双连发：偏好来源把读者忠诚度变 AI 可见度信号，生成式界面让 AI 答案直接产交互工具替代外链——GEO 从「被引用」转向「被偏好+被交互」。",
+    "AI 可见度度量实证化：爬虫对 JS 链接零发现、Gemini 同查询仅 40% 同源、22.4% AI Overview 流量误记 Direct——单次快照不可信，需多次采样与渠道归因。",
+    "国内平台算法重构追上 Google：豆包「可信度分层 2.0」强制≥3 源交叉验证（孤证不立）、单一信源引用占比压到 8% 以内，DeepSeek 通读筛选把精读信源压到 4-5 个，AI 答案主动标注「营销软文」——铺量派 GEO 彻底失效。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-21-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 上线「Preferred Sources」偏好来源，AI 答案引入读者忠诚度信号",
+     "summary": "读者点出版方按钮选定偏好源，AI Overviews/AI Mode 获徽章与更高可见度。",
+     "insight": "读者可选偏好来源，出版方客户应争取成为偏好来源，并提升读者忠诚度。",
+     "published": null,
+     "links": [
+      {
+       "text": "Google 官方博客：Personalize what you see on Google Search, News, Discover",
+       "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"
+      },
+      {
+       "text": "AuspiaAI 分析：Google Launches Preferred Sources Feature",
+       "url": "https://auspia.ai/blog/google-preferred-sources-top-stories-ai-overviews-ai-mode-august-2026"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-21-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 将 Generative UI 扩展至 AI Overviews，AI 答案直接生成交互工具",
+     "summary": "AI Mode 生成式界面扩展至 AI Overviews，pH 模拟/计算器等交互直接替代外链。",
+     "insight": "AI Overviews直接生成交互工具会替代外链，工具型内容客户需设法在答案内保留品牌曝光。",
+     "published": null,
+     "links": [
+      {
+       "text": "AuspiaAI 分析：Google Expands Generative UI From AI Mode Into AI Overviews",
+       "url": "https://auspia.ai/blog/google-generative-ui-ai-overviews-august-2026"
+      },
+      {
+       "text": "Google 官方博客：5 new ways to level up your learning with Search",
+       "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-21-03",
+     "category": "平台动态",
+     "platform": "多平台",
+     "region": "国内",
+     "title": "豆包 / DeepSeek 算法重构：「孤证不立」强制多源验证，AI 答案标注「营销软文」",
+     "summary": "豆包可信度分层 2.0 强制大于等于3 源交叉验证、单源引用压至 8% 以内，DeepSeek 转通读筛选，铺量派 GEO 彻底失效。",
+     "insight": "多源交叉验证趋严、单源引用受限，方案商要为客户铺设至少三个独立信源。",
+     "published": null,
+     "links": [
+      {
+       "text": "算法重锤之下，GEO行业正在重写游戏规则（网易订阅）",
+       "url": "https://dy.163.com/article/L4SBANCP0511A55J.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-21-04",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "受控测试：AI 爬虫 41 天零发现 JS 注入链接页，转 HTML 后 GPTBot 48h 收录 250 页",
+     "summary": "2400 页站拆分实测：GPTBot/ClaudeBot/PerplexityBot 对 JS 链接页发现率 0，仅 Googlebot 可执行 JS。",
+     "insight": "AI爬虫对JS注入链接页发现率为0，客户关键链接和内容应保证服务端HTML输出。",
+     "published": null,
+     "links": [
+      {
+       "text": "DEV Community：JavaScript Links Can Hide Content From AI Crawlers",
+       "url": "https://dev.to/alifar/javascript-links-can-hide-content-from-ai-crawlers-a-41-day-test-shows-34cg"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-21-05",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Steady Demand 研究：Gemini 本地引用企业站占 60%，重复查询仅 40% 同源",
+     "summary": "1487 本地查询实测：企业站占 Gemini 引用近 60%、Reddit 13.7%，同查询重复仅 40% 同源。",
+     "insight": "本地客户的Gemini引用近60%来自企业站，先做好官网本地信息；重复查询仅40%同源，监测需多次采样。",
+     "published": null,
+     "links": [
+      {
+       "text": "World Programming：Business websites dominate Gemini local AI search citations",
+       "url": "https://www.worldprogramming.org/posts/business-websites-dominate-gemini-local-ai-search-citations-study-onkyfq"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-21-06",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "9 个月追踪：22.4% AI Overview 流量被误记为 Direct，有机流量被低估",
+     "summary": "51,200 事件实测：AI Overview 占有机会话 7.53%，22.4% 被误记 Direct（5 月高达 29.3%）。",
+     "insight": "AI Overview流量常被记为Direct，报告时需校正归因口径，别低估AI带来的有机流量。",
+     "published": null,
+     "links": [
+      {
+       "text": "Victorino Group：AI Overviews Send You Traffic. Your Analytics Files 22% of It Under Direct",
+       "url": "https://victorinollc.com/thinking/ai-overview-misattribution-22-percent"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-20",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "资本加码GEO出海：钛动融资明确\"围绕GEO全面布局\"，成ChatGPT Ads首批技术伙伴。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-20-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "钛动科技完成新一轮融资，明确\"围绕GEO全面布局\"、ChatGPT Ads首批技术伙伴",
+     "summary": "钛动科技完成新一轮融资，华泰泛大西洋领投，将围绕GEO全面布局。",
+     "insight": "钛动成为ChatGPT Ads首批技术伙伴，出海客户的付费AI广告与GEO可组合销售。",
+     "published": null,
+     "links": [
+      {
+       "text": "首发|钛动科技完成新一轮融资（腾讯新闻·猎云网）",
+       "url": "https://news.qq.com/rain/a/20260820A049M400"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-19",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "ChatGPT 检索与引用机制再成焦点：Reddit 引用份额 8/14 单日暴跌约 86%，RESONEO 实测 ChatGPT 仅打开约 760/5.8 万检索页，\"被检索≠被引用≠被打开\"三层漏斗凸显。",
+    "GEO 行业拐点：弯弓白皮书测算 2026 中国 GEO 市场约 21 亿元、玩家破 100 家，汽车等六大主战场成型，语义资产建设成核心。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-19-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "Reddit 在 ChatGPT 引用份额 8/14 起暴跌约 86%，疑因 query fan-out 调整",
+     "summary": "Reddit 在 ChatGPT 引用份额 8/14 起从 3.83% 暴跌至 0.52%，疑因 query fan-out 调整。",
+     "insight": "Reddit被引占比一周跌约86%，别把引用策略押在单一社区，监测要设波动告警。",
+     "published": null,
+     "links": [
+      {
+       "text": "Reddit ChatGPT Citations Drop 86%（explainx.ai）",
+       "url": "https://www.explainx.ai/blog/reddit-citations-chatgpt-search-drop-august-2026"
+      },
+      {
+       "text": "Reddit Citations Are Dropping in ChatGPT（Promptwatch）",
+       "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-19-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "RESONEO 逆向工程 ChatGPT 检索漏斗：约 5.8 万 URL 仅约 760 被打开",
+     "summary": "RESONEO 实测 1249 条答案，检索 5.8 万、打开仅约 760，被检索≠被引用≠被打开。",
+     "insight": "被检索不等于被引用或被打开，监测要分层统计，内容优化应争取被打开。",
+     "published": null,
+     "links": [
+      {
+       "text": "ChatGPT Retrieval Rarely Opens Source Pages（Get Search Engine）",
+       "url": "https://getsearchengine.com/blog/chatgpt-retrieval"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-19-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "弯弓研究院发布《2026中国GEO行业实战白皮书》：市场约 21 亿、玩家破 100 家",
+     "summary": "弯弓白皮书：2026 中国 GEO 市场约 21 亿、增速 37%、玩家破 100 家，六大主战场成型。",
+     "insight": "市场约21亿、玩家破100家可作背景引用，但出自服务商白皮书，使用时需标注来源。",
+     "published": null,
+     "links": [
+      {
+       "text": "读懂2026可信GEO实战白皮书（腾讯新闻）",
+       "url": "https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "医药垂类 GEO 成形：中康科技发布 MedCortex，药企开始用专用平台治理 AI 对药品的认知与推荐。",
+    "GEO 度量工具化：Mod Op 审计+GEO 50 榜、Scrunch 实证 AI 导流仅 1.1%，度量转向品牌召回。",
+    "平台引用机制分层：Google 在 AI Mode 灰度 Gemini 3.7 Flash，同提示词引用集因账号而异。",
+    "GEO 进入效果验证期：一搜百应白皮书建五层评估+ROI框架，从概念布局转向可量化交付。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-18-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "中康科技发布医药垂类 GEO 平台 MedCortex",
+     "summary": "西普会发布医药垂类GEO平台MedCortex，助药企监测AI平台可见度与药品认知质量。",
+     "insight": "医药垂类出现专用GEO平台，通用方案商需补充药品认知质量监测和合规能力。",
+     "published": null,
+     "links": [
+      {
+       "text": "中康科技发布医药垂类GEO平台MedCortex（新浪财经）",
+       "url": "https://www.163.com/dy/article/L4B7L95T05568W0A.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-18-02",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Mod Op 推出免费 AI 搜索可见度审计工具与 GEO 50 榜",
+     "summary": "Mod Op 上线免费GEO审计工具，覆盖ChatGPT等主流引擎，首发GEO 50品牌榜。",
+     "insight": "免费审计工具会压低客户对基础监测的付费意愿，方案商需把价值放在行动建议上。",
+     "published": null,
+     "links": [
+      {
+       "text": "Mod Op Launches Free AI Search Visibility Tool and The GEO 50（GlobeNewswire）",
+       "url": "https://www.gananoquereporter.com/globe-newswire/mod-op-launches-free-ai-search-visibility-tool-and-unveils-the-geo-50"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-18-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Scrunch 研究：AI 直接导流仅占出版商访问 1.1%",
+     "summary": "Scrunch：AI 仅贡献出版商 1.1% 直接访问，大出版商占 AI 提及 82%。",
+     "insight": "AI直接导流占比很小，向出版商汇报应以被提及和品牌影响衡量，避免承诺流量。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI Search Feature Tracker（Lawrence Hitches · Scrunch 研究）",
+       "url": "https://www.lawrencehitches.com/ai-search-tracker"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-18-04",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，引用集合随订阅账号而异",
+     "summary": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，引用集合随订阅账号而异。",
+     "insight": "引用集合随订阅账号而异，监测应固定账号类型并标注测试条件，避免客户误读差异。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI Search Feature Tracker（Lawrence Hitches · Gemini 3.7 Flash）",
+       "url": "https://www.lawrencehitches.com/ai-search-tracker"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-18-05",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "一搜百应发布《2026企业GEO效果评估与ROI白皮书》，首建五层评估+ROI框架",
+     "summary": "一搜百应白皮书：五层GEO评估模型+ROI测算框架，行业进入效果验证期。",
+     "insight": "五层评估和ROI测算框架可借用到效果汇报，客户开始要求效果验证而非只看曝光。",
+     "published": null,
+     "links": [
+      {
+       "text": "2026企业GEO效果评估与ROI白皮书（同花顺）",
+       "url": "https://m.10jqka.com.cn/20260818/c679037154.shtml"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-17",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "平台逻辑同步收紧引用可见度：豆包改排序标尺为「决策有效性」，ChatGPT 藏起来源按钮，Google 用生成图替代原站视觉。",
+    "零点击从文本蔓延到视觉：来源折叠+AI 生成图让品牌「被引却不被点」，GEO 度量需补「点击/转化」一维。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-17-01",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包算法将内容排序标尺切换为「决策有效性」，铺稿玩法失效",
+     "summary": "豆包把排序核心从信源权重改为决策有效性，客观性识别+60%重合度阈值使铺稿失效。",
+     "insight": "豆包看重客观性和决策有效性，内容应写成可核验的对比信息，减少重复铺稿。",
+     "published": null,
+     "links": [
+      {
+       "text": "决策有效性时代来临：豆包算法重构GEO格局（网易）",
+       "url": "https://www.163.com/dy/article/L4FHI8P70552N10P.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-17-02",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "ChatGPT 测试将「Sources」来源按钮移入折叠菜单，引用可见度下滑",
+     "summary": "OpenAI 测试将 ChatGPT 来源按钮移入三点菜单，引用可见度与点击下滑。",
+     "insight": "来源按钮折叠会降低点击，监测需区分被引用与被点击，并提示客户点击量可能下降。",
+     "published": null,
+     "links": [
+      {
+       "text": "OpenAI Makes The ChatGPT Sources Less Visible（Search Engine Roundtable）",
+       "url": "https://www.seroundtable.com/openai-chatgpt-sources-less-visible-41864.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-17-03",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 在 AI Overviews 实装 AI 生成图片，视觉零点击加剧",
+     "summary": "Google 本周在 AI Overviews 实装 AI 生成图片，视觉零点击加剧、原创被替代。",
+     "insight": "AI生成图片挤占原图，视觉零点击加剧，图片类客户应评估流量损失并强化原创素材署名。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI-Generated Images In Google AI Overviews（Search Engine Roundtable）",
+       "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-14",
+   "weekday": "周五",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "合规治理加速落地：新华网牵头首部 GEO 可信传播团体标准 T/CAPT 026—2026 发布实施，三区分治+白帽/黑帽界限+信源A/B/C/D分级把合规变可操作标尺。",
+    "资本与认知双线进场：GEO 从概念进入主流产业视野，分众传媒战略投资钛镁AI，品牌核心命题从\"能否被看见\"转向\"能否被AI可信引用\"。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-14-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "新华网牵头首部 GEO 可信传播团体标准 T/CAPT 026—2026 发布并实施",
+     "summary": "新华网牵头首部GEO可信传播团标8-11发布、8-12实施。",
+     "insight": "标准已于8月12日实施，方案商应按其要求自检合规流程并写进服务条款。",
+     "published": null,
+     "links": [
+      {
+       "text": "广西日报：国内首部GEO可信传播团体标准施行",
+       "url": "https://v.gxnews.com.cn/a/21980606"
+      },
+      {
+       "text": "新浪：国内首部GEO可信传播团体标准正式发布",
+       "url": "https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-14-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO 成资本新宠、从混沌走向规范化，分众传媒战略投资钛镁AI",
+     "summary": "GEO成资本新宠、从混沌走向规范化，分众战投钛镁AI。",
+     "insight": "分众战投钛镁AI说明传统媒体资源方在入局，方案商需准备合作或差异化方案。",
+     "published": null,
+     "links": [
+      {
+       "text": "钛媒体：当AI成为中间介质，究竟是谁在帮品牌讲故事？",
+       "url": "https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [
+    "AI 品牌可见度首个大规模基线：100+品牌/5引擎实测，企业站占78%引用、榜单占21%，情绪波动高6.7倍——GEO 扩至第三方/榜单/舆情治理。",
+    "Google 在英灰度 Search Console 站点级 AI 设置：出版方可退出内容驱动 AI 答案并要求署名，\"可被引用来源\"开关权向内容方回流。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-13-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "首个大规模 AI 品牌可见度基线：自有站仅占被引极小份额，第三方/榜单主导引用",
+     "summary": "Kumar 测10万+回答/100+品牌：品牌阶梯73%/44%/11%，企业站占78%引用，榜单(listicle)占21%。",
+     "insight": "自有站被引份额小、榜单主导，方案商应把第三方榜单和评测内容纳入客户布局清单。",
+     "published": null,
+     "links": [
+      {
+       "text": "arXiv:2606.20065 GEO at Scale（Kumar, Ranqo）",
+       "url": "https://arxiv.org/abs/2606.20065"
+      },
+      {
+       "text": "CapstonAI AI Search Watch 周报（2026-08-10）",
+       "url": "https://capston.ai/ai-search-watch"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-13-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google Search Console 在英灰度站点级设置：出版方可退出内容驱动 AI Overviews/AI Mode",
+     "summary": "Google 在英灰度 Search Console 设置：出版方可退出内容驱动 AI 答案并要求清晰署名。",
+     "insight": "英国出版方可选择退出AI答案，品牌方需评估退出对可见度的代价，欧洲客户应关注该设置。",
+     "published": null,
+     "links": [
+      {
+       "text": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+       "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+      },
+      {
+       "text": "CapstonAI AI Search Watch 周报（2026-08-10）",
+       "url": "https://capston.ai/ai-search-watch"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "AI 可见度度量进入「平台可计量 + 学术可实证」阶段：Google 官方明确 AI 答案曝光口径，实证研究量化「被引用 ≠ 带来点击」。",
+    "GEO 成效指标从「点击/展现」转向「答案份额 ASOV + 品牌召回 + 转化归因」。",
+    "AI 对话入口进入「按成交抽佣」商业化阶段（豆包酒店订单综合费率约12%）：自然推荐与付费影响的边界成为 GEO 治理焦点，已有营销商向商家兜售 GEO 服务。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-12-01",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google Search Console 明确 AI Overviews/AI Mode 曝光计量口径",
+     "summary": "Google 明确 AI 答案曝光口径：链接须滚入视口才计曝光，AI Mode 追问算新查询。",
+     "insight": "曝光须链接滚入视口才计，Search Console报表解读和客户汇报需按此口径说明。",
+     "published": null,
+     "links": [
+      {
+       "text": "How Google counts an AI Overviews impression（SEO News）",
+       "url": "https://keywordseverywhere.com/news/ai-overviews/"
+      },
+      {
+       "text": "How Google counts an AI Mode impression（SEO News）",
+       "url": "https://keywordseverywhere.com/news/google-ai-mode/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-12-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Pew/arXiv 研究：AI Overviews 引用链接点击率仅约 1%，GEO 度量从点击转向答案份额",
+     "summary": "Pew/arXiv：AI Overviews 引用链接点击率仅约1%，被引≠有点击。",
+     "insight": "被引链接点击率仅约1%，汇报以答案份额替代点击指标，并提前告知客户流量预期。",
+     "published": null,
+     "links": [
+      {
+       "text": "Investigating Click Behaviors On Google SERPs That Produce an AI Overview（arXiv:2608.04831）",
+       "url": "https://arxiv.org/abs/2608.04831"
+      },
+      {
+       "text": "Do people click on links in Google AI summaries?（Pew Research）",
+       "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-12-03",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包对经其入口成交的酒店订单抽佣约12%，国内首例 AI 对话入口明码计费",
+     "summary": "8/10起豆包渠道酒店订单独立费率11.4%+0.6%，综合约12%；豆包称仅成交后收渠道费、不卖广告位。",
+     "insight": "豆包渠道订单按约12%抽佣，电商客户的AI渠道成本要计入ROI测算。",
+     "published": null,
+     "links": [
+      {
+       "text": "豆包订酒店抽佣约12%，AI导购商业化打响“第一枪”？（新浪财经）",
+       "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+      },
+      {
+       "text": "重报观察｜AI开启酒店成交订单抽佣 流量变现前路几何（重庆日报）",
+       "url": "https://www.cqrb.cn/jingji/guancha/2026-08-11/2748817_pc.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "GEO 度量层同步标准化+学术化：中广协团标进送审稿，复旦推C-B-A三层AI-BHI指数。",
+    "「被引用」KPI 失效：品牌榜被引时 69% 推荐位给竞品，AI Mode 抬高引用门槛。"
+   ],
+   "entries": [
+    {
+     "id": "2026-08-11-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "中广协 GEO 三项团体标准第二次征求意见会在京召开，下一步形成送审稿",
+     "summary": "8/6中广协开GEO团标二征会，抖音/千问/微盟等全产业链参会，将成送审稿。",
+     "insight": "标准将形成送审稿且全产业链参与，方案商应跟进条款变化并提前做合规整改。",
+     "published": null,
+     "links": [
+      {
+       "text": "中国广告协会生成式引擎优化（GEO）团体标准第二次征求意见会成功召开（证券时报e公司/人民财讯）",
+       "url": "https://www.toutiao.com/article/7671969741044597257"
+      },
+      {
+       "text": "第二次征求意见会议在北京召开（新浪财经 7x24）",
+       "url": "https://wap.cj.sina.cn/7x24/5032479"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-11-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "复旦团队发布 AI 品牌健康度指数 AI-BHI：C-B-A 三层架构、200 品牌样本",
+     "summary": "复旦推AI-BHI品牌健康度指数：认知-信念-行动三层，首批200品牌样本。",
+     "insight": "认知、信念、行动三层指数可借鉴为品牌AI健康度报告结构，给客户更完整的评估。",
+     "published": null,
+     "links": [
+      {
+       "text": "复旦团队发布AI品牌健康度指数AI-BHI（澎湃新闻/网易）",
+       "url": "https://www.163.com/dy/article/L3V8ELDN05568W0A.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-11-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "GPO 八月《State of Search & AI》：被引用 ≠ 被推荐，69% 情况下推荐位给了页内竞品",
+     "summary": "GPO：品牌榜被引时69%推荐位给竞品，AI Mode换Gemini 3.5 Flash更挑。",
+     "insight": "被引用时69%推荐位给了竞品，要追踪推荐位归属，不能只看引用数。",
+     "published": null,
+     "links": [
+      {
+       "text": "August 2026 State of Search & AI（GPO）",
+       "url": "https://gpo.com/blog/august-2026-state-of-search-ai"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-10-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "LightSite 发布《State of AI Search Readiness — August 2026》：技术就绪度驱动 AI 可见性",
+     "summary": "扫描6382域名，技术就绪度驱动AI可见性：D级升A级可见性+55%、提及+72%。",
+     "insight": "技术就绪度提升与可见性、提及率同步上升，客户站点审计应先修技术问题。",
+     "published": null,
+     "links": [
+      {
+       "text": "The State of AI Search Readiness — August 2026（LightSite）",
+       "url": "https://www.lightsite.ai/state-of-ai-search-readiness-2026"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-10-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "青岛交通广播组建 GEO 智能传播战队，主流媒体下场做 GEO 服务",
+     "summary": "青岛交通广播成立GEO智能传播战队，主流媒体下场做GEO服务赋能实体经济。",
+     "insight": "主流媒体下场做GEO，权威信源背书不再是独家卖点，方案商需明确自身交付优势。",
+     "published": null,
+     "links": [
+      {
+       "text": "青岛交通广播组建GEO智能传播战队，实战赋能本土实体经济（新浪）",
+       "url": "https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-10-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "AI 搜索优化投资意愿 38% 超传统 SEO，小站流量两年跌 60%",
+     "summary": "Semrush调查：38%营销人加投AI搜索优化，超传统SEO的36%；小站流量两年跌60%。",
+     "insight": "营销人对AI搜索的投入意愿超过传统SEO，可用该调查支持预算沟通，注明样本来自Semrush调查。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI搜索优化投资意愿38%超传统SEO：Google改规则后小站流量两年跌60%（网易）",
+       "url": "https://www.163.com/dy/article/L3NNPE0E05561FZU.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-07-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "海外",
+     "title": "IAB 发布 AI 可见度\"4 P's\"衡量框架",
+     "summary": "IAB 发布 AI 可见度衡量框架\"4 P's\"，指 20+ 厂商方法互不可比。",
+     "insight": "IAB指出20多家厂商方法互不可比，报价和报告应写清监测口径，便于客户横向比较。",
+     "published": null,
+     "links": [
+      {
+       "text": "IAB 发布 AI 可见度衡量指南（IAB 官方）",
+       "url": "https://www.iab.com/news/iab-releases-measuring-visibility-in-the-ai-era/"
+      },
+      {
+       "text": "IAB 官方指南全文",
+       "url": "https://www.iab.com/guidelines/measuring-visibility-in-the-ai-era/"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-07-02",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Cloudflare 上线 AEO 可见度看板（网络层信号）",
+     "summary": "Cloudflare 上线 AEO 可见度看板，基于网络层信号拆引用/提及/突出/声量。",
+     "insight": "网络层信号可拆引用、提及、突出和声量，可借来补充自家监测缺少的指标。",
+     "published": null,
+     "links": [
+      {
+       "text": "Cloudflare 发布 AEO 可见度看板（Cloudflare 官方）",
+       "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-adds-aeo-visibility-dashboard-to-its-aeo-suite-showing-brands-whether-ai-assistants-are-recommending-them/"
+      },
+      {
+       "text": "Cloudflare 博客：从排名到被推荐",
+       "url": "https://blog.cloudflare.com/aeo"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-07-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Somantra 推 Brand Consideration Score 新 AEO 指标",
+     "summary": "Somantra 发布品牌考虑度指标，测 AI 是\"提到\"还是\"推荐\"品牌。",
+     "insight": "按提到与推荐两档区分监测，可借鉴Brand Consideration Score设计推荐度指标。",
+     "published": null,
+     "links": [
+      {
+       "text": "Somantra 发布 Brand Consideration Score（GlobeNewswire）",
+       "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/somantra-an-enterprise-grade-answer-engine-optimization-and-ai-search-visibility-platform-launches-brand-consideration-score-new-chatgpt-and-google-ai-search-ranking-factor-for-brands/2400210"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-06",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-06-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Exa Labs 完成 2.5 亿美元 C 轮融资：a16z 领投、估值 22 亿美元",
+     "summary": "Exa 完成 2.5 亿美元 C 轮（a16z 领投），估值 22 亿，主打面向机器的搜索 API。",
+     "insight": "Exa获2.5亿美元融资，面向机器的搜索API受资本认可，客户内容需适配机读检索。",
+     "published": null,
+     "links": [
+      {
+       "text": "为AI智能体打造的搜索引擎Exa，完成2.5亿美元C轮融资，估值22亿美元（网易）",
+       "url": "https://www.163.com/dy/article/L3E4SL4N05561FZK.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-06-02",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Microsoft Clarity 上线 AI 引用看板：区分品牌词与非品牌词查询",
+     "summary": "Clarity 新增 AI 引用看板，拆分品牌/非品牌 AI 查询，免费开放。",
+     "insight": "Clarity免费拆分品牌与非品牌AI查询，可直接用于客户引用分析和低成本监测。",
+     "published": null,
+     "links": [
+      {
+       "text": "See Branded and Non-Branded AI Queries in the Clarity Citations Dashboard（Microsoft 官方博客）",
+       "url": "https://clarity.microsoft.com/blog/branded-non-branded-queries"
+      },
+      {
+       "text": "Microsoft Clarity now splits AI citations by brand（PinMeTo 解读）",
+       "url": "https://www.pinmeto.com/news/microsoft-clarity-branded-ai-queries-2026"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "weekday": "周三",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-05-01",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包公开《站点权威度分级说明》：信源分 Level1-4，Filter-AuthInfoLevel 可调",
+     "summary": "豆包把信源分 Level1-4，Level1 为入场券，高权威源优先被引。",
+     "insight": "对照豆包信源Level1-4检查客户站点所处等级，先争取入场资格，再谈内容优化。",
+     "published": null,
+     "links": [
+      {
+       "text": "品牌为什么在AI搜索中消失，豆包信源分级与优化服务商选型解析（IT之家）",
+       "url": "https://www.ithome.com/0/985/797.htm"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-05-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "增长黑盒×Emergine 发布全球 GEO 数据报告：5000 条 AI 对话、10 行业",
+     "summary": "采集 5000 条 AI 搜索对话覆盖 10 行业：上游问题已种草、官网为地基、实体成硬通货。",
+     "insight": "官网是地基、实体成硬通货，先做官网与实体信息治理，再做外围铺量。",
+     "published": null,
+     "links": [
+      {
+       "text": "揭秘2026年全球GEO数据：AI 会怎么对待你的品牌？（钛媒体 APP）",
+       "url": "https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-04",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-04-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "信通院专家建言五方共治，推动 GEO 行业健康发展",
+     "summary": "信通院呼娜英提五方共治，清朗行动已处置1.4万款AI产品、清理600万条信息。",
+     "insight": "清朗已处置1.4万款AI产品，客户合规风险真实存在，售前应主动说明内容留痕与合规流程。",
+     "published": null,
+     "links": [
+      {
+       "text": "从\"被搜索\"到\"被推荐\" 专家建言推动GEO行业健康发展（中国新闻网）",
+       "url": "https://www.chinanews.com/sh/2026/08-02/10670800.shtml"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-04-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Victorious 研究：96% 品牌被 AI 识别，但 89% 从未被提及",
+     "summary": "Q2实测96%品牌被识别、89%品类零提及，99.99%引用指向第三方域名。",
+     "insight": "品牌被识别却零提及，监测需单列提及率，并加强第三方域名上的内容布局。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI Recognizes Brands But Rarely Mentions Them In Category Searches（Dataconomy）",
+       "url": "https://dataconomy.com/2026/07/29/ai-recognition-vs-mentions-brands-search-report"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-04-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "GMO TECH 推出 Local GEO Dash!，门店·地域特化 AI 搜索咨询",
+     "summary": "东京上市GMO TECH推出Local GEO Dash!，助门店·地域商户被AI优先引用。",
+     "insight": "门店与地域商户有了专属GEO咨询产品，本地生意客户可打包门店级监测加地域内容优化。",
+     "published": null,
+     "links": [
+      {
+       "text": "GMO TECH、店舗・地域向けAI検索コンサルティング「Local GEO Dash! byGMO」提供開始（GMO TECH）",
+       "url": "https://group.gmo/pdf/news/gmo_news_10111.pdf"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-08-03",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-08-03-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "生意盒子研究院发布 GEO 白皮书：提出「收录≠引用≠理解」三层级方法论",
+     "summary": "提出「收录≠引用≠理解」框架，定义 L0-L3 引用层级与 12 维 AI 可见度评估体系。",
+     "insight": "三层级引用框架和12维评估可用来拆解客户监测指标，区分被收录、被引用、被理解。",
+     "published": null,
+     "links": [
+      {
+       "text": "生意盒子研究院重磅发布丨万字GEO白皮书：收录≠引用≠理解（今日头条）",
+       "url": "https://www.toutiao.com/article/7668326336607404584"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-03-02",
+     "category": "平台动态",
+     "platform": "Google",
+     "region": "海外",
+     "title": "Google 8 月核心更新加速 AEO，实战派称「AEO 已成独立学科」",
+     "summary": "谷歌 8 月核心更新加速 AEO 信号，实战派称 AEO 已成独立学科而非 SEO 分支。",
+     "insight": "核心更新后，客户应按AEO口径复核页面结构，不能只看传统排名。",
+     "published": null,
+     "links": [
+      {
+       "text": "Google's August 2026 Core Update Is Reshaping Affiliate SERP Real Estate（Affiliate Times）",
+       "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-08-03-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "LLM Pulse 发布《State of GEO 2026》统计基准：AI 搜索可见度度量手册",
+     "summary": "2026 GEO 基准手册：ChatGPT 9 亿周活、AI Overview 点击率骤降、优化最高+40%。",
+     "insight": "手册里的AI Overview点击率下降和优化提升幅度可作基准，引用前先核对原始来源。",
+     "published": null,
+     "links": [
+      {
+       "text": "Generative Engine Optimization Statistics 2026: State of GEO（LLM Pulse）",
+       "url": "https://llmpulse.ai/blog/state-of-geo"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-31-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "爱分析定义 GEO 全链路三环节方法论：意图挖掘→监测评估→内容优化",
+     "summary": "原创三环节方法论+四维竞争壁垒模型，50+监测指标，优化目标从「可见度」升到「信任」。",
+     "insight": "意图挖掘、监测评估、内容优化三环节可直接套成服务流程，并按50余项监测指标搭报告。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO是什么？爱分析定义生成式引擎优化的AI认知本质（阿里云开发者社区）",
+       "url": "https://developer.aliyun.com/article/1752088"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-31-02",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包7月算法调整实测：GEO进入信源竞争时代，铺量玩法失效",
+     "summary": "2182次实测显示7/15下线C端智能体后低价铺量失效，有官网/机构资产者恢复、依赖软文者未恢复。",
+     "insight": "低价铺量失效、官网和机构资产者恢复，建议客户转向自有官网与权威资产建设。",
+     "published": null,
+     "links": [
+      {
+       "text": "豆包7月算法调整背后：GEO进入信源竞争时代（IT之家）",
+       "url": "https://www.ithome.com/0/983/613.htm"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-31-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "海外",
+     "title": "Kevin Indig 1094类别研究：89% AI搜索需求无主品牌，占位后90.4%留存",
+     "summary": "追踪1094美国品类半年，仅15.2%有清晰品牌主，89.3%需求无主；引用≠提及（匹配率仅20.8%）。",
+     "insight": "引用与提及匹配率仅20.8%，监测报告须分开统计引用和提及，避免误导客户。",
+     "published": null,
+     "links": [
+      {
+       "text": "89% of AI Search Demand Has No Clear Brand Owner（RanketAI）",
+       "url": "https://www.ranketai.com/en/blog/deep-dive-ai-category-ownership-window-2026-07-30"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "C",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-31-04",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "中国德国商会北京论坛将GEO列入企业传播议程，万卓睿桥发布趋势报告",
+     "summary": "德商会论坛设「From Search to Trust」专场，大众/微软等跨国企业分享GEO如何重塑品牌传播。",
+     "insight": "跨国企业已把GEO列入传播议程，面向外资客户可从搜索到信任的声誉管理角度切入。",
+     "published": null,
+     "links": [
+      {
+       "text": "Marketing & Communications Forum: AI, GEO & Reputation（中国德国商会）",
+       "url": "https://www.bagevent.com/event/9231305"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-31-05",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "首份医美垂类GEO白皮书发布，定义GEO=可信度(EEAT)×可见度",
+     "summary": "南京向心引力发布首份医美垂类白皮书，棱镜方法论；机构平均AI引用率不足1%，先发优势不可逆。",
+     "insight": "医美客户可用EEAT×可见度框架做诊断；机构平均AI引用率不足1%可作沟通切入点，用前需核实。",
+     "published": null,
+     "links": [
+      {
+       "text": "首份医美垂类GEO白皮书发布 棱镜方法论定义AI信任资产（中华网健康）",
+       "url": "https://m.health.china.com/ppgc/13004175/20260731/49645943.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "weekday": "周四",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-30-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "中广协正式发布《生成引擎优化(GEO)团体标准》征求意见通知：国内首套 GEO 统一标准全文亮相，8 月 30 日截止反馈",
+     "summary": "中广协 7/28 发布 GEO 团体标准征求意见，8/30 截止，含定义、准入、计价、语料、合规五专项。",
+     "insight": "标准含准入与计价专项，8月30日前可提反馈，方案商应对照条款调整报价与交付规范。",
+     "published": null,
+     "links": [
+      {
+       "text": "中国商务广告协会关于公开征求《生成引擎优化(GEO)团体标准》意见的通知（协会官网）",
+       "url": "http://caacchina.org/news/notice/2026/0728/523.html"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-30-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "非凡产研圆桌实录：帷幄官宣 C3 轮 4000 万美元融资，四家 GEO 相关公司拆解「AI 搜索时代品牌的钱怎么花」",
+     "summary": "非凡产研圆桌：帷幄官宣 C3 轮 4000 万美元，抖店后台已现豆包来源，SEO/GEO 预算四六开。",
+     "insight": "抖店后台已见豆包来源，客户会按四六开比较SEO与GEO预算，需备好分渠道效果证明。",
+     "published": null,
+     "links": [
+      {
+       "text": "80%消费者决策靠 AI 辅助、客户续约率 100%：AI搜索时代，品牌的钱该怎么花（网易订阅·非凡产研）",
+       "url": "https://dy.163.com/article/L2VBVEIF05568W0A.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-30-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "BrandRank.AI 完成 300 万美元种子轮首关：AEO 赛道卖点从「可见度」升级为「信任与推荐份额」",
+     "summary": "BrandRank.AI 获 300 万美元种子轮，AEO 卖点升为信任与推荐份额，入选 Gartner 指南。",
+     "insight": "对标其信任与推荐份额指标，监测报告除可见度外增加AI是否推荐品牌的维度。",
+     "published": null,
+     "links": [
+      {
+       "text": "BrandRank.AI Completes the Initial Closing of a $3 Million Series Seed Financing（EIN Presswire）",
+       "url": "https://www.einpresswire.com/article/929820877/brandrank-ai-completes-the-initial-closing-of-a-3-million-series-seed-financing"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "weekday": "周三",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-29-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "爱分析《2026 中国 GEO 市场研究报告》正式发布：千亿新入口，格局哑铃化、能力数据驱动化",
+     "summary": "爱分析报告将 GEO 定义为千亿级新入口，预测 2026-2030 年 CAGR 超 130%、2030 年达 1376 亿元，并提 GEO 到 AEO 代际演进。",
+     "insight": "报告预测2030年达1376亿元，可用于向客户论证市场空间，引用时注明出处。",
+     "published": null,
+     "links": [
+      {
+       "text": "爱分析发布 2026 年中国 GEO 市场研究报告（爱分析官方）",
+       "url": "https://www.ifenxi.com/research/content/6828"
+      },
+      {
+       "text": "爱分析发布2026年中国GEO市场研究报告（网易订阅·爱分析官方账号）",
+       "url": "https://www.163.com/dy/article/L2Q897EI0531W0RG.html"
+      }
+     ],
+     "source_type": "一手研究",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-29-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "南方人物周刊《从流量经济到证据经济：GEO 如何让严肃内容重新值钱》",
+     "summary": "文章指出内容价值从流量经济走向证据经济，在 AI 入口竞争核心变为被引用、被信任，严肃内容重新值钱。",
+     "insight": "被引用、被信任成为入口竞争核心，可用证据经济话术说服严肃内容客户做可核验内容。",
+     "published": null,
+     "links": [
+      {
+       "text": "从流量经济到证据经济：GEO如何让严肃内容重新值钱（南方人物周刊·腾讯新闻）",
+       "url": "https://new.qq.com/rain/a/20260727A098PA00"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-28",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-28-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "《环球时报》社与深圳真迹智能签署海外 GEO 业务战略合作协议",
+     "summary": "环球时报社与深圳真迹智能签约，以权威信源+海外传播+GEO 技术拓展海外 GEO，目标让 AI 自然引用环球时报。",
+     "insight": "权威媒体与GEO公司结盟做海外，可向出海客户推荐权威信源加GEO的组合方案。",
+     "published": null,
+     "links": [
+      {
+       "text": "《环球时报》社与深圳真迹智能在京签署海外 GEO 业务战略合作协议（澎湃新闻）",
+       "url": "https://www.thepaper.cn/newsDetail_forward_33668839"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-28-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "Petra Labs 获 520 万美元种子融资，专注 AEO（答式引擎优化）赛道",
+     "summary": "Petra Labs 完成 520 万美元种子轮，专注 AEO 赛道，自研 AI 搜索监测+品牌舆情追踪+营收归因一体化平台。",
+     "insight": "AEO监测加舆情加营收归因的一体化获得融资，方案商可补齐营收归因能力。",
+     "published": null,
+     "links": [
+      {
+       "text": "Petra Labs 获 520 万美元种子融资（DoNews）",
+       "url": "https://www.donews.com/news/detail/8/6648219.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-28-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "电通数字联手 Adobe 启动 GEO 支援服务（活用 Adobe LLM Optimizer）",
+     "summary": "日本电通数字联手 Adobe，以 LLM Optimizer 为基座提供横跨三媒体的 GEO 端到端支援，将 GEO 咨询服务体系化、工具化。",
+     "insight": "广告集团以Adobe工具把GEO做成端到端咨询，方案商需突出自身的跨媒体执行与定制能力。",
+     "published": null,
+     "links": [
+      {
+       "text": "Dentsu Digital Launches AI-Era Brand Defense: Enhances GEO Support with New Adobe Tool（biggo 转述，英文可读）",
+       "url": "https://finance.biggo.com/news/e0e39ac1-aabb-4df8-a0e3-b03b76f7d30e"
+      },
+      {
+       "text": "電通デジタル、アドビと連携し「Adobe LLM Optimizer」を活用した GEO 支援を開始（电通数字官方新闻稿 PDF）",
+       "url": "https://www.dentsudigital.co.jp/sites/default/files/release/2026-07/DD2026_337_0727.pdf"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-27",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-27-01",
+     "category": "平台动态",
+     "platform": "ChatGPT",
+     "region": "海外",
+     "title": "OpenAI 正式开放「Advertise in ChatGPT」自助广告平台，Best Buy、Lowe's 首批投放",
+     "summary": "7 月 22 日上线自助广告后台 Ads Manager，取消 5 万美元最低门槛，基于对话上下文信号定向，以「Sponsored」标注块出现在回答下方，仅免费版/Go 版展示；6 周约 1 亿美元年化收入、600+ 品牌入场，GEO 进入「organic 引用 × paid 赞助」双轨时代。",
+     "insight": "ChatGPT广告开放后，要把付费赞助位纳入监测，并向客户讲清自然引用与付费位的分工。",
+     "published": null,
+     "links": [
+      {
+       "text": "OpenAI 在 ChatGPT 正式推出广告服务，Best Buy 等品牌首批试水（搜狐科技）",
+       "url": "https://www.sohu.com/a/1053316063_122396381"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-27-02",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Pepper 发布企业级 GEO 平台：追踪品牌在五大 AI 引擎中的可见度与引用源",
+     "summary": "覆盖 ChatGPT/Claude/Perplexity/Gemini/AI Overviews，核心能力为品牌提及率、自有域名被引用率、第三方引用源识别、按人群/话题/购买旅程组织 Prompt 并转译为行动建议，指标可回溯原始回答，已分析 1000 万+ Prompt。",
+     "insight": "对标其五引擎监测和按购买旅程组织Prompt的做法，检查自家监测覆盖与行动建议输出。",
+     "published": null,
+     "links": [
+      {
+       "text": "Pepper launches its GEO platform to track how enterprises show up in AI search（EIN Presswire）",
+       "url": "https://www.einpresswire.com/article/929112894/pepper-launches-its-geo-platform-to-track-how-enterprises-show-up-in-ai-search"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-27-03",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "《GEO 狂飙与隐忧》：低价交付陷阱实录曝光，网信办「清朗」行动点名 GEO 恶意营销",
+     "summary": "需求端受害实录（低价服务商捏造企业信息被 AI 交叉验证反噬、展现清零），中央网信办「清朗·整治 AI 应用乱象」明确点名「利用 GEO 技术开展恶意营销」，品牌方对内容真实性负连带责任，不因外包免责。",
+     "insight": "网信办点名GEO恶意营销且品牌方负连带责任，合同应写明内容真实性审核与责任划分。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO 狂飙与隐忧：AI 流量时代，谁在为「AI 答案」买单？（网易订阅）",
+       "url": "https://dy.163.com/article/L2CQDM160556NLSO.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-27-04",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "xAI 放弃自建搜索接入 Exa：AI 搜索基础设施赛道崛起，检索逻辑转向「面向机器」",
+     "summary": "xAI 将 Grok Build 搜索层交给 Exa（C 轮 2.5 亿美元、估值 22 亿美元），AI 搜索基础设施市场预计 2026 年 118 亿→2034 年 2514 亿美元；检索逻辑从「10 个蓝色链接」转向结构化、Token 高效的机读内容，GEO 优化对象扩展到检索中间层。",
+     "insight": "搜索层外包给Exa这类基础设施，说明检索正面向机器，应检查客户内容是否结构化、利于机读。",
+     "published": null,
+     "links": [
+      {
+       "text": "Edge AI Daily 早报 7/26：放弃自建搜索，xAI 接入 Exa（钛媒体）",
+       "url": "https://www.tmtpost.com/8079667.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-26",
+   "weekday": "周日",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-26-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "今日头条发布《基于实体锚定的信任重构研究》，提出 ED-GEO 方法论与 RAG 三层筛选漏斗",
+     "summary": "把\"实体锚定（Entity Anchoring）/ ED-GEO\"理论化，给出 RAG 架构下\"实体识别→一致性校验→信源交叉验证\"三层筛选漏斗，并以工业制造/老字号/ B2B 技术服务/连锁服务四赛道案例实证；本质是\"面向 AI 知识库的数字信用充值\"。",
+     "insight": "实体识别、一致性校验、信源交叉验证三层漏斗可作内容审计清单，先保证品牌实体信息一致。",
+     "published": null,
+     "links": [
+      {
+       "text": "生成式引擎优化（GEO）的新范式：基于实体锚定的信任重构研究（今日头条·行业动态）",
+       "url": "https://www.toutiao.com/article/7666118447004123686"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-26-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "SEC 披露 Avalon GloboCare 更名 Change Agents Corp.（Nasdaq: CHGA），规划上线 GEO 平台 Beacon",
+     "summary": "美国 SEC 官方备案显示上市公司重组为代理式 AI 软件公司，核心产品 Beacon 定位 \"AI Generative Engine Optimization platform\"，规划 2026 Q3 末上线，帮企业优化 AI 搜索数字存在、监测跨 AI 平台品牌可见度。",
+     "insight": "美国上市公司转做GEO平台，Beacon预计Q3末上线，方案商可跟踪其功能与定价。",
+     "published": null,
+     "links": [
+      {
+       "text": "Avalon GloboCare Announces Strategic Transformation into Change Agents Corp.（SEC EX-99.1）",
+       "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026079830/ea029857301ex99-1.htm"
+      }
+     ],
+     "source_type": "官方",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-25",
+   "weekday": "周六",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-25-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "威吉力发布《AI 可见度五层评估模型白皮书》，接入人民网 ACBS/ARA 评估闭环",
+     "summary": "把品牌进入 AI 答案链路拆为可抓取性→实体清晰度→内容可引用性→权威信号→答案纳入度五层，服务标准化为检测—审计—优化—监控四阶段，并接入人民网 ACBS 认知评估 / ARA 声誉审计与主流价值语料库审核入库模块。",
+     "insight": "五层模型可借来做客户诊断框架；其接入人民网评估的做法可作为合规卖点参考。",
+     "published": null,
+     "links": [
+      {
+       "text": "威吉力发布 AI 可见度五层评估模型（今日头条·咸宁微讯）",
+       "url": "https://www.toutiao.com/article/7666319584013599284"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-25-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "研究文章核查元宝推荐 10 家 GEO 服务商全部存在违规嫌疑，平台审核缺位被网信办点名",
+     "summary": "10 家样本 7 家批量低质内容、8 家资质滥用、10 家案例无法核验、5 家伪概念炒作；网信办 7 月通报点名平台「对商业服务推荐内容未履行真实性核验义务」，上半年 AI 营销服务投诉同比 +215%。",
+     "insight": "推荐榜单的可靠性受质疑，方案商应备好资质和可核验案例，应对客户的核查。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO服务乱象溯源与合规路径探析【二】（今日头条·行业动态）",
+       "url": "https://www.toutiao.com/article/7664429006942405158"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-24",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-24-01",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "Adobe 发布「Adobe Brand Visibility」统一 GEO 方案，全球营销云巨头正式入场",
+     "summary": "把 Semrush AI 可见性情报与 Adobe LLM Optimizer 整合进 CX Enterprise，GEO 从独立小赛道升级为营销云标配模块。",
+     "insight": "Adobe把Semrush可见性情报并入营销云，方案商要向客户说明自家工具相对套件的优势。",
+     "published": null,
+     "links": [
+      {
+       "text": "Adobe unveils AI search tool boosting brand visibility（CHOSUNBIZ·韩国）",
+       "url": "https://biz.chosun.com/en/en-it/2026/07/22/HO6VGATTYJG7ZC4OQFJJGFQVOQ/"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-24-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "腾讯云开发者社区发布《GEO 优化避坑指南》，一线方法论走向体系化",
+     "summary": "把「从被看见到被引用」范式、五类踩坑、可落地自审清单与引用可见度监测步骤讲透，客户专业门槛同步抬高。",
+     "insight": "指南里的五类踩坑和自审清单可改成客户自检表，用在售前沟通中体现专业度。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO 优化避坑指南：从业者必知的误区与对策（腾讯云开发者社区）",
+       "url": "https://cloud.tencent.com/developer/article/2714271"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-24-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "星沙时报发布《2026 中国 GEO 市场格局深度解读》，规模与集中度首次被量化",
+     "summary": "2025 年 127.6 亿 / +203.8%、CR8 由 45%→58%，信源权重约占 AI 搜索排名 40%，给出 TOP8 服务商格局。",
+     "insight": "报告称CR8由45%升至58%，集中度上升，中小方案商需聚焦细分场景或行业垂类。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO 纪元开启：2026 中国生成式引擎优化市场格局深度解读（今日头条·星沙时报）",
+       "url": "https://www.toutiao.com/article/7665668673910964790"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-24-04",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO 服务商价值评估：\"可信传播\"成国家级议题，RAG 与多模型适配成核心维度",
+     "summary": "新浪 7/24 行业分析指出 GEO 竞争焦点从被用户看见转向被 AI 信任并引用，可信成为 GEO 第一性原理。",
+     "insight": "客户评估服务商时看重RAG与多模型适配，方案商应备好这两项的能力说明和案例。",
+     "published": null,
+     "links": [
+      {
+       "text": "AI时代品牌信任争夺战：2026 GEO 服务商价值评估（新浪网）",
+       "url": "https://k.sina.com.cn/article_5337473809_13e23631100101hco2.html?subch=otech"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-23",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-23-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "米奥会展推出「星知」GEO 品牌智造方案，上市公司跨界卡位 AI 搜索入口",
+     "summary": "又一家具「会展/出海营销」背景的上市公司下场做 GEO 自有产品，竞争维度扩展到「GEO+出海视频+展会流量」组合打法。",
+     "insight": "跨界对手把GEO、出海视频、展会流量打包销售，纯GEO方案商需先明确自身差异化再投标。",
+     "published": null,
+     "links": [
+      {
+       "text": "米奥会展推出「星知」GEO 品牌智造方案（东方财富股吧）",
+       "url": "https://guba.eastmoney.com/news,300795,1747778133.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-23-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "3·15 后时代的 GEO：出圈、洗牌、等待 AI 打开黑匣子",
+     "summary": "一线从业者访谈印证「合规化+白帽」主线真实，给出可落地合规交付框架（合同责任+数据留痕+人工把关）。",
+     "insight": "访谈给出合同责任、数据留痕、人工把关三项合规要点，可直接写进服务合同模板。",
+     "published": null,
+     "links": [
+      {
+       "text": "3·15 后时代的 GEO：出圈、洗牌、等待 AI 打开黑匣子（新浪新闻）",
+       "url": "https://k.sina.com.cn/article_5952915720_162d2490806704hcv6.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-22",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-22-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO 服务商能力评估（星级）正式启动，证书多平台公示",
+     "summary": "第三方「标尺」上线，一星至五星分级、多平台公示，企业「看不清、选不准」有了客观参考。",
+     "insight": "星级评估分一至五星并多平台公示，方案商应核对参评条件，星级可作获客背书。",
+     "published": null,
+     "links": [
+      {
+       "text": "人工智能 GEO 市场三年激增 35 倍，第三方星级评估正式启动（中华网）",
+       "url": "https://digi.china.com/articles/20260720/202607201921859.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-22-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "头部技术横评：全栈体系对抗，「七大能力评估」与红黑榜成型",
+     "summary": "头部比拼 RAG 架构 + 知识图谱 + 内容生成引擎，七大能力评估体系成型，单点铺量玩法彻底失效。",
+     "insight": "红黑榜和七大能力评估已成型，方案商需用RAG、知识图谱等全栈能力自证，不能只靠铺量。",
+     "published": null,
+     "links": [
+      {
+       "text": "dpV4 开源、GEO 星级认证启动：AI 产业进入标准化竞速期（同花顺）",
+       "url": "https://t.10jqka.com.cn/pid_663949898.shtml"
+      },
+      {
+       "text": "2026 年 7 月 GEO 服务商红黑榜 · 9 家拆解（界面新闻）",
+       "url": "https://www.jiemian.com/article/14756103.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-22-03",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "豆包优化服务商评测：六维体系与 TOP3（传声港 / 传新社 / 怪兽智能）",
+     "summary": "六维评测体系成型，头部服务商座次初定。",
+     "insight": "客户选型会参考六维评测，方案商应对照这套维度整理自身能力说明与案例。",
+     "published": null,
+     "links": [
+      {
+       "text": "2026 年豆包优化服务商推荐 · 六维 TOP3（中国经济新闻网）",
+       "url": "https://www.cet.com.cn/wzsy/kjzx/cygdzx/10451306.shtml"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-22-04",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "市场爆发式增长但信任危机凸显，「保排名 / 投毒 / 案例虚标」三乱象成众矢之的",
+     "summary": "差异化卖点必须绑定「可溯源 + 可量化 + 可验真」，否则会被官方认证 / 付费推荐挤压空间。",
+     "insight": "客户对保排名、投毒、案例虚标敏感，报价时要拿出可溯源、可量化、可验真的交付证据。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO 行业有标准了（新浪）",
+       "url": "https://k.sina.cn/article_5953189932_162d6782c06704n4co.html"
+      },
+      {
+       "text": "GEO 服务商红黑榜（界面）",
+       "url": "https://www.jiemian.com/article/14756103.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-22-05",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "AI 投毒防御成刚需：从「被推荐」到「不被黑」，多元共治提速",
+     "summary": "从「被推荐」到「不被黑」，防御型 GEO 从加分项变为确定性增量业务。",
+     "insight": "把防投毒做成独立服务线：监测品牌在AI答案中被恶意污染的情况并给出处置方案。",
+     "published": null,
+     "links": [
+      {
+       "text": "依法斩断 AI「投毒」产业链（法治日报）",
+       "url": "https://www.legaldaily.com.cn/The_analysis_of_public_opinion/content/2026-04/10/content_9371420.html"
+      },
+      {
+       "text": "起底 AI「投毒」黑产（北京举报平台）",
+       "url": "https://www.bjjubao.org.cn/2026-04/01/content_48404.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-21",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-21-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "信通院首批 GEO 能力完备性测评落地，清蓝卓越级、中关村科金优秀级",
+     "summary": "国家级标尺落地，GEO 能力首次有了权威分级。",
+     "insight": "信通院首批测评已出分级结果，方案商应对照能力完备性要求自查，评级可进投标材料。",
+     "published": null,
+     "links": [
+      {
+       "text": "信通院 GEO 研讨会暨首批测评（今日头条）",
+       "url": "https://www.toutiao.com/article/7662307129180668479"
+      },
+      {
+       "text": "清蓝获行业首家「卓越级」（网易）",
+       "url": "https://www.163.com/dy/article/L22BIGC705509IQZ.html"
+      },
+      {
+       "text": "中关村科金获「优秀级」（51ima）",
+       "url": "https://www.51ima.com/news/13416.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-21-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "AI 投毒黑产工业化：虚构手环 2 小时登顶 AI 答案，治理加速",
+     "summary": "3·15 曝光的 AI 投毒黑产持续发酵，防御型 GEO / 验真从加分项变为确定性增量业务。",
+     "insight": "虚构产品2小时登顶答案可作客户沟通案例，据此推出验真与防投毒监测服务。",
+     "published": null,
+     "links": [
+      {
+       "text": "警惕 AI 推荐背后的消费陷阱（中国质量万里行）",
+       "url": "https://www.315online.com/consumer-warning/417011.html"
+      },
+      {
+       "text": "斩断「投毒」AI 黑灰产业链（新华网 / 经济日报）",
+       "url": "https://www.news.cn/tech/20260323/c91f52ec891a44bab8d7348b98989c2d/c.html"
+      },
+      {
+       "text": "AI 被「投毒」如何防骗（人民网）",
+       "url": "https://finance.people.com.cn/n1/2026/0318/c1004-40683956.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-21-03",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "微盟星启 GEO 海外版正式发布，构建「AI + 出海」双轮引擎",
+     "summary": "GEO 从「品宣玄学」走向「全球化」主线。",
+     "insight": "出海客户有了现成对标产品，方案商需评估自家海外监测与内容交付能否打包成出海套餐。",
+     "published": null,
+     "links": [
+      {
+       "text": "微盟星启 GEO 海外版 · 东方财富报道",
+       "url": "https://finance.eastmoney.com/a/202607213815376886.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-21-04",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包打通电商成交闭环，GEO 迈入可量化 ROI 时代",
+     "summary": "豆包成抖音电商独立成交渠道，GEO 进入可量化 ROI 时代。",
+     "insight": "豆包成交可量化后，给电商客户做从豆包曝光到成交的归因，用ROI数据取代曝光话术。",
+     "published": null,
+     "links": [
+      {
+       "text": "豆包成独立成交渠道，GEO 进入可量化 ROI 时代（新浪财经）",
+       "url": "https://t.cj.sina.com.cn/articles/view/6153904342/16ecd20d600101b8u4?finpagefr=p_103"
+      },
+      {
+       "text": "抖音电商将豆包纳入抖店结算序列（虎嗅）",
+       "url": "https://www.huxiu.com/ainews/13837.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-21-05",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "合规化加速：中广协三项团体标准征求意见 + WAIC《GEO 向善》倡议",
+     "summary": "合规化加速，行业从「野路子」走向「有标可依」。",
+     "insight": "三项团标仍在征求意见，方案商可提前对照条款梳理交付流程，必要时提交修改意见。",
+     "published": null,
+     "links": [
+      {
+       "text": "中广协 GEO 三项团体标准公开征求意见（中国消费者报）",
+       "url": "https://www.ccn.com.cn/Content/2026/07-13/1530089050.html"
+      },
+      {
+       "text": "GEO 行业有标准了：41 家企业 77 位专家 3 个月干成（新浪）",
+       "url": "https://k.sina.cn/article_5953189932_162d6782c06704n4co.html"
+      }
+     ],
+     "source_type": "中立媒体",
+     "soft_class": "无",
+     "backfilled": true
+    }
+   ]
+  },
+  {
+   "date": "2026-07-20",
+   "weekday": "周一",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-07-20-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "2026 年 GEO 拼的不是发文量，是「AI 信任分」：越铺量越降权",
+     "summary": "GEO 从「谁发稿多谁赢」转向「品牌信任权重」竞争，结构化信源 + 全域信息归一成为底座能力。",
+     "insight": "客户仍按发文量定预期时，改用信任权重和结构化信源重设交付指标，把铺量转为信源治理。",
+     "published": null,
+     "links": [
+      {
+       "text": "2026年GEO拼的不是发文量，是AI信任分（网易订阅）",
+       "url": "https://www.163.com/dy/article/L29NPME20556OEF7.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-20-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "2026 年 GEO 优化服务商最新测评报告出炉，五大主流服务商全景横评",
+     "summary": "粤海网络、泓动数据、智推时代、增长超人、百分点科技五家入选，从自研技术/内容/执行/经验/合规五维测评。",
+     "insight": "五家的评测维度（自研技术、内容、执行、经验、合规）可对照自检，补齐短板再投标。",
+     "published": null,
+     "links": [
+      {
+       "text": "2026年GEO优化服务商最新测评报告出炉（网易订阅）",
+       "url": "https://www.163.com/dy/article/L29544QF0556MW8H.html"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    },
+    {
+     "id": "2026-07-20-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO 的重庆解法：六点半科技用「本地化」构建 AI 信任壁垒",
+     "summary": "方言/地域词库 + 区县级定位 + 本地团队≤2h 响应，验证 GEO 在区域市场的「本地化」竞争壁垒。",
+     "insight": "区域客户关心方言词库、区县定位和2小时响应，可把本地化做成区域销售的差异化卖点。",
+     "published": null,
+     "links": [
+      {
+       "text": "GEO的重庆解法：六点半科技如何用“本地化”构建AI信任壁垒（搜狐）",
+       "url": "https://www.sohu.com/a/1052533497_122801792"
+      }
+     ],
+     "source_type": "企业发布稿",
+     "soft_class": "B",
+     "backfilled": true
+    }
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "legacy": true,
+   "overview": {
+    "total": 8,
+    "by_category": {
+     "行业政策": {
+      "count": 2,
+      "pct": 0.25
+     },
+     "行业方法论": {
+      "count": 1,
+      "pct": 0.13
+     },
+     "新技术": {
+      "count": 1,
+      "pct": 0.13
+     },
+     "市场动态": {
+      "count": 1,
+      "pct": 0.13
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 3,
+      "pct": 0.38
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台动态（平台可见度机制）：本周平台侧沿\"引用货币化\"与\"对话式转化\"两条线推进。Google 测试 AI Contribution Pilot，把\"内容对 AI 答案的生成期贡献\"向出版方付费，首次出现平台侧对引用贡献度的直接计价；OpenAI 把 Deep Research 推向 ChatGPT Work/Codex（带 citation 的可编辑报告），并测试 Sponsored Agents——广告点击后开启与答案隔离的品牌对话代理，ChatGPT 广告从静态位进化为多轮对话转化。",
+     "refs": [
+      "2026-09-15-01",
+      "2026-09-14-01",
+      "2026-09-17-03"
+     ],
+     "ref_links": [
+      {
+       "title": "Search Engine Roundtable：Google Al Contribution Pilot",
+       "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+      },
+      {
+       "title": "reconnAI：ChatGPT Deep Research 扩展至 Work/Codex",
+       "url": "https://reconn-ai.com/news/chatgpt-deep-research-work-codex-ai-visibility"
+      },
+      {
+       "title": "OpenAI: Reimagining advertising with AI",
+       "url": "https://openai.com/index/reimagining-advertising-with-ai/"
+      }
+     ]
+    },
+    {
+     "text": "行业政策（治理双层落地）：中广协 9/16 公布《生成式引擎优化(GEO)》五项团体标准，结束\"无标可依\"；全国网安标委 9/14 发布框架 3.0，首将\"GEO 投毒风险\"纳入国家 AI 风险分类。GEO 合规从行业自律升格为\"可测量、可审计、可追责\"的国家口径。",
+     "refs": [
+      "2026-09-17-01",
+      "2026-09-17-02"
+     ],
+     "ref_links": [
+      {
+       "title": "证券时报·网易：GEO服务告别\"无标可依\"",
+       "url": "https://www.163.com/dy/article/L6VQP0AE053469RG.html"
+      },
+      {
+       "title": "搜狐：框架3.0将GEO投毒纳入国家层面风险分类",
+       "url": "https://www.sohu.com/a/1077023910_122936705"
+      }
+     ]
+    },
+    {
+     "text": "行业方法论 + 新技术：亿邦动力观察到 GEO/AEO 服务扩张但捷径被封堵（Reddit 刷量被 ChatGPT 识别降权、引用占比 3.83%→0.5%），白帽结构化内容成共识；央媒下场——新华网发布「新华GEO智能体平台」做工业企业出海获客，GEO 进入\"权威背书+标准引领\"阶段。",
+     "refs": [
+      "2026-09-14-02",
+      "2026-09-16-01"
+     ],
+     "ref_links": [
+      {
+       "title": "亿邦动力：AI搜索优化生意兴起 捷径玩法屡被大模型封堵",
+       "url": "https://www.ebrun.com/20260912/706912.shtml"
+      },
+      {
+       "title": "新华网：新华GEO智能体平台发布海外生成式引擎营销服务",
+       "url": "https://www.news.cn/digital/20260911/7b1e86ef00d54e3aae1538d5d5043bec/c.html"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "Google 用 AI Contribution Pilot 把\"被引用\"从流量逻辑推向\"按贡献付费\"逻辑，品牌高证据密度内容（白皮书/研究/数据）的价值坐标系延伸到\"贡献度计价\"；OpenAI Deep Research 把带 citation 的报告推向工作流，\"被引进入研究报告\"成为更持久可见度资产。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "收录周期",
+     "text": "平台付费层快速迭代——Sponsored Agents 与 Contribution Pilot 同周出现，说明\"引用→计价→转化\"闭环正在被平台快速产品化，品牌须同步跟踪\"自然引用\"与\"赞助代理\"两套机制。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "新华GEO智能体平台（央媒）与 OpenAI HubSpot/Shopify 集成显示，GEO 正与\"权威媒体背书\"\"电商/CRM 数据闭环\"深度绑定；\"平台是否把你的品类划进自营\"继续是 GEO 风险评估维度。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "白帽结构化内容成共识、Reddit 刷量降权警示——机器可读、一致、可被交叉验证的公开证据权重上升；智谱约 50 亿美元再融资抬高被优化平台的模型能力与引用判断上限。",
+     "refs": [],
+     "ref_links": []
+    }
+   ],
+   "implications": [
+    "交付从\"铺量占位\"转向\"贡献度计价 + 白帽结构化\"：Google 开始按引用贡献付费、平台反作弊降权刷量，方案商应把\"真实、一致、可被交叉验证的公开证据\"与\"高证据密度内容资产\"作为核心交付，而非短期刷量。",
+    "监测须覆盖\"自然引用\"与\"赞助代理\"双轨 + 工作流级引用：OpenAI Sponsored Agents、Deep Research 报告都要求 GEO 监测从单次回答提及扩展到多轮对话与可复用引用资产。",
+    "合规与权威背书成为门槛：中广协团标 + 框架 3.0 双层治理落地，金融/医疗等高合规行业须 100% 人工复核，采购 GEO 服务应将\"团标评估 + 来源底稿\"写入合同验收。",
+    "市场信号积极：智谱约 50 亿美元再融资显示基座模型资本军备加码，GEO 内容须面向更强推理、更重证据密度的下一代模型重做。"
+   ]
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "legacy": true,
+   "overview": {
+    "total": 7,
+    "by_category": {
+     "行业政策": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "行业方法论": {
+      "count": 2,
+      "pct": 0.29
+     },
+     "新技术": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "市场动态": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 5,
+      "pct": 0.71
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台动态（平台可见度机制）：AI 答案\"引用透明度\"与\"可控性\"双线演进。Google AI Mode 接入 Gemini 3.8 Flash 一度在宽口径查询断引（24h 内修复），又测试分页式追问+跳过按钮改写多轮引用的呈现位置；OpenAI 把 Deep Research 的高引用透明度模式推向 Work/Codex，同时悄然封禁竞品图像/语音生成广告、掐断第三方图像工具的自然引用——AI 答案\"平台中性\"神话继续破灭，可见度机制越来越由平台自营边界定义。",
+     "refs": [
+      "2026-09-08-01",
+      "2026-09-11-02",
+      "2026-09-11-01",
+      "2026-09-09-01"
+     ],
+     "ref_links": [
+      {
+       "title": "Search Engine Roundtable：Google AI Mode Gemini 3.8 Flash Not Link Friendly",
+       "url": "https://www.seroundtable.com/google-ai-mode-gemini-38-no-links-42011.html"
+      },
+      {
+       "title": "AuspiaAI：Google AI Mode Tests Paginated Follow-Up Responses",
+       "url": "https://auspia.ai/blog/google-ai-mode-paginated-responses-skip-button-september-2026"
+      },
+      {
+       "title": "PYMNTS：OpenAI Cuts Off Rivals' Ads on ChatGPT",
+       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cuts-off-rivals-ads-chatgpt/"
+      },
+      {
+       "title": "Index Lab：ChatGPT Ads Update: Ads Manager Plugin, Looser Custom Audiences, Euro Minimum",
+       "url": "https://www.indexlab.ai/blog/chatgpt-ads-plugin-custom-audiences-euro-minimum"
+      }
+     ]
+    },
+    {
+     "text": "平台动态（电商 GEO 度量）：Google Merchant Center AI 表现洞察扩至澳/加/印/新/美五市场，电商 GEO 可见度首获官方声量对标，但 Search Console 仍只给曝光不给点击，\"下游转化\"口径缺口未补。",
+     "refs": [
+      "2026-09-08-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Oday Bakkour：Merchant Center AI Performance Insights Reaches Four More Markets",
+       "url": "https://oday-bakkour.com/blog/seo-note-september-4-2026"
+      }
+     ]
+    },
+    {
+     "text": "行业方法论：Google 两个 AI 答案面给出截然不同的\"信源食谱\"——AI Overviews 由 YouTube 主导（22.9%）、AI Mode 由 Reddit 主导（17.9%）；ChatGPT 侧则因反作弊把 Reddit 引用占比从 3.83% 压到 0.5%，社交/视频平台霸榜但各面权重分化，GEO 须按 surface 分建基准、并把创作者/UGC/社媒声量纳入交付。",
+     "refs": [
+      "2026-09-10-01",
+      "2026-09-10-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Ahrefs：The 50 Most-Cited Websites in Google AI Overviews (September 2026)",
+       "url": "https://www.ahrefs.com/blog/most-cited-domains-ai-overviews/"
+      },
+      {
+       "title": "Ahrefs：The 50 Most-Cited Websites in Google AI Mode (September 2026)",
+       "url": "https://ahrefs.com/blog/most-cited-domains-ai-mode"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "Google 两答案面分化（AI Overviews 偏 YouTube、AI Mode 偏 Reddit），且 AI Mode 分页追问让引用呈现位置随翻页浮动；ChatGPT 反作弊把被刷量的 Reddit 等信源降权。品牌须按\"每个 AI 面一套引用基准\"建设，而非盯单一面。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "收录周期",
+     "text": "Google AI Mode 仍处功能快速迭代期（断引 bug 24h 内修复、分页追问周级灰度），引用波动不能简单归咎内容降权，须区分\"平台故障\"与\"内容降权\"。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "OpenAI 把竞品图像/语音生成广告与自然引用双通道关闭、Deep Research 深入 Work/Codex 工作流——\"平台是否把你的品类划进自营\"成为 GEO 风险评估新维度。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "ChatGPT 8/8 起把抓取重心从全网开放扫描转向特定站点，更强调\"被指定/被信任站点\"的可发现性；机器可读、一致、可被交叉验证的公开证据权重上升。",
+     "refs": [],
+     "ref_links": []
+    }
+   ],
+   "implications": [
+    "监测从单轮扩展到整段对话流与\"被引进入研究报告\"：Google AI Mode 分页追问、ChatGPT Deep Research 报告都要求 GEO 监测覆盖多轮交互与可复用引用资产，而非仅看单次回答提及。",
+    "交付须分 surface 建基准 + 纳入社媒/UGC/视频声量：YouTube/Reddit 等第三方平台霸榜 Google AI 引用，官网内容工程之外须把创作者与社媒声量纳入。",
+    "白帽结构化内容是唯一可持续路径：Reddit 刷量被降权、出版商植入捷径引争议，方案商应把\"真实、一致、可被交叉验证的公开证据\"作为交付底线，规避平台反作弊反噬。"
+   ]
+  },
+  {
+   "week_start": "2026-08-31",
+   "week_end": "2026-09-06",
+   "legacy": true,
+   "overview": {
+    "total": 13,
+    "by_category": {
+     "行业政策": {
+      "count": 3,
+      "pct": 0.23
+     },
+     "行业方法论": {
+      "count": 3,
+      "pct": 0.23
+     },
+     "新技术": {
+      "count": 1,
+      "pct": 0.08
+     },
+     "市场动态": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 6,
+      "pct": 0.46
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台动态：AI 答案\"默认即满屏\"与\"可度量、可治理\"双线确立。Google 在部分查询默认把 AI Overviews 展开为接近完整的 AI Mode 答案（零点击蔓延至首屏即满屏），9 月核心更新重锤薄质联盟内容、持续压缩自然首位；同一周 Search Console 把生成式 AI 表现报告推向全球并给出站点级退出开关，欧盟把 ChatGPT 正式定性为 VLOSE 纳入 DSA——AIGC 答案的\"可见度\"从黑箱变成可观测、可申诉的公开指标，GEO 进入\"被引用+被偏好+被治理\"三位一体阶段。",
+     "refs": [
+      "2026-08-31-01",
+      "2026-09-01-01",
+      "2026-09-01-02",
+      "2026-08-03-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses By Default",
+       "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+      },
+      {
+       "title": "World Programming：Google Search Console 全球上线生成式 AI 可见度报告",
+       "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+      },
+      {
+       "title": "AIBARS：EU designates ChatGPT as Very Large Online Search Engine under DSA",
+       "url": "https://aibars.net/en/news/882548813993349120"
+      },
+      {
+       "title": "Affiliate Times：Google's September 2026 Core Update Reshaping Affiliate SERP",
+       "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+      }
+     ]
+    },
+    {
+     "text": "平台动态（商业化）：ChatGPT Ads 上线不到 200 天年化破 10 亿美元、扩至 40+ 国（印度 9/1 自助上线），清朗第二阶段累计清理 561 万条 AI 违规信息并倒逼豆包/元宝/千问/文心一言强化标识与语料审核——\"自然推荐 vs 付费影响\"边界与\"合规出口\"边界在双线同步重划，GEO 占位必须同时算清商业与监管两套账。",
+     "refs": [
+      "2026-09-02-02",
+      "2026-09-04-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Storyboard18：ChatGPT Ads crosses $1 billion annualised",
+       "url": "https://www.storyboard18.com/advertising/chatgpt-ads-crosses-1-billion-annualised-revenue-run-rate-as-openai-expands-global-rollout-109405.htm"
+      },
+      {
+       "title": "央视网：中央网信办深入开展\"清朗·整治AI应用乱象\"专项行动第二阶段",
+       "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/09/02/ARTI2b500eMemFvIK5efkq7E260902.shtml"
+      }
+     ]
+    },
+    {
+     "text": "行业政策：监管三连击收口\"铺量/聚合改写\"。首届 AI 搜索峰会推进中广协 GEO 三项团标编制与 IAB China 生态共建；《互联网信息内容多渠道分发服务管理规定》9/1 生效封杀批量同质化分发与编造人设，最高法明确平台间转载不再法定许可、须著作权人许可并付费——AI 聚合/改写内容生产模式的授权链成首要合规点，\"白帽+可信信源\"从加分项变入场券。",
+     "refs": [
+      "2026-08-31-03",
+      "2026-09-03-01",
+      "2026-09-04-01"
+     ],
+     "ref_links": [
+      {
+       "title": "人民网：首届AI搜索峰会召开 共探品牌增长新路径",
+       "url": "https://finance.people.com.cn/BIG5/n1/2026/0826/c1004-40786739.html"
+      },
+      {
+       "title": "搜狐：9月新规施行，白帽GEO的窗口期",
+       "url": "https://www.sohu.com/a/1071151077_122963513"
+      },
+      {
+       "title": "最高法数字图书馆：法释〔2026〕18号",
+       "url": "https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf"
+      }
+     ]
+    },
+    {
+     "text": "行业方法论：从\"概念\"走向\"分平台实测+站内工程清单\"。4 大引擎 45 条引用源实测确立\"下一问\"预判法（把问题拆成对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用；Practical GEO Checklist 给出可机读事实、robots 可爬、单页单问、权威面建设等站内清单；6 大引擎引用偏好实测（豆包偏 CSDN、DeepSeek 偏技术社区、Kimi 偏财经）给出可复现平台地图与内容适配公式——GEO 交付 SOP 化、精准化。",
+     "refs": [
+      "2026-09-02-03",
+      "2026-09-03-02",
+      "2026-09-04-03"
+     ],
+     "ref_links": [
+      {
+       "title": "阿里云开发者社区：4大AI引擎45条引用源实测",
+       "url": "https://developer.aliyun.com/article/1759912"
+      },
+      {
+       "title": "DEV Community：A Practical GEO Checklist",
+       "url": "https://dev.to/yue_wang_4c0315f2e8a02ea6/a-practical-geo-checklist-make-your-site-crawlable-and-citable-by-ai-assistants-4jnd"
+      },
+      {
+       "title": "阿里云开发者社区：6大AI引擎引用偏好实测",
+       "url": "https://developer.aliyun.com/article/1760216"
+      }
+     ]
+    },
+    {
+     "text": "新技术：Cloudflare BotBase for Operators 让 AI 爬虫显式声明行为（索引/代理/训练/SEO）与内容使用（search=yes, ai-train=no），把\"可被 AI 搜索引用但拒入训练\"拆成可独立开关的信号——\"可被 AI 读取\"策略新增训练意图开关维度，内容方对 AI 平台的数据使用权第一次有了可声明的边界。",
+     "refs": [
+      "2026-08-31-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Cloudflare 官方博客：BotBase for Operators",
+       "url": "https://blog.cloudflare.com/botbase-for-operators/"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "Google 默认把 AI Overviews 展开为接近完整 AI Mode 答案（零点击蔓延），并把\"系统判定最有用主题\"作为动态展开判据；9 月核心更新重锤薄质联盟内容、持续压缩自然首位。品牌\"被引却不被点\"在首屏满屏化下进一步固化，\"被偏好\"比\"被引用\"更关键。",
+     "refs": [
+      "2026-08-31-01"
+     ],
+     "ref_links": [
+      {
+       "title": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses",
+       "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+      }
+     ]
+    },
+    {
+     "dimension": "收录周期",
+     "text": "Search Console 把生成式 AI 表现报告（AI Overviews/AI Mode/Discover 可见度）推向全球，并新增站点级退出开关——\"可被引用来源\"退出的开关权明确回流内容方，收录与展示的可观测性提升。",
+     "refs": [
+      "2026-09-01-01"
+     ],
+     "ref_links": [
+      {
+       "title": "World Programming：Google Search Console 全球 AI 报告",
+       "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+      }
+     ]
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "ChatGPT Ads 年化破 10 亿美元、扩至 40+ 国，AI 答案\"自然推荐 vs 付费\"边界在更多市场确立；欧盟把 ChatGPT 纳入 DSA VLOSE，监管侧给\"AI 搜索引擎\"立规，organic×paid 双轨占位成为跨市场必答题。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "Cloudflare BotBase for Operators 用可声明信号（search/ai-train 等）替代模糊的 robots 行为，AI 爬虫\"索引 vs 训练\"意图第一次可独立开关；内容方可精细控制\"被引用\"与\"被训练\"的边界，GEO 的\"机器友好\"从被动适配转向主动声明。",
+     "refs": [
+      "2026-08-31-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Cloudflare 官方博客：BotBase for Operators",
+       "url": "https://blog.cloudflare.com/botbase-for-operators/"
+      }
+     ]
+    }
+   ],
+   "implications": [
+    "把\"自然+付费\"双轨占位做成标准叙事：ChatGPT Ads 年化破 10 亿美元、扩至 40+ 国，GEO 卖点从\"被引用\"升级为\"被引用+被赞助\"，监测/优化需覆盖付费 AI 推荐位与官方面板（Search Console AI 报告）。",
+    "用\"可治理+可观测\"做差异化：借 Search Console 全球 AI 报告与退出开关、欧盟 DSA VLOSE 立规，主推\"可见度可度量、可申诉、可信信源\"透明交付，把 GEO 从黑箱优化讲成可审计的增长项。",
+    "重押\"白帽+可信信源\"入场券：9 月新规封杀批量同质化分发、最高法收紧平台间转载法定许可，AI 聚合/改写生产模式合规成本骤升；方案商应把\"授权链清晰+实体对齐+权威信源\"作为交付底线，规避清朗点名与侵权风险。",
+    "方法论产品化、分平台精准化：以\"下一问\"预判法、Practical GEO Checklist、6 大引擎引用偏好实测为底座，封装可演示的站内工程清单与分平台内容适配 SaaS，把交付从通用建议升级为\"按引擎精准投放\"的标准 SOP。",
+    "借 BotBase 类可声明信号设计\"训练意图开关\"模块：Cloudflare 把\"被引用 vs 被训练\"拆成独立信号，方案商可帮客户配置 AI 爬虫数据使用边界，把\"机器友好\"从被动适配升级为主动治理。"
+   ]
+  },
+  {
+   "week_start": "2026-08-24",
+   "week_end": "2026-08-30",
+   "legacy": true,
+   "overview": {
+    "total": 12,
+    "by_category": {
+     "行业政策": {
+      "count": 1,
+      "pct": 0.08
+     },
+     "行业方法论": {
+      "count": 2,
+      "pct": 0.17
+     },
+     "新技术": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "市场动态": {
+      "count": 6,
+      "pct": 0.5
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 3,
+      "pct": 0.25
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台动态：商业化与可见度机制双向收紧。ChatGPT Ads 扩至 31 个欧洲市场（organic×paid 双轨在欧盟主战场铺开）；Google AI Mode 上线\"发展中话题\"链接轮播（热点原始报道获更大视觉位）；ChatGPT 引用源剧变——Reddit 一周内从 3.83% 跌至 0.52%，帮助中心/文档成最大引用类别（约 2%→32%），一手结构化自有信源权重上升。",
+     "refs": [
+      "2026-08-24-01",
+      "2026-08-27-01",
+      "2026-08-28-03"
+     ],
+     "ref_links": [
+      {
+       "title": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+      },
+      {
+       "title": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+       "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+      },
+      {
+       "title": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit",
+       "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+      }
+     ]
+    },
+    {
+     "text": "行业方法论：GEO 优化对象从\"官网/媒体\"延伸到\"创作者内容层\"，且 Google 明确 AI Overviews/AI Mode 无需 GEO 专属优化（llms.txt、AI 文本文件、特殊 schema 均非必要），重心回到\"可被引用 + 被偏好的真实内容\"。",
+     "refs": [
+      "2026-08-24-02",
+      "2026-08-27-02"
+     ],
+     "ref_links": [
+      {
+       "title": "CMO Magazine：Creators Move Into Brands' AI Search Playbooks",
+       "url": "https://cmomag.com/ai-in-marketing/creators-become-key-to-brands-ai-search-strategy"
+      },
+      {
+       "title": "Oday Bakkour：Daily SEO Note — August 26, 2026",
+       "url": "https://oday-bakkour.com/blog/seo-note-august-26-2026"
+      },
+      {
+       "title": "Google 官方文档：AI features and your website",
+       "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      }
+     ]
+    },
+    {
+     "text": "市场动态：资本密集押注 AI 可见度基础设施。英伟达拟以超 300 亿美元估值投资 Perplexity；英国 geoSurge 完成 1200 万美元种子轮；清蓝完成数千万元天使+轮并上线 GEO 数字员工 Mark；惊鸿创科获 2 亿元战略投资深耕 GEO；Shopify Q2 实证 AI 引荐会话同比 +197%、订单约 3 倍；Llumo 发布免费 AI 可见度平台（BYOK）拉低监测门槛。",
+     "refs": [
+      "2026-08-25-02",
+      "2026-08-25-01",
+      "2026-08-28-02",
+      "2026-08-27-03"
+     ],
+     "ref_links": [
+      {
+       "title": "钛媒体：英伟达拟300亿美元估值投资Perplexity",
+       "url": "https://www.tmtpost.com/8115451.html"
+      },
+      {
+       "title": "潮汛网：英国GEO公司geoSurge完成1200万美元种子轮融资",
+       "url": "https://www.hqwc.cn/news/173441.html"
+      },
+      {
+       "title": "时代财经：PureblueAI清蓝再获天使+轮融资",
+       "url": "https://www.time-weekly.com/post/332391"
+      },
+      {
+       "title": "Shopify 中国博客：AI 搜索与自然搜索各司其职",
+       "url": "https://www.shopify.com/zh/blog/ai-search-category-behavior"
+      }
+     ]
+    },
+    {
+     "text": "行业政策：新华网在半年度业绩说明会明确 GEO 是 AI 时代内容可信传播核心赛道，详解国内首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽/黑帽边界、来源可信度四级、全链路追溯），标志 GEO 从\"拼曝光\"转向\"可信事实资产 + 合规治理\"。",
+     "refs": [
+      "2026-08-28-01"
+     ],
+     "ref_links": [
+      {
+       "title": "新华网 2026 半年度业绩说明会实录",
+       "url": "https://roadshow.eastmoney.com/luyan/5461027"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "ChatGPT 引用源结构性重构（Reddit→帮助中心/文档），一手结构化自有信源权重上升；Google AI Mode 用\"发展中话题\"轮播把热点原始报道前置。平台\"被引用来源\"偏好向内容方可控的权威/结构化信源回流。",
+     "refs": [
+      "2026-08-28-03",
+      "2026-08-27-01"
+     ],
+     "ref_links": [
+      {
+       "title": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit",
+       "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+      },
+      {
+       "title": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+       "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+      }
+     ]
+    },
+    {
+     "dimension": "收录周期",
+     "text": "本周无重大收录周期调整被记录（Google 8/27 Mueller 重申无需特殊优化，印证既有收录逻辑稳定）。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "ChatGPT Ads 在欧盟 31 市铺开，AI 答案\"自然推荐 vs 付费\"边界在欧盟主战场确立，organic×paid 双轨占位成为必答题。",
+     "refs": [
+      "2026-08-24-01"
+     ],
+     "ref_links": [
+      {
+       "title": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+      }
+     ]
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "本周无重大 robots/crawler 协议调整被记录。",
+     "refs": [],
+     "ref_links": []
+    }
+   ],
+   "implications": [
+    "把\"自然+付费\"双轨占位做成标准叙事：ChatGPT Ads 扩至 31 欧市，GEO 卖点从\"被引用\"升级为\"被引用+被赞助\"，监测/优化需覆盖付费 AI 推荐位。",
+    "重押\"一手结构化自有信源\"：ChatGPT 引用源剧变证明帮助中心/文档跃升为最大引用类别，方案商应把客户官网\"可维护、结构化自有内容资产\"（FAQ/文档/帮助中心）当作 GEO 第一战场。",
+    "用\"可信事实资产 + 合规治理\"做差异化：借新华网详解 T/CAPT 026—2026 团标背书，主推\"可溯源、可量化、可治理\"透明交付，规避清朗点名风险。",
+    "借资本热度放大价值：英伟达/geoSurge/清蓝/惊鸿连下数城、Shopify 实证 AI 引荐 +197%，用\"AI 搜索已是真实营收渠道\"数据促单，把 GEO 从成本项讲成增长项。"
+   ]
+  },
+  {
+   "week_start": "2026-08-17",
+   "week_end": "2026-08-23",
+   "legacy": true,
+   "overview": {
+    "total": 17,
+    "by_category": {
+     "行业政策": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "行业方法论": {
+      "count": 6,
+      "pct": 0.35
+     },
+     "新技术": {
+      "count": 1,
+      "pct": 0.06
+     },
+     "市场动态": {
+      "count": 3,
+      "pct": 0.18
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 7,
+      "pct": 0.41
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台逻辑三连击，引用「被看见」与「被点击」双双被压缩：豆包把排序标尺从信源权重改为「决策有效性」（客观性识别+60%重合度阈值），ChatGPT 把 Sources 按钮移入折叠菜单降低引用可见度，Google 在 AI Overviews 实装 AI 生成图并扩展 Generative UI，同时把「读者偏好源」做成答案可见度信号。",
+     "refs": [
+      "2026-08-17-01",
+      "2026-08-17-02",
+      "2026-08-21-01"
+     ],
+     "ref_links": [
+      {
+       "title": "决策有效性时代来临：豆包算法重构GEO格局（网易）",
+       "url": "https://www.163.com/dy/article/L4FHI8P70552N10P.html"
+      },
+      {
+       "title": "OpenAI Makes The ChatGPT Sources Less Visible（Search Engine Roundtable）",
+       "url": "https://www.seroundtable.com/openai-chatgpt-sources-less-visible-41864.html"
+      },
+      {
+       "title": "Google 官方博客：Personalize what you see on Search, Discover, News",
+       "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"
+      }
+     ]
+    },
+    {
+     "text": "GEO 度量实证化、可量化成主线：RESONEO 逆向 ChatGPT 检索漏斗（约 5.8 万 URL 仅约 760 被打开）、Steady Demand 测 Gemini 本地引用企业站占近 60%、Victorino 测 22.4% AI Overview 流量误记 Direct、Scrunch 测 AI 仅贡献出版商 1.1% 直接访问——单次快照不可信，需多次采样与渠道归因。",
+     "refs": [
+      "2026-08-19-02",
+      "2026-08-21-05",
+      "2026-08-21-06"
+     ],
+     "ref_links": [
+      {
+       "title": "ChatGPT Retrieval Rarely Opens Source Pages（Get Search Engine）",
+       "url": "https://getsearchengine.com/blog/chatgpt-retrieval"
+      },
+      {
+       "title": "Business websites dominate Gemini local AI search citations（World Programming）",
+       "url": "https://www.worldprogramming.org/posts/business-websites-dominate-gemini-local-ai-search-citations-study-onkyfq"
+      },
+      {
+       "title": "AI Overviews Send You Traffic. Your Analytics Files 22% of It Under Direct（Victorino）",
+       "url": "https://victorinollc.com/thinking/ai-overview-misattribution-22-percent"
+      }
+     ]
+    },
+    {
+     "text": "市场「资本 + 垂类」双线下场：中康科技发布医药垂类 GEO 平台 MedCortex，弯弓白皮书估 2026 中国 GEO 市场约 21 亿、玩家破 100 家，钛动科技融资明确「围绕 GEO 全面布局」并成 ChatGPT Ads 首批技术伙伴。",
+     "refs": [
+      "2026-08-18-01",
+      "2026-08-19-03",
+      "2026-08-20-01"
+     ],
+     "ref_links": [
+      {
+       "title": "中康科技发布医药垂类GEO平台MedCortex（新浪财经）",
+       "url": "https://www.163.com/dy/article/L4B7L95T05568W0A.html"
+      },
+      {
+       "title": "读懂2026可信GEO实战白皮书（腾讯新闻）",
+       "url": "https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009"
+      },
+      {
+       "title": "首发|钛动科技完成新一轮融资（腾讯新闻·猎云网）",
+       "url": "https://news.qq.com/rain/a/20260820A049M400"
+      }
+     ]
+    },
+    {
+     "text": "方法论与工具产品化：一搜百应发布 ROI 白皮书建五层评估+ROI 框架，Mod Op 上线免费 AI 可见度审计与 GEO 50 榜，GEO 进入效果验证期。",
+     "refs": [
+      "2026-08-18-05",
+      "2026-08-18-02"
+     ],
+     "ref_links": [
+      {
+       "title": "2026企业GEO效果评估与ROI白皮书（同花顺）",
+       "url": "https://m.10jqka.com.cn/20260818/c679037154.shtml"
+      },
+      {
+       "title": "Mod Op Launches Free AI Search Visibility Tool and The GEO 50（GlobeNewswire）",
+       "url": "https://www.gananoquereporter.com/globe-newswire/mod-op-launches-free-ai-search-visibility-tool-and-unveils-the-geo-50"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "豆包以「决策有效性」替代信源权重，ChatGPT 折叠 Sources 按钮，Google 用 AI 生成图替代原站视觉，品牌「被引却不被点」加剧。",
+     "refs": [
+      "2026-08-17-03"
+     ],
+     "ref_links": [
+      {
+       "title": "AI-Generated Images In Google AI Overviews（Search Engine Roundtable）",
+       "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html"
+      }
+     ]
+    },
+    {
+     "dimension": "收录周期",
+     "text": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，同提示词引用集因订阅账号而异，引用结果个性化分层。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "Google Preferred Sources 把「读者对出版方的忠诚度」做成 AI 答案可见度信号，内容方获得用户侧可控的偏好入口。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "受控测试证明 GPTBot/ClaudeBot/PerplexityBot 对 JS 注入链接页发现率为 0，仅 Googlebot 可执行 JS——可抓取性仍是 AI 可见度底座。",
+     "refs": [
+      "2026-08-21-04"
+     ],
+     "ref_links": [
+      {
+       "title": "DEV Community：JavaScript Links Can Hide Content From AI Crawlers",
+       "url": "https://dev.to/alifar/javascript-links-can-hide-content-from-ai-crawlers-a-41-day-test-shows-34cg"
+      }
+     ]
+    }
+   ],
+   "implications": [
+    "把「自然+付费」双轨占位做成标准叙事：ChatGPT Ads 扩至 31 欧市、钛动成首批技术伙伴，GEO 卖点从「被引用」升级为「被引用+被赞助」，监测/优化需覆盖付费 AI 推荐位。",
+    "用「度量标准化 + 多次采样」破解单次快照幻觉：以 RESONEO / Steady Demand / Victorino / Scrunch 实证数据，向客户证明「被引≠被点≠被打开」，交付从发稿量升级为可量化引用份额与转化归因。",
+    "主推「技术就绪度诊断」独立线：以 JS 零发现实测为锤，推「AI 爬虫可达性 + 结构化数据 + SSR」诊断 SaaS，抢占机器友好优化新赛道。",
+    "垂类 GEO 平台化：中康 MedCortex 验证医药等强监管行业垂类 GEO 平台需求，方案商可复制「行业知识图谱 + 可见度监测」垂类打法。"
+   ]
+  },
+  {
+   "week_start": "2026-08-10",
+   "week_end": "2026-08-16",
+   "legacy": true,
+   "overview": {
+    "total": 13,
+    "by_category": {
+     "行业政策": {
+      "count": 2,
+      "pct": 0.15
+     },
+     "行业方法论": {
+      "count": 5,
+      "pct": 0.38
+     },
+     "新技术": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "市场动态": {
+      "count": 3,
+      "pct": 0.23
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 3,
+      "pct": 0.23
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "合规治理收口：新华网牵头首部 GEO 可信传播团标 T/CAPT 026—2026 发布实施，中广协团标进送审稿，\"白帽/黑帽\"界限与信源 A/B/C/D 分级成硬标尺。",
+     "refs": [
+      "2026-08-14-01",
+      "2026-08-11-01"
+     ],
+     "ref_links": [
+      {
+       "title": "国内首部GEO可信传播团体标准施行（广西日报）",
+       "url": "https://v.gxnews.com.cn/a/21980606"
+      },
+      {
+       "title": "国内首部GEO可信传播团体标准正式发布（新浪）",
+       "url": "https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1"
+      },
+      {
+       "title": "中国广告协会生成式引擎优化（GEO）团体标准第二次征求意见会成功召开（证券时报e公司）",
+       "url": "https://www.toutiao.com/article/7671969741044597257"
+      }
+     ]
+    },
+    {
+     "text": "度量学术化+平台可计量：复旦推 C-B-A 三层 AI-BHI 品牌健康度指数，Pew/arXiv 实证 AI Overviews 引用点击率仅约1%，Kumar 给出首个大规模 AI 品牌可见度基线（企业站占78%引用），GEO 从\"点击\"转向\"答案份额\"。",
+     "refs": [
+      "2026-08-11-02",
+      "2026-08-12-02",
+      "2026-08-13-01"
+     ],
+     "ref_links": [
+      {
+       "title": "复旦团队发布AI品牌健康度指数AI-BHI（网易）",
+       "url": "https://www.163.com/dy/article/L3V8ELDN05568W0A.html"
+      },
+      {
+       "title": "Investigating Click Behaviors On Google SERPs That Produce an AI Overview（arXiv:2608.04831）",
+       "url": "https://arxiv.org/abs/2608.04831"
+      },
+      {
+       "title": "arXiv:2606.20065 GEO at Scale（Kumar, Ranqo）",
+       "url": "https://arxiv.org/abs/2606.20065"
+      }
+     ]
+    },
+    {
+     "text": "平台逻辑再收紧（商业化+抓取）：豆包对成交酒店订单抽佣约12%（国内首例 AI 对话入口明码计费），Google Search Console 明确 AI Overviews/AI Mode 曝光计量口径并在英灰度站点级退出设置，自然推荐与商业/治理边界持续重划。",
+     "refs": [
+      "2026-08-12-03",
+      "2026-08-12-01",
+      "2026-08-13-02"
+     ],
+     "ref_links": [
+      {
+       "title": "豆包订酒店抽佣约12%，AI导购商业化打响\"第一枪\"？（新浪财经）",
+       "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+      },
+      {
+       "title": "How Google counts an AI Overviews impression（SEO News）",
+       "url": "https://keywordseverywhere.com/news/ai-overviews/"
+      },
+      {
+       "title": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+       "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+      }
+     ]
+    },
+    {
+     "text": "市场\"资本+主流媒体\"双线下场：青岛交通广播组建 GEO 智能传播战队（主流媒体下场做 GEO 服务），Semrush 调研 38% 营销人加投 AI 搜索优化超传统 SEO 的 36%，分众传媒战略投资钛镁AI，GEO 从概念进入主流产业视野。",
+     "refs": [
+      "2026-08-10-02",
+      "2026-08-10-03",
+      "2026-08-14-02"
+     ],
+     "ref_links": [
+      {
+       "title": "青岛交通广播组建GEO智能传播战队（新浪）",
+       "url": "https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1"
+      },
+      {
+       "title": "AI搜索优化投资意愿38%超传统SEO：Google改规则后小站流量两年跌60%（网易）",
+       "url": "https://www.163.com/dy/article/L3NNPE0E05561FZU.html"
+      },
+      {
+       "title": "钛媒体：当AI成为中间介质，究竟是谁在帮品牌讲故事？（新浪财经）",
+       "url": "https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "豆包以\"成交抽佣\"把 AI 推荐与交易佣金绑定（不干预排序但重划商业边界）；Google 明确 AI 答案曝光口径（链接滚入视口才计、AI Mode 追问算新查询），把\"被引\"计量标准化。",
+     "refs": [],
+     "ref_links": []
+    },
+    {
+     "dimension": "收录周期",
+     "text": "Google 在英灰度 Search Console 站点级设置，出版方可退出内容驱动 AI Overviews/AI Mode 并要求清晰署名——\"可被引用来源\"开关权向内容方回流。",
+     "refs": [
+      "2026-08-12-01",
+      "2026-08-13-02"
+     ],
+     "ref_links": [
+      {
+       "title": "How Google counts an AI Overviews impression（SEO News）",
+       "url": "https://keywordseverywhere.com/news/ai-overviews/"
+      },
+      {
+       "title": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+       "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+      }
+     ]
+    },
+    {
+     "dimension": "生态绑定",
+     "text": "豆包酒店抽佣是 AI 对话入口电商闭环的首次明码计费，平台从信息工具转向交易渠道。",
+     "refs": [
+      "2026-08-12-03"
+     ],
+     "ref_links": [
+      {
+       "title": "豆包订酒店抽佣约12%（新浪财经）",
+       "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+      }
+     ]
+    },
+    {
+     "dimension": "爬虫可发现性",
+     "text": "本周无重大 robots/crawler 协议调整被记录。",
+     "refs": [],
+     "ref_links": []
+    }
+   ],
+   "implications": [
+    "把\"答案份额 ASOV + 品牌召回 + 转化归因\"做成标准度量模块：Pew/arXiv 证伪\"被引=点击\"，方案商需从点击/展现升级到答案份额与转化归因，用数据反驳\"铺量有效\"。",
+    "借合规团标做差异化：以 T/CAPT 026—2026 白帽/黑帽界限 + 信源 A/B/C/D 分级为背书，主推\"可溯源、可量化、可治理\"透明交付，规避清朗点名风险。",
+    "盯紧平台商业化边界：豆包抽佣标志 AI 入口交易化，方案商应把\"自然推荐 vs 付费影响\"边界讲清，并把 Google SC AI 表现报告接入监测仪表盘。"
+   ]
+  },
+  {
+   "week_start": "2026-08-03",
+   "week_end": "2026-08-09",
+   "legacy": true,
+   "overview": {
+    "total": 13,
+    "by_category": {
+     "行业政策": {
+      "count": 2,
+      "pct": 0.15
+     },
+     "行业方法论": {
+      "count": 4,
+      "pct": 0.31
+     },
+     "新技术": {
+      "count": 6,
+      "pct": 0.46
+     },
+     "市场动态": {
+      "count": 1,
+      "pct": 0.08
+     },
+     "舆情": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "平台动态": {
+      "count": 0,
+      "pct": 0.0
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "AI 可见度度量走向「标准化 + 工具化」：IAB 发布 AI 可见度\"4 P's\"衡量框架、Cloudflare 上线 AEO 可见度看板（拆引用率/提及率/突出度/声量）、Somantra 发布 Brand Consideration Score（区分\"提到\"vs\"推荐\"）、Microsoft Clarity 与 LLM Pulse 提供基准数据，行业从\"各说各话\"转向可量化、可对标。",
+     "refs": [
+      "2026-08-07-01",
+      "2026-08-07-02",
+      "2026-08-07-03"
+     ],
+     "ref_links": [
+      {
+       "title": "IAB 发布 AI 可见度衡量指南（IAB 官方）",
+       "url": "https://www.iab.com/news/iab-releases-measuring-visibility-in-the-ai-era/"
+      },
+      {
+       "title": "Cloudflare 发布 AEO 可见度看板（Cloudflare 官方）",
+       "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-adds-aeo-visibility-dashboard-to-its-aeo-suite-showing-brands-whether-ai-assistants-are-recommending-them/"
+      },
+      {
+       "title": "Somantra 发布 Brand Consideration Score（GlobeNewswire）",
+       "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/somantra-an-enterprise-grade-answer-engine-optimization-and-ai-search-visibility-platform-launches-brand-consideration-score-new-chatgpt-and-google-ai-search-ranking-factor-for-brands/2400210"
+      }
+     ]
+    },
+    {
+     "text": "新技术密集落地，AEO / 可见度看板成新基础设施：Google 8 月核心更新加速 AEO（实战派称 AEO 已成独立学科）、GMO TECH 推 Local GEO Dash! 门店地域特化、豆包公开信源 Level1-4 分级、Cloudflare/Somantra/Clarity 连发度量工具，GEO 优化对象从\"网页\"延伸到\"检索中间层 + 信源评级机制\"。",
+     "refs": [
+      "2026-08-03-02",
+      "2026-08-05-01",
+      "2026-08-06-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Google's August 2026 Core Update Is Reshaping Affiliate SERP Real Estate（Affiliate Times）",
+       "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+      },
+      {
+       "title": "品牌为什么在AI搜索中消失，豆包信源分级与优化服务商选型解析（IT之家）",
+       "url": "https://www.ithome.com/0/985/797.htm"
+      },
+      {
+       "title": "Microsoft Clarity now splits AI citations by brand（PinMeTo）",
+       "url": "https://www.pinmeto.com/news/microsoft-clarity-branded-ai-queries-2026"
+      }
+     ]
+    },
+    {
+     "text": "方法论体系化深化，信任度量成共识：生意盒子\"收录≠引用≠理解\"三层级 + 12 维评估、LLM Pulse《State of GEO 2026》基准（ChatGPT 9 亿周活、优化最高+40%）、Victorious 实测 96% 被识别但 89% 零提及、增长黑盒×Emergine 全球 5000 对话报告（实体成硬通货）。",
+     "refs": [
+      "2026-08-03-01",
+      "2026-08-03-03",
+      "2026-08-05-02"
+     ],
+     "ref_links": [
+      {
+       "title": "生意盒子研究院重磅发布丨万字GEO白皮书：收录≠引用≠理解（今日头条）",
+       "url": "https://www.toutiao.com/article/7668326336607404584"
+      },
+      {
+       "title": "Generative Engine Optimization Statistics 2026: State of GEO（LLM Pulse）",
+       "url": "https://llmpulse.ai/blog/state-of-geo"
+      },
+      {
+       "title": "揭秘2026年全球GEO数据：AI 会怎么对待你的品牌？（钛媒体 APP）",
+       "url": "https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009"
+      }
+     ]
+    },
+    {
+     "text": "政策侧持续治理、市场侧资本偏冷：信通院呼娜英建言五方共治（清朗已处置 1.4 万款 AI 产品）、全周唯一市场动态为 Exa 2.5 亿美元 C 轮（机器友好搜索 API 成新基础设施）；相较上周（8 条市场动态）本周融资/合作事件明显减少，行业重心转向\"度量标准化 + 技术基建\"。",
+     "refs": [
+      "2026-08-04-01",
+      "2026-08-06-01"
+     ],
+     "ref_links": [
+      {
+       "title": "从\"被搜索\"到\"被推荐\" 专家建言推动GEO行业健康发展（中国新闻网）",
+       "url": "https://www.chinanews.com/sh/2026/08-02/10670800.shtml"
+      },
+      {
+       "title": "为AI智能体打造的搜索引擎Exa，完成2.5亿美元C轮融资，估值22亿美元（网易）",
+       "url": "https://www.163.com/dy/article/L3E4SL4N05561FZK.html"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [],
+   "implications": [
+    "把「AI 可见度度量」做成标准产品模块：对标 IAB 4P's、Cloudflare AEO 看板、Somantra BCS，封装\"引用率 / 提及率 / 推荐份额 / 突出度\"四指标监测仪表盘，让客户\"看得见、测得准\"。",
+    "主推「技术就绪度诊断」独立线：LightSite 用约 700 万数据点证明\"可抓取性→AI 可见性\"因果；方案商可推出\"AI 爬虫可达性 + 结构化数据 + SSR\"诊断 SaaS，抢占机器友好优化新赛道。",
+    "用「度量标准化」做差异化促单：以 96% 被识别 / 89% 零提及、引用≠提及等行业基准数据，向客户证明\"铺量失效、度量先行\"，把交付从\"发稿量\"升级为\"可量化引用份额\"。",
+    "关注广电等权威信源新玩家：青岛交通广播下场做 GEO 服务，印证\"官方媒体公信力 = 可信信源壁垒\"；方案商可探索与本地主流媒体/机构共建信源，强化 EEAT 背书。"
+   ]
+  },
+  {
+   "week_start": "2026-07-27",
+   "week_end": "2026-08-02",
+   "legacy": true,
+   "overview": {
+    "total": 17,
+    "by_category": {
+     "行业政策": {
+      "count": 1,
+      "pct": 0.06
+     },
+     "行业方法论": {
+      "count": 3,
+      "pct": 0.18
+     },
+     "新技术": {
+      "count": 2,
+      "pct": 0.12
+     },
+     "市场动态": {
+      "count": 8,
+      "pct": 0.47
+     },
+     "舆情": {
+      "count": 3,
+      "pct": 0.18
+     },
+     "平台动态": {
+      "count": 0,
+      "pct": 0.0
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "资本与全球巨头密集下场，GEO 从独立小赛道升级为营销云标配与确定性资本赛道：OpenAI 开放 ChatGPT 自助广告（organic×paid 双轨）、Adobe+电通数字以 LLM Optimizer 做 GEO 支援、Petra Labs 与 BrandRank.AI 完成 AEO 融资、帷幄官宣 C3 轮 4000 万美元、中国德国商会将 GEO 列入企业传播议程。",
+     "refs": [
+      "2026-07-27-01",
+      "2026-07-28-03",
+      "2026-07-28-02",
+      "2026-07-30-02"
+     ],
+     "ref_links": [
+      {
+       "title": "OpenAI 在 ChatGPT 正式推出广告服务，Best Buy 等品牌首批试水（搜狐科技）",
+       "url": "https://www.sohu.com/a/1053316063_122396381"
+      },
+      {
+       "title": "Dentsu Digital Launches AI-Era Brand Defense: Enhances GEO Support with New Adobe Tool（biggo）",
+       "url": "https://finance.biggo.com/news/e0e39ac1-aabb-4df8-a0e3-b03b76f7d30e"
+      },
+      {
+       "title": "Petra Labs 获 520 万美元种子融资（DoNews）",
+       "url": "https://www.donews.com/news/detail/8/6648219.html"
+      },
+      {
+       "title": "80%消费者决策靠 AI 辅助、客户续约率 100%：AI搜索时代，品牌的钱该怎么花（网易·非凡产研）",
+       "url": "https://dy.163.com/article/L2VBVEIF05568W0A.html"
+      }
+     ]
+    },
+    {
+     "text": "标准化与合规深化：中广协《生成引擎优化(GEO)团体标准》公开征求意见（8/30 截止，含定义/准入/计价/语料/合规五专项），信通院可信认证持续落地，合规化从「加分项」变为「入场券」。",
+     "refs": [
+      "2026-07-30-01"
+     ],
+     "ref_links": [
+      {
+       "title": "中国商务广告协会关于公开征求《生成引擎优化(GEO)团体标准》意见的通知（协会官网）",
+       "url": "http://caacchina.org/news/notice/2026/0728/523.html"
+      }
+     ]
+    },
+    {
+     "text": "方法论体系化、信任成为第一性原理：爱分析定义 GEO 全链路三环节方法论、Kevin Indig 品类占位研究（89% 需求无主、占位后 90.4% 留存）、首份医美垂类 GEO 白皮书（EEAT×可见度）；豆包 7 月算法实测证实铺量失效、信源竞争时代到来；南方人物周刊提出「证据经济」让严肃内容重新值钱。",
+     "refs": [
+      "2026-07-31-01",
+      "2026-07-31-03",
+      "2026-07-31-05",
+      "2026-07-31-02"
+     ],
+     "ref_links": [
+      {
+       "title": "爱分析定义生成式引擎优化的AI认知本质（阿里云开发者社区）",
+       "url": "https://developer.aliyun.com/article/1752088"
+      },
+      {
+       "title": "89% of AI Search Demand Has No Clear Brand Owner（RanketAI）",
+       "url": "https://www.ranketai.com/en/blog/deep-dive-ai-category-ownership-window-2026-07-30"
+      },
+      {
+       "title": "首份医美垂类GEO白皮书发布 棱镜方法论定义AI信任资产（中华网健康）",
+       "url": "https://m.health.china.com/ppgc/13004175/20260731/49645943.html"
+      },
+      {
+       "title": "豆包7月算法调整背后：GEO进入信源竞争时代（IT之家）",
+       "url": "https://www.ithome.com/0/983/613.htm"
+      }
+     ]
+    },
+    {
+     "text": "海外 AEO 赛道成型：Petra Labs、BrandRank.AI 押注 AEO（答式引擎优化），与 GEO 同属「让品牌被 AI 答案引用」的优化学科，卖点从「可见度」升级为「信任与推荐份额」，GEO→AEO 代际演进加速。",
+     "refs": [
+      "2026-07-30-03"
+     ],
+     "ref_links": [
+      {
+       "title": "BrandRank.AI Completes the Initial Closing of a $3 Million Series Seed Financing（EIN Presswire）",
+       "url": "https://www.einpresswire.com/article/929820877/brandrank-ai-completes-the-initial-closing-of-a-3-million-series-seed-financing"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [],
+   "implications": [
+    "把「organic×paid 双轨」做成标准叙事：ChatGPT 广告开放后，GEO 卖点从「被引用」升级为「被引用+被赞助」双轨占位，方案商应把监测/优化能力扩展到付费 AI 推荐位。",
+    "用「合规化入场券」做差异化：以中广协标准/信通院认证为背书，主推「有标可依、有级可评、效果可溯」的透明交付，规避清朗行动点名风险。",
+    "方法论产品化、信任资产化：将爱分析三环节、品类占位、垂类白皮书等方法论封装为可演示 SaaS 模块；以「证据经济/AI 信任资产」切入高客单、强监管行业。",
+    "押注 AEO/GEO→AEO 演进：提前布局「被 AI 答案引用+推荐份额」一体化能力，参考 Petra Labs/BrandRank 的量化闭环（监测→归因→营收）。"
+   ]
+  },
+  {
+   "week_start": "2026-07-20",
+   "week_end": "2026-07-26",
+   "legacy": true,
+   "overview": {
+    "total": 23,
+    "by_category": {
+     "行业政策": {
+      "count": 3,
+      "pct": 0.13
+     },
+     "行业方法论": {
+      "count": 6,
+      "pct": 0.26
+     },
+     "新技术": {
+      "count": 0,
+      "pct": 0.0
+     },
+     "市场动态": {
+      "count": 9,
+      "pct": 0.39
+     },
+     "舆情": {
+      "count": 5,
+      "pct": 0.22
+     },
+     "平台动态": {
+      "count": 0,
+      "pct": 0.0
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "标准化竞速期确立：信通院首批能力完备性测评、中广协三项团体标准征求意见、服务商星级评估启动，国家级「标尺」密集落地，GEO 从「野路子」走向「有标可依、有级可评」。",
+     "refs": [
+      "2026-07-21-01",
+      "2026-07-21-05",
+      "2026-07-22-01"
+     ],
+     "ref_links": [
+      {
+       "title": "信通院首批 GEO 能力完备性测评落地，清蓝卓越级、中关村科金优秀级（今日头条）",
+       "url": "https://www.toutiao.com/article/7662307129180668479"
+      },
+      {
+       "title": "合规化加速：中广协三项团体标准征求意见 + WAIC《GEO 向善》倡议（中国消费者报）",
+       "url": "https://www.ccn.com.cn/Content/2026/07-13/1530089050.html"
+      },
+      {
+       "title": "GEO 服务商能力评估（星级）正式启动，证书多平台公示（中华网）",
+       "url": "https://digi.china.com/articles/20260720/202607201921859.html"
+      }
+     ]
+    },
+    {
+     "text": "方法论体系化跃迁：从单点铺量转向「实体锚定 / ED-GEO」「AI 可见度五层模型」「七大能力评估 + 红黑榜」，评估维度从模糊走向可量化、可审计。",
+     "refs": [
+      "2026-07-26-01",
+      "2026-07-25-01",
+      "2026-07-24-02"
+     ],
+     "ref_links": [
+      {
+       "title": "今日头条发布《基于实体锚定的信任重构研究》，提出 ED-GEO 方法论与 RAG 三层筛选漏斗（今日头条）",
+       "url": "https://www.toutiao.com/article/7666118447004123686"
+      },
+      {
+       "title": "威吉力发布《AI 可见度五层评估模型白皮书》，接入人民网 ACBS/ARA 评估闭环（今日头条）",
+       "url": "https://www.toutiao.com/article/7666319584013599284"
+      },
+      {
+       "title": "腾讯云开发者社区发布《GEO 优化避坑指南》，一线方法论走向体系化（腾讯云）",
+       "url": "https://cloud.tencent.com/developer/article/2714271"
+      }
+     ]
+    },
+    {
+     "text": "市场两极化：一端是 Adobe、微盟、米奥等上市公司/营销云巨头把 GEO 纳入标配或出海组合；另一端是低价交付、AI 投毒、案例虚标等乱象被网信办「清朗」行动点名，合规化成为入场券。",
+     "refs": [
+      "2026-07-24-01",
+      "2026-07-21-03",
+      "2026-07-25-02"
+     ],
+     "ref_links": [
+      {
+       "title": "Adobe 发布「Adobe Brand Visibility」统一 GEO 方案，全球营销云巨头正式入场（CHOSUNBIZ）",
+       "url": "https://biz.chosun.com/en/en-it/2026/07/22/HO6VGATTYJG7ZC4OQFJJGFQVOQ/"
+      },
+      {
+       "title": "微盟星启 GEO 海外版正式发布，构建「AI + 出海」双轮引擎（东方财富）",
+       "url": "https://finance.eastmoney.com/a/202607213815376886.html"
+      },
+      {
+       "title": "研究文章核查元宝推荐 10 家 GEO 服务商全部存在违规嫌疑，平台审核缺位被网信办点名（今日头条）",
+       "url": "https://www.toutiao.com/article/7664429006942405158"
+      }
+     ]
+    },
+    {
+     "text": "信任成为第一性原理：3·15 投毒黑产持续发酵，「被 AI 信任并引用」取代「被用户看见」成为核心竞争焦点，防御型 GEO / 验真从加分项变为确定性增量业务。",
+     "refs": [
+      "2026-07-21-02",
+      "2026-07-21-05",
+      "2026-07-27-03"
+     ],
+     "ref_links": [
+      {
+       "title": "AI 投毒黑产工业化：虚构手环 2 小时登顶 AI 答案，治理加速（中国质量万里行）",
+       "url": "https://www.315online.com/consumer-warning/417011.html"
+      },
+      {
+       "title": "市场爆发式增长但信任危机凸显，「保排名 / 投毒 / 案例虚标」三乱象成众矢之的（新浪）",
+       "url": "https://k.sina.cn/article_5953189932_162d6782c06704n4co.html"
+      },
+      {
+       "title": "《GEO 狂飙与隐忧》：低价交付陷阱实录曝光，网信办「清朗」行动点名 GEO 恶意营销（网易）",
+       "url": "https://dy.163.com/article/L2CQDM160556NLSO.html"
+      }
+     ]
+    }
+   ],
+   "platform_changes": [],
+   "implications": [
+    "把「合规化交付」做成标准卖点：以信通院测评 / 星级评估 / 中广协标准为背书，主推「有标可依、有级可评」的透明交付，规避低价铺量被清朗行动点名的风险。",
+    "方法论产品化：将 ED-GEO 实体锚定、五层可见度模型、七大能力评估封装为可演示、可审计的 SaaS 模块，让客户「看得见、测得准」，抬高专业门槛。",
+    "防御型 GEO 成新增长点：围绕「被 AI 信任并引用」推出验真 / 黑产防御 / 信源治理服务，把舆情风险转化为确定性增量业务。"
+   ]
+  }
+ ]
+}

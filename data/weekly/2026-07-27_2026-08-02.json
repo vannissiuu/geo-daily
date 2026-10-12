@@ -1,0 +1,122 @@
+{
+  "week_start": "2026-07-27",
+  "week_end": "2026-08-02",
+  "legacy": true,
+  "overview": {
+    "total": 17,
+    "by_category": {
+      "行业政策": {
+        "count": 1,
+        "pct": 0.06
+      },
+      "行业方法论": {
+        "count": 3,
+        "pct": 0.18
+      },
+      "新技术": {
+        "count": 2,
+        "pct": 0.12
+      },
+      "市场动态": {
+        "count": 8,
+        "pct": 0.47
+      },
+      "舆情": {
+        "count": 3,
+        "pct": 0.18
+      },
+      "平台动态": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "资本与全球巨头密集下场，GEO 从独立小赛道升级为营销云标配与确定性资本赛道：OpenAI 开放 ChatGPT 自助广告（organic×paid 双轨）、Adobe+电通数字以 LLM Optimizer 做 GEO 支援、Petra Labs 与 BrandRank.AI 完成 AEO 融资、帷幄官宣 C3 轮 4000 万美元、中国德国商会将 GEO 列入企业传播议程。",
+      "refs": [
+        "2026-07-27-01",
+        "2026-07-28-03",
+        "2026-07-28-02",
+        "2026-07-30-02"
+      ],
+      "ref_links": [
+        {
+          "title": "OpenAI 在 ChatGPT 正式推出广告服务，Best Buy 等品牌首批试水（搜狐科技）",
+          "url": "https://www.sohu.com/a/1053316063_122396381"
+        },
+        {
+          "title": "Dentsu Digital Launches AI-Era Brand Defense: Enhances GEO Support with New Adobe Tool（biggo）",
+          "url": "https://finance.biggo.com/news/e0e39ac1-aabb-4df8-a0e3-b03b76f7d30e"
+        },
+        {
+          "title": "Petra Labs 获 520 万美元种子融资（DoNews）",
+          "url": "https://www.donews.com/news/detail/8/6648219.html"
+        },
+        {
+          "title": "80%消费者决策靠 AI 辅助、客户续约率 100%：AI搜索时代，品牌的钱该怎么花（网易·非凡产研）",
+          "url": "https://dy.163.com/article/L2VBVEIF05568W0A.html"
+        }
+      ]
+    },
+    {
+      "text": "标准化与合规深化：中广协《生成引擎优化(GEO)团体标准》公开征求意见（8/30 截止，含定义/准入/计价/语料/合规五专项），信通院可信认证持续落地，合规化从「加分项」变为「入场券」。",
+      "refs": [
+        "2026-07-30-01"
+      ],
+      "ref_links": [
+        {
+          "title": "中国商务广告协会关于公开征求《生成引擎优化(GEO)团体标准》意见的通知（协会官网）",
+          "url": "http://caacchina.org/news/notice/2026/0728/523.html"
+        }
+      ]
+    },
+    {
+      "text": "方法论体系化、信任成为第一性原理：爱分析定义 GEO 全链路三环节方法论、Kevin Indig 品类占位研究（89% 需求无主、占位后 90.4% 留存）、首份医美垂类 GEO 白皮书（EEAT×可见度）；豆包 7 月算法实测证实铺量失效、信源竞争时代到来；南方人物周刊提出「证据经济」让严肃内容重新值钱。",
+      "refs": [
+        "2026-07-31-01",
+        "2026-07-31-03",
+        "2026-07-31-05",
+        "2026-07-31-02"
+      ],
+      "ref_links": [
+        {
+          "title": "爱分析定义生成式引擎优化的AI认知本质（阿里云开发者社区）",
+          "url": "https://developer.aliyun.com/article/1752088"
+        },
+        {
+          "title": "89% of AI Search Demand Has No Clear Brand Owner（RanketAI）",
+          "url": "https://www.ranketai.com/en/blog/deep-dive-ai-category-ownership-window-2026-07-30"
+        },
+        {
+          "title": "首份医美垂类GEO白皮书发布 棱镜方法论定义AI信任资产（中华网健康）",
+          "url": "https://m.health.china.com/ppgc/13004175/20260731/49645943.html"
+        },
+        {
+          "title": "豆包7月算法调整背后：GEO进入信源竞争时代（IT之家）",
+          "url": "https://www.ithome.com/0/983/613.htm"
+        }
+      ]
+    },
+    {
+      "text": "海外 AEO 赛道成型：Petra Labs、BrandRank.AI 押注 AEO（答式引擎优化），与 GEO 同属「让品牌被 AI 答案引用」的优化学科，卖点从「可见度」升级为「信任与推荐份额」，GEO→AEO 代际演进加速。",
+      "refs": [
+        "2026-07-30-03"
+      ],
+      "ref_links": [
+        {
+          "title": "BrandRank.AI Completes the Initial Closing of a $3 Million Series Seed Financing（EIN Presswire）",
+          "url": "https://www.einpresswire.com/article/929820877/brandrank-ai-completes-the-initial-closing-of-a-3-million-series-seed-financing"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [],
+  "implications": [
+    "把「organic×paid 双轨」做成标准叙事：ChatGPT 广告开放后，GEO 卖点从「被引用」升级为「被引用+被赞助」双轨占位，方案商应把监测/优化能力扩展到付费 AI 推荐位。",
+    "用「合规化入场券」做差异化：以中广协标准/信通院认证为背书，主推「有标可依、有级可评、效果可溯」的透明交付，规避清朗行动点名风险。",
+    "方法论产品化、信任资产化：将爱分析三环节、品类占位、垂类白皮书等方法论封装为可演示 SaaS 模块；以「证据经济/AI 信任资产」切入高客单、强监管行业。",
+    "押注 AEO/GEO→AEO 演进：提前布局「被 AI 答案引用+推荐份额」一体化能力，参考 Petra Labs/BrandRank 的量化闭环（监测→归因→营收）。"
+  ]
+}

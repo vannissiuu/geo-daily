@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-10",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-10-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "LightSite 发布《State of AI Search Readiness — August 2026》：技术就绪度驱动 AI 可见性",
+      "summary": "扫描6382域名，技术就绪度驱动AI可见性：D级升A级可见性+55%、提及+72%。",
+      "insight": "技术就绪度提升与可见性、提及率同步上升，客户站点审计应先修技术问题。",
+      "published": null,
+      "links": [
+        {
+          "text": "The State of AI Search Readiness — August 2026（LightSite）",
+          "url": "https://www.lightsite.ai/state-of-ai-search-readiness-2026"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-10-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "青岛交通广播组建 GEO 智能传播战队，主流媒体下场做 GEO 服务",
+      "summary": "青岛交通广播成立GEO智能传播战队，主流媒体下场做GEO服务赋能实体经济。",
+      "insight": "主流媒体下场做GEO，权威信源背书不再是独家卖点，方案商需明确自身交付优势。",
+      "published": null,
+      "links": [
+        {
+          "text": "青岛交通广播组建GEO智能传播战队，实战赋能本土实体经济（新浪）",
+          "url": "https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-10-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "AI 搜索优化投资意愿 38% 超传统 SEO，小站流量两年跌 60%",
+      "summary": "Semrush调查：38%营销人加投AI搜索优化，超传统SEO的36%；小站流量两年跌60%。",
+      "insight": "营销人对AI搜索的投入意愿超过传统SEO，可用该调查支持预算沟通，注明样本来自Semrush调查。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI搜索优化投资意愿38%超传统SEO：Google改规则后小站流量两年跌60%（网易）",
+          "url": "https://www.163.com/dy/article/L3NNPE0E05561FZU.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

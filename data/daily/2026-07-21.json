@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-21",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-21-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "信通院首批 GEO 能力完备性测评落地，清蓝卓越级、中关村科金优秀级",
+      "summary": "国家级标尺落地，GEO 能力首次有了权威分级。",
+      "insight": "信通院首批测评已出分级结果，方案商应对照能力完备性要求自查，评级可进投标材料。",
+      "published": null,
+      "links": [
+        {
+          "text": "信通院 GEO 研讨会暨首批测评（今日头条）",
+          "url": "https://www.toutiao.com/article/7662307129180668479"
+        },
+        {
+          "text": "清蓝获行业首家「卓越级」（网易）",
+          "url": "https://www.163.com/dy/article/L22BIGC705509IQZ.html"
+        },
+        {
+          "text": "中关村科金获「优秀级」（51ima）",
+          "url": "https://www.51ima.com/news/13416.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-21-02",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "AI 投毒黑产工业化：虚构手环 2 小时登顶 AI 答案，治理加速",
+      "summary": "3·15 曝光的 AI 投毒黑产持续发酵，防御型 GEO / 验真从加分项变为确定性增量业务。",
+      "insight": "虚构产品2小时登顶答案可作客户沟通案例，据此推出验真与防投毒监测服务。",
+      "published": null,
+      "links": [
+        {
+          "text": "警惕 AI 推荐背后的消费陷阱（中国质量万里行）",
+          "url": "https://www.315online.com/consumer-warning/417011.html"
+        },
+        {
+          "text": "斩断「投毒」AI 黑灰产业链（新华网 / 经济日报）",
+          "url": "https://www.news.cn/tech/20260323/c91f52ec891a44bab8d7348b98989c2d/c.html"
+        },
+        {
+          "text": "AI 被「投毒」如何防骗（人民网）",
+          "url": "https://finance.people.com.cn/n1/2026/0318/c1004-40683956.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-21-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "微盟星启 GEO 海外版正式发布，构建「AI + 出海」双轮引擎",
+      "summary": "GEO 从「品宣玄学」走向「全球化」主线。",
+      "insight": "出海客户有了现成对标产品，方案商需评估自家海外监测与内容交付能否打包成出海套餐。",
+      "published": null,
+      "links": [
+        {
+          "text": "微盟星启 GEO 海外版 · 东方财富报道",
+          "url": "https://finance.eastmoney.com/a/202607213815376886.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-21-04",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包打通电商成交闭环，GEO 迈入可量化 ROI 时代",
+      "summary": "豆包成抖音电商独立成交渠道，GEO 进入可量化 ROI 时代。",
+      "insight": "豆包成交可量化后，给电商客户做从豆包曝光到成交的归因，用ROI数据取代曝光话术。",
+      "published": null,
+      "links": [
+        {
+          "text": "豆包成独立成交渠道，GEO 进入可量化 ROI 时代（新浪财经）",
+          "url": "https://t.cj.sina.com.cn/articles/view/6153904342/16ecd20d600101b8u4?finpagefr=p_103"
+        },
+        {
+          "text": "抖音电商将豆包纳入抖店结算序列（虎嗅）",
+          "url": "https://www.huxiu.com/ainews/13837.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-21-05",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "合规化加速：中广协三项团体标准征求意见 + WAIC《GEO 向善》倡议",
+      "summary": "合规化加速，行业从「野路子」走向「有标可依」。",
+      "insight": "三项团标仍在征求意见，方案商可提前对照条款梳理交付流程，必要时提交修改意见。",
+      "published": null,
+      "links": [
+        {
+          "text": "中广协 GEO 三项团体标准公开征求意见（中国消费者报）",
+          "url": "https://www.ccn.com.cn/Content/2026/07-13/1530089050.html"
+        },
+        {
+          "text": "GEO 行业有标准了：41 家企业 77 位专家 3 个月干成（新浪）",
+          "url": "https://k.sina.cn/article_5953189932_162d6782c06704n4co.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 5,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

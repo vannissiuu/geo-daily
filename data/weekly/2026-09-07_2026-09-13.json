@@ -1,0 +1,124 @@
+{
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "legacy": true,
+  "overview": {
+    "total": 7,
+    "by_category": {
+      "行业政策": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "行业方法论": {
+        "count": 2,
+        "pct": 0.29
+      },
+      "新技术": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "市场动态": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 5,
+        "pct": 0.71
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "平台动态（平台可见度机制）：AI 答案\"引用透明度\"与\"可控性\"双线演进。Google AI Mode 接入 Gemini 3.8 Flash 一度在宽口径查询断引（24h 内修复），又测试分页式追问+跳过按钮改写多轮引用的呈现位置；OpenAI 把 Deep Research 的高引用透明度模式推向 Work/Codex，同时悄然封禁竞品图像/语音生成广告、掐断第三方图像工具的自然引用——AI 答案\"平台中性\"神话继续破灭，可见度机制越来越由平台自营边界定义。",
+      "refs": [
+        "2026-09-08-01",
+        "2026-09-11-02",
+        "2026-09-11-01",
+        "2026-09-09-01"
+      ],
+      "ref_links": [
+        {
+          "title": "Search Engine Roundtable：Google AI Mode Gemini 3.8 Flash Not Link Friendly",
+          "url": "https://www.seroundtable.com/google-ai-mode-gemini-38-no-links-42011.html"
+        },
+        {
+          "title": "AuspiaAI：Google AI Mode Tests Paginated Follow-Up Responses",
+          "url": "https://auspia.ai/blog/google-ai-mode-paginated-responses-skip-button-september-2026"
+        },
+        {
+          "title": "PYMNTS：OpenAI Cuts Off Rivals' Ads on ChatGPT",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cuts-off-rivals-ads-chatgpt/"
+        },
+        {
+          "title": "Index Lab：ChatGPT Ads Update: Ads Manager Plugin, Looser Custom Audiences, Euro Minimum",
+          "url": "https://www.indexlab.ai/blog/chatgpt-ads-plugin-custom-audiences-euro-minimum"
+        }
+      ]
+    },
+    {
+      "text": "平台动态（电商 GEO 度量）：Google Merchant Center AI 表现洞察扩至澳/加/印/新/美五市场，电商 GEO 可见度首获官方声量对标，但 Search Console 仍只给曝光不给点击，\"下游转化\"口径缺口未补。",
+      "refs": [
+        "2026-09-08-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Oday Bakkour：Merchant Center AI Performance Insights Reaches Four More Markets",
+          "url": "https://oday-bakkour.com/blog/seo-note-september-4-2026"
+        }
+      ]
+    },
+    {
+      "text": "行业方法论：Google 两个 AI 答案面给出截然不同的\"信源食谱\"——AI Overviews 由 YouTube 主导（22.9%）、AI Mode 由 Reddit 主导（17.9%）；ChatGPT 侧则因反作弊把 Reddit 引用占比从 3.83% 压到 0.5%，社交/视频平台霸榜但各面权重分化，GEO 须按 surface 分建基准、并把创作者/UGC/社媒声量纳入交付。",
+      "refs": [
+        "2026-09-10-01",
+        "2026-09-10-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Ahrefs：The 50 Most-Cited Websites in Google AI Overviews (September 2026)",
+          "url": "https://www.ahrefs.com/blog/most-cited-domains-ai-overviews/"
+        },
+        {
+          "title": "Ahrefs：The 50 Most-Cited Websites in Google AI Mode (September 2026)",
+          "url": "https://ahrefs.com/blog/most-cited-domains-ai-mode"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "Google 两答案面分化（AI Overviews 偏 YouTube、AI Mode 偏 Reddit），且 AI Mode 分页追问让引用呈现位置随翻页浮动；ChatGPT 反作弊把被刷量的 Reddit 等信源降权。品牌须按\"每个 AI 面一套引用基准\"建设，而非盯单一面。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "收录周期",
+      "text": "Google AI Mode 仍处功能快速迭代期（断引 bug 24h 内修复、分页追问周级灰度），引用波动不能简单归咎内容降权，须区分\"平台故障\"与\"内容降权\"。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "OpenAI 把竞品图像/语音生成广告与自然引用双通道关闭、Deep Research 深入 Work/Codex 工作流——\"平台是否把你的品类划进自营\"成为 GEO 风险评估新维度。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "ChatGPT 8/8 起把抓取重心从全网开放扫描转向特定站点，更强调\"被指定/被信任站点\"的可发现性；机器可读、一致、可被交叉验证的公开证据权重上升。",
+      "refs": [],
+      "ref_links": []
+    }
+  ],
+  "implications": [
+    "监测从单轮扩展到整段对话流与\"被引进入研究报告\"：Google AI Mode 分页追问、ChatGPT Deep Research 报告都要求 GEO 监测覆盖多轮交互与可复用引用资产，而非仅看单次回答提及。",
+    "交付须分 surface 建基准 + 纳入社媒/UGC/视频声量：YouTube/Reddit 等第三方平台霸榜 Google AI 引用，官网内容工程之外须把创作者与社媒声量纳入。",
+    "白帽结构化内容是唯一可持续路径：Reddit 刷量被降权、出版商植入捷径引争议，方案商应把\"真实、一致、可被交叉验证的公开证据\"作为交付底线，规避平台反作弊反噬。"
+  ]
+}

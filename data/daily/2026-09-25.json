@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-25",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "透镜GEO电商版上线，支持豆包/千问商品卡抓取、达人视频发布与 Agent 诊断报告，补齐 GEO 工具\"AI 推荐→被购买\"的转化闭环。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-25-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "透镜GEO电商版上线，打通\"AI推荐中被引用→被购买\"转化链路",
+      "summary": "透镜GEO正式上线电商版，支持豆包、千问 APP 商品卡抓取与热门商品/店铺挖掘，升级达人视频发布（一键入库、追踪大模型引用数据）与 Agent 诊断报告（自定义指标模板一键生成），补齐 GEO 工具从 AI 流量洞察到销量复盘的关键短板。",
+      "insight": "电商版支持豆包、千问商品卡抓取，电商客户的GEO需延伸到商品卡和销量复盘。",
+      "published": null,
+      "links": [
+        {
+          "text": "透镜GEO电商版上线！从AI流量到销量转化，助力品牌营销提效（极客网）",
+          "url": "https://www.fromgeek.com/daily/1044-728450.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

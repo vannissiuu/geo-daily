@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-14",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "合规治理加速落地：新华网牵头首部 GEO 可信传播团体标准 T/CAPT 026—2026 发布实施，三区分治+白帽/黑帽界限+信源A/B/C/D分级把合规变可操作标尺。",
+    "资本与认知双线进场：GEO 从概念进入主流产业视野，分众传媒战略投资钛镁AI，品牌核心命题从\"能否被看见\"转向\"能否被AI可信引用\"。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-14-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "新华网牵头首部 GEO 可信传播团体标准 T/CAPT 026—2026 发布并实施",
+      "summary": "新华网牵头首部GEO可信传播团标8-11发布、8-12实施。",
+      "insight": "标准已于8月12日实施，方案商应按其要求自检合规流程并写进服务条款。",
+      "published": null,
+      "links": [
+        {
+          "text": "广西日报：国内首部GEO可信传播团体标准施行",
+          "url": "https://v.gxnews.com.cn/a/21980606"
+        },
+        {
+          "text": "新浪：国内首部GEO可信传播团体标准正式发布",
+          "url": "https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-14-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "GEO 成资本新宠、从混沌走向规范化，分众传媒战略投资钛镁AI",
+      "summary": "GEO成资本新宠、从混沌走向规范化，分众战投钛镁AI。",
+      "insight": "分众战投钛镁AI说明传统媒体资源方在入局，方案商需准备合作或差异化方案。",
+      "published": null,
+      "links": [
+        {
+          "text": "钛媒体：当AI成为中间介质，究竟是谁在帮品牌讲故事？",
+          "url": "https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

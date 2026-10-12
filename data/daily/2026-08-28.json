@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-28",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "新华网在半年度业绩说明会明确 GEO 是 AI 时代内容可信传播核心赛道，并详解国内首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽 / 黑帽边界、来源可信度四级、全链路追溯），标志 GEO 从「拼曝光」转向「可信事实资产 + 合规治理」。",
+    "ChatGPT 引用源 8 月中旬结构性重构：Reddit 占比一周内从 3.83% 跌至 0.52%，帮助中心与产品文档跃升为最大引用类别（约 2%→32%）；「一手、可维护、结构化自有信源」权重上升，社区帖引流路径在 ChatGPT 侧基本关闭。",
+    "资本与标准同步收口：清蓝完成数千万元天使+轮融资并上线 GEO 数字员工 Mark，同时作为首家 GEO 服务商加入新华网 GEO 治理生态矩阵——「标准立规 + 产品化 + 生态绑定」成为头部 GEO 玩家共同路径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-28-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "新华网半年度业绩说明会：GEO 成 AI 时代内容可信传播核心赛道，详解首部 GEO 团体标准 T/CAPT 026—2026",
+      "summary": "新华网业绩说明会详解首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽/黑帽边界、信源四级分级）。",
+      "insight": "三区分治和白帽黑帽边界已公开，方案商应对照检查现有手法，清理高风险做法。",
+      "published": null,
+      "links": [
+        {
+          "text": "新华网 2026 半年度业绩说明会实录（东方财富路演）",
+          "url": "https://roadshow.eastmoney.com/luyan/5461027"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-28-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "清蓝完成数千万元天使+轮融资，GEO 数字员工 Mark 上线并加入新华网 GEO 治理生态矩阵",
+      "summary": "清蓝完成数千万元天使+轮融资并上线 GEO 数字员工 Mark，加入新华网 GEO 治理生态矩阵。",
+      "insight": "GEO数字员工获融资并进入新华网治理生态，客户有自动化交付需求，方案商应评估自动化路径。",
+      "published": null,
+      "links": [
+        {
+          "text": "时代财经：PureblueAI清蓝再获天使+轮融资，GEO数字员工正式上线",
+          "url": "https://www.time-weekly.com/post/332391"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-28-03",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 引用源剧变：Reddit 一周内从 3.83% 跌至 0.52%，帮助中心 / 文档成最大引用类别",
+      "summary": "ChatGPT 引用源剧变：Reddit 一周内 3.83%→0.52%，帮助中心/文档跃升为最大引用类别，一手结构化自有信源权重上升。",
+      "insight": "帮助中心与文档成为最大引用类别，客户应完善官方帮助文档并保持结构化。",
+      "published": null,
+      "links": [
+        {
+          "text": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit in August 2026",
+          "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

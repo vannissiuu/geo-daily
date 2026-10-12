@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-22",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "Google 把\"点击\"收进自己的 AI 层：Discover 新增「Dive deeper」，点开发卡不再直达出版方文章而是先进 AI 生成主题概览、原报道链接降为二级——推荐流的最后一公里被 AI 摘要接管，GEO 争夺对象从\"被点开\"变成\"被概览选中并署名\"。",
+    "AI 答案引擎的\"抽血效应\"首次被被告自证：微软内部文件承认 Copilot 相比 Bing 让新闻点击率掉 87%–93%、并自称陷入\"doom loop\"——版权诉讼把\"AI 可见度红利\"与\"内容供给侧崩塌\"绑成同一道题，方案商须把\"内容可归因、可计价\"写进交付。",
+    "中文 AI 的信源基本盘首次被量化：650 次回答实测显示被引 TOP 渠道为百度系、知乎、CSDN、IT之家、搜狐号，且检索层高度依赖百度索引——GEO 的投放平台须按目标模型反推，而非全平台一键分发。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-22-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google Discover 测试「Dive deeper」：点击后进入 AI 生成主题概览，出版方文章退居二级",
+      "summary": "Google 搜索产品负责人 Robby Stein 9/18 宣布 Discover 测试「Dive deeper」：点击后进入 AI 生成的主题概览（标注 AI 生成、可能出错），原出版方文章链接下移至概览下方，先测视频。",
+      "insight": "Discover中AI概览压低出版方链接位置，出版方客户应评估Discover流量风险。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Google Discover Testing Dive Deeper Feature",
+          "url": "https://www.seroundtable.com/google-discover-dive-deeper-42119.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-22-02",
+      "category": "舆情",
+      "platform": "",
+      "region": "海外",
+      "title": "纽约时报诉 OpenAI/微软案解封文件：微软内部数据显示 Copilot 使新闻点击率降 87%–93%",
+      "summary": "92 页简易判决摘要 9/17 解封：微软内部数据称 Copilot 相比传统 Bing 使 NYT 点击率降 87%–93%、Ziff Davis 降 51%–94%；内部文件称 AI 内容策略启动\"doom loop\"、\"LLM 是摧毁自身供应链的产品\"。",
+      "insight": "微软内部数据称Copilot使新闻点击率降87%到93%，出版方客户可用作点击下降的论据。",
+      "published": null,
+      "links": [
+        {
+          "text": "World Programming：A Microsoft scientist called AI training the largest theft of labor",
+          "url": "https://www.worldprogramming.org/posts/a-microsoft-scientist-called-ai-training-the-largest-theft-of-labor-bifjeq"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-22-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "实测 650 次 AI 回答：五模型引用信源结构差异，中文 AI 检索层高度依赖百度索引",
+      "summary": "技术团队 9/22 发布一手采样：65 个真实问题 × 豆包/DeepSeek/Kimi/GLM/Qwen 五模型 × 联网模式共 650 次回答，逐条记录引用域名并归一化，得出中文 AI 信源 TOP10 与百度索引依赖度结论，方法可复现。",
+      "insight": "五模型引用信源TOP10可作渠道选择依据；中文检索层依赖百度索引，应确保百度可收录。",
+      "published": null,
+      "links": [
+        {
+          "text": "腾讯云开发者社区：实测650次AI回答——五大模型的引用信源结构差异与渠道策略推导",
+          "url": "https://cloud.tencent.com/developer/article/2749064"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

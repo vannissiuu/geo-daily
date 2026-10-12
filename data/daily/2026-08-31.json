@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-31",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "Google 把 AI Overviews 默认展开为接近完整 AI Mode 答案，零点击蔓延至\"首屏即满屏\"，GEO 可见度从\"被引\"退守到\"被偏好+被折叠下的可信内容\"。",
+    "爬虫治理可声明化：Cloudflare BotBase for Operators 让 AI 爬虫显式声明\"可被搜索引用但拒入训练\"（search=yes, ai-train=no），GEO 方案商\"可被 AI 读取\"策略需新增训练意图开关维度。",
+    "行业标准化与生态共治加速：首届 AI 搜索峰会落地中广协 GEO 三项团标编制、IAB China 生态共建倡议，GEO 从\"拼曝光\"转向\"标准立规+可信资产+跨界共治\"。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-31-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在部分查询默认将 AI Overviews 展开为接近完整 AI Mode 答案，零点击蔓延至\"首屏即满屏\"",
+      "summary": "Google 在部分查询中默认将 AI Overviews 展开为接近完整 AI Mode 的答案，跳过\"Show more\"、直接带出\"Ask anything\"追问框，把传统蓝色链接进一步推到首屏之下；Google 称仅对系统判定最有用主题动态展开，已开始滚动则停止。",
+      "insight": "AI Overviews默认展开近完整答案，蓝色链接被压到首屏下，需向客户重新解释流量预期。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses By Default",
+          "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-31-02",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Cloudflare 上线 BotBase for Operators，让 AI 爬虫显式声明\"可被搜索引用但拒入训练\"",
+      "summary": "Cloudflare 上线 BotBase for Operators，让爬虫显式声明行为（索引/代理/训练/SEO）与内容使用（search=yes, ai-train=no），把\"可被 AI 搜索引用但拒入训练\"拆成可独立开关的信号。",
+      "insight": "爬虫可声明可搜索引用但拒入训练，客户可借此控制内容用途，方案商可提供配置服务。",
+      "published": null,
+      "links": [
+        {
+          "text": "Cloudflare 官方博客：BotBase for Operators",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-31-03",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "首届 AI 搜索峰会召开，中广协推进 GEO 三项团体标准 + IAB China 生态共建倡议",
+      "summary": "首届 AI 搜索峰会（主题\"重构决策入口与品牌增长\"）召开，中国广告协会秘书长霍焰表示正推进 GEO 三项团体标准编制落地，北大陈刚谈集成式传播与全流程校准，IAB China 董浩宇发布 AI 搜索生态共建倡议，同期发布《2026 AI 搜索优质案例集》。",
+      "insight": "峰会提到三项团标推进和生态共建倡议，方案商可跟进倡议内容并考虑参与共建。",
+      "published": null,
+      "links": [
+        {
+          "text": "人民网：首届AI搜索峰会召开 共探品牌增长新路径",
+          "url": "https://finance.people.com.cn/BIG5/n1/2026/0826/c1004-40786739.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

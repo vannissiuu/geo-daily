@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-26",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-26-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "今日头条发布《基于实体锚定的信任重构研究》，提出 ED-GEO 方法论与 RAG 三层筛选漏斗",
+      "summary": "把\"实体锚定（Entity Anchoring）/ ED-GEO\"理论化，给出 RAG 架构下\"实体识别→一致性校验→信源交叉验证\"三层筛选漏斗，并以工业制造/老字号/ B2B 技术服务/连锁服务四赛道案例实证；本质是\"面向 AI 知识库的数字信用充值\"。",
+      "insight": "实体识别、一致性校验、信源交叉验证三层漏斗可作内容审计清单，先保证品牌实体信息一致。",
+      "published": null,
+      "links": [
+        {
+          "text": "生成式引擎优化（GEO）的新范式：基于实体锚定的信任重构研究（今日头条·行业动态）",
+          "url": "https://www.toutiao.com/article/7666118447004123686"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-26-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "SEC 披露 Avalon GloboCare 更名 Change Agents Corp.（Nasdaq: CHGA），规划上线 GEO 平台 Beacon",
+      "summary": "美国 SEC 官方备案显示上市公司重组为代理式 AI 软件公司，核心产品 Beacon 定位 \"AI Generative Engine Optimization platform\"，规划 2026 Q3 末上线，帮企业优化 AI 搜索数字存在、监测跨 AI 平台品牌可见度。",
+      "insight": "美国上市公司转做GEO平台，Beacon预计Q3末上线，方案商可跟踪其功能与定价。",
+      "published": null,
+      "links": [
+        {
+          "text": "Avalon GloboCare Announces Strategic Transformation into Change Agents Corp.（SEC EX-99.1）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026079830/ea029857301ex99-1.htm"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

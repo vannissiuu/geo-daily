@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-11",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "ChatGPT 把\"付费广告\"与\"自然引用\"两条通道同时向竞品关闭（图像/语音生成类），AI 答案的\"平台中性\"神话破灭，GEO 须把\"平台是否把你的品类划进自营\"纳入风险评估。",
+    "Google AI Mode 测试分页式追问+跳过按钮，多轮对话的引用呈现位置可能随翻页改变，GEO 监测须从单轮扩展到整段对话流。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-11-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 悄然封禁竞品图像/语音生成广告，并掐断第三方图像工具的 ChatGPT 自然引用与 citation",
+      "summary": "OpenAI 据 The Information 9/9-10 报道，悄然禁止竞品在 ChatGPT 投放图像/语音生成类广告（Adobe Firefly 中招），并对图像编辑器/生成器类查询停止返回外部引用链接，把自营多模态能力圈进闭环。",
+      "insight": "ChatGPT收紧竞品图像语音类广告和引用，相关客户需评估被排除的风险并另找曝光渠道。",
+      "published": null,
+      "links": [
+        {
+          "text": "PYMNTS：OpenAI Cuts Off Rivals' Ads on ChatGPT",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cuts-off-rivals-ads-chatgpt/"
+        },
+        {
+          "text": "Adgully：OpenAI tightens ChatGPT ad guidelines",
+          "url": "https://www.adgully.com/post/20391/openai-tightens-chatgpt-ad-guidelines-restricts-competing-image-and-audio-generation-services"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-11-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google AI Mode 测试分页式追问与\"跳过\"按钮，多轮交互的引用呈现位置或随翻页改变",
+      "summary": "Google AI Mode 据 9/8 观测（SEO 从业者 Sachin Patel 首发、SEW 转述）测试分页式追问+跳过按钮，把多轮追问拆成可翻页块；引用呈现位置可能随翻页变化，对用户是否看到引用源产生不确定性。",
+      "insight": "分页追问使引用位置不稳定，监测需覆盖多轮追问，结论标注为测试阶段观测。",
+      "published": null,
+      "links": [
+        {
+          "text": "AuspiaAI：Google AI Mode Tests Paginated Follow-Up Responses With Skip Button",
+          "url": "https://auspia.ai/blog/google-ai-mode-paginated-responses-skip-button-september-2026"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

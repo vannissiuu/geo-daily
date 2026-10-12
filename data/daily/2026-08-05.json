@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-05",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-05-01",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包公开《站点权威度分级说明》：信源分 Level1-4，Filter-AuthInfoLevel 可调",
+      "summary": "豆包把信源分 Level1-4，Level1 为入场券，高权威源优先被引。",
+      "insight": "对照豆包信源Level1-4检查客户站点所处等级，先争取入场资格，再谈内容优化。",
+      "published": null,
+      "links": [
+        {
+          "text": "品牌为什么在AI搜索中消失，豆包信源分级与优化服务商选型解析（IT之家）",
+          "url": "https://www.ithome.com/0/985/797.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-05-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "增长黑盒×Emergine 发布全球 GEO 数据报告：5000 条 AI 对话、10 行业",
+      "summary": "采集 5000 条 AI 搜索对话覆盖 10 行业：上游问题已种草、官网为地基、实体成硬通货。",
+      "insight": "官网是地基、实体成硬通货，先做官网与实体信息治理，再做外围铺量。",
+      "published": null,
+      "links": [
+        {
+          "text": "揭秘2026年全球GEO数据：AI 会怎么对待你的品牌？（钛媒体 APP）",
+          "url": "https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

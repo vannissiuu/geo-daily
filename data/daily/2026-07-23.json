@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-23",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-23-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "米奥会展推出「星知」GEO 品牌智造方案，上市公司跨界卡位 AI 搜索入口",
+      "summary": "又一家具「会展/出海营销」背景的上市公司下场做 GEO 自有产品，竞争维度扩展到「GEO+出海视频+展会流量」组合打法。",
+      "insight": "跨界对手把GEO、出海视频、展会流量打包销售，纯GEO方案商需先明确自身差异化再投标。",
+      "published": null,
+      "links": [
+        {
+          "text": "米奥会展推出「星知」GEO 品牌智造方案（东方财富股吧）",
+          "url": "https://guba.eastmoney.com/news,300795,1747778133.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-23-02",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "3·15 后时代的 GEO：出圈、洗牌、等待 AI 打开黑匣子",
+      "summary": "一线从业者访谈印证「合规化+白帽」主线真实，给出可落地合规交付框架（合同责任+数据留痕+人工把关）。",
+      "insight": "访谈给出合同责任、数据留痕、人工把关三项合规要点，可直接写进服务合同模板。",
+      "published": null,
+      "links": [
+        {
+          "text": "3·15 后时代的 GEO：出圈、洗牌、等待 AI 打开黑匣子（新浪新闻）",
+          "url": "https://k.sina.com.cn/article_5952915720_162d2490806704hcv6.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

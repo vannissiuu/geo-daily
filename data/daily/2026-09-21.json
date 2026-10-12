@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-21",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "GEO 赛道的资本确认：Profound 完成 1.8 亿美元 D 轮、估值 18 亿美元跻身独角兽（红杉/KP 领投、客户超 1000 家），标志\"让 AI 推荐品牌\"从概念走向可投资基础设施，GEO 工具层价值被一级市场重估。",
+    "平台可见度规则被监管改写：Google 在欧盟 30 国撤下免费商品列表与热门商品轮播（DMA 合规），欧洲电商自然获客路径基本关闭，GEO 布局须重估 Perplexity/ChatGPT Search 与比价平台组合、把\"付费+AI 答案引擎\"纳入可见度主干。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-21-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Profound 完成 1.8 亿美元 D 轮、估值 18 亿美元跻身 GEO 独角兽，红杉与 KP 领投",
+      "summary": "36氪 9/20 报道，AI 营销公司 Profound 完成 1.8 亿美元 D 轮（红杉、Kleiner Perkins 领投），估值 18 亿美元跻身独角兽；成立两年累计融资 3.35 亿美元，客户超 1000 家（含沃尔玛、雅诗兰黛），主营 GEO 品牌可见度监测与 AI Marketer。",
+      "insight": "Profound累计融资3.35亿美元、客户超1000家，监测赛道资本集中，需突出自身服务与行业深度。",
+      "published": null,
+      "links": [
+        {
+          "text": "36氪：搜索正在死去，红杉和KP花18亿美元押注\"AI时代的SEO\"",
+          "url": "https://www.36kr.com/p/3991507149395844"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-21-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在欧盟 30 国撤下免费商品列表与热门商品轮播（DMA 合规），欧洲电商自然获客路径基本关闭",
+      "summary": "ppc.land（9/18）报道，Google 9/17–18 在 30 个 EEA 国家撤下免费商品列表、热门产品轮播与 Shopping 标签（DMA 裁决）；Productrise 监测德/法/比/荷/瑞曝光降 90%–100%，流量转向比价与付费 Shopping。",
+      "insight": "欧洲电商自然获客路径基本关闭，欧盟客户需把预算转向比价与付费Shopping。",
+      "published": null,
+      "links": [
+        {
+          "text": "PPC Land：Google drops free shopping listings across Europe in two days",
+          "url": "https://ppc.land/google-drops-free-shopping-listings-across-europe-in-two-days/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "week_start": "2026-08-17",
+  "week_end": "2026-08-23",
+  "legacy": true,
+  "overview": {
+    "total": 17,
+    "by_category": {
+      "行业政策": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "行业方法论": {
+        "count": 6,
+        "pct": 0.35
+      },
+      "新技术": {
+        "count": 1,
+        "pct": 0.06
+      },
+      "市场动态": {
+        "count": 3,
+        "pct": 0.18
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 7,
+        "pct": 0.41
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "平台逻辑三连击，引用「被看见」与「被点击」双双被压缩：豆包把排序标尺从信源权重改为「决策有效性」（客观性识别+60%重合度阈值），ChatGPT 把 Sources 按钮移入折叠菜单降低引用可见度，Google 在 AI Overviews 实装 AI 生成图并扩展 Generative UI，同时把「读者偏好源」做成答案可见度信号。",
+      "refs": [
+        "2026-08-17-01",
+        "2026-08-17-02",
+        "2026-08-21-01"
+      ],
+      "ref_links": [
+        {
+          "title": "决策有效性时代来临：豆包算法重构GEO格局（网易）",
+          "url": "https://www.163.com/dy/article/L4FHI8P70552N10P.html"
+        },
+        {
+          "title": "OpenAI Makes The ChatGPT Sources Less Visible（Search Engine Roundtable）",
+          "url": "https://www.seroundtable.com/openai-chatgpt-sources-less-visible-41864.html"
+        },
+        {
+          "title": "Google 官方博客：Personalize what you see on Search, Discover, News",
+          "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"
+        }
+      ]
+    },
+    {
+      "text": "GEO 度量实证化、可量化成主线：RESONEO 逆向 ChatGPT 检索漏斗（约 5.8 万 URL 仅约 760 被打开）、Steady Demand 测 Gemini 本地引用企业站占近 60%、Victorino 测 22.4% AI Overview 流量误记 Direct、Scrunch 测 AI 仅贡献出版商 1.1% 直接访问——单次快照不可信，需多次采样与渠道归因。",
+      "refs": [
+        "2026-08-19-02",
+        "2026-08-21-05",
+        "2026-08-21-06"
+      ],
+      "ref_links": [
+        {
+          "title": "ChatGPT Retrieval Rarely Opens Source Pages（Get Search Engine）",
+          "url": "https://getsearchengine.com/blog/chatgpt-retrieval"
+        },
+        {
+          "title": "Business websites dominate Gemini local AI search citations（World Programming）",
+          "url": "https://www.worldprogramming.org/posts/business-websites-dominate-gemini-local-ai-search-citations-study-onkyfq"
+        },
+        {
+          "title": "AI Overviews Send You Traffic. Your Analytics Files 22% of It Under Direct（Victorino）",
+          "url": "https://victorinollc.com/thinking/ai-overview-misattribution-22-percent"
+        }
+      ]
+    },
+    {
+      "text": "市场「资本 + 垂类」双线下场：中康科技发布医药垂类 GEO 平台 MedCortex，弯弓白皮书估 2026 中国 GEO 市场约 21 亿、玩家破 100 家，钛动科技融资明确「围绕 GEO 全面布局」并成 ChatGPT Ads 首批技术伙伴。",
+      "refs": [
+        "2026-08-18-01",
+        "2026-08-19-03",
+        "2026-08-20-01"
+      ],
+      "ref_links": [
+        {
+          "title": "中康科技发布医药垂类GEO平台MedCortex（新浪财经）",
+          "url": "https://www.163.com/dy/article/L4B7L95T05568W0A.html"
+        },
+        {
+          "title": "读懂2026可信GEO实战白皮书（腾讯新闻）",
+          "url": "https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009"
+        },
+        {
+          "title": "首发|钛动科技完成新一轮融资（腾讯新闻·猎云网）",
+          "url": "https://news.qq.com/rain/a/20260820A049M400"
+        }
+      ]
+    },
+    {
+      "text": "方法论与工具产品化：一搜百应发布 ROI 白皮书建五层评估+ROI 框架，Mod Op 上线免费 AI 可见度审计与 GEO 50 榜，GEO 进入效果验证期。",
+      "refs": [
+        "2026-08-18-05",
+        "2026-08-18-02"
+      ],
+      "ref_links": [
+        {
+          "title": "2026企业GEO效果评估与ROI白皮书（同花顺）",
+          "url": "https://m.10jqka.com.cn/20260818/c679037154.shtml"
+        },
+        {
+          "title": "Mod Op Launches Free AI Search Visibility Tool and The GEO 50（GlobeNewswire）",
+          "url": "https://www.gananoquereporter.com/globe-newswire/mod-op-launches-free-ai-search-visibility-tool-and-unveils-the-geo-50"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "豆包以「决策有效性」替代信源权重，ChatGPT 折叠 Sources 按钮，Google 用 AI 生成图替代原站视觉，品牌「被引却不被点」加剧。",
+      "refs": [
+        "2026-08-17-03"
+      ],
+      "ref_links": [
+        {
+          "title": "AI-Generated Images In Google AI Overviews（Search Engine Roundtable）",
+          "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html"
+        }
+      ]
+    },
+    {
+      "dimension": "收录周期",
+      "text": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，同提示词引用集因订阅账号而异，引用结果个性化分层。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "Google Preferred Sources 把「读者对出版方的忠诚度」做成 AI 答案可见度信号，内容方获得用户侧可控的偏好入口。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "受控测试证明 GPTBot/ClaudeBot/PerplexityBot 对 JS 注入链接页发现率为 0，仅 Googlebot 可执行 JS——可抓取性仍是 AI 可见度底座。",
+      "refs": [
+        "2026-08-21-04"
+      ],
+      "ref_links": [
+        {
+          "title": "DEV Community：JavaScript Links Can Hide Content From AI Crawlers",
+          "url": "https://dev.to/alifar/javascript-links-can-hide-content-from-ai-crawlers-a-41-day-test-shows-34cg"
+        }
+      ]
+    }
+  ],
+  "implications": [
+    "把「自然+付费」双轨占位做成标准叙事：ChatGPT Ads 扩至 31 欧市、钛动成首批技术伙伴，GEO 卖点从「被引用」升级为「被引用+被赞助」，监测/优化需覆盖付费 AI 推荐位。",
+    "用「度量标准化 + 多次采样」破解单次快照幻觉：以 RESONEO / Steady Demand / Victorino / Scrunch 实证数据，向客户证明「被引≠被点≠被打开」，交付从发稿量升级为可量化引用份额与转化归因。",
+    "主推「技术就绪度诊断」独立线：以 JS 零发现实测为锤，推「AI 爬虫可达性 + 结构化数据 + SSR」诊断 SaaS，抢占机器友好优化新赛道。",
+    "垂类 GEO 平台化：中康 MedCortex 验证医药等强监管行业垂类 GEO 平台需求，方案商可复制「行业知识图谱 + 可见度监测」垂类打法。"
+  ]
+}

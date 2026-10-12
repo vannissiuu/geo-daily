@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-08",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "Google AI 答案面的\"可靠性\"与\"可观测性\"同步承压：Gemini 3.8 Flash 模型切换一度让 AI Mode 在部分宽口径查询完全不引源（已确认 bug、24h 内修复），提醒 GEO 监测须把\"平台故障\"与\"内容降权\"严格区分，引用波动不能简单归咎内容。",
+    "电商 GEO 度量从\"黑箱\"走向\"有基准\"：Merchant Center AI 表现洞察扩至五市场（仅英文），首次给品牌在 AI 购物答案中的声量占比与竞品对标；但 Search Console AI 报告仍只给曝光不给点击，AI 可见度的\"下游转化\"仍缺官方口径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-08-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google AI Mode 接入 Gemini 3.8 Flash 后短暂\"断引\"，Google 确认 bug 并 24 小时内修复",
+      "summary": "Google 9/2 将 Gemini 3.8 Flash 接入 AI Mode（仅 AI Pro/Ultra 付费订阅可选），部分宽口径查询答案无引用/链接；9/3 SEO 实测曝光，搜索产品 VP Robby Stein 确认\"非预期、将修复\"，9/4 链接恢复，属短暂模型级故障。",
+      "insight": "新模型接入可能短暂断引，监测需设引用缺失告警，并向客户说明波动属平台故障。",
+      "published": null,
+      "links": [
+        {
+          "text": "Google AI Mode Gemini 3.8 Flash Not Link Friendly（Search Engine Roundtable）",
+          "url": "https://www.seroundtable.com/google-ai-mode-gemini-38-no-links-42011.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-08-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google Merchant Center AI 表现洞察扩至澳/加/印/新/美五市场，电商 GEO 可见度首获官方对标",
+      "summary": "Google Merchant Center 的 AI 表现洞察 9/3 扩至澳大利亚、加拿大、印度、新西兰、美国五市场（仅英文查询），给品牌在 AI 购物答案中的声量占比、出现频次与竞品对标，电商 GEO 可见度首获官方基准（仍缺点击口径）。",
+      "insight": "Merchant Center可看AI购物声量占比，电商客户可用作基准，点击数据需另行补充。",
+      "published": null,
+      "links": [
+        {
+          "text": "Merchant Center AI Performance Insights Reaches Four More Markets（Oday Bakkour）",
+          "url": "https://oday-bakkour.com/blog/seo-note-september-4-2026"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

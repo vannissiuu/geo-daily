@@ -1,0 +1,602 @@
+{
+ "generated_at": "2026-10-12T11:30:00+08:00",
+ "meta": {
+  "title": "GEO 每日行业动态",
+  "categories": [
+   "行业政策",
+   "行业方法论",
+   "新技术",
+   "市场动态",
+   "舆情",
+   "平台动态"
+  ],
+  "c_cat": [
+   "分类说明：",
+   "- 行业政策：监管 / 标准 / 行业自律",
+   "- 行业方法论：GEO 的方法、指标与实践",
+   "- 新技术：与 GEO 相关的新模型、新工具",
+   "- 市场动态：服务商、融资、客户预算",
+   "- 舆情：公众与媒体对 AI 搜索的讨论",
+   "- 平台动态：各 AI 平台的产品与逻辑变更（标注平台名）"
+  ],
+  "c_src": "本文档信源筛选原则：真实可溯可访问 + 优先权威/中立媒体 + 非软文 + 时效5天以内",
+  "stats": {
+   "days": 10,
+   "entries": 17,
+   "weeks": 2,
+   "first_date": "2026-09-15",
+   "last_date": "2026-10-09"
+  }
+ },
+ "days": [
+  {
+   "date": "2026-10-09",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": false,
+   "highlights": [
+    "豆包新增参考来源折叠面板，官方站点权重上调",
+    "GEO 评估指标从收录量转向被引用率"
+   ],
+   "entries": [
+    {
+     "id": "2026-10-09-01",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包上线引用来源折叠面板，官方站点权重上调",
+     "summary": "豆包在回答底部新增“参考来源”折叠面板，默认展示前三条，官方站点与权威媒体排序靠前。",
+     "insight": "品牌方应优先补全官网结构化内容，并核对第三方权威媒体的收录情况。",
+     "published": "2026-10-08",
+     "links": [
+      {
+       "text": "豆包上线引用来源折叠面板…（原文）",
+       "url": "https://example.com/geo/2026-10-09-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-10-09-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-10-09-02",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "GEO 内容评估：用“被引用率”替代“收录量”",
+     "summary": "一篇方法论文章提出以提示词集合下的被引用率、引用位置和情感倾向作为 GEO 核心指标。",
+     "insight": "可直接纳入方案商的月报指标体系。",
+     "published": "2026-10-07",
+     "links": [
+      {
+       "text": "GEO 内容评估：用“被…（原文）",
+       "url": "https://example.com/geo/2026-10-09-02"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-10-09-03",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "开源工具发布批量提示词监测框架",
+     "summary": "新框架支持对多个大模型批量发送提示词并解析引用来源，输出品牌提及率报表。",
+     "insight": null,
+     "published": "2026-10-08",
+     "links": [
+      {
+       "text": "开源工具发布批量提示词监…（原文）",
+       "url": "https://example.com/geo/2026-10-09-03"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "周四",
+   "status": "few",
+   "legacy": false,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-10-08-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "某头部营销服务商宣布推出 GEO 代运营套餐",
+     "summary": "套餐按提示词覆盖数计价，主打汽车与消费电子行业。",
+     "insight": null,
+     "published": "2026-10-07",
+     "links": [
+      {
+       "text": "某头部营销服务商宣布推出…（原文）",
+       "url": "https://example.com/geo/2026-10-08-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-10-08-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "周三",
+   "status": "none",
+   "legacy": false,
+   "highlights": [],
+   "entries": []
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": false,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-10-06-01",
+     "category": "行业政策",
+     "platform": "",
+     "region": null,
+     "title": "网信部门就生成式 AI 服务标识规范征求意见",
+     "summary": "征求意见稿要求生成内容显著标识，并明确引用来源应可追溯。",
+     "insight": null,
+     "published": null,
+     "links": [
+      {
+       "text": "网信部门就生成式 AI …（原文）",
+       "url": "https://example.com/geo/2026-10-06-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-10-06-01"
+      }
+     ],
+     "source_type": null,
+     "soft_class": null,
+     "backfilled": false
+    },
+    {
+     "id": "2026-10-06-02",
+     "category": "舆情",
+     "platform": "",
+     "region": null,
+     "title": "多家媒体讨论“AI 回答被软文污染”",
+     "summary": "文章指出部分品牌通过批量发布软文影响大模型回答，引发平台治理讨论。",
+     "insight": null,
+     "published": null,
+     "links": [
+      {
+       "text": "多家媒体讨论“AI 回答…（原文）",
+       "url": "https://example.com/geo/2026-10-06-02"
+      }
+     ],
+     "source_type": null,
+     "soft_class": null,
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": false,
+   "highlights": [
+    "DeepSeek 调整来源去重策略，单站点铺量收益下降"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-30-01",
+     "category": "平台动态",
+     "platform": "DeepSeek",
+     "region": "国内",
+     "title": "DeepSeek 联网搜索调整来源去重策略",
+     "summary": "同一站点的多篇内容在引用中会被合并展示。",
+     "insight": "同一站点铺量的收益下降，应转向多信源分布。",
+     "published": "2026-09-29",
+     "links": [
+      {
+       "text": "DeepSeek 联网搜…（原文）",
+       "url": "https://example.com/geo/2026-09-30-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-30-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-09-30-02",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "广告法修订草案涉及 AI 生成营销内容",
+     "summary": "草案拟明确 AI 生成营销内容的广告主责任。",
+     "insight": null,
+     "published": "2026-09-28",
+     "links": [
+      {
+       "text": "广告法修订草案涉及 AI…（原文）",
+       "url": "https://example.com/geo/2026-09-30-02"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-25",
+   "weekday": "周五",
+   "status": "normal",
+   "legacy": false,
+   "highlights": [
+    "多模态检索进入主流搜索产品"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-25-01",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "多模态检索进入主流搜索产品",
+     "summary": "图片与视频内容开始作为生成式回答的引用来源。",
+     "insight": "视频类内容需要补充文字转写与结构化描述。",
+     "published": "2026-09-24",
+     "links": [
+      {
+       "text": "多模态检索进入主流搜索产…（原文）",
+       "url": "https://example.com/geo/2026-09-25-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-25-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-09-25-02",
+     "category": "市场动态",
+     "platform": "",
+     "region": "海外",
+     "title": "GEO 方案商融资消息汇总",
+     "summary": "本月有两家海外 GEO 工具公司披露新一轮融资。",
+     "insight": null,
+     "published": "2026-09-24",
+     "links": [
+      {
+       "text": "GEO 方案商融资消息汇…（原文）",
+       "url": "https://example.com/geo/2026-09-25-02"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": false,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-09-22-01",
+     "category": "行业方法论",
+     "platform": "",
+     "region": "国内",
+     "title": "如何给品牌词建立“提示词地图”",
+     "summary": "文章介绍从用户问题出发拆解提示词，并按购买阶段分层。",
+     "insight": null,
+     "published": "2026-09-21",
+     "links": [
+      {
+       "text": "如何给品牌词建立“提示词…（原文）",
+       "url": "https://example.com/geo/2026-09-22-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-22-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "weekday": "周四",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [
+    "豆包汽车类问题回答模板新增参数对比表",
+    "文心一言上线官方认证信源标记"
+   ],
+   "entries": [
+    {
+     "id": "2026-09-17-01",
+     "category": "平台动态",
+     "platform": "豆包",
+     "region": "国内",
+     "title": "豆包调整汽车类问题的回答模板",
+     "summary": "汽车类问题回答新增参数对比表。",
+     "insight": "汽车客户应准备可被表格化引用的参数页。",
+     "published": "2026-09-16",
+     "links": [
+      {
+       "text": "豆包调整汽车类问题的回答…（原文）",
+       "url": "https://example.com/geo/2026-09-17-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-17-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-09-17-02",
+     "category": "舆情",
+     "platform": "",
+     "region": "国内",
+     "title": "用户质疑 AI 搜索推荐结果偏向付费品牌",
+     "summary": "社交平台出现多条讨论，平台方回应称排序不含付费因素。",
+     "insight": null,
+     "published": "2026-09-16",
+     "links": [
+      {
+       "text": "用户质疑 AI 搜索推荐…（原文）",
+       "url": "https://example.com/geo/2026-09-17-02"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-09-17-03",
+     "category": "平台动态",
+     "platform": "文心一言",
+     "region": "国内",
+     "title": "文心一言增加“官方认证”信源标记",
+     "summary": "认证站点的引用会带有标识。",
+     "insight": null,
+     "published": "2026-09-15",
+     "links": [
+      {
+       "text": "文心一言增加“官方认证”…（原文）",
+       "url": "https://example.com/geo/2026-09-17-03"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-16",
+   "weekday": "周三",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-09-16-01",
+     "category": "新技术",
+     "platform": "",
+     "region": "海外",
+     "title": "大模型引用准确率评测基准发布",
+     "summary": "基准覆盖 12 个模型的来源引用准确率。",
+     "insight": null,
+     "published": "2026-09-15",
+     "links": [
+      {
+       "text": "大模型引用准确率评测基准…（原文）",
+       "url": "https://example.com/geo/2026-09-16-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-16-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    },
+    {
+     "id": "2026-09-16-02",
+     "category": "行业政策",
+     "platform": "",
+     "region": "国内",
+     "title": "行业协会发布 GEO 服务自律倡议",
+     "summary": "倡议禁止伪造引用来源与批量虚假内容。",
+     "insight": null,
+     "published": "2026-09-15",
+     "links": [
+      {
+       "text": "行业协会发布 GEO 服…（原文）",
+       "url": "https://example.com/geo/2026-09-16-02"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "weekday": "周二",
+   "status": "normal",
+   "legacy": true,
+   "highlights": [],
+   "entries": [
+    {
+     "id": "2026-09-15-01",
+     "category": "市场动态",
+     "platform": "",
+     "region": "国内",
+     "title": "品牌广告主 GEO 预算占比调研",
+     "summary": "调研显示约三成广告主已设立 GEO 专项预算。",
+     "insight": null,
+     "published": "2026-09-14",
+     "links": [
+      {
+       "text": "品牌广告主 GEO 预算…（原文）",
+       "url": "https://example.com/geo/2026-09-15-01"
+      },
+      {
+       "text": "官方公告",
+       "url": "https://example.com/very/long/path/segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-segment-2026-09-15-01"
+      }
+     ],
+     "source_type": "媒体",
+     "soft_class": "无",
+     "backfilled": false
+    }
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "legacy": false,
+   "overview": {
+    "total": 3,
+    "by_category": {
+     "行业方法论": {
+      "count": 1,
+      "pct": 0.333
+     },
+     "新技术": {
+      "count": 1,
+      "pct": 0.333
+     },
+     "市场动态": {
+      "count": 1,
+      "pct": 0.333
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "多模态内容正在成为生成式回答的引用来源",
+     "refs": [
+      "2026-09-25-01"
+     ],
+     "ref_links": []
+    },
+    {
+     "text": "平台对同站点内容去重，铺量打法收益下降",
+     "refs": [
+      "2026-09-30-01"
+     ],
+     "ref_links": []
+    }
+   ],
+   "platform_changes": [
+    {
+     "dimension": "信源引用逻辑",
+     "text": "引用来源趋向多站点分布，同站点多篇内容会被合并。",
+     "refs": [],
+     "ref_links": []
+    }
+   ],
+   "implications": [
+    "产品侧：监测工具增加“来源站点分布”视图。",
+    "销售侧：向客户强调信源多样性，而非单站点内容数量。"
+   ]
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "legacy": true,
+   "overview": {
+    "total": 6,
+    "by_category": {
+     "行业政策": {
+      "count": 1,
+      "pct": 0.167
+     },
+     "新技术": {
+      "count": 1,
+      "pct": 0.167
+     },
+     "市场动态": {
+      "count": 1,
+      "pct": 0.167
+     },
+     "舆情": {
+      "count": 1,
+      "pct": 0.167
+     },
+     "平台动态": {
+      "count": 2,
+      "pct": 0.333
+     }
+    },
+    "note": null
+   },
+   "trends": [
+    {
+     "text": "平台开始区分并标记权威信源",
+     "refs": [],
+     "ref_links": [
+      {
+       "title": "文心一言增加“官方认证”信源标记",
+       "url": "https://example.com/geo/legacy-1"
+      },
+      {
+       "title": "豆包调整汽车类问题的回答模板",
+       "url": "https://example.com/geo/legacy-2"
+      }
+     ]
+    },
+    {
+     "text": "行业自律与监管同步推进",
+     "refs": [
+      "2026-09-16-02"
+     ],
+     "ref_links": []
+    }
+   ],
+   "platform_changes": [],
+   "implications": [
+    "产品侧：为客户提供官方认证申请清单。"
+   ]
+  }
+ ]
+}

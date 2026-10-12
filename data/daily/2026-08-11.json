@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-11",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "GEO 度量层同步标准化+学术化：中广协团标进送审稿，复旦推C-B-A三层AI-BHI指数。",
+    "「被引用」KPI 失效：品牌榜被引时 69% 推荐位给竞品，AI Mode 抬高引用门槛。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-11-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "中广协 GEO 三项团体标准第二次征求意见会在京召开，下一步形成送审稿",
+      "summary": "8/6中广协开GEO团标二征会，抖音/千问/微盟等全产业链参会，将成送审稿。",
+      "insight": "标准将形成送审稿且全产业链参与，方案商应跟进条款变化并提前做合规整改。",
+      "published": null,
+      "links": [
+        {
+          "text": "中国广告协会生成式引擎优化（GEO）团体标准第二次征求意见会成功召开（证券时报e公司/人民财讯）",
+          "url": "https://www.toutiao.com/article/7671969741044597257"
+        },
+        {
+          "text": "第二次征求意见会议在北京召开（新浪财经 7x24）",
+          "url": "https://wap.cj.sina.cn/7x24/5032479"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-11-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "复旦团队发布 AI 品牌健康度指数 AI-BHI：C-B-A 三层架构、200 品牌样本",
+      "summary": "复旦推AI-BHI品牌健康度指数：认知-信念-行动三层，首批200品牌样本。",
+      "insight": "认知、信念、行动三层指数可借鉴为品牌AI健康度报告结构，给客户更完整的评估。",
+      "published": null,
+      "links": [
+        {
+          "text": "复旦团队发布AI品牌健康度指数AI-BHI（澎湃新闻/网易）",
+          "url": "https://www.163.com/dy/article/L3V8ELDN05568W0A.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-11-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "GPO 八月《State of Search & AI》：被引用 ≠ 被推荐，69% 情况下推荐位给了页内竞品",
+      "summary": "GPO：品牌榜被引时69%推荐位给竞品，AI Mode换Gemini 3.5 Flash更挑。",
+      "insight": "被引用时69%推荐位给了竞品，要追踪推荐位归属，不能只看引用数。",
+      "published": null,
+      "links": [
+        {
+          "text": "August 2026 State of Search & AI（GPO）",
+          "url": "https://gpo.com/blog/august-2026-state-of-search-ai"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

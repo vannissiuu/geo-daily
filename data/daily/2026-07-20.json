@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-20",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-20-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "2026 年 GEO 拼的不是发文量，是「AI 信任分」：越铺量越降权",
+      "summary": "GEO 从「谁发稿多谁赢」转向「品牌信任权重」竞争，结构化信源 + 全域信息归一成为底座能力。",
+      "insight": "客户仍按发文量定预期时，改用信任权重和结构化信源重设交付指标，把铺量转为信源治理。",
+      "published": null,
+      "links": [
+        {
+          "text": "2026年GEO拼的不是发文量，是AI信任分（网易订阅）",
+          "url": "https://www.163.com/dy/article/L29NPME20556OEF7.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-20-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "2026 年 GEO 优化服务商最新测评报告出炉，五大主流服务商全景横评",
+      "summary": "粤海网络、泓动数据、智推时代、增长超人、百分点科技五家入选，从自研技术/内容/执行/经验/合规五维测评。",
+      "insight": "五家的评测维度（自研技术、内容、执行、经验、合规）可对照自检，补齐短板再投标。",
+      "published": null,
+      "links": [
+        {
+          "text": "2026年GEO优化服务商最新测评报告出炉（网易订阅）",
+          "url": "https://www.163.com/dy/article/L29544QF0556MW8H.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-20-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "国内",
+      "title": "GEO 的重庆解法：六点半科技用「本地化」构建 AI 信任壁垒",
+      "summary": "方言/地域词库 + 区县级定位 + 本地团队≤2h 响应，验证 GEO 在区域市场的「本地化」竞争壁垒。",
+      "insight": "区域客户关心方言词库、区县定位和2小时响应，可把本地化做成区域销售的差异化卖点。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO的重庆解法：六点半科技如何用“本地化”构建AI信任壁垒（搜狐）",
+          "url": "https://www.sohu.com/a/1052533497_122801792"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-25",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-25-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "威吉力发布《AI 可见度五层评估模型白皮书》，接入人民网 ACBS/ARA 评估闭环",
+      "summary": "把品牌进入 AI 答案链路拆为可抓取性→实体清晰度→内容可引用性→权威信号→答案纳入度五层，服务标准化为检测—审计—优化—监控四阶段，并接入人民网 ACBS 认知评估 / ARA 声誉审计与主流价值语料库审核入库模块。",
+      "insight": "五层模型可借来做客户诊断框架；其接入人民网评估的做法可作为合规卖点参考。",
+      "published": null,
+      "links": [
+        {
+          "text": "威吉力发布 AI 可见度五层评估模型（今日头条·咸宁微讯）",
+          "url": "https://www.toutiao.com/article/7666319584013599284"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-25-02",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "研究文章核查元宝推荐 10 家 GEO 服务商全部存在违规嫌疑，平台审核缺位被网信办点名",
+      "summary": "10 家样本 7 家批量低质内容、8 家资质滥用、10 家案例无法核验、5 家伪概念炒作；网信办 7 月通报点名平台「对商业服务推荐内容未履行真实性核验义务」，上半年 AI 营销服务投诉同比 +215%。",
+      "insight": "推荐榜单的可靠性受质疑，方案商应备好资质和可核验案例，应对客户的核查。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO服务乱象溯源与合规路径探析【二】（今日头条·行业动态）",
+          "url": "https://www.toutiao.com/article/7664429006942405158"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-27",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "Google 双线动作：AI Mode 上线\"发展中话题\"链接轮播（热点原始报道获更大视觉位），Mueller 同日重申 AI Overviews / AI Mode 无需 GEO 专属优化（llms.txt、AI 文本文件、特殊 schema 均非必要）——GEO 重心回到\"可被引用 + 被偏好的真实内容\"。",
+    "AI 搜索商业价值被实证：Shopify Q2 数据 AI 引荐会话同比 +197%、订单约 3 倍，研究密集型品类转化率约自然搜索 2 倍；自然搜索总量仍更大——两渠道并行增长，AI 搜索需单列预算与度量。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-27-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google AI Mode 上线「发展中话题」链接轮播，热点原始报道获更大视觉位",
+      "summary": "Google 在 AI Mode 上线发展中话题链接轮播，突发类查询插入横向文章卡、优先呈现原始报道与偏好来源。",
+      "insight": "热点类查询优先呈现原始报道，出版方客户要强化原创首发并设置偏好来源。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+          "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-27-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Google 重申 AI Overviews / AI Mode「无需特殊优化」，GEO 专属交付物被划掉",
+      "summary": "Google 的 Mueller 重申 AI Overviews/AI Mode 无需 llms.txt、AI 文本文件或特殊 schema，GEO 重心回到结构化可信内容。",
+      "insight": "Google称无需llms.txt等特殊文件，向客户推荐此类交付物时需说明依据与实际效果。",
+      "published": null,
+      "links": [
+        {
+          "text": "Oday Bakkour：Daily SEO Note — August 26, 2026",
+          "url": "https://oday-bakkour.com/blog/seo-note-august-26-2026"
+        },
+        {
+          "text": "Google 官方文档：AI features and your website",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-27-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Shopify Q2 数据：AI 引荐会话同比 +197%，AI 搜索成真实营收渠道",
+      "summary": "Shopify Q2 数据显示 AI 引荐会话同比 +197%、订单约 3 倍，AI 搜索需单列预算与度量。",
+      "insight": "AI引荐会话同比+197%、订单约3倍，电商客户应单列AI搜索预算与转化指标。",
+      "published": null,
+      "links": [
+        {
+          "text": "Shopify 中国博客：AI 搜索与自然搜索各司其职",
+          "url": "https://www.shopify.com/zh/blog/ai-search-category-behavior"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

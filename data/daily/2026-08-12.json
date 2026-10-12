@@ -1,0 +1,89 @@
+{
+  "date": "2026-08-12",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "AI 可见度度量进入「平台可计量 + 学术可实证」阶段：Google 官方明确 AI 答案曝光口径，实证研究量化「被引用 ≠ 带来点击」。",
+    "GEO 成效指标从「点击/展现」转向「答案份额 ASOV + 品牌召回 + 转化归因」。",
+    "AI 对话入口进入「按成交抽佣」商业化阶段（豆包酒店订单综合费率约12%）：自然推荐与付费影响的边界成为 GEO 治理焦点，已有营销商向商家兜售 GEO 服务。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-12-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google Search Console 明确 AI Overviews/AI Mode 曝光计量口径",
+      "summary": "Google 明确 AI 答案曝光口径：链接须滚入视口才计曝光，AI Mode 追问算新查询。",
+      "insight": "曝光须链接滚入视口才计，Search Console报表解读和客户汇报需按此口径说明。",
+      "published": null,
+      "links": [
+        {
+          "text": "How Google counts an AI Overviews impression（SEO News）",
+          "url": "https://keywordseverywhere.com/news/ai-overviews/"
+        },
+        {
+          "text": "How Google counts an AI Mode impression（SEO News）",
+          "url": "https://keywordseverywhere.com/news/google-ai-mode/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-12-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Pew/arXiv 研究：AI Overviews 引用链接点击率仅约 1%，GEO 度量从点击转向答案份额",
+      "summary": "Pew/arXiv：AI Overviews 引用链接点击率仅约1%，被引≠有点击。",
+      "insight": "被引链接点击率仅约1%，汇报以答案份额替代点击指标，并提前告知客户流量预期。",
+      "published": null,
+      "links": [
+        {
+          "text": "Investigating Click Behaviors On Google SERPs That Produce an AI Overview（arXiv:2608.04831）",
+          "url": "https://arxiv.org/abs/2608.04831"
+        },
+        {
+          "text": "Do people click on links in Google AI summaries?（Pew Research）",
+          "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-12-03",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包对经其入口成交的酒店订单抽佣约12%，国内首例 AI 对话入口明码计费",
+      "summary": "8/10起豆包渠道酒店订单独立费率11.4%+0.6%，综合约12%；豆包称仅成交后收渠道费、不卖广告位。",
+      "insight": "豆包渠道订单按约12%抽佣，电商客户的AI渠道成本要计入ROI测算。",
+      "published": null,
+      "links": [
+        {
+          "text": "豆包订酒店抽佣约12%，AI导购商业化打响“第一枪”？（新浪财经）",
+          "url": "https://t.cj.sina.cn/articles/view/5787187353/158f178990200271tm"
+        },
+        {
+          "text": "重报观察｜AI开启酒店成交订单抽佣 流量变现前路几何（重庆日报）",
+          "url": "https://www.cqrb.cn/jingji/guancha/2026-08-11/2748817_pc.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

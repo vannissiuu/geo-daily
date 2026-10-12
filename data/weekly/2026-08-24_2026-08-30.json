@@ -1,0 +1,170 @@
+{
+  "week_start": "2026-08-24",
+  "week_end": "2026-08-30",
+  "legacy": true,
+  "overview": {
+    "total": 12,
+    "by_category": {
+      "行业政策": {
+        "count": 1,
+        "pct": 0.08
+      },
+      "行业方法论": {
+        "count": 2,
+        "pct": 0.17
+      },
+      "新技术": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "市场动态": {
+        "count": 6,
+        "pct": 0.5
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 3,
+        "pct": 0.25
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "平台动态：商业化与可见度机制双向收紧。ChatGPT Ads 扩至 31 个欧洲市场（organic×paid 双轨在欧盟主战场铺开）；Google AI Mode 上线\"发展中话题\"链接轮播（热点原始报道获更大视觉位）；ChatGPT 引用源剧变——Reddit 一周内从 3.83% 跌至 0.52%，帮助中心/文档成最大引用类别（约 2%→32%），一手结构化自有信源权重上升。",
+      "refs": [
+        "2026-08-24-01",
+        "2026-08-27-01",
+        "2026-08-28-03"
+      ],
+      "ref_links": [
+        {
+          "title": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+        },
+        {
+          "title": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+          "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+        },
+        {
+          "title": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit",
+          "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+        }
+      ]
+    },
+    {
+      "text": "行业方法论：GEO 优化对象从\"官网/媒体\"延伸到\"创作者内容层\"，且 Google 明确 AI Overviews/AI Mode 无需 GEO 专属优化（llms.txt、AI 文本文件、特殊 schema 均非必要），重心回到\"可被引用 + 被偏好的真实内容\"。",
+      "refs": [
+        "2026-08-24-02",
+        "2026-08-27-02"
+      ],
+      "ref_links": [
+        {
+          "title": "CMO Magazine：Creators Move Into Brands' AI Search Playbooks",
+          "url": "https://cmomag.com/ai-in-marketing/creators-become-key-to-brands-ai-search-strategy"
+        },
+        {
+          "title": "Oday Bakkour：Daily SEO Note — August 26, 2026",
+          "url": "https://oday-bakkour.com/blog/seo-note-august-26-2026"
+        },
+        {
+          "title": "Google 官方文档：AI features and your website",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features"
+        }
+      ]
+    },
+    {
+      "text": "市场动态：资本密集押注 AI 可见度基础设施。英伟达拟以超 300 亿美元估值投资 Perplexity；英国 geoSurge 完成 1200 万美元种子轮；清蓝完成数千万元天使+轮并上线 GEO 数字员工 Mark；惊鸿创科获 2 亿元战略投资深耕 GEO；Shopify Q2 实证 AI 引荐会话同比 +197%、订单约 3 倍；Llumo 发布免费 AI 可见度平台（BYOK）拉低监测门槛。",
+      "refs": [
+        "2026-08-25-02",
+        "2026-08-25-01",
+        "2026-08-28-02",
+        "2026-08-27-03"
+      ],
+      "ref_links": [
+        {
+          "title": "钛媒体：英伟达拟300亿美元估值投资Perplexity",
+          "url": "https://www.tmtpost.com/8115451.html"
+        },
+        {
+          "title": "潮汛网：英国GEO公司geoSurge完成1200万美元种子轮融资",
+          "url": "https://www.hqwc.cn/news/173441.html"
+        },
+        {
+          "title": "时代财经：PureblueAI清蓝再获天使+轮融资",
+          "url": "https://www.time-weekly.com/post/332391"
+        },
+        {
+          "title": "Shopify 中国博客：AI 搜索与自然搜索各司其职",
+          "url": "https://www.shopify.com/zh/blog/ai-search-category-behavior"
+        }
+      ]
+    },
+    {
+      "text": "行业政策：新华网在半年度业绩说明会明确 GEO 是 AI 时代内容可信传播核心赛道，详解国内首部 GEO 团体标准 T/CAPT 026—2026（三区分治、白帽/黑帽边界、来源可信度四级、全链路追溯），标志 GEO 从\"拼曝光\"转向\"可信事实资产 + 合规治理\"。",
+      "refs": [
+        "2026-08-28-01"
+      ],
+      "ref_links": [
+        {
+          "title": "新华网 2026 半年度业绩说明会实录",
+          "url": "https://roadshow.eastmoney.com/luyan/5461027"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "ChatGPT 引用源结构性重构（Reddit→帮助中心/文档），一手结构化自有信源权重上升；Google AI Mode 用\"发展中话题\"轮播把热点原始报道前置。平台\"被引用来源\"偏好向内容方可控的权威/结构化信源回流。",
+      "refs": [
+        "2026-08-28-03",
+        "2026-08-27-01"
+      ],
+      "ref_links": [
+        {
+          "title": "Something Inc：ChatGPT Citation Sources — Docs Replaced Reddit",
+          "url": "https://somethinginc.com/blog/chatgpt-citation-sources-docs-replaced-reddit"
+        },
+        {
+          "title": "Search Engine Journal：Google Brings Developing-Topic Link Carousels To AI Mode",
+          "url": "https://www.searchenginejournal.com/google-brings-developing-topic-link-carousels-to-ai-mode/587022/"
+        }
+      ]
+    },
+    {
+      "dimension": "收录周期",
+      "text": "本周无重大收录周期调整被记录（Google 8/27 Mueller 重申无需特殊优化，印证既有收录逻辑稳定）。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "ChatGPT Ads 在欧盟 31 市铺开，AI 答案\"自然推荐 vs 付费\"边界在欧盟主战场确立，organic×paid 双轨占位成为必答题。",
+      "refs": [
+        "2026-08-24-01"
+      ],
+      "ref_links": [
+        {
+          "title": "OpenAI 官方：ChatGPT Ads Expands Across Europe",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe/"
+        }
+      ]
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "本周无重大 robots/crawler 协议调整被记录。",
+      "refs": [],
+      "ref_links": []
+    }
+  ],
+  "implications": [
+    "把\"自然+付费\"双轨占位做成标准叙事：ChatGPT Ads 扩至 31 欧市，GEO 卖点从\"被引用\"升级为\"被引用+被赞助\"，监测/优化需覆盖付费 AI 推荐位。",
+    "重押\"一手结构化自有信源\"：ChatGPT 引用源剧变证明帮助中心/文档跃升为最大引用类别，方案商应把客户官网\"可维护、结构化自有内容资产\"（FAQ/文档/帮助中心）当作 GEO 第一战场。",
+    "用\"可信事实资产 + 合规治理\"做差异化：借新华网详解 T/CAPT 026—2026 团标背书，主推\"可溯源、可量化、可治理\"透明交付，规避清朗点名风险。",
+    "借资本热度放大价值：英伟达/geoSurge/清蓝/惊鸿连下数城、Shopify 实证 AI 引荐 +197%，用\"AI 搜索已是真实营收渠道\"数据促单，把 GEO 从成本项讲成增长项。"
+  ]
+}

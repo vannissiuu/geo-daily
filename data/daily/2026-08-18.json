@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-18",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "医药垂类 GEO 成形：中康科技发布 MedCortex，药企开始用专用平台治理 AI 对药品的认知与推荐。",
+    "GEO 度量工具化：Mod Op 审计+GEO 50 榜、Scrunch 实证 AI 导流仅 1.1%，度量转向品牌召回。",
+    "平台引用机制分层：Google 在 AI Mode 灰度 Gemini 3.7 Flash，同提示词引用集因账号而异。",
+    "GEO 进入效果验证期：一搜百应白皮书建五层评估+ROI框架，从概念布局转向可量化交付。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-18-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "中康科技发布医药垂类 GEO 平台 MedCortex",
+      "summary": "西普会发布医药垂类GEO平台MedCortex，助药企监测AI平台可见度与药品认知质量。",
+      "insight": "医药垂类出现专用GEO平台，通用方案商需补充药品认知质量监测和合规能力。",
+      "published": null,
+      "links": [
+        {
+          "text": "中康科技发布医药垂类GEO平台MedCortex（新浪财经）",
+          "url": "https://www.163.com/dy/article/L4B7L95T05568W0A.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-18-02",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Mod Op 推出免费 AI 搜索可见度审计工具与 GEO 50 榜",
+      "summary": "Mod Op 上线免费GEO审计工具，覆盖ChatGPT等主流引擎，首发GEO 50品牌榜。",
+      "insight": "免费审计工具会压低客户对基础监测的付费意愿，方案商需把价值放在行动建议上。",
+      "published": null,
+      "links": [
+        {
+          "text": "Mod Op Launches Free AI Search Visibility Tool and The GEO 50（GlobeNewswire）",
+          "url": "https://www.gananoquereporter.com/globe-newswire/mod-op-launches-free-ai-search-visibility-tool-and-unveils-the-geo-50"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-18-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Scrunch 研究：AI 直接导流仅占出版商访问 1.1%",
+      "summary": "Scrunch：AI 仅贡献出版商 1.1% 直接访问，大出版商占 AI 提及 82%。",
+      "insight": "AI直接导流占比很小，向出版商汇报应以被提及和品牌影响衡量，避免承诺流量。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI Search Feature Tracker（Lawrence Hitches · Scrunch 研究）",
+          "url": "https://www.lawrencehitches.com/ai-search-tracker"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-18-04",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，引用集合随订阅账号而异",
+      "summary": "Google 在 AI Mode 灰度 Gemini 3.7 Flash，引用集合随订阅账号而异。",
+      "insight": "引用集合随订阅账号而异，监测应固定账号类型并标注测试条件，避免客户误读差异。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI Search Feature Tracker（Lawrence Hitches · Gemini 3.7 Flash）",
+          "url": "https://www.lawrencehitches.com/ai-search-tracker"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-18-05",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "一搜百应发布《2026企业GEO效果评估与ROI白皮书》，首建五层评估+ROI框架",
+      "summary": "一搜百应白皮书：五层GEO评估模型+ROI测算框架，行业进入效果验证期。",
+      "insight": "五层评估和ROI测算框架可借用到效果汇报，客户开始要求效果验证而非只看曝光。",
+      "published": null,
+      "links": [
+        {
+          "text": "2026企业GEO效果评估与ROI白皮书（同花顺）",
+          "url": "https://m.10jqka.com.cn/20260818/c679037154.shtml"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 5,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

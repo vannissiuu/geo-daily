@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-25",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "资本密集押注 AI 可见度基础设施：英伟达拟 300 亿美元估值重注 Perplexity，英国 geoSurge 完成 1200 万美元种子轮，GEO/AEO 赛道单周连下两城。",
+    "算力与搜索入口深度绑定：英伟达\"卖铲子\"逻辑延伸到应用层，Perplexity 每次调用皆消耗英伟达 GPU，AI 答案引擎的引用权成为战略资产。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-25-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "英国 GEO 公司 geoSurge 完成 1200 万美元种子轮融资",
+      "summary": "伦敦 GEO 企业 geoSurge 完成 1200 万美元超额认购种子轮，AlbionVC 领投，产品矩阵覆盖品牌 AI 排名监测 MEASURE、模型行为分析 EXPLORE、语料库优化 BOOST，形成\"监测-分析-优化\"全链路。",
+      "insight": "监测、分析、优化全链路产品矩阵获融资，印证一体化方向，可对照补齐模型行为分析能力。",
+      "published": null,
+      "links": [
+        {
+          "text": "潮汛网：英国GEO公司geoSurge完成1200万美元种子轮融资",
+          "url": "https://www.hqwc.cn/news/173441.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-25-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "英伟达拟以超 300 亿美元估值投资 Perplexity，AI 搜索成算力生态锚点",
+      "summary": "钛媒体 8/25 早报披露，英伟达拟以超 300 亿美元估值投资 AI 搜索公司 Perplexity（8/24 达成），较 2025 年 7 月 180 亿估值增逾 66%，标志算力巨头通过投资应用层锁定 AI 可见度入口。",
+      "insight": "资本押注Perplexity，说明其入口会长期存在，应把Perplexity列入客户监测范围。",
+      "published": null,
+      "links": [
+        {
+          "text": "Edge AI Daily 早报(8月25日)（钛媒体）",
+          "url": "https://www.tmtpost.com/8115451.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "date": "2026-08-21",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "Google 双连发：偏好来源把读者忠诚度变 AI 可见度信号，生成式界面让 AI 答案直接产交互工具替代外链——GEO 从「被引用」转向「被偏好+被交互」。",
+    "AI 可见度度量实证化：爬虫对 JS 链接零发现、Gemini 同查询仅 40% 同源、22.4% AI Overview 流量误记 Direct——单次快照不可信，需多次采样与渠道归因。",
+    "国内平台算法重构追上 Google：豆包「可信度分层 2.0」强制≥3 源交叉验证（孤证不立）、单一信源引用占比压到 8% 以内，DeepSeek 通读筛选把精读信源压到 4-5 个，AI 答案主动标注「营销软文」——铺量派 GEO 彻底失效。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-21-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 上线「Preferred Sources」偏好来源，AI 答案引入读者忠诚度信号",
+      "summary": "读者点出版方按钮选定偏好源，AI Overviews/AI Mode 获徽章与更高可见度。",
+      "insight": "读者可选偏好来源，出版方客户应争取成为偏好来源，并提升读者忠诚度。",
+      "published": null,
+      "links": [
+        {
+          "text": "Google 官方博客：Personalize what you see on Google Search, News, Discover",
+          "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/"
+        },
+        {
+          "text": "AuspiaAI 分析：Google Launches Preferred Sources Feature",
+          "url": "https://auspia.ai/blog/google-preferred-sources-top-stories-ai-overviews-ai-mode-august-2026"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-21-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 将 Generative UI 扩展至 AI Overviews，AI 答案直接生成交互工具",
+      "summary": "AI Mode 生成式界面扩展至 AI Overviews，pH 模拟/计算器等交互直接替代外链。",
+      "insight": "AI Overviews直接生成交互工具会替代外链，工具型内容客户需设法在答案内保留品牌曝光。",
+      "published": null,
+      "links": [
+        {
+          "text": "AuspiaAI 分析：Google Expands Generative UI From AI Mode Into AI Overviews",
+          "url": "https://auspia.ai/blog/google-generative-ui-ai-overviews-august-2026"
+        },
+        {
+          "text": "Google 官方博客：5 new ways to level up your learning with Search",
+          "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-21-03",
+      "category": "平台动态",
+      "platform": "多平台",
+      "region": "国内",
+      "title": "豆包 / DeepSeek 算法重构：「孤证不立」强制多源验证，AI 答案标注「营销软文」",
+      "summary": "豆包可信度分层 2.0 强制大于等于3 源交叉验证、单源引用压至 8% 以内，DeepSeek 转通读筛选，铺量派 GEO 彻底失效。",
+      "insight": "多源交叉验证趋严、单源引用受限，方案商要为客户铺设至少三个独立信源。",
+      "published": null,
+      "links": [
+        {
+          "text": "算法重锤之下，GEO行业正在重写游戏规则（网易订阅）",
+          "url": "https://dy.163.com/article/L4SBANCP0511A55J.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-21-04",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "受控测试：AI 爬虫 41 天零发现 JS 注入链接页，转 HTML 后 GPTBot 48h 收录 250 页",
+      "summary": "2400 页站拆分实测：GPTBot/ClaudeBot/PerplexityBot 对 JS 链接页发现率 0，仅 Googlebot 可执行 JS。",
+      "insight": "AI爬虫对JS注入链接页发现率为0，客户关键链接和内容应保证服务端HTML输出。",
+      "published": null,
+      "links": [
+        {
+          "text": "DEV Community：JavaScript Links Can Hide Content From AI Crawlers",
+          "url": "https://dev.to/alifar/javascript-links-can-hide-content-from-ai-crawlers-a-41-day-test-shows-34cg"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-21-05",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Steady Demand 研究：Gemini 本地引用企业站占 60%，重复查询仅 40% 同源",
+      "summary": "1487 本地查询实测：企业站占 Gemini 引用近 60%、Reddit 13.7%，同查询重复仅 40% 同源。",
+      "insight": "本地客户的Gemini引用近60%来自企业站，先做好官网本地信息；重复查询仅40%同源，监测需多次采样。",
+      "published": null,
+      "links": [
+        {
+          "text": "World Programming：Business websites dominate Gemini local AI search citations",
+          "url": "https://www.worldprogramming.org/posts/business-websites-dominate-gemini-local-ai-search-citations-study-onkyfq"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-21-06",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "9 个月追踪：22.4% AI Overview 流量被误记为 Direct，有机流量被低估",
+      "summary": "51,200 事件实测：AI Overview 占有机会话 7.53%，22.4% 被误记 Direct（5 月高达 29.3%）。",
+      "insight": "AI Overview流量常被记为Direct，报告时需校正归因口径，别低估AI带来的有机流量。",
+      "published": null,
+      "links": [
+        {
+          "text": "Victorino Group：AI Overviews Send You Traffic. Your Analytics Files 22% of It Under Direct",
+          "url": "https://victorinollc.com/thinking/ai-overview-misattribution-22-percent"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 6,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

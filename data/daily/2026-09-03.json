@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-03",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "监管与算法同步收紧\"铺量\"空间：国内9月新规封杀批量同质化分发与编造人设，叠加豆包信源分级落地，白帽合规（实体对齐+权威信源）成为唯一可持续占位路径。",
+    "GEO 方法论从\"概念\"走向\"站内工程清单\"：可机读事实、robots可爬、单页单问、权威面建设等可量化动作，正成为方案商交付的标准SOP。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-03-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "《互联网信息内容多渠道分发服务管理规定》9/1 生效，白帽 GEO 窗口打开",
+      "summary": "五部门第23号令9/1生效，封杀批量同质化分发与编造人设；叠加豆包A/B/C/D信源分级，B2B软文信源占比32%→7%，白帽GEO窗口打开。",
+      "insight": "新规封杀批量同质化分发，应停用铺量分发，改以真实信源和差异化内容交付。",
+      "published": null,
+      "links": [
+        {
+          "text": "9 月新规施行：白帽 GEO 的窗口期，铺量的退场（搜狐）",
+          "url": "https://www.sohu.com/a/1071151077_122963513"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-03-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "Practical GEO Checklist：训练记忆 × 实时检索双轨模型与站内工程清单",
+      "summary": "阿里GEO研究团队两轨模型（训练记忆长期 vs 实时检索本周）+ 可机读事实、robots可爬、单页单问、权威面建设等实操清单。",
+      "insight": "训练记忆与实时检索分轨做：长期靠权威面建设，短期靠可爬取、可机读的单页单问内容。",
+      "published": null,
+      "links": [
+        {
+          "text": "A Practical GEO Checklist（DEV Community）",
+          "url": "https://dev.to/yue_wang_4c0315f2e8a02ea6/a-practical-geo-checklist-make-your-site-crawlable-and-citable-by-ai-assistants-4jnd"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

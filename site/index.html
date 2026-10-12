@@ -1,0 +1,618 @@
+<title>GEO 每日行业动态</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GEO（生成式引擎优化）每日行业动态：每日精华、分类索引与周度总结">
+<style>
+:root{
+  color-scheme: light;
+  --surface-1:#ffffff;
+  --page-plane:#fcf4e4;
+  --text-primary:#151515;
+  --text-secondary:#4a4842;
+  --text-muted:#75705f;
+  --grid:#e1e0d9;
+  --baseline:#c3c2b7;
+  --border:rgba(21,21,21,0.10);
+  --good:#0ca30c;
+  --critical:#d03b3b;
+  --warning-bg:rgba(250,178,25,0.16);
+  --warning-fg:#7a5100;
+  --warning-border:rgba(250,178,25,0.55);
+  --info-bg:rgba(0,134,193,0.10);
+  --info-fg:#00486a;
+  --info-border:rgba(0,134,193,0.35);
+  --series-1:#0086c1;
+  --series-2:#eb6834;
+  --series-3:#1baf7a;
+  --series-4:#b78600;
+  --series-5:#e87ba4;
+  --series-6:#008300;
+  --series-7:#4a3aa7;
+  --chip-bg:#f3ead4;
+  --chip-bg-active:#f5bb40;
+  --chip-fg-active:#151515;
+  --shadow: 0 8px 30px rgba(21,21,21,0.16);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --surface-1:#1e1c18;
+    --page-plane:#151515;
+    --text-primary:#fcf4e4;
+    --text-secondary:#c9c3b4;
+    --text-muted:#9a9484;
+    --grid:#2c2c2a;
+    --baseline:#383835;
+    --border:rgba(252,244,228,0.10);
+    --good:#0ca30c;
+    --critical:#e66767;
+    --warning-bg:rgba(250,178,25,0.14);
+    --warning-fg:#fab219;
+    --warning-border:rgba(250,178,25,0.45);
+    --info-bg:rgba(0,150,215,0.14);
+    --info-fg:#82ceff;
+    --info-border:rgba(0,150,215,0.4);
+    --series-1:#0096d7;
+    --series-2:#d95926;
+    --series-3:#199e70;
+    --series-4:#bb8800;
+    --series-5:#d55181;
+    --series-6:#008300;
+    --series-7:#9085e9;
+    --chip-bg:#2a2721;
+    --chip-bg-active:#f5bb40;
+    --chip-fg-active:#151515;
+    --shadow: 0 8px 30px rgba(0,0,0,0.5);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --surface-1:#1e1c18;
+  --page-plane:#151515;
+  --text-primary:#fcf4e4;
+  --text-secondary:#c9c3b4;
+  --text-muted:#9a9484;
+  --grid:#2c2c2a;
+  --baseline:#383835;
+  --border:rgba(252,244,228,0.10);
+  --good:#0ca30c;
+  --critical:#e66767;
+  --warning-bg:rgba(250,178,25,0.14);
+  --warning-fg:#fab219;
+  --warning-border:rgba(250,178,25,0.45);
+  --info-bg:rgba(0,150,215,0.14);
+  --info-fg:#82ceff;
+  --info-border:rgba(0,150,215,0.4);
+  --series-1:#0096d7;
+  --series-2:#d95926;
+  --series-3:#199e70;
+  --series-4:#bb8800;
+  --series-5:#d55181;
+  --series-6:#008300;
+  --series-7:#9085e9;
+  --chip-bg:#2a2721;
+  --chip-bg-active:#f5bb40;
+  --chip-fg-active:#151515;
+  --shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--page-plane);
+  color:var(--text-primary);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:15px;line-height:1.65;
+  overflow-wrap:anywhere;
+}
+button,input,select{font:inherit;color:inherit}
+a{color:var(--info-fg);text-underline-offset:2px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--info-fg);outline-offset:2px;border-radius:4px}
+.num,.date{font-variant-numeric:tabular-nums}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px 40px}
+
+/* header */
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:20px 0 12px}
+.top h1{margin:0;font-size:22px;line-height:1.3;letter-spacing:.01em}
+.sub{margin:4px 0 0;color:var(--text-secondary);font-size:13px}
+.theme-btn{flex:none;border:1px solid var(--border);background:var(--chip-bg);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px;white-space:nowrap}
+.theme-btn:hover{border-color:var(--baseline)}
+
+/* tabs + search */
+.bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;border-bottom:1px solid var(--grid);padding-bottom:0;margin-bottom:16px}
+.tabs{display:flex;gap:4px}
+.tab{border:0;background:none;padding:10px 14px;cursor:pointer;font-weight:600;color:var(--text-secondary);border-bottom:3px solid transparent;margin-bottom:-1px;min-height:44px}
+.tab:hover{color:var(--text-primary)}
+.tab[aria-selected="true"]{color:var(--text-primary);border-bottom-color:var(--chip-bg-active)}
+.search{flex:1 1 220px;display:flex;align-items:center;gap:10px;min-width:0;padding-bottom:6px}
+.search input{flex:1;min-width:0;border:1px solid var(--border);background:var(--surface-1);border-radius:8px;padding:8px 12px;min-height:40px}
+.search input::placeholder{color:var(--text-muted)}
+.hits{font-size:13px;color:var(--text-secondary);white-space:nowrap}
+
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.chip{border:1px solid var(--border);background:var(--chip-bg);color:var(--text-primary);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:13px;display:inline-flex;align-items:center;gap:6px;min-height:32px}
+.chip[aria-pressed="true"],.chip[aria-current="true"]{background:var(--chip-bg-active);color:var(--chip-fg-active);border-color:transparent;font-weight:600}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--c,var(--baseline));flex:none;display:inline-block}
+
+/* daily */
+.month{margin:28px 0 8px;font-size:17px;color:var(--text-primary);padding-bottom:6px;border-bottom:1px solid var(--grid)}
+.month:first-child{margin-top:0}
+.day{padding:18px 0;border-bottom:1px solid var(--grid)}
+.day-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-bottom:10px}
+.day-h h3{margin:0;font-size:16px}
+.day-h .cnt{font-size:13px;color:var(--text-muted)}
+.hl{background:var(--surface-1);border:1px solid var(--border);border-left:4px solid var(--chip-bg-active);border-radius:10px;padding:12px 16px;margin-bottom:12px}
+.hl-t{display:inline-block;background:var(--chip-bg-active);color:var(--chip-fg-active);font-size:12px;font-weight:700;border-radius:4px;padding:0 8px;margin-bottom:6px}
+.hl ul{margin:0;padding-left:20px}
+.hl li{margin:2px 0}
+.note{border-radius:8px;padding:8px 14px;font-size:14px;margin-bottom:12px}
+.note.few{background:var(--warning-bg);color:var(--warning-fg);border:1px solid var(--warning-border)}
+.note.none{background:var(--info-bg);color:var(--info-fg);border:1px solid var(--info-border)}
+.entry{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin-top:10px}
+.e-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;font-size:12.5px;color:var(--text-secondary)}
+.tag{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--text-primary)}
+.e-title{margin:4px 0 4px;font-size:15.5px;line-height:1.5;font-weight:700}
+.e-sum{margin:0 0 8px;color:var(--text-secondary)}
+.insight{background:var(--chip-bg);border-radius:8px;padding:8px 12px;margin:0 0 8px;font-size:14px}
+.insight b{display:inline-block;background:var(--info-bg);color:var(--info-fg);border:1px solid var(--info-border);border-radius:4px;font-size:12px;padding:0 6px;margin-right:8px;font-weight:600}
+.links{list-style:none;margin:0;padding:0;font-size:13.5px}
+.links li{margin:2px 0}
+.links li::before{content:"↗ ";color:var(--text-muted)}
+.more{display:block;margin:20px auto 0;border:1px solid var(--baseline);background:var(--chip-bg);border-radius:999px;padding:8px 24px;cursor:pointer;min-height:40px}
+.more:hover{background:var(--chip-bg-active);color:var(--chip-fg-active)}
+.empty{color:var(--text-muted);padding:24px 0}
+mark{background:var(--warning-bg);color:inherit;border-radius:2px;box-shadow:0 0 0 1px var(--warning-border)}
+
+/* two-pane */
+.pane{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start}
+.side{position:sticky;top:12px;display:flex;flex-direction:column;gap:4px}
+.side button{display:flex;align-items:center;gap:8px;justify-content:flex-start;text-align:left;border:0;background:none;padding:8px 12px;border-radius:8px;cursor:pointer;width:100%}
+.side button:hover{background:var(--chip-bg)}
+.side button[aria-current="true"]{background:var(--chip-bg-active);color:var(--chip-fg-active);font-weight:600}
+.side .n{margin-left:auto;font-size:12.5px;opacity:.8}
+.side-sel{display:none}
+.filters{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px;font-size:14px}
+.filters select,.side-sel{border:1px solid var(--border);background:var(--surface-1);border-radius:8px;padding:6px 10px;min-height:38px}
+.desc{border:1px solid var(--border);border-radius:8px;background:var(--surface-1);margin-bottom:16px;padding:8px 14px}
+.desc summary{cursor:pointer;font-weight:600;font-size:14px}
+.desc pre{margin:8px 0 4px;white-space:pre-wrap;font:inherit;font-size:13.5px;color:var(--text-secondary)}
+.item{padding:12px 0;border-bottom:1px solid var(--grid)}
+.item .row{display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline}
+.item .date{color:var(--text-muted);font-size:13px;flex:none}
+.item .t{font-weight:700}
+.item .links{margin-top:4px}
+.item details{margin-top:6px}
+.item summary{cursor:pointer;font-size:13px;color:var(--text-secondary)}
+.item details .e-sum{margin:6px 0}
+
+/* weekly */
+.week h2{margin:0 0 16px;font-size:19px}
+.week h3{margin:24px 0 8px;font-size:15.5px;padding-bottom:4px;border-bottom:1px solid var(--grid)}
+.bars{display:grid;grid-template-columns:7em minmax(0,1fr) 6.5em;gap:8px 10px;align-items:center;font-size:14px;max-width:640px}
+.bar-track{height:12px;background:var(--chip-bg);border-radius:6px;overflow:hidden}
+.bar-fill{height:100%;background:var(--c);border-radius:6px;min-width:0}
+.bars .v{text-align:right;color:var(--text-secondary);font-size:13px}
+.ov-total{margin:0 0 10px;color:var(--text-secondary)}
+.tr{margin:0 0 10px}
+.tr>ul{margin:4px 0 0;padding:0 0 0 14px;border-left:2px solid var(--grid);font-size:13px}
+.wk ul.plain{padding-left:20px;margin:0}
+.wk ul.plain>li{margin:8px 0}
+.dim{display:inline-block;font-size:12px;font-weight:600;background:var(--info-bg);color:var(--info-fg);border:1px solid var(--info-border);border-radius:4px;padding:0 6px;margin-right:6px}
+.muted{color:var(--text-muted)}
+
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--grid);font-size:12.5px;color:var(--text-muted)}
+footer p{margin:4px 0}
+
+@media (max-width:760px){
+  .top h1{font-size:19px}
+  .pane{grid-template-columns:minmax(0,1fr);gap:12px}
+  .side{position:static;flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .side button{width:auto;flex:none;white-space:nowrap;border:1px solid var(--border);background:var(--chip-bg);border-radius:999px;padding:6px 12px}
+  .side.is-weeks{display:none}
+  .side-sel{display:block;width:100%}
+  .tab{padding:10px 12px}
+  .bars{grid-template-columns:6em minmax(0,1fr) 5.5em}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1 id="siteTitle">GEO 每日行业动态</h1>
+      <p class="sub" id="subLine">加载中…</p>
+    </div>
+    <button type="button" class="theme-btn" id="themeBtn" aria-label="切换深浅主题">🌓 切换主题</button>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist" aria-label="视图">
+      <button class="tab" role="tab" id="tab-daily" data-view="daily" type="button">每日动态</button>
+      <button class="tab" role="tab" id="tab-category" data-view="category" type="button">分类索引</button>
+      <button class="tab" role="tab" id="tab-weekly" data-view="weekly" type="button">周度总结</button>
+    </div>
+    <div class="search">
+      <input type="search" id="q" placeholder="在当前视图内搜索标题、摘要、关注点" aria-label="搜索">
+      <span class="hits" id="hits" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <main id="main" role="tabpanel" aria-labelledby="tab-daily"><p class="empty">加载中…</p></main>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+(function(){
+var DAY_BATCH = 14;
+var B = null, CATS = [], CAT_COLOR = {}, ENT = {}, ALL = [];
+var S = { view:'daily', q:'', dcat:'', dayLimit:DAY_BATCH, ccat:'', cmonth:'', cLimit:60, wk:0 };
+var root = document.documentElement;
+var $main = document.getElementById('main'), $hits = document.getElementById('hits'), $q = document.getElementById('q');
+
+/* ---------- 主题 ---------- */
+function systemDark(){ return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); }
+function currentTheme(){
+  var t = root.getAttribute('data-theme');
+  if(t === 'dark' || t === 'light') return t;
+  return systemDark() ? 'dark' : 'light';
+}
+try{ var saved = localStorage.getItem('geo-daily-theme'); if(saved === 'dark' || saved === 'light') root.setAttribute('data-theme', saved); }catch(e){}
+document.getElementById('themeBtn').addEventListener('click', function(){
+  var next = currentTheme() === 'dark' ? 'light' : 'dark';
+  root.setAttribute('data-theme', next);
+  try{ localStorage.setItem('geo-daily-theme', next); }catch(e){}
+});
+
+/* ---------- 工具 ---------- */
+function el(tag, attrs, kids){
+  var n = document.createElement(tag);
+  if(attrs) for(var k in attrs){
+    var v = attrs[k];
+    if(v == null || v === false) continue;
+    if(k === 'class') n.className = v;
+    else if(k === 'text') n.textContent = v;
+    else if(k === 'style') n.setAttribute('style', v);
+    else if(k.slice(0,2) === 'on') n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v === true ? '' : v);
+  }
+  if(kids) (Array.isArray(kids) ? kids : [kids]).forEach(function(c){
+    if(c == null || c === false) return;
+    n.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  });
+  return n;
+}
+function lc(s){ return (s == null ? '' : String(s)).toLowerCase(); }
+function hl(text){ // 命中高亮
+  text = text == null ? '' : String(text);
+  var q = lc(S.q.trim());
+  if(!q) return text;
+  var low = text.toLowerCase(), out = [], i = 0, j;
+  while((j = low.indexOf(q, i)) >= 0){
+    if(j > i) out.push(text.slice(i, j));
+    out.push(el('mark', {text:text.slice(j, j+q.length)}));
+    i = j + q.length;
+  }
+  if(!out.length) return text;
+  if(i < text.length) out.push(text.slice(i));
+  return out;
+}
+function H(tag, attrs, text){ return el(tag, attrs, hl(text)); }
+function catColor(c){ return CAT_COLOR[c] || 'var(--baseline)'; }
+function catLabel(e){ return e.category === '平台动态' && e.platform ? '平台动态 · ' + e.platform : e.category; }
+function matchEntry(e){
+  var q = lc(S.q.trim());
+  if(!q) return true;
+  return lc(e.title).indexOf(q) >= 0 || lc(e.summary).indexOf(q) >= 0 || lc(e.insight).indexOf(q) >= 0;
+}
+function matchText(s){ var q = lc(S.q.trim()); return !q || lc(s).indexOf(q) >= 0; }
+function dayName(d){ return d.date + '（' + (d.weekday || '') + '）'; }
+function ym(date){ return date.slice(0,4) + '年' + parseInt(date.slice(5,7),10) + '月'; }
+function linkList(links){
+  if(!links || !links.length) return null;
+  return el('ul', {class:'links'}, links.map(function(l){
+    return el('li', null, el('a', {href:l.url, target:'_blank', rel:'noopener', text:l.text || l.url}));
+  }));
+}
+function catTag(e){
+  return el('span', {class:'tag', style:'--c:' + catColor(e.category)}, [el('span', {class:'dot', 'aria-hidden':'true'}), catLabel(e)]);
+}
+
+/* ---------- 每日动态 ---------- */
+function renderDaily(){
+  var q = S.q.trim(), frag = document.createDocumentFragment();
+  // 分类 chips
+  var chips = el('div', {class:'chips', role:'group', 'aria-label':'分类筛选'});
+  function mk(label, val, color){
+    chips.appendChild(el('button', {class:'chip', type:'button', 'aria-pressed':String(S.dcat === val), style: color ? '--c:' + color : null, onclick:function(){ S.dcat = val; S.dayLimit = DAY_BATCH; render(); }},
+      [color ? el('span', {class:'dot', 'aria-hidden':'true'}) : null, label]));
+  }
+  mk('全部', '');
+  CATS.forEach(function(c){ mk(c, c, catColor(c)); });
+  frag.appendChild(chips);
+
+  var vis = [], hitEntries = 0;
+  B.days.forEach(function(d){
+    var ents = d.entries.filter(function(e){ return (!S.dcat || e.category === S.dcat) && matchEntry(e); });
+    var hlTexts = (d.highlights && d.highlights.length) ? d.highlights : [];
+    var hlHit = !S.dcat && q && hlTexts.some(matchText);
+    var show;
+    if(q || S.dcat) show = ents.length > 0 || hlHit;
+    else show = true;
+    if(!show) return;
+    hitEntries += ents.length;
+    vis.push({d:d, ents:ents, hlHit:hlHit});
+  });
+  setHits((q || S.dcat) ? '命中 ' + hitEntries + ' 条动态 · ' + vis.length + ' 天' : '');
+  if(!vis.length){ frag.appendChild(el('p', {class:'empty', text:'没有符合条件的动态。'})); return frag; }
+
+  var lastMonth = '';
+  vis.slice(0, S.dayLimit).forEach(function(v){
+    var d = v.d, m = ym(d.date);
+    if(m !== lastMonth){ frag.appendChild(el('h2', {class:'month', text:m})); lastMonth = m; }
+    var filtered = q || S.dcat;
+    var sec = el('section', {class:'day'});
+    sec.appendChild(el('div', {class:'day-h'}, [
+      el('h3', {class:'date', text:dayName(d)}),
+      el('span', {class:'cnt num', text: d.status === 'none' ? '无新增' : (filtered ? v.ents.length + ' / ' + d.entries.length + ' 条' : d.entries.length + ' 条')})
+    ]));
+    if(d.status === 'none' && !filtered){
+      sec.appendChild(el('div', {class:'note none', text:'今日无新增 GEO 行业动态（已执行全量检索）'}));
+    } else {
+      if(d.status === 'few' && !filtered) sec.appendChild(el('div', {class:'note few', text:'今日 GEO 时效性动态较少'}));
+      // 精华
+      if(!S.dcat && (!q || v.hlHit)){
+        var pts = (d.highlights && d.highlights.length) ? d.highlights : d.entries.map(function(e){ return e.title; });
+        if(q && d.highlights && d.highlights.length) pts = pts.filter(matchText);
+        if(pts.length) sec.appendChild(el('div', {class:'hl'}, [
+          el('span', {class:'hl-t', text:'今日精华'}),
+          el('ul', null, pts.map(function(p){ return el('li', null, hl(p)); }))
+        ]));
+      }
+      v.ents.forEach(function(e){
+        var meta = [catTag(e)];
+        if(e.published) meta.push(el('span', {class:'date', text:'发布 ' + e.published}));
+        var card = el('article', {class:'entry'}, [
+          el('div', {class:'e-meta'}, meta),
+          H('h4', {class:'e-title'}, e.title),
+          e.summary ? H('p', {class:'e-sum'}, e.summary) : null,
+          e.insight ? el('p', {class:'insight'}, [el('b', {text:'关注点'}), hl(e.insight)]) : null,
+          linkList(e.links)
+        ]);
+        sec.appendChild(card);
+      });
+    }
+    frag.appendChild(sec);
+  });
+  if(vis.length > S.dayLimit){
+    frag.appendChild(el('button', {class:'more', type:'button', text:'加载更早（还有 ' + (vis.length - S.dayLimit) + ' 天）', onclick:function(){ S.dayLimit += DAY_BATCH; render(true); }}));
+  }
+  return frag;
+}
+
+/* ---------- 分类索引 ---------- */
+function renderCategory(){
+  var q = S.q.trim(), frag = document.createDocumentFragment();
+  if(!S.ccat) S.ccat = CATS[0];
+  // 先按搜索与月份算每类条数
+  var months = {};
+  ALL.forEach(function(e){ months[e._date.slice(0,7)] = 1; });
+  var monthList = Object.keys(months).sort().reverse();
+  var counts = {};
+  CATS.forEach(function(c){ counts[c] = 0; });
+  ALL.forEach(function(e){
+    if(!matchEntry(e)) return;
+    if(S.cmonth && e._date.slice(0,7) !== S.cmonth) return;
+    if(counts[e.category] != null) counts[e.category]++;
+  });
+
+  var descTxt = (B.meta.c_cat || []).join('\n');
+  if(descTxt) frag.appendChild(el('details', {class:'desc'}, [el('summary', {text:'分类说明'}), el('pre', {text:descTxt})]));
+
+  var pane = el('div', {class:'pane'});
+  var side = el('nav', {class:'side', 'aria-label':'分类'});
+  CATS.forEach(function(c){
+    side.appendChild(el('button', {type:'button', 'aria-current':String(S.ccat === c), style:'--c:' + catColor(c), onclick:function(){ S.ccat = c; S.cLimit = 60; render(); }},
+      [el('span', {class:'dot', 'aria-hidden':'true'}), c, el('span', {class:'n num', text:String(counts[c])})]));
+  });
+  pane.appendChild(side);
+
+  var right = el('div');
+  var sel = el('select', {id:'monthSel', 'aria-label':'月份筛选', onchange:function(){ S.cmonth = this.value; S.cLimit = 60; render(); }},
+    [el('option', {value:'', text:'全部月份'})].concat(monthList.map(function(m){
+      return el('option', {value:m, text:ym(m + '-01'), selected: S.cmonth === m});
+    })));
+  right.appendChild(el('div', {class:'filters'}, [el('label', {for:'monthSel', text:'月份'}), sel,
+    el('span', {class:'muted num', text: S.ccat + ' · ' + counts[S.ccat] + ' 条'})]));
+
+  var list = ALL.filter(function(e){
+    return e.category === S.ccat && matchEntry(e) && (!S.cmonth || e._date.slice(0,7) === S.cmonth);
+  });
+  var total = 0; CATS.forEach(function(c){ total += counts[c]; });
+  setHits((q || S.cmonth) ? '命中 ' + total + ' 条' : '');
+  if(!list.length){
+    right.appendChild(el('p', {class:'empty', text: (q || S.cmonth) ? '该分类下没有符合条件的条目。' : '（暂无收录）'}));
+  } else {
+    list.slice(0, S.cLimit).forEach(function(e){
+      var hasMore = e.summary || e.insight;
+      var row = el('div', {class:'row'}, [
+        el('span', {class:'date', text:e._date}),
+        e.category === '平台动态' && e.platform ? el('span', {class:'tag', text:e.platform}) : null,
+        H('span', {class:'t'}, e.title)
+      ]);
+      var it = el('article', {class:'item'}, [row, linkList(e.links)]);
+      if(hasMore){
+        var open = !!q && (lc(e.summary).indexOf(lc(q)) >= 0 || lc(e.insight).indexOf(lc(q)) >= 0);
+        it.appendChild(el('details', {open: open}, [el('summary', {text:'摘要与关注点'}),
+          e.summary ? H('p', {class:'e-sum'}, e.summary) : null,
+          e.insight ? el('p', {class:'insight'}, [el('b', {text:'关注点'}), hl(e.insight)]) : null]));
+      }
+      right.appendChild(it);
+    });
+    if(list.length > S.cLimit) right.appendChild(el('button', {class:'more', type:'button', text:'加载更多（还有 ' + (list.length - S.cLimit) + ' 条）', onclick:function(){ S.cLimit += 60; render(true); }}));
+  }
+  pane.appendChild(right);
+  frag.appendChild(pane);
+  return frag;
+}
+
+/* ---------- 周度总结 ---------- */
+function refItems(refs, refLinks){
+  var out = [];
+  (refs || []).forEach(function(id){
+    var e = ENT[id];
+    if(e) out.push({title:e.title, url: e.links && e.links[0] ? e.links[0].url : null});
+  });
+  if(!out.length) (refLinks || []).forEach(function(r){ out.push({title:r.title || r.text || r.url, url:r.url}); });
+  return out;
+}
+function refList(items){
+  if(!items.length) return null;
+  return el('ul', {class:'links'}, items.map(function(r){
+    return el('li', null, r.url ? el('a', {href:r.url, target:'_blank', rel:'noopener'}, hl(r.title)) : hl(r.title));
+  }));
+}
+function weekText(w){
+  var s = [];
+  (w.trends||[]).forEach(function(t){ s.push(t.text); });
+  (w.platform_changes||[]).forEach(function(t){ s.push(t.dimension); s.push(t.text); });
+  (w.implications||[]).forEach(function(t){ s.push(t); });
+  return s.join('\n');
+}
+function weekLabel(w){ return w.week_start + ' 至 ' + w.week_end; }
+function weekShort(w){ return w.week_start.slice(5) + ' 至 ' + w.week_end.slice(5); }
+function renderWeekly(){
+  var q = S.q.trim(), frag = document.createDocumentFragment();
+  var idxs = [];
+  B.weeks.forEach(function(w, i){ if(matchText(weekText(w))) idxs.push(i); });
+  setHits(q ? '命中 ' + idxs.length + ' 期周结' : '');
+  if(!idxs.length){ frag.appendChild(el('p', {class:'empty', text: B.weeks.length ? '没有符合条件的周度总结。' : '（暂无周度总结）'})); return frag; }
+  if(idxs.indexOf(S.wk) < 0) S.wk = idxs[0];
+  var w = B.weeks[S.wk];
+
+  var pane = el('div', {class:'pane'});
+  var side = el('nav', {class:'side is-weeks', 'aria-label':'周列表'});
+  idxs.forEach(function(i){
+    side.appendChild(el('button', {type:'button', class:'num', 'aria-current':String(i === S.wk), onclick:function(){ S.wk = i; render(); }}, weekShort(B.weeks[i])));
+  });
+  pane.appendChild(side);
+
+  var right = el('div', {class:'wk'});
+  right.appendChild(el('select', {class:'side-sel num', 'aria-label':'选择周', onchange:function(){ S.wk = parseInt(this.value, 10); render(); }},
+    idxs.map(function(i){ return el('option', {value:String(i), text:weekLabel(B.weeks[i]), selected:i === S.wk}); })));
+
+  var art = el('article', {class:'week'});
+  art.appendChild(el('h2', {class:'num', text:weekLabel(w) + ' 周度总结'}));
+
+  // ① 概览
+  art.appendChild(el('h3', {text:'① 当周数据概览'}));
+  var ov = w.overview || {total:0, by_category:{}};
+  art.appendChild(el('p', {class:'ov-total'}, ['当周共收录 ', el('b', {class:'num', text:String(ov.total || 0)}), ' 条']));
+  var bars = el('div', {class:'bars', role:'list'});
+  CATS.forEach(function(c){
+    var v = (ov.by_category && ov.by_category[c]) || {count:0, pct:0};
+    var pct = v.pct || 0;
+    bars.appendChild(el('div', {style:'display:contents', role:'listitem'}, [
+      el('span', {class:'tag', style:'--c:' + catColor(c)}, [el('span', {class:'dot', 'aria-hidden':'true'}), c]),
+      el('div', {class:'bar-track', 'aria-hidden':'true'}, el('div', {class:'bar-fill', style:'--c:' + catColor(c) + ';width:' + Math.min(100, pct*100).toFixed(1) + '%'})),
+      el('span', {class:'v num', text:(v.count || 0) + ' 条 · ' + (pct*100).toFixed(1) + '%'})
+    ]));
+  });
+  art.appendChild(bars);
+  if(ov.note) art.appendChild(el('p', {class:'muted', text:ov.note}));
+
+  // ② 趋势
+  art.appendChild(el('h3', {text:'② 趋势研判'}));
+  if(w.trends && w.trends.length){
+    art.appendChild(el('ul', {class:'plain'}, w.trends.map(function(t){
+      return el('li', null, [el('div', null, hl(t.text)), el('div', {class:'tr'}, refList(refItems(t.refs, t.ref_links)))]);
+    })));
+  } else art.appendChild(el('p', {class:'muted', text:'（本周无趋势研判）'}));
+
+  // ③ 平台
+  art.appendChild(el('h3', {text:'③ 平台逻辑变更综述'}));
+  if(w.platform_changes && w.platform_changes.length){
+    art.appendChild(el('ul', {class:'plain'}, w.platform_changes.map(function(p){
+      var kid = el('div', {class:'tr'}, refList(refItems(p.refs, p.ref_links)));
+      return el('li', null, [el('div', null, [el('span', {class:'dim', text:p.dimension}), hl(p.text)]), kid]);
+    })));
+  } else art.appendChild(el('p', {class:'muted', text:'（本周无重大平台逻辑变更）'}));
+
+  // ④ 启示
+  art.appendChild(el('h3', {text:'④ 对 GEO 方案商的产品 / 销售启示'}));
+  if(w.implications && w.implications.length)
+    art.appendChild(el('ul', {class:'plain'}, w.implications.map(function(t){ return el('li', null, hl(t)); })));
+  else art.appendChild(el('p', {class:'muted', text:'（暂无）'}));
+
+  right.appendChild(art);
+  pane.appendChild(right);
+  frag.appendChild(pane);
+  return frag;
+}
+
+/* ---------- 调度 ---------- */
+function setHits(t){ $hits.textContent = t; }
+function render(keepScroll){
+  var y = window.scrollY;
+  ['daily','category','weekly'].forEach(function(v){
+    var t = document.getElementById('tab-' + v);
+    t.setAttribute('aria-selected', String(S.view === v));
+    t.tabIndex = S.view === v ? 0 : -1;
+  });
+  $main.setAttribute('aria-labelledby', 'tab-' + S.view);
+  var node = S.view === 'daily' ? renderDaily() : S.view === 'category' ? renderCategory() : renderWeekly();
+  $main.replaceChildren(node);
+  if(keepScroll) window.scrollTo(0, y);
+}
+function viewFromHash(){
+  var h = (location.hash || '').replace('#','');
+  return (h === 'category' || h === 'weekly' || h === 'daily') ? h : 'daily';
+}
+function setView(v){
+  S.view = v;
+  if(location.hash !== '#' + v){ try{ history.replaceState(null, '', '#' + v); }catch(e){ location.hash = v; } }
+  render();
+}
+document.querySelectorAll('.tab').forEach(function(b){
+  b.addEventListener('click', function(){ setView(b.getAttribute('data-view')); });
+  b.addEventListener('keydown', function(ev){
+    var order = ['daily','category','weekly'], i = order.indexOf(S.view);
+    if(ev.key === 'ArrowRight' || ev.key === 'ArrowLeft'){
+      var n = order[(i + (ev.key === 'ArrowRight' ? 1 : 2)) % 3];
+      setView(n); document.getElementById('tab-' + n).focus(); ev.preventDefault();
+    }
+  });
+});
+window.addEventListener('hashchange', function(){ var v = viewFromHash(); if(v !== S.view){ S.view = v; render(); } });
+var timer = null;
+$q.addEventListener('input', function(){
+  clearTimeout(timer);
+  timer = setTimeout(function(){ S.q = $q.value; S.dayLimit = DAY_BATCH; S.cLimit = 60; render(true); }, 80);
+});
+
+/* ---------- 加载 ---------- */
+function getJSON(u){ return fetch(u, {cache:'no-cache'}).then(function(r){ if(!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }); }
+function init(b){
+  B = b; B.days = B.days || []; B.weeks = B.weeks || [];
+  var m = B.meta || (B.meta = {});
+  CATS = m.categories || [];
+  CATS.forEach(function(c, i){ CAT_COLOR[c] = 'var(--series-' + (i + 1) + ')'; });
+  B.days.forEach(function(d){ (d.entries || []).forEach(function(e){ e._date = d.date; ENT[e.id] = e; ALL.push(e); }); });
+  ALL.sort(function(a, b){ return a._date < b._date ? 1 : a._date > b._date ? -1 : 0; }); // 稳定：同日保持原序
+  var st = m.stats || {};
+  document.getElementById('siteTitle').textContent = m.title || 'GEO 每日行业动态';
+  document.getElementById('subLine').textContent = '收录 ' + (st.first_date || '—') + ' 至 ' + (st.last_date || '—') + ' · 共 ' + (st.days != null ? st.days : B.days.length) + ' 天 ' + (st.entries != null ? st.entries : ALL.length) + ' 条 · 每个工作日 10:00 更新';
+  var f = document.getElementById('foot');
+  f.appendChild(el('p', {text:m.c_src || ''}));
+  f.appendChild(el('p', {text:'数据每个工作日由 AI 自动采集，链接均经打开核验。'}));
+  S.view = viewFromHash();
+  render();
+}
+getJSON('data/bundle.json').catch(function(){ return getJSON('data/sample_bundle.json'); }).then(init).catch(function(err){
+  document.getElementById('subLine').textContent = '数据加载失败';
+  $main.replaceChildren(el('p', {class:'empty', text:'数据加载失败，请稍后刷新重试。'}));
+  if(window.console) console.warn(err);
+});
+})();
+</script>

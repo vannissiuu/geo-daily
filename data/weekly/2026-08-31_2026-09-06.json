@@ -1,0 +1,191 @@
+{
+  "week_start": "2026-08-31",
+  "week_end": "2026-09-06",
+  "legacy": true,
+  "overview": {
+    "total": 13,
+    "by_category": {
+      "行业政策": {
+        "count": 3,
+        "pct": 0.23
+      },
+      "行业方法论": {
+        "count": 3,
+        "pct": 0.23
+      },
+      "新技术": {
+        "count": 1,
+        "pct": 0.08
+      },
+      "市场动态": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 6,
+        "pct": 0.46
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "平台动态：AI 答案\"默认即满屏\"与\"可度量、可治理\"双线确立。Google 在部分查询默认把 AI Overviews 展开为接近完整的 AI Mode 答案（零点击蔓延至首屏即满屏），9 月核心更新重锤薄质联盟内容、持续压缩自然首位；同一周 Search Console 把生成式 AI 表现报告推向全球并给出站点级退出开关，欧盟把 ChatGPT 正式定性为 VLOSE 纳入 DSA——AIGC 答案的\"可见度\"从黑箱变成可观测、可申诉的公开指标，GEO 进入\"被引用+被偏好+被治理\"三位一体阶段。",
+      "refs": [
+        "2026-08-31-01",
+        "2026-09-01-01",
+        "2026-09-01-02",
+        "2026-08-03-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses By Default",
+          "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+        },
+        {
+          "title": "World Programming：Google Search Console 全球上线生成式 AI 可见度报告",
+          "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+        },
+        {
+          "title": "AIBARS：EU designates ChatGPT as Very Large Online Search Engine under DSA",
+          "url": "https://aibars.net/en/news/882548813993349120"
+        },
+        {
+          "title": "Affiliate Times：Google's September 2026 Core Update Reshaping Affiliate SERP",
+          "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+        }
+      ]
+    },
+    {
+      "text": "平台动态（商业化）：ChatGPT Ads 上线不到 200 天年化破 10 亿美元、扩至 40+ 国（印度 9/1 自助上线），清朗第二阶段累计清理 561 万条 AI 违规信息并倒逼豆包/元宝/千问/文心一言强化标识与语料审核——\"自然推荐 vs 付费影响\"边界与\"合规出口\"边界在双线同步重划，GEO 占位必须同时算清商业与监管两套账。",
+      "refs": [
+        "2026-09-02-02",
+        "2026-09-04-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Storyboard18：ChatGPT Ads crosses $1 billion annualised",
+          "url": "https://www.storyboard18.com/advertising/chatgpt-ads-crosses-1-billion-annualised-revenue-run-rate-as-openai-expands-global-rollout-109405.htm"
+        },
+        {
+          "title": "央视网：中央网信办深入开展\"清朗·整治AI应用乱象\"专项行动第二阶段",
+          "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/09/02/ARTI2b500eMemFvIK5efkq7E260902.shtml"
+        }
+      ]
+    },
+    {
+      "text": "行业政策：监管三连击收口\"铺量/聚合改写\"。首届 AI 搜索峰会推进中广协 GEO 三项团标编制与 IAB China 生态共建；《互联网信息内容多渠道分发服务管理规定》9/1 生效封杀批量同质化分发与编造人设，最高法明确平台间转载不再法定许可、须著作权人许可并付费——AI 聚合/改写内容生产模式的授权链成首要合规点，\"白帽+可信信源\"从加分项变入场券。",
+      "refs": [
+        "2026-08-31-03",
+        "2026-09-03-01",
+        "2026-09-04-01"
+      ],
+      "ref_links": [
+        {
+          "title": "人民网：首届AI搜索峰会召开 共探品牌增长新路径",
+          "url": "https://finance.people.com.cn/BIG5/n1/2026/0826/c1004-40786739.html"
+        },
+        {
+          "title": "搜狐：9月新规施行，白帽GEO的窗口期",
+          "url": "https://www.sohu.com/a/1071151077_122963513"
+        },
+        {
+          "title": "最高法数字图书馆：法释〔2026〕18号",
+          "url": "https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf"
+        }
+      ]
+    },
+    {
+      "text": "行业方法论：从\"概念\"走向\"分平台实测+站内工程清单\"。4 大引擎 45 条引用源实测确立\"下一问\"预判法（把问题拆成对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用；Practical GEO Checklist 给出可机读事实、robots 可爬、单页单问、权威面建设等站内清单；6 大引擎引用偏好实测（豆包偏 CSDN、DeepSeek 偏技术社区、Kimi 偏财经）给出可复现平台地图与内容适配公式——GEO 交付 SOP 化、精准化。",
+      "refs": [
+        "2026-09-02-03",
+        "2026-09-03-02",
+        "2026-09-04-03"
+      ],
+      "ref_links": [
+        {
+          "title": "阿里云开发者社区：4大AI引擎45条引用源实测",
+          "url": "https://developer.aliyun.com/article/1759912"
+        },
+        {
+          "title": "DEV Community：A Practical GEO Checklist",
+          "url": "https://dev.to/yue_wang_4c0315f2e8a02ea6/a-practical-geo-checklist-make-your-site-crawlable-and-citable-by-ai-assistants-4jnd"
+        },
+        {
+          "title": "阿里云开发者社区：6大AI引擎引用偏好实测",
+          "url": "https://developer.aliyun.com/article/1760216"
+        }
+      ]
+    },
+    {
+      "text": "新技术：Cloudflare BotBase for Operators 让 AI 爬虫显式声明行为（索引/代理/训练/SEO）与内容使用（search=yes, ai-train=no），把\"可被 AI 搜索引用但拒入训练\"拆成可独立开关的信号——\"可被 AI 读取\"策略新增训练意图开关维度，内容方对 AI 平台的数据使用权第一次有了可声明的边界。",
+      "refs": [
+        "2026-08-31-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Cloudflare 官方博客：BotBase for Operators",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "Google 默认把 AI Overviews 展开为接近完整 AI Mode 答案（零点击蔓延），并把\"系统判定最有用主题\"作为动态展开判据；9 月核心更新重锤薄质联盟内容、持续压缩自然首位。品牌\"被引却不被点\"在首屏满屏化下进一步固化，\"被偏好\"比\"被引用\"更关键。",
+      "refs": [
+        "2026-08-31-01"
+      ],
+      "ref_links": [
+        {
+          "title": "Search Engine Roundtable：Google AI Overviews Pushing AI Mode Responses",
+          "url": "https://www.seroundtable.com/google-ai-overviews-push-ai-mode-responses-41974.html"
+        }
+      ]
+    },
+    {
+      "dimension": "收录周期",
+      "text": "Search Console 把生成式 AI 表现报告（AI Overviews/AI Mode/Discover 可见度）推向全球，并新增站点级退出开关——\"可被引用来源\"退出的开关权明确回流内容方，收录与展示的可观测性提升。",
+      "refs": [
+        "2026-09-01-01"
+      ],
+      "ref_links": [
+        {
+          "title": "World Programming：Google Search Console 全球 AI 报告",
+          "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+        }
+      ]
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "ChatGPT Ads 年化破 10 亿美元、扩至 40+ 国，AI 答案\"自然推荐 vs 付费\"边界在更多市场确立；欧盟把 ChatGPT 纳入 DSA VLOSE，监管侧给\"AI 搜索引擎\"立规，organic×paid 双轨占位成为跨市场必答题。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "Cloudflare BotBase for Operators 用可声明信号（search/ai-train 等）替代模糊的 robots 行为，AI 爬虫\"索引 vs 训练\"意图第一次可独立开关；内容方可精细控制\"被引用\"与\"被训练\"的边界，GEO 的\"机器友好\"从被动适配转向主动声明。",
+      "refs": [
+        "2026-08-31-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Cloudflare 官方博客：BotBase for Operators",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/"
+        }
+      ]
+    }
+  ],
+  "implications": [
+    "把\"自然+付费\"双轨占位做成标准叙事：ChatGPT Ads 年化破 10 亿美元、扩至 40+ 国，GEO 卖点从\"被引用\"升级为\"被引用+被赞助\"，监测/优化需覆盖付费 AI 推荐位与官方面板（Search Console AI 报告）。",
+    "用\"可治理+可观测\"做差异化：借 Search Console 全球 AI 报告与退出开关、欧盟 DSA VLOSE 立规，主推\"可见度可度量、可申诉、可信信源\"透明交付，把 GEO 从黑箱优化讲成可审计的增长项。",
+    "重押\"白帽+可信信源\"入场券：9 月新规封杀批量同质化分发、最高法收紧平台间转载法定许可，AI 聚合/改写生产模式合规成本骤升；方案商应把\"授权链清晰+实体对齐+权威信源\"作为交付底线，规避清朗点名与侵权风险。",
+    "方法论产品化、分平台精准化：以\"下一问\"预判法、Practical GEO Checklist、6 大引擎引用偏好实测为底座，封装可演示的站内工程清单与分平台内容适配 SaaS，把交付从通用建议升级为\"按引擎精准投放\"的标准 SOP。",
+    "借 BotBase 类可声明信号设计\"训练意图开关\"模块：Cloudflare 把\"被引用 vs 被训练\"拆成独立信号，方案商可帮客户配置 AI 爬虫数据使用边界，把\"机器友好\"从被动适配升级为主动治理。"
+  ]
+}

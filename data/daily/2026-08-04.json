@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-04",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-04-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "信通院专家建言五方共治，推动 GEO 行业健康发展",
+      "summary": "信通院呼娜英提五方共治，清朗行动已处置1.4万款AI产品、清理600万条信息。",
+      "insight": "清朗已处置1.4万款AI产品，客户合规风险真实存在，售前应主动说明内容留痕与合规流程。",
+      "published": null,
+      "links": [
+        {
+          "text": "从\"被搜索\"到\"被推荐\" 专家建言推动GEO行业健康发展（中国新闻网）",
+          "url": "https://www.chinanews.com/sh/2026/08-02/10670800.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-04-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Victorious 研究：96% 品牌被 AI 识别，但 89% 从未被提及",
+      "summary": "Q2实测96%品牌被识别、89%品类零提及，99.99%引用指向第三方域名。",
+      "insight": "品牌被识别却零提及，监测需单列提及率，并加强第三方域名上的内容布局。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI Recognizes Brands But Rarely Mentions Them In Category Searches（Dataconomy）",
+          "url": "https://dataconomy.com/2026/07/29/ai-recognition-vs-mentions-brands-search-report"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-04-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "GMO TECH 推出 Local GEO Dash!，门店·地域特化 AI 搜索咨询",
+      "summary": "东京上市GMO TECH推出Local GEO Dash!，助门店·地域商户被AI优先引用。",
+      "insight": "门店与地域商户有了专属GEO咨询产品，本地生意客户可打包门店级监测加地域内容优化。",
+      "published": null,
+      "links": [
+        {
+          "text": "GMO TECH、店舗・地域向けAI検索コンサルティング「Local GEO Dash! byGMO」提供開始（GMO TECH）",
+          "url": "https://group.gmo/pdf/news/gmo_news_10111.pdf"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

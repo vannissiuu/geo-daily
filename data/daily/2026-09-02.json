@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-02",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "AI 答案引擎商业化与算法治理双线加速：Google September 2026 核心更新重锤薄质联盟内容、AI Overviews 持续压缩自然首位，ChatGPT Ads 上线不到 200 天年化破 10 亿美元并扩至 40+ 国（印度 9/1 自助上线）——GEO 占位进入\"自然推荐×付费赞助\"双轨深水区。",
+    "方法论从\"技术合规\"走向\"内容结构工程\"：4 大引擎 45 条引用源实测显示，AI 统一偏好\"问答结构清晰、信息块完整\"的内容，\"下一问\"预判（把用户问题拆成对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-02-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google September 2026 核心更新重锤薄质内容，AI Overviews 持续压缩自然首位",
+      "summary": "Google 于 8/28 推出 September 2026 核心更新，薄质程序化/寄生 SEO 内容遭重锤，主题权威集群受益；AI Overviews 在信息类查询持续压缩自然首位，AEO 结构化内容（问答格式+FAQ/HowTo schema+实体富内容）成为被引关键。",
+      "insight": "薄质程序化内容被降权，客户应清理低质页，用问答、FAQ schema和实体内容增强可引用性。",
+      "published": null,
+      "links": [
+        {
+          "text": "Affiliate Times：Google's September 2026 Core Update Is Redrawing the Affiliate SERP Map",
+          "url": "https://affiliate-times.com/googles-september-2026-core-update-is-redrawing-the-affiliate-serp-map"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-02-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT Ads 上线不到 200 天年化破 10 亿美元，扩至 40+ 国（印度 9/1 自助上线）",
+      "summary": "OpenAI 宣布 ChatGPT Ads 年化运行率突破 10 亿美元、覆盖 40+ 国、数万广告主；9/1 起印度通过 Ads Manager 自助投放，强调广告不干预答案、与回答分离标注。",
+      "insight": "ChatGPT Ads年化破10亿美元并扩至40多国，应把广告位纳入客户监测范围。",
+      "published": null,
+      "links": [
+        {
+          "text": "Storyboard18：ChatGPT Ads crosses $1 billion annualised revenue run rate",
+          "url": "https://www.storyboard18.com/advertising/chatgpt-ads-crosses-1-billion-annualised-revenue-run-rate-as-openai-expands-global-rollout-109405.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-02-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "4 大 AI 引擎 45 条引用源实测：「下一问」预判法成被引关键",
+      "summary": "基于 2026年5月豆包/DeepSeek/Kimi/秘塔实测 45 条引用源，AI 统一偏好\"问答结构清晰、信息块完整\"内容；\"下一问\"预判（拆对话链、每链写 200–300 字可摘录答案块）比 llms.txt/Schema 更能决定被引用。",
+      "insight": "拆对话链、每链写200到300字可摘录答案块，可作客户内容生产模板，先小范围验证。",
+      "published": null,
+      "links": [
+        {
+          "text": "阿里云开发者社区：4大AI引擎45条引用源实测",
+          "url": "https://developer.aliyun.com/article/1759912"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

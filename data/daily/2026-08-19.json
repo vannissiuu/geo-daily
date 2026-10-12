@@ -1,0 +1,80 @@
+{
+  "date": "2026-08-19",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "ChatGPT 检索与引用机制再成焦点：Reddit 引用份额 8/14 单日暴跌约 86%，RESONEO 实测 ChatGPT 仅打开约 760/5.8 万检索页，\"被检索≠被引用≠被打开\"三层漏斗凸显。",
+    "GEO 行业拐点：弯弓白皮书测算 2026 中国 GEO 市场约 21 亿元、玩家破 100 家，汽车等六大主战场成型，语义资产建设成核心。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-19-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "Reddit 在 ChatGPT 引用份额 8/14 起暴跌约 86%，疑因 query fan-out 调整",
+      "summary": "Reddit 在 ChatGPT 引用份额 8/14 起从 3.83% 暴跌至 0.52%，疑因 query fan-out 调整。",
+      "insight": "Reddit被引占比一周跌约86%，别把引用策略押在单一社区，监测要设波动告警。",
+      "published": null,
+      "links": [
+        {
+          "text": "Reddit ChatGPT Citations Drop 86%（explainx.ai）",
+          "url": "https://www.explainx.ai/blog/reddit-citations-chatgpt-search-drop-august-2026"
+        },
+        {
+          "text": "Reddit Citations Are Dropping in ChatGPT（Promptwatch）",
+          "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-19-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "RESONEO 逆向工程 ChatGPT 检索漏斗：约 5.8 万 URL 仅约 760 被打开",
+      "summary": "RESONEO 实测 1249 条答案，检索 5.8 万、打开仅约 760，被检索≠被引用≠被打开。",
+      "insight": "被检索不等于被引用或被打开，监测要分层统计，内容优化应争取被打开。",
+      "published": null,
+      "links": [
+        {
+          "text": "ChatGPT Retrieval Rarely Opens Source Pages（Get Search Engine）",
+          "url": "https://getsearchengine.com/blog/chatgpt-retrieval"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-19-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "弯弓研究院发布《2026中国GEO行业实战白皮书》：市场约 21 亿、玩家破 100 家",
+      "summary": "弯弓白皮书：2026 中国 GEO 市场约 21 亿、增速 37%、玩家破 100 家，六大主战场成型。",
+      "insight": "市场约21亿、玩家破100家可作背景引用，但出自服务商白皮书，使用时需标注来源。",
+      "published": null,
+      "links": [
+        {
+          "text": "读懂2026可信GEO实战白皮书（腾讯新闻）",
+          "url": "https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

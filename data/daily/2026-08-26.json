@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-26",
+  "status": "none",
+  "legacy": true,
+  "highlights": [],
+  "entries": [],
+  "run": {
+    "candidates": null,
+    "selected": 0,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

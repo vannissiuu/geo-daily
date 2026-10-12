@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-28",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-28-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "《环球时报》社与深圳真迹智能签署海外 GEO 业务战略合作协议",
+      "summary": "环球时报社与深圳真迹智能签约，以权威信源+海外传播+GEO 技术拓展海外 GEO，目标让 AI 自然引用环球时报。",
+      "insight": "权威媒体与GEO公司结盟做海外，可向出海客户推荐权威信源加GEO的组合方案。",
+      "published": null,
+      "links": [
+        {
+          "text": "《环球时报》社与深圳真迹智能在京签署海外 GEO 业务战略合作协议（澎湃新闻）",
+          "url": "https://www.thepaper.cn/newsDetail_forward_33668839"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-28-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Petra Labs 获 520 万美元种子融资，专注 AEO（答式引擎优化）赛道",
+      "summary": "Petra Labs 完成 520 万美元种子轮，专注 AEO 赛道，自研 AI 搜索监测+品牌舆情追踪+营收归因一体化平台。",
+      "insight": "AEO监测加舆情加营收归因的一体化获得融资，方案商可补齐营收归因能力。",
+      "published": null,
+      "links": [
+        {
+          "text": "Petra Labs 获 520 万美元种子融资（DoNews）",
+          "url": "https://www.donews.com/news/detail/8/6648219.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-28-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "电通数字联手 Adobe 启动 GEO 支援服务（活用 Adobe LLM Optimizer）",
+      "summary": "日本电通数字联手 Adobe，以 LLM Optimizer 为基座提供横跨三媒体的 GEO 端到端支援，将 GEO 咨询服务体系化、工具化。",
+      "insight": "广告集团以Adobe工具把GEO做成端到端咨询，方案商需突出自身的跨媒体执行与定制能力。",
+      "published": null,
+      "links": [
+        {
+          "text": "Dentsu Digital Launches AI-Era Brand Defense: Enhances GEO Support with New Adobe Tool（biggo 转述，英文可读）",
+          "url": "https://finance.biggo.com/news/e0e39ac1-aabb-4df8-a0e3-b03b76f7d30e"
+        },
+        {
+          "text": "電通デジタル、アドビと連携し「Adobe LLM Optimizer」を活用した GEO 支援を開始（电通数字官方新闻稿 PDF）",
+          "url": "https://www.dentsudigital.co.jp/sites/default/files/release/2026-07/DD2026_337_0727.pdf"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

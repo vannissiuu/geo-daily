@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-07",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "Verndale 上线 AI 可见度与内容供应链服务，传统营销咨询机构成 GEO 交付新入局者，服务能力从监测延伸到内容生产管线重构。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-07-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Verndale 推出 AI 可见度与内容供应链服务，传统咨询入局 GEO",
+      "summary": "数字咨询公司 Verndale 发布 AI 可见度（GEO/AEO）与内容供应链服务，帮助品牌监测各 AI 引擎引用表现、重构内容生产管线以适配生成式答案，传统营销咨询机构加速布局 GEO 交付能力。",
+      "insight": "传统咨询公司入局，GEO 交付竞争加剧；方案商需突出监测加内容管线重构的一体化交付。",
+      "published": null,
+      "links": [
+        {
+          "text": "Verndale Introduces AI Visibility and Content Supply Chain Services（PR Newswire）",
+          "url": "https://lfpress.com/press-releases/pr-newswire/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

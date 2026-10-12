@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-30",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-30-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "中广协正式发布《生成引擎优化(GEO)团体标准》征求意见通知：国内首套 GEO 统一标准全文亮相，8 月 30 日截止反馈",
+      "summary": "中广协 7/28 发布 GEO 团体标准征求意见，8/30 截止，含定义、准入、计价、语料、合规五专项。",
+      "insight": "标准含准入与计价专项，8月30日前可提反馈，方案商应对照条款调整报价与交付规范。",
+      "published": null,
+      "links": [
+        {
+          "text": "中国商务广告协会关于公开征求《生成引擎优化(GEO)团体标准》意见的通知（协会官网）",
+          "url": "http://caacchina.org/news/notice/2026/0728/523.html"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-30-02",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "非凡产研圆桌实录：帷幄官宣 C3 轮 4000 万美元融资，四家 GEO 相关公司拆解「AI 搜索时代品牌的钱怎么花」",
+      "summary": "非凡产研圆桌：帷幄官宣 C3 轮 4000 万美元，抖店后台已现豆包来源，SEO/GEO 预算四六开。",
+      "insight": "抖店后台已见豆包来源，客户会按四六开比较SEO与GEO预算，需备好分渠道效果证明。",
+      "published": null,
+      "links": [
+        {
+          "text": "80%消费者决策靠 AI 辅助、客户续约率 100%：AI搜索时代，品牌的钱该怎么花（网易订阅·非凡产研）",
+          "url": "https://dy.163.com/article/L2VBVEIF05568W0A.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-30-03",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "BrandRank.AI 完成 300 万美元种子轮首关：AEO 赛道卖点从「可见度」升级为「信任与推荐份额」",
+      "summary": "BrandRank.AI 获 300 万美元种子轮，AEO 卖点升为信任与推荐份额，入选 Gartner 指南。",
+      "insight": "对标其信任与推荐份额指标，监测报告除可见度外增加AI是否推荐品牌的维度。",
+      "published": null,
+      "links": [
+        {
+          "text": "BrandRank.AI Completes the Initial Closing of a $3 Million Series Seed Financing（EIN Presswire）",
+          "url": "https://www.einpresswire.com/article/929820877/brandrank-ai-completes-the-initial-closing-of-a-3-million-series-seed-financing"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

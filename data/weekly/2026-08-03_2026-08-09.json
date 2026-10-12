@@ -1,0 +1,127 @@
+{
+  "week_start": "2026-08-03",
+  "week_end": "2026-08-09",
+  "legacy": true,
+  "overview": {
+    "total": 13,
+    "by_category": {
+      "行业政策": {
+        "count": 2,
+        "pct": 0.15
+      },
+      "行业方法论": {
+        "count": 4,
+        "pct": 0.31
+      },
+      "新技术": {
+        "count": 6,
+        "pct": 0.46
+      },
+      "市场动态": {
+        "count": 1,
+        "pct": 0.08
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 0,
+        "pct": 0.0
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "AI 可见度度量走向「标准化 + 工具化」：IAB 发布 AI 可见度\"4 P's\"衡量框架、Cloudflare 上线 AEO 可见度看板（拆引用率/提及率/突出度/声量）、Somantra 发布 Brand Consideration Score（区分\"提到\"vs\"推荐\"）、Microsoft Clarity 与 LLM Pulse 提供基准数据，行业从\"各说各话\"转向可量化、可对标。",
+      "refs": [
+        "2026-08-07-01",
+        "2026-08-07-02",
+        "2026-08-07-03"
+      ],
+      "ref_links": [
+        {
+          "title": "IAB 发布 AI 可见度衡量指南（IAB 官方）",
+          "url": "https://www.iab.com/news/iab-releases-measuring-visibility-in-the-ai-era/"
+        },
+        {
+          "title": "Cloudflare 发布 AEO 可见度看板（Cloudflare 官方）",
+          "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-adds-aeo-visibility-dashboard-to-its-aeo-suite-showing-brands-whether-ai-assistants-are-recommending-them/"
+        },
+        {
+          "title": "Somantra 发布 Brand Consideration Score（GlobeNewswire）",
+          "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/somantra-an-enterprise-grade-answer-engine-optimization-and-ai-search-visibility-platform-launches-brand-consideration-score-new-chatgpt-and-google-ai-search-ranking-factor-for-brands/2400210"
+        }
+      ]
+    },
+    {
+      "text": "新技术密集落地，AEO / 可见度看板成新基础设施：Google 8 月核心更新加速 AEO（实战派称 AEO 已成独立学科）、GMO TECH 推 Local GEO Dash! 门店地域特化、豆包公开信源 Level1-4 分级、Cloudflare/Somantra/Clarity 连发度量工具，GEO 优化对象从\"网页\"延伸到\"检索中间层 + 信源评级机制\"。",
+      "refs": [
+        "2026-08-03-02",
+        "2026-08-05-01",
+        "2026-08-06-02"
+      ],
+      "ref_links": [
+        {
+          "title": "Google's August 2026 Core Update Is Reshaping Affiliate SERP Real Estate（Affiliate Times）",
+          "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+        },
+        {
+          "title": "品牌为什么在AI搜索中消失，豆包信源分级与优化服务商选型解析（IT之家）",
+          "url": "https://www.ithome.com/0/985/797.htm"
+        },
+        {
+          "title": "Microsoft Clarity now splits AI citations by brand（PinMeTo）",
+          "url": "https://www.pinmeto.com/news/microsoft-clarity-branded-ai-queries-2026"
+        }
+      ]
+    },
+    {
+      "text": "方法论体系化深化，信任度量成共识：生意盒子\"收录≠引用≠理解\"三层级 + 12 维评估、LLM Pulse《State of GEO 2026》基准（ChatGPT 9 亿周活、优化最高+40%）、Victorious 实测 96% 被识别但 89% 零提及、增长黑盒×Emergine 全球 5000 对话报告（实体成硬通货）。",
+      "refs": [
+        "2026-08-03-01",
+        "2026-08-03-03",
+        "2026-08-05-02"
+      ],
+      "ref_links": [
+        {
+          "title": "生意盒子研究院重磅发布丨万字GEO白皮书：收录≠引用≠理解（今日头条）",
+          "url": "https://www.toutiao.com/article/7668326336607404584"
+        },
+        {
+          "title": "Generative Engine Optimization Statistics 2026: State of GEO（LLM Pulse）",
+          "url": "https://llmpulse.ai/blog/state-of-geo"
+        },
+        {
+          "title": "揭秘2026年全球GEO数据：AI 会怎么对待你的品牌？（钛媒体 APP）",
+          "url": "https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009"
+        }
+      ]
+    },
+    {
+      "text": "政策侧持续治理、市场侧资本偏冷：信通院呼娜英建言五方共治（清朗已处置 1.4 万款 AI 产品）、全周唯一市场动态为 Exa 2.5 亿美元 C 轮（机器友好搜索 API 成新基础设施）；相较上周（8 条市场动态）本周融资/合作事件明显减少，行业重心转向\"度量标准化 + 技术基建\"。",
+      "refs": [
+        "2026-08-04-01",
+        "2026-08-06-01"
+      ],
+      "ref_links": [
+        {
+          "title": "从\"被搜索\"到\"被推荐\" 专家建言推动GEO行业健康发展（中国新闻网）",
+          "url": "https://www.chinanews.com/sh/2026/08-02/10670800.shtml"
+        },
+        {
+          "title": "为AI智能体打造的搜索引擎Exa，完成2.5亿美元C轮融资，估值22亿美元（网易）",
+          "url": "https://www.163.com/dy/article/L3E4SL4N05561FZK.html"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [],
+  "implications": [
+    "把「AI 可见度度量」做成标准产品模块：对标 IAB 4P's、Cloudflare AEO 看板、Somantra BCS，封装\"引用率 / 提及率 / 推荐份额 / 突出度\"四指标监测仪表盘，让客户\"看得见、测得准\"。",
+    "主推「技术就绪度诊断」独立线：LightSite 用约 700 万数据点证明\"可抓取性→AI 可见性\"因果；方案商可推出\"AI 爬虫可达性 + 结构化数据 + SSR\"诊断 SaaS，抢占机器友好优化新赛道。",
+    "用「度量标准化」做差异化促单：以 96% 被识别 / 89% 零提及、引用≠提及等行业基准数据，向客户证明\"铺量失效、度量先行\"，把交付从\"发稿量\"升级为\"可量化引用份额\"。",
+    "关注广电等权威信源新玩家：青岛交通广播下场做 GEO 服务，印证\"官方媒体公信力 = 可信信源壁垒\"；方案商可探索与本地主流媒体/机构共建信源，强化 EEAT 背书。"
+  ]
+}

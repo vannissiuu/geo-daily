@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-08",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "国内主流 AI 助手相继在回答内嵌可点商品卡，\"AI 推荐→交易\"闭环打通，GEO 电商可见度进入商品卡竞争阶段。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-08-01",
+      "category": "平台动态",
+      "platform": "多平台",
+      "region": "国内",
+      "title": "豆包/元宝/文心/千问 AI 回答内嵌可点商品卡，智推时代上线 SKU 级监测",
+      "summary": "国内主流 AI 助手陆续在 AI 回答中内嵌可直接点击购买的商品卡（豆包/抖音商城、元宝/京东、文心/京东拼多多、千问等），AI 推荐与电商交易闭环加速融合，平台呈现机制变更直接改写 GEO 电商可见度规则。",
+      "insight": "AI 回答内嵌可点商品卡改写电商可见度规则：方案商应把商品卡露出与 SKU 级监测纳入交付。",
+      "published": null,
+      "links": [
+        {
+          "text": "新京报：AI 回答内嵌商品卡成趋势，智推时代 GENO 上线 SKU 级监测",
+          "url": "https://www.bjnews.com.cn/detail/1791431194129426.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": 1.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

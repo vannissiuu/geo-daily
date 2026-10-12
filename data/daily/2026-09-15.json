@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-15",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "Google 把\"被 AI 引用\"从流量逻辑推进到\"按贡献付费\"逻辑——生成式引擎首次出现平台侧对内容贡献度的直接货币化信号，GEO 内容价值坐标系从\"可见度/流量\"延伸到\"贡献度计价\"，品牌须重新审视自产高证据密度内容（白皮书/研究/数据）的长期价值。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-15-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 测试「AI Contribution Pilot」：按内容对 AI 答案的\"生成期贡献\"向出版方付费",
+      "summary": "Google 据 SER/Digiday（9/14）报道测试 AI Contribution Pilot：出版方内容\"显著贡献\"于 Gemini/AI Overviews/AI Mode 答案时，经 Search Console 获付费；仅\"生成阶段\"贡献计入。",
+      "insight": "Google测试按生成期贡献向出版方付费，出版方客户可关注Search Console入口，评估内容变现。",
+      "published": null,
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Google Al Contribution Pilot - Paying Publishers For Use Of Content In AI",
+          "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

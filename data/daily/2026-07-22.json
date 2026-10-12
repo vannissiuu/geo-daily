@@ -1,0 +1,123 @@
+{
+  "date": "2026-07-22",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-22-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "GEO 服务商能力评估（星级）正式启动，证书多平台公示",
+      "summary": "第三方「标尺」上线，一星至五星分级、多平台公示，企业「看不清、选不准」有了客观参考。",
+      "insight": "星级评估分一至五星并多平台公示，方案商应核对参评条件，星级可作获客背书。",
+      "published": null,
+      "links": [
+        {
+          "text": "人工智能 GEO 市场三年激增 35 倍，第三方星级评估正式启动（中华网）",
+          "url": "https://digi.china.com/articles/20260720/202607201921859.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-22-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "头部技术横评：全栈体系对抗，「七大能力评估」与红黑榜成型",
+      "summary": "头部比拼 RAG 架构 + 知识图谱 + 内容生成引擎，七大能力评估体系成型，单点铺量玩法彻底失效。",
+      "insight": "红黑榜和七大能力评估已成型，方案商需用RAG、知识图谱等全栈能力自证，不能只靠铺量。",
+      "published": null,
+      "links": [
+        {
+          "text": "dpV4 开源、GEO 星级认证启动：AI 产业进入标准化竞速期（同花顺）",
+          "url": "https://t.10jqka.com.cn/pid_663949898.shtml"
+        },
+        {
+          "text": "2026 年 7 月 GEO 服务商红黑榜 · 9 家拆解（界面新闻）",
+          "url": "https://www.jiemian.com/article/14756103.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-22-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "豆包优化服务商评测：六维体系与 TOP3（传声港 / 传新社 / 怪兽智能）",
+      "summary": "六维评测体系成型，头部服务商座次初定。",
+      "insight": "客户选型会参考六维评测，方案商应对照这套维度整理自身能力说明与案例。",
+      "published": null,
+      "links": [
+        {
+          "text": "2026 年豆包优化服务商推荐 · 六维 TOP3（中国经济新闻网）",
+          "url": "https://www.cet.com.cn/wzsy/kjzx/cygdzx/10451306.shtml"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-22-04",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "市场爆发式增长但信任危机凸显，「保排名 / 投毒 / 案例虚标」三乱象成众矢之的",
+      "summary": "差异化卖点必须绑定「可溯源 + 可量化 + 可验真」，否则会被官方认证 / 付费推荐挤压空间。",
+      "insight": "客户对保排名、投毒、案例虚标敏感，报价时要拿出可溯源、可量化、可验真的交付证据。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO 行业有标准了（新浪）",
+          "url": "https://k.sina.cn/article_5953189932_162d6782c06704n4co.html"
+        },
+        {
+          "text": "GEO 服务商红黑榜（界面）",
+          "url": "https://www.jiemian.com/article/14756103.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-22-05",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "AI 投毒防御成刚需：从「被推荐」到「不被黑」，多元共治提速",
+      "summary": "从「被推荐」到「不被黑」，防御型 GEO 从加分项变为确定性增量业务。",
+      "insight": "把防投毒做成独立服务线：监测品牌在AI答案中被恶意污染的情况并给出处置方案。",
+      "published": null,
+      "links": [
+        {
+          "text": "依法斩断 AI「投毒」产业链（法治日报）",
+          "url": "https://www.legaldaily.com.cn/The_analysis_of_public_opinion/content/2026-04/10/content_9371420.html"
+        },
+        {
+          "text": "起底 AI「投毒」黑产（北京举报平台）",
+          "url": "https://www.bjjubao.org.cn/2026-04/01/content_48404.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 5,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

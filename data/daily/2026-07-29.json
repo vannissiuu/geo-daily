@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-29",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-29-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "爱分析《2026 中国 GEO 市场研究报告》正式发布：千亿新入口，格局哑铃化、能力数据驱动化",
+      "summary": "爱分析报告将 GEO 定义为千亿级新入口，预测 2026-2030 年 CAGR 超 130%、2030 年达 1376 亿元，并提 GEO 到 AEO 代际演进。",
+      "insight": "报告预测2030年达1376亿元，可用于向客户论证市场空间，引用时注明出处。",
+      "published": null,
+      "links": [
+        {
+          "text": "爱分析发布 2026 年中国 GEO 市场研究报告（爱分析官方）",
+          "url": "https://www.ifenxi.com/research/content/6828"
+        },
+        {
+          "text": "爱分析发布2026年中国GEO市场研究报告（网易订阅·爱分析官方账号）",
+          "url": "https://www.163.com/dy/article/L2Q897EI0531W0RG.html"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-29-02",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "南方人物周刊《从流量经济到证据经济：GEO 如何让严肃内容重新值钱》",
+      "summary": "文章指出内容价值从流量经济走向证据经济，在 AI 入口竞争核心变为被引用、被信任，严肃内容重新值钱。",
+      "insight": "被引用、被信任成为入口竞争核心，可用证据经济话术说服严肃内容客户做可核验内容。",
+      "published": null,
+      "links": [
+        {
+          "text": "从流量经济到证据经济：GEO如何让严肃内容重新值钱（南方人物周刊·腾讯新闻）",
+          "url": "https://new.qq.com/rain/a/20260727A098PA00"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

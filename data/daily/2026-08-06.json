@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-06",
+  "status": "few",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-06-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "Exa Labs 完成 2.5 亿美元 C 轮融资：a16z 领投、估值 22 亿美元",
+      "summary": "Exa 完成 2.5 亿美元 C 轮（a16z 领投），估值 22 亿，主打面向机器的搜索 API。",
+      "insight": "Exa获2.5亿美元融资，面向机器的搜索API受资本认可，客户内容需适配机读检索。",
+      "published": null,
+      "links": [
+        {
+          "text": "为AI智能体打造的搜索引擎Exa，完成2.5亿美元C轮融资，估值22亿美元（网易）",
+          "url": "https://www.163.com/dy/article/L3E4SL4N05561FZK.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-06-02",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Microsoft Clarity 上线 AI 引用看板：区分品牌词与非品牌词查询",
+      "summary": "Clarity 新增 AI 引用看板，拆分品牌/非品牌 AI 查询，免费开放。",
+      "insight": "Clarity免费拆分品牌与非品牌AI查询，可直接用于客户引用分析和低成本监测。",
+      "published": null,
+      "links": [
+        {
+          "text": "See Branded and Non-Branded AI Queries in the Clarity Citations Dashboard（Microsoft 官方博客）",
+          "url": "https://clarity.microsoft.com/blog/branded-non-branded-queries"
+        },
+        {
+          "text": "Microsoft Clarity now splits AI citations by brand（PinMeTo 解读）",
+          "url": "https://www.pinmeto.com/news/microsoft-clarity-branded-ai-queries-2026"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

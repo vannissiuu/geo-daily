@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-27",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-27-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 正式开放「Advertise in ChatGPT」自助广告平台，Best Buy、Lowe's 首批投放",
+      "summary": "7 月 22 日上线自助广告后台 Ads Manager，取消 5 万美元最低门槛，基于对话上下文信号定向，以「Sponsored」标注块出现在回答下方，仅免费版/Go 版展示；6 周约 1 亿美元年化收入、600+ 品牌入场，GEO 进入「organic 引用 × paid 赞助」双轨时代。",
+      "insight": "ChatGPT广告开放后，要把付费赞助位纳入监测，并向客户讲清自然引用与付费位的分工。",
+      "published": null,
+      "links": [
+        {
+          "text": "OpenAI 在 ChatGPT 正式推出广告服务，Best Buy 等品牌首批试水（搜狐科技）",
+          "url": "https://www.sohu.com/a/1053316063_122396381"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-27-02",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Pepper 发布企业级 GEO 平台：追踪品牌在五大 AI 引擎中的可见度与引用源",
+      "summary": "覆盖 ChatGPT/Claude/Perplexity/Gemini/AI Overviews，核心能力为品牌提及率、自有域名被引用率、第三方引用源识别、按人群/话题/购买旅程组织 Prompt 并转译为行动建议，指标可回溯原始回答，已分析 1000 万+ Prompt。",
+      "insight": "对标其五引擎监测和按购买旅程组织Prompt的做法，检查自家监测覆盖与行动建议输出。",
+      "published": null,
+      "links": [
+        {
+          "text": "Pepper launches its GEO platform to track how enterprises show up in AI search（EIN Presswire）",
+          "url": "https://www.einpresswire.com/article/929112894/pepper-launches-its-geo-platform-to-track-how-enterprises-show-up-in-ai-search"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-27-03",
+      "category": "舆情",
+      "platform": "",
+      "region": "国内",
+      "title": "《GEO 狂飙与隐忧》：低价交付陷阱实录曝光，网信办「清朗」行动点名 GEO 恶意营销",
+      "summary": "需求端受害实录（低价服务商捏造企业信息被 AI 交叉验证反噬、展现清零），中央网信办「清朗·整治 AI 应用乱象」明确点名「利用 GEO 技术开展恶意营销」，品牌方对内容真实性负连带责任，不因外包免责。",
+      "insight": "网信办点名GEO恶意营销且品牌方负连带责任，合同应写明内容真实性审核与责任划分。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO 狂飙与隐忧：AI 流量时代，谁在为「AI 答案」买单？（网易订阅）",
+          "url": "https://dy.163.com/article/L2CQDM160556NLSO.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-27-04",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "xAI 放弃自建搜索接入 Exa：AI 搜索基础设施赛道崛起，检索逻辑转向「面向机器」",
+      "summary": "xAI 将 Grok Build 搜索层交给 Exa（C 轮 2.5 亿美元、估值 22 亿美元），AI 搜索基础设施市场预计 2026 年 118 亿→2034 年 2514 亿美元；检索逻辑从「10 个蓝色链接」转向结构化、Token 高效的机读内容，GEO 优化对象扩展到检索中间层。",
+      "insight": "搜索层外包给Exa这类基础设施，说明检索正面向机器，应检查客户内容是否结构化、利于机读。",
+      "published": null,
+      "links": [
+        {
+          "text": "Edge AI Daily 早报 7/26：放弃自建搜索，xAI 接入 Exa（钛媒体）",
+          "url": "https://www.tmtpost.com/8079667.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 4,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

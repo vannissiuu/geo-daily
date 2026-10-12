@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-31",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-07-31-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "爱分析定义 GEO 全链路三环节方法论：意图挖掘→监测评估→内容优化",
+      "summary": "原创三环节方法论+四维竞争壁垒模型，50+监测指标，优化目标从「可见度」升到「信任」。",
+      "insight": "意图挖掘、监测评估、内容优化三环节可直接套成服务流程，并按50余项监测指标搭报告。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO是什么？爱分析定义生成式引擎优化的AI认知本质（阿里云开发者社区）",
+          "url": "https://developer.aliyun.com/article/1752088"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-31-02",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包7月算法调整实测：GEO进入信源竞争时代，铺量玩法失效",
+      "summary": "2182次实测显示7/15下线C端智能体后低价铺量失效，有官网/机构资产者恢复、依赖软文者未恢复。",
+      "insight": "低价铺量失效、官网和机构资产者恢复，建议客户转向自有官网与权威资产建设。",
+      "published": null,
+      "links": [
+        {
+          "text": "豆包7月算法调整背后：GEO进入信源竞争时代（IT之家）",
+          "url": "https://www.ithome.com/0/983/613.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-31-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Kevin Indig 1094类别研究：89% AI搜索需求无主品牌，占位后90.4%留存",
+      "summary": "追踪1094美国品类半年，仅15.2%有清晰品牌主，89.3%需求无主；引用≠提及（匹配率仅20.8%）。",
+      "insight": "引用与提及匹配率仅20.8%，监测报告须分开统计引用和提及，避免误导客户。",
+      "published": null,
+      "links": [
+        {
+          "text": "89% of AI Search Demand Has No Clear Brand Owner（RanketAI）",
+          "url": "https://www.ranketai.com/en/blog/deep-dive-ai-category-ownership-window-2026-07-30"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-31-04",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "中国德国商会北京论坛将GEO列入企业传播议程，万卓睿桥发布趋势报告",
+      "summary": "德商会论坛设「From Search to Trust」专场，大众/微软等跨国企业分享GEO如何重塑品牌传播。",
+      "insight": "跨国企业已把GEO列入传播议程，面向外资客户可从搜索到信任的声誉管理角度切入。",
+      "published": null,
+      "links": [
+        {
+          "text": "Marketing & Communications Forum: AI, GEO & Reputation（中国德国商会）",
+          "url": "https://www.bagevent.com/event/9231305"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-07-31-05",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "首份医美垂类GEO白皮书发布，定义GEO=可信度(EEAT)×可见度",
+      "summary": "南京向心引力发布首份医美垂类白皮书，棱镜方法论；机构平均AI引用率不足1%，先发优势不可逆。",
+      "insight": "医美客户可用EEAT×可见度框架做诊断；机构平均AI引用率不足1%可作沟通切入点，用前需核实。",
+      "published": null,
+      "links": [
+        {
+          "text": "首份医美垂类GEO白皮书发布 棱镜方法论定义AI信任资产（中华网健康）",
+          "url": "https://m.health.china.com/ppgc/13004175/20260731/49645943.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 5,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

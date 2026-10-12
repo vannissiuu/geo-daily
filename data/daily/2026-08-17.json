@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-17",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "平台逻辑同步收紧引用可见度：豆包改排序标尺为「决策有效性」，ChatGPT 藏起来源按钮，Google 用生成图替代原站视觉。",
+    "零点击从文本蔓延到视觉：来源折叠+AI 生成图让品牌「被引却不被点」，GEO 度量需补「点击/转化」一维。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-17-01",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包算法将内容排序标尺切换为「决策有效性」，铺稿玩法失效",
+      "summary": "豆包把排序核心从信源权重改为决策有效性，客观性识别+60%重合度阈值使铺稿失效。",
+      "insight": "豆包看重客观性和决策有效性，内容应写成可核验的对比信息，减少重复铺稿。",
+      "published": null,
+      "links": [
+        {
+          "text": "决策有效性时代来临：豆包算法重构GEO格局（网易）",
+          "url": "https://www.163.com/dy/article/L4FHI8P70552N10P.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-17-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 测试将「Sources」来源按钮移入折叠菜单，引用可见度下滑",
+      "summary": "OpenAI 测试将 ChatGPT 来源按钮移入三点菜单，引用可见度与点击下滑。",
+      "insight": "来源按钮折叠会降低点击，监测需区分被引用与被点击，并提示客户点击量可能下降。",
+      "published": null,
+      "links": [
+        {
+          "text": "OpenAI Makes The ChatGPT Sources Less Visible（Search Engine Roundtable）",
+          "url": "https://www.seroundtable.com/openai-chatgpt-sources-less-visible-41864.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-17-03",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在 AI Overviews 实装 AI 生成图片，视觉零点击加剧",
+      "summary": "Google 本周在 AI Overviews 实装 AI 生成图片，视觉零点击加剧、原创被替代。",
+      "insight": "AI生成图片挤占原图，视觉零点击加剧，图片类客户应评估流量损失并强化原创素材署名。",
+      "published": null,
+      "links": [
+        {
+          "text": "AI-Generated Images In Google AI Overviews（Search Engine Roundtable）",
+          "url": "https://www.seroundtable.com/ai-generated-images-google-ai-overviews-41872.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

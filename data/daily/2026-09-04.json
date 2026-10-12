@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-04",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "监管与平台合规双线收紧 AI 内容出口：最高法明确平台间转载不再法定许可，清朗行动倒逼豆包/元宝/千问/文心一言强化标识与语料审核；GEO\"批量铺量/聚合改写\"生产模式合规成本骤升，授权链与真实性成为前置红线。",
+    "方法论进入\"分平台实测\"阶段：阿里云基于6大引擎45条引用数据给出可复现的平台地图绘制法与内容适配公式，GEO从通用建议走向按引擎（豆包偏CSDN、DeepSeek偏技术社区、Kimi偏财经）精准投放"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-04-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "最高法著作权法司法解释修改（法释〔2026〕18号）9/1 施行：平台间转载不再法定许可",
+      "summary": "法释〔2026〕18号 自9/1施行，明确互联网信息服务提供者之间相互转载已发表作品不再适用法定许可、须著作权人许可并付费；AI聚合/改写内容生产模式授权链成首要合规点。",
+      "insight": "转载不再法定许可，AI聚合改写需有授权链，方案商应审查内容来源与授权流程。",
+      "published": null,
+      "links": [
+        {
+          "text": "最高人民法院关于修改审理著作权民事纠纷案件司法解释的决定（法释〔2026〕18号）｜最高法数字图书馆",
+          "url": "https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-04-02",
+      "category": "平台动态",
+      "platform": "多平台",
+      "region": "国内",
+      "title": "清朗·整治AI应用乱象 第二阶段：豆包/元宝/千问/文心一言强化标识与语料审核",
+      "summary": "中央网信办第二阶段累计清理561万条AI违规信息；豆包、元宝、千问、文心一言等严把原始语料审核、强化AI生成内容标识落地，从源头拦截违规内容输出，改变GEO内容分发与可见度机制。",
+      "insight": "平台强化语料审核与AI标识，低质铺量更易被拦，客户内容需强化来源标识和合规。",
+      "published": null,
+      "links": [
+        {
+          "text": "中央网信办深入开展\"清朗·整治AI应用乱象\"专项行动第二阶段工作（央视网）",
+          "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/09/02/ARTI2b500eMemFvIK5efkq7E260902.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-04-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "6大AI引擎引用偏好实测：从45条数据看平台分发机制差异",
+      "summary": "基于豆包/DeepSeek/Kimi/秘塔/谷歌AI Overview/Perplexity 六引擎200行业词引用源实测，豆包偏CSDN(34%)+头条、DeepSeek偏技术社区、Kimi偏财经媒体；给出可复现的平台地图绘制法与分平台内容适配公式。",
+      "insight": "豆包偏CSDN、DeepSeek偏技术社区、Kimi偏财经媒体，应按平台选发布渠道，别一稿多投。",
+      "published": null,
+      "links": [
+        {
+          "text": "6大AI引擎引用偏好实测：从45条数据看平台分发机制差异（阿里云开发者社区）",
+          "url": "https://developer.aliyun.com/article/1760216"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-20",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "资本加码GEO出海：钛动融资明确\"围绕GEO全面布局\"，成ChatGPT Ads首批技术伙伴。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-20-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "国内",
+      "title": "钛动科技完成新一轮融资，明确\"围绕GEO全面布局\"、ChatGPT Ads首批技术伙伴",
+      "summary": "钛动科技完成新一轮融资，华泰泛大西洋领投，将围绕GEO全面布局。",
+      "insight": "钛动成为ChatGPT Ads首批技术伙伴，出海客户的付费AI广告与GEO可组合销售。",
+      "published": null,
+      "links": [
+        {
+          "text": "首发|钛动科技完成新一轮融资（腾讯新闻·猎云网）",
+          "url": "https://news.qq.com/rain/a/20260820A049M400"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

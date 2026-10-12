@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-10",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "Google 两个 AI 答案面给出截然不同的\"信源食谱\"：AI Overviews 由 YouTube 主导（22.9%），AI Mode 由 Reddit 主导（17.9%）——GEO 监测不能只盯一个面，须按 AI Overviews / AI Mode 分 surface 建引用基准。",
+    "社交与视频平台（YouTube/Reddit/Facebook/Instagram）霸榜 Google AI 引用，品牌官网不再是唯一战场——\"被 AI 引用\"越来越等于\"在第三方平台被可信地谈论\"，GEO 方案的交付须把创作者/UGC/社媒声量纳入，而非只做官网内容工程。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-10-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Google AI Overviews 9月引用榜：YouTube 以 22.9% 居首，社交与视频平台霸榜",
+      "summary": "Ahrefs Brand Radar（2026-09 美区 300万+ 查询）：Google AI Overviews 最常被引域名 YouTube 22.9%、Reddit 18.5%、Facebook 10.1%、Google 8.8%、Instagram 5.6%。",
+      "insight": "YouTube和Reddit主导AI Overviews引用，客户内容策略应评估视频与社区渠道布局。",
+      "published": null,
+      "links": [
+        {
+          "text": "Ahrefs：The 50 Most-Cited Websites in Google AI Overviews (September 2026)",
+          "url": "https://www.ahrefs.com/blog/most-cited-domains-ai-overviews/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-10-02",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "Google AI Mode 9月引用榜：Reddit 以 17.9% 居首，YouTube 17.8% 紧追",
+      "summary": "Ahrefs Brand Radar（2026-09 美区）：Google AI Mode 最常被引域名 Reddit 17.9%、YouTube 17.8%、Google 12.5%、Facebook 10.2%、Instagram 5.7%。",
+      "insight": "AI Mode中Reddit与YouTube几乎并列，渠道规划要分模式监测，不能只盯一个榜单。",
+      "published": null,
+      "links": [
+        {
+          "text": "Ahrefs：The 50 Most-Cited Websites in Google AI Mode (September 2026)",
+          "url": "https://ahrefs.com/blog/most-cited-domains-ai-mode"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

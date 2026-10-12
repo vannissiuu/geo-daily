@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-09",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "ChatGPT 付费层快速产品化（自然语言建投放+feed轮播报表+15欧/日入门），但赞助卡在答案下方、不改写答案文本——客户买了 ChatGPT 广告≠被写进答案，organic GEO（赚得答案内引用）仍是唯一进答案路径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-09-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT Ads 9/4 产品邮件：上线 Ads Manager 插件、欧元账户 15 欧/日最低预算、放宽自定义受众",
+      "summary": "OpenAI 9/4 产品邮件放出 7 项 ChatGPT Ads 改动：Ads Manager 插件可自然语言建投放、自定义受众门槛松动、feed 轮播卡级报表、总预算 pacing；Help Center 同日新增欧元最低日预算 15 欧。赞助卡置于答案下方、不改写答案文本。",
+      "insight": "Ads Manager插件和放宽的自定义受众降低投放门槛，代投服务可纳入ChatGPT广告方案。",
+      "published": null,
+      "links": [
+        {
+          "text": "ChatGPT Ads Update: an Ads Manager Plugin, Looser Custom Audiences, and a Euro Minimum（Index Lab）",
+          "url": "https://www.indexlab.ai/blog/chatgpt-ads-plugin-custom-audiences-euro-minimum"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

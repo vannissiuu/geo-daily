@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-01",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "平台与监管同步为“AI 答案可见度”立规矩：Google 把生成式 AI 表现报告推向全球并给出退出开关，欧盟把 ChatGPT 正式定性为“超大型在线搜索引擎”纳入 DSA 义务——GEO 正从粗放占位走向可度量、可治理。",
+    "对品牌方，GEO 监测需接入官方面板（如 Search Console 的 AI 报告），并把监管驱动的引用透明度纳入可信信源建设；\"能否被 AI 引用\"不再是黑箱，而是可观测、可申诉的公开指标。",
+    "平台公司把 GEO 做成标准化基建：腾讯企点营销云 9/1 上线 AnswerBit（覆盖豆包/元宝/DeepSeek/Kimi/千问五大模型的品牌可见度监测平台），与百度/美团/360/阿里同场——GEO 从第三方黑盒手艺升级为巨头按标准收费的基础设施。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-01-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google Search Console 将生成式 AI 表现报告推向全球，并新增 AI Overviews/AI Mode/Discover 退出开关",
+      "summary": "Google Search Console 的生成式 AI 表现报告（AI Overviews / AI Mode / Discover 可见度）于 2026-08-31 面向全球开放，此前 6 月 3 日仅在英国试点；同时新增站点级退出开关，站长可关闭品牌在 AI 答案中的展示。",
+      "insight": "Search Console已提供全球AI表现报告，客户汇报可直接引用，同时评估退出开关的可见度代价。",
+      "published": null,
+      "links": [
+        {
+          "text": "World Programming：Google Search Console 全球上线生成式 AI 可见度报告",
+          "url": "https://www.worldprogramming.org/posts/google-search-console-adds-global-ai-reports-for-search-and-discover-visibility-gkr8tw"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-01-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "欧盟将 ChatGPT 正式定性为“超大型在线搜索引擎”(VLOSE)，纳入 DSA 义务框架",
+      "summary": "欧盟委员会 2026-08-31 宣布将 ChatGPT 定性为 DSA 框架下的“超大型在线搜索引擎”(VLOSE)，覆盖约 1.59 亿欧盟用户；OpenAI 须在 2026 年底前履行系统性风险评估、透明度与爬虫义务。",
+      "insight": "ChatGPT被定性为VLOSE并需履行爬虫义务，欧盟客户的合规和监测需求会增加。",
+      "published": null,
+      "links": [
+        {
+          "text": "AIBARS：EU designates ChatGPT as Very Large Online Search Engine under DSA",
+          "url": "https://aibars.net/en/news/882548813993349120"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-01-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "国内",
+      "title": "腾讯企点营销云上线 AnswerBit：覆盖豆包/元宝/DeepSeek/Kimi/千问的 GEO 品牌可见度管理平台",
+      "summary": "腾讯企点营销云 9/1 上线 AnswerBit（answerbit.qq.com），覆盖豆包/元宝/DeepSeek/Kimi/千问五大模型的 GEO 品牌可见度管理平台，含监测/分析/优化/协同四模块，首批客户为腾讯云、腾讯会议、应用宝等 30+ 腾讯系产品。",
+      "insight": "腾讯系产品先自用AnswerBit，方案商需突出多平台中立监测和行业经验，应对大厂入场。",
+      "published": null,
+      "links": [
+        {
+          "text": "Tencent AnswerBit Explained: Big-Tech GEO vs GEOly（GEOly）",
+          "url": "https://www.geoly.ai/blog/tencent-answerbit-geo"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

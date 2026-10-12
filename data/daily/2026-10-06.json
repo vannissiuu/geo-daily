@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-06",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "OptimizeGEO 宣布服务 100+ 全球品牌，Michael Kassan 以投资人身份加入，原文未披露融资金额。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-06-01",
+      "category": "市场动态",
+      "platform": "",
+      "region": "海外",
+      "title": "OptimizeGEO 宣布服务 100+ 全球品牌、覆盖 20 国，Michael Kassan 以投资人身份加入",
+      "summary": "GEO 服务商 OptimizeGEO 宣布客户已超 100 家全球品牌、覆盖 20 个国家，3C Ventures 创始人 Michael Kassan 以投资人兼战略顾问身份加入；原文未披露融资金额与轮次（信源为企业发布稿）。",
+      "insight": "对手有知名投资人背书并拓展20国客户，竞标时备好全球案例；融资额未披露，勿引用。",
+      "published": "2026-10-05",
+      "links": [
+        {
+          "text": "MartechCube：OptimizeGEO Reaches 100 Brands as Michael Kassan Invests",
+          "url": "https://www.martechcube.com/optimizegeo-reaches-100-brands-as-michael-kassan-invests/"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 1,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

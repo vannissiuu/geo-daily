@@ -1,0 +1,855 @@
+{
+  "daily_pages": [
+    {
+      "name": "Search Engine Roundtable",
+      "url": "https://www.seroundtable.com/",
+      "region": "海外",
+      "categories": [
+        "平台动态",
+        "行业方法论",
+        "行业政策"
+      ],
+      "tips": "只显示最近一屏；同时开当日/周报 recap 页（一页列全部主题链接）；文章 ID 可粗判日期；多为 Google 动态，核对事件日期而非报道日期；也用于抓官方人员（Mueller/Illyes）说法。"
+    },
+    {
+      "name": "PPC Land",
+      "url": "https://ppc.land/",
+      "region": "海外",
+      "categories": [
+        "平台动态",
+        "舆情",
+        "行业方法论",
+        "新技术",
+        "市场动态",
+        "行业政策"
+      ],
+      "tips": "只显示最近一屏；多为转述报道，必须核对原事件日期（转述稿常超窗）；Meta/Muse、ChatGPT 标签页可单独看。"
+    },
+    {
+      "name": "Search Engine Journal 新闻页",
+      "url": "https://www.searchenginejournal.com/category/news/",
+      "region": "海外",
+      "categories": [
+        "平台动态",
+        "新技术",
+        "行业政策",
+        "行业方法论"
+      ],
+      "tips": "日期标注清楚；含 AI Search 标签；只看首屏，必要时翻 page/2。"
+    },
+    {
+      "name": "Search Engine Journal 生成式AI分类",
+      "url": "https://www.searchenginejournal.com/category/digital/generative-ai/",
+      "region": "海外",
+      "categories": [
+        "行业方法论",
+        "新技术"
+      ],
+      "tips": "比news分类页更贴近引用/可见度研究；常转述Ahrefs等研究，需追一手源。"
+    },
+    {
+      "name": "OpenAI ChatGPT Release Notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "region": "海外",
+      "categories": [
+        "平台动态"
+      ],
+      "tips": "按日期条目列出；关注搜索、购物、广告、引用相关条目；商品标签/视觉广告等需核对生效日。"
+    },
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "region": "海外",
+      "categories": [
+        "平台动态",
+        "行业政策"
+      ],
+      "tips": "目录式页面，可快速排除；关注搜索/广告/政策公告。"
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "region": "海外",
+      "categories": [
+        "行业政策",
+        "平台动态"
+      ],
+      "tips": "目录式；关注使用政策（Usage Policy）中关于操纵搜索/AI回答的条款。"
+    },
+    {
+      "name": "Cloudflare Developers Changelog",
+      "url": "https://developers.cloudflare.com/changelog/",
+      "region": "海外",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "比 blog.cloudflare.com 更能抓到 AI Crawl Control、Markdown for Agents、pay per crawl 等爬虫/Agent 功能更新；官方日志无软文；Cloudflare 的动态归新技术。"
+    },
+    {
+      "name": "MarTech Vibe AI搜索标签页",
+      "url": "https://martechvibe.com/tag/ai-search/",
+      "region": "海外",
+      "categories": [
+        "新技术",
+        "市场动态"
+      ],
+      "tips": "AI搜索工具/厂商动态，多为企业稿，注意软文分级。"
+    },
+    {
+      "name": "EIN Presswire 关键词搜索页",
+      "url": "https://www.einpresswire.com/search?query=generative+engine+optimization",
+      "region": "海外",
+      "categories": [
+        "新技术",
+        "市场动态"
+      ],
+      "tips": "可翻页；B类新品稿集中，需看事件日期，尽量换到中立源；globenewswire搜索页robots禁止，不可用。"
+    },
+    {
+      "name": "MarTechCube",
+      "url": "https://www.martechcube.com/",
+      "region": "海外",
+      "categories": [
+        "市场动态",
+        "新技术"
+      ],
+      "tips": "首页可见 GEO/AI 可见度厂商融资与合作稿；融资金额以原文为准。"
+    },
+    {
+      "name": "Aleyda Solis",
+      "url": "https://www.aleydasolis.com/en/",
+      "region": "海外",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "一手研究/框架类博客；注意发布日。"
+    },
+    {
+      "name": "Press Gazette 出版商AI诉讼追踪",
+      "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/",
+      "region": "海外",
+      "categories": [
+        "舆情",
+        "行业政策"
+      ],
+      "tips": "出版商诉AI平台/授权协议的单页追踪，是诉讼类最佳单页；按条目日期核对。"
+    },
+    {
+      "name": "IT之家 GEO标签页",
+      "url": "https://www.ithome.com/tag/geo/",
+      "region": "国内",
+      "categories": [
+        "行业政策",
+        "舆情",
+        "新技术"
+      ],
+      "tips": "GEO 处罚新闻的首发来源；转载稿多，换到新浪/21经济等独立源；厂商稿需软文分级。"
+    },
+    {
+      "name": "界面新闻 科技/AI栏目",
+      "url": "https://www.jiemian.com/lists/65.html",
+      "region": "国内",
+      "categories": [
+        "平台动态",
+        "舆情",
+        "市场动态"
+      ],
+      "tips": "白名单源；相对时间需换算成日期；也可看界面AI早报文章页（jiemian.com/article/...）。"
+    },
+    {
+      "name": "AI工具集 每日AI资讯",
+      "url": "https://ai-bot.cn/daily-ai-news/",
+      "region": "国内",
+      "categories": [
+        "平台动态",
+        "新技术"
+      ],
+      "tips": "每日AI资讯汇总，用于发现国内平台动态线索，须再搜一手/中立源；不得直接作为最终链接。"
+    },
+    {
+      "name": "国家网信办",
+      "url": "https://www.cac.gov.cn/",
+      "region": "国内",
+      "categories": [
+        "行业政策"
+      ],
+      "tips": "仅标题列表，命中率低；关注清朗、生成式AI管理、算法备案。"
+    },
+    {
+      "name": "国家市场监督管理总局",
+      "url": "https://www.samr.gov.cn/",
+      "region": "国内",
+      "categories": [
+        "行业政策"
+      ],
+      "tips": "仅标题列表；GEO处罚实际多由地方市监局通报，需配合搜索。"
+    }
+  ],
+  "weekly_pages": [
+    {
+      "name": "Google Search Central 博客",
+      "url": "https://developers.google.com/search/blog",
+      "region": "海外",
+      "categories": [
+        "平台动态",
+        "行业政策"
+      ],
+      "tips": "每周看一次；部分抓取无日期。"
+    },
+    {
+      "name": "Google 抓取文档变更日志",
+      "url": "https://developers.google.com/crawling/docs/changelog",
+      "region": "海外",
+      "categories": [
+        "平台动态"
+      ],
+      "tips": "爬虫/robots变更，每周一次。"
+    },
+    {
+      "name": "Perplexity Changelog",
+      "url": "https://www.perplexity.ai/changelog",
+      "region": "海外",
+      "categories": [
+        "平台动态"
+      ],
+      "tips": "更新周期超过 2 周，月度或每周顺看。"
+    },
+    {
+      "name": "Bing 搜索博客",
+      "url": "https://blogs.bing.com/search",
+      "region": "海外",
+      "categories": [
+        "平台动态"
+      ],
+      "tips": "更新慢；Copilot 动态改用搜索。"
+    },
+    {
+      "name": "Search Engine Watch",
+      "url": "https://www.searchenginewatch.com/",
+      "region": "海外",
+      "categories": [
+        "平台动态"
+      ],
+      "tips": "未充分测试，日常顺手验证。"
+    },
+    {
+      "name": "Optimixed 按日聚合",
+      "url": "https://optimixed.com/date/2026-10-09",
+      "region": "海外",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "未充分测试；URL 末段换成目标日期（YYYY-MM-DD）；按日聚合 SEO/AI 搜索新闻，只用于顺藤摸瓜，不作最终链接。"
+    },
+    {
+      "name": "Profound 博客",
+      "url": "https://www.tryprofound.com/blog",
+      "region": "海外",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "研究类稿件，不定期更新。"
+    },
+    {
+      "name": "Ahrefs 博客",
+      "url": "https://ahrefs.com/blog/",
+      "region": "海外",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "有研究产出时才有命中。"
+    },
+    {
+      "name": "Semrush 新闻",
+      "url": "https://www.semrush.com/news/",
+      "region": "海外",
+      "categories": [
+        "行业方法论",
+        "市场动态"
+      ],
+      "tips": "更新慢。"
+    },
+    {
+      "name": "Cloudflare 博客",
+      "url": "https://blog.cloudflare.com/",
+      "region": "海外",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "常有 AI crawler 类稿，多数无关。"
+    },
+    {
+      "name": "WordPress 新闻",
+      "url": "https://wordpress.org/news/",
+      "region": "海外",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "MCP Adapter 类消息改靠 SEJ。"
+    },
+    {
+      "name": "PR Newswire 新闻稿列表",
+      "url": "https://www.prnewswire.com/news-releases/news-releases-list/",
+      "region": "海外",
+      "categories": [
+        "市场动态",
+        "新技术"
+      ],
+      "tips": "仅第一屏，不含主题过滤，GEO稿罕见；用关键词搜索代替。"
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/",
+      "region": "海外",
+      "categories": [
+        "市场动态"
+      ],
+      "tips": "融资大盘，GEO/AEO相关稀少。"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "region": "海外",
+      "categories": [
+        "市场动态"
+      ],
+      "tips": "首页只显示最近一屏，GEO相关稀少。"
+    },
+    {
+      "name": "FTC 新闻稿",
+      "url": "https://www.ftc.gov/news-events/news/press-releases",
+      "region": "海外",
+      "categories": [
+        "行业政策"
+      ],
+      "tips": "AI 搜索相关稀少。"
+    },
+    {
+      "name": "MarTech.org AI营销新闻汇总",
+      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "region": "海外",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "每日列出AEO/MCP工具发布，但无日期无链接，需配合搜索追一手源。"
+    },
+    {
+      "name": "36氪快讯",
+      "url": "https://36kr.com/newsflashes",
+      "region": "国内",
+      "categories": [
+        "市场动态",
+        "平台动态",
+        "新技术"
+      ],
+      "tips": "不稳定（偶需 JS），只显示近半天；站内搜索被 robots 禁止。"
+    },
+    {
+      "name": "投资界",
+      "url": "https://www.pedaily.cn/",
+      "region": "国内",
+      "categories": [
+        "市场动态"
+      ],
+      "tips": "融资快讯，首页只显示最近一屏，GEO相关稀少。"
+    },
+    {
+      "name": "投资界 新闻",
+      "url": "https://news.pedaily.cn/",
+      "region": "国内",
+      "categories": [
+        "市场动态"
+      ],
+      "tips": "同上。"
+    },
+    {
+      "name": "36氪 融资快讯",
+      "url": "https://pitchhub.36kr.com/financing-flash",
+      "region": "国内",
+      "categories": [
+        "市场动态"
+      ],
+      "tips": "融资快讯。"
+    },
+    {
+      "name": "199IT",
+      "url": "https://www.199it.com/",
+      "region": "国内",
+      "categories": [
+        "行业方法论",
+        "市场动态"
+      ],
+      "tips": "白名单源；偶有泛 AI 标题。"
+    },
+    {
+      "name": "腾讯云开发者社区",
+      "url": "https://developer.cloud.tencent.com/",
+      "region": "国内",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "可用于一手实测（C 类）；建议搜索「腾讯云开发者社区 GEO 实测」而非看首页。"
+    },
+    {
+      "name": "阿里云开发者社区",
+      "url": "https://developer.aliyun.com/",
+      "region": "国内",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "首页无日期，未充分测试。"
+    },
+    {
+      "name": "新榜 GEO研究",
+      "url": "https://geo.newrank.cn/news",
+      "region": "国内",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "国内少有的一手引用研究位置，但无日期无文章链接，仅作线索，须按标题再搜一手源。"
+    },
+    {
+      "name": "华声在线/湖南日报",
+      "url": "https://hunan.voc.com.cn/",
+      "region": "国内",
+      "categories": [
+        "市场动态",
+        "新技术",
+        "舆情",
+        "行业政策"
+      ],
+      "tips": "党媒可信GEO系列（智眸可信GEO、可信GEO评论）集中发布站；未充分测试，主要靠搜索命中文章页。"
+    },
+    {
+      "name": "人人都是产品经理 GEO标签",
+      "url": "https://www.woshipm.com/tag/GEO",
+      "region": "国内",
+      "categories": [
+        "行业方法论"
+      ],
+      "tips": "无日期，未充分测试。"
+    },
+    {
+      "name": "53AI 智能营销",
+      "url": "https://www.53ai.com/news/zhinengyingxiao/",
+      "region": "国内",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "可用，窗口内相关条目少。"
+    },
+    {
+      "name": "虎嗅 AI频道",
+      "url": "https://www.huxiu.com/ainews/",
+      "region": "国内",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "无日期，未充分测试。"
+    },
+    {
+      "name": "DoNews",
+      "url": "https://www.donews.com/",
+      "region": "国内",
+      "categories": [
+        "新技术"
+      ],
+      "tips": "仅相对时间，未充分测试。"
+    },
+    {
+      "name": "澎湃新闻首页",
+      "url": "https://www.thepaper.cn/",
+      "region": "国内",
+      "categories": [
+        "舆情"
+      ],
+      "tips": "首页无日期，仅作线索。"
+    },
+    {
+      "name": "新京报首页",
+      "url": "http://www.bjnews.com.cn/",
+      "region": "国内",
+      "categories": [
+        "舆情",
+        "平台动态"
+      ],
+      "tips": "仅首页可用，/tech栏目跳转首页；商品卡类报道曾见于此。"
+    }
+  ],
+  "disabled_pages": [
+    {
+      "url": "https://www.chinaz.com/ainews/",
+      "reason": "404打不开（站长之家）；改用 https://www.chinaz.com/ai/（仅一次可用，0命中，不列入巡检）"
+    },
+    {
+      "url": "http://www.caict.ac.cn/xwdt/",
+      "reason": "打不开；信通院内容改用搜索「信通院 OR AIIA GEO」"
+    },
+    {
+      "url": "https://www.volcengine.com/news",
+      "reason": "纯JS渲染，仅有meta，无法读取"
+    },
+    {
+      "url": "https://www.bjnews.com.cn/tech",
+      "reason": "302重定向到首页，抓取无栏目内容"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "reason": "被禁止访问/打不开"
+    },
+    {
+      "url": "https://weixin.sogou.com/",
+      "reason": "robots禁止；公众号内容无法检索，见已知盲区"
+    },
+    {
+      "url": "https://www.iyiou.com/",
+      "reason": "需JS，首页抓取为空"
+    },
+    {
+      "url": "https://www.ebrun.com/",
+      "reason": "需JS/无日期，抓取为空"
+    },
+    {
+      "url": "https://36kr.com/search/articles/GEO",
+      "reason": "robots禁止，站内搜索不可用"
+    },
+    {
+      "url": "https://www.globenewswire.com/search/keyword/",
+      "reason": "搜索页robots禁止"
+    },
+    {
+      "url": "https://m.21jingji.com/",
+      "reason": "移动首页为JS空壳；改用搜索命中的文章页"
+    },
+    {
+      "url": "https://juejin.cn/tag/GEO",
+      "reason": "需JS"
+    },
+    {
+      "url": "https://www.newrank.cn/article/tag-AI",
+      "reason": "需JS"
+    },
+    {
+      "url": "https://lfpress.com/",
+      "reason": "打不开"
+    }
+  ],
+  "queries": {
+    "行业政策": {
+      "国内": [
+        "GEO 服务商 罚款 OR 处罚 OR 虚假宣传 {月份}",
+        "市场监管局 GEO 罚款 OR 处罚 虚假宣传 反不正当竞争",
+        "给AI植入广告 OR AI投毒 监管 OR 执法 {月份}",
+        "AI搜索 广告 营销 整治 虚假信息 GEO 投毒 {月份} 通报",
+        "国家标准 团体标准 生成式引擎优化 立项 发布 {月份}（低频，每周一次）",
+        "信通院 OR AIIA OR 中国广告协会 GEO 测评 OR 标准 {月份}（低频，每周一次）",
+        "网信办 清朗 AI 投毒 通报 {月份}（低频，每周一次）"
+      ],
+      "海外": [
+        "Anthropic OR OpenAI usage policy update {Month} {Year} AI answers manipulation fake sources",
+        "Google spam policy OR spam update {Month} {Year}",
+        "Google Search Status Dashboard spam update",
+        "FTC OR EU AI search advertising disclosure sponsored answers {Month} {Year}（低频，改以巡检驱动）",
+        "AI answers publisher copyright lawsuit OR licensing {Month} {Year}（低频）"
+      ]
+    },
+    "行业方法论": {
+      "国内": [
+        "{平台名} 引用 来源 占比 实测 {月份}",
+        "腾讯云开发者社区 OR 阿里云开发者社区 GEO 实测 引用率 样本 问题集",
+        "AI 搜索 品牌 可见度 研究报告 {月份}（低频）",
+        "GEO 效果 度量 指标 白皮书 {月份}（低频）"
+      ],
+      "海外": [
+        "\"{Month} {Year}\" study AI Mode citations sources brands percent prompts analyzed",
+        "Perplexity OR Gemini OR Claude citations new research shows brands cited sources study \"{Mon} {Year}\"",
+        "Ahrefs OR Semrush OR Similarweb OR BrightEdge new research AI search citations published this week",
+        "ACCESS Newswire AI citation study {Month} {Year}",
+        "Mueller OR Illyes AI crawlers AI search {Month} {Year}（低频，仅用于官方说法）"
+      ]
+    },
+    "新技术": {
+      "国内": [
+        "可信GEO 发布 上线 {月份}（党媒/官媒GEO产品）",
+        "{机构名} {产品名} 可信GEO 产品发布会（如 湖南日报 智眸）",
+        "GEO 产品 发布 上线 {日期} 监测 智能体",
+        "GEO 监测 系统 正式上线 发布会 {公司名}",
+        "MCP OR llms.txt OR WebMCP 网站 AI 接入 {月份}（低频）"
+      ],
+      "海外": [
+        "WordPress MCP Adapter canonical plugin release",
+        "Cloudflare AI Crawl Control OR Markdown for Agents OR pay per crawl changelog",
+        "Semrush OR Ahrefs OR Profound OR Peec OR Scrunch OR Conductor new AI visibility feature {Month} {Year}",
+        "announces AI search visibility OR AEO OR GEO platform launch press release {Month} {Year}",
+        "Skills over MCP OR WebMCP OR NLWeb websites agents announcement {Month} {Year}",
+        "Yoast OR Rank Math OR Shopify OR Wix OR Webflow AI visibility llms.txt feature（低频）"
+      ]
+    },
+    "市场动态": {
+      "国内": [
+        "GEO 发布会 {月份} 正式发布 可信GEO 产品 战略合作 媒体",
+        "媒体 OR 广告公司 布局 GEO {月份} 战略合作 签约",
+        "{公司名} GEO 合作 OR 融资 OR 发布（逐个公司定向，见定向追踪名单）",
+        "GEO 完成融资 亿元 OR 万美元 {月份}（命中率低，每周一次）"
+      ],
+      "海外": [
+        "\"AI search\" visibility platform announces partnership OR launch press release {Month} {Year} GEO",
+        "{公司名} AI visibility funding OR Series OR acquires {Month} {Year}（逐个公司定向）",
+        "Getfluence OR Otterly.AI OR Peec OR Profound partnership announcement",
+        "pulse2.com AI visibility funding（融资稿聚合，用于发现线索）"
+      ]
+    },
+    "舆情": {
+      "国内": [
+        "AI 回答 植入广告 OR 软广 争议 {月份}",
+        "AI 投毒 OR 数据污染 GEO {月份}",
+        "GEO 乱象 OR 黑产 OR 骗局 {月份}",
+        "GEO 市场监管局 罚款 OR 处罚 曝光",
+        "评论 GEO 可信 OR 治理 {月份} 市场监管局 处罚"
+      ],
+      "海外": [
+        "publisher lawsuit AI search copyright traffic Perplexity OR OpenAI OR Google news {Month} {Day} {Year}",
+        "{平台名} sued publishers {Month} {Year}",
+        "ChatGPT OR Gemini OR Perplexity prompt injection brand recommendations manipulated study {Month} {Year}",
+        "Profound OR State of Brand AI shopping agent {Month} {Year}",
+        "chatbot ads sponsored answers backlash regulators FTC OR EU {Month} {Year}"
+      ]
+    },
+    "平台动态": {
+      "国内": [
+        "{平台名} + 具体功能词 + 具体日期（如 元宝 搜索 引用 10月9日；豆包 商品卡；元宝 京东；千问 淘宝 AI购物）",
+        "豆包 联网搜索 OR 引用 OR 信源 OR 商品卡 更新 {月份}（泛词命中差，仅作兜底）",
+        "百度 AI搜索 OR 文心 权威溯源 OR 收录 OR 信源 {月份}",
+        "元宝 OR 千问 OR 夸克 AI搜索 引用 OR 商品 OR 广告 上线 {月份}",
+        "AI 回答 商品卡 OR 广告 OR 推荐位 豆包 OR 元宝 OR 千问 {月份} 导购",
+        "AI搜索 平台 规则 调整 信源 豆包 DeepSeek 算法 {月份}",
+        "DeepSeek OR Kimi 联网搜索 更新 引用 {月份}",
+        "360 纳米搜索 OR 秘塔 OR 抖音 AI搜索 更新 {月份}"
+      ],
+      "海外": [
+        "UCP checkout AI Mode OR Merchant Center AI Mode（事件式，替代 Google AI Mode update）",
+        "Meta AI Muse shopping agent merchants citations",
+        "OpenAI ChatGPT ads Sponsored expansion OR ChatGPT search citations change {Month} {Year}",
+        "Google AI Mode ads OR shopping OR sources new feature rollout this week",
+        "Perplexity OR Claude OR Copilot OR Apple Intelligence citations crawler shopping ads {Month} {Year}",
+        "Google crawler OR robots OR Googlebot change {Month} {Year}"
+      ]
+    }
+  },
+  "platforms": {
+    "国内": [
+      "豆包（字节/火山引擎）",
+      "DeepSeek",
+      "Kimi（月之暗面）",
+      "千问（阿里/夸克）",
+      "文心一言 / 百度 AI 搜索",
+      "元宝（腾讯）",
+      "360 纳米搜索 / 360AI",
+      "秘塔搜索",
+      "抖音搜索 AI"
+    ],
+    "海外": [
+      "Google（AI Mode、AI Overviews、Gemini、Discover、Merchant Center）",
+      "ChatGPT / OpenAI（搜索、购物、广告）",
+      "Perplexity",
+      "Claude / Anthropic",
+      "Microsoft Copilot / Bing",
+      "Meta AI / Muse（含购物 Agent）",
+      "Apple Intelligence"
+    ]
+  },
+  "tracked_entities": {
+    "国内服务商": [
+      "智推时代",
+      "帷幄",
+      "钛动科技",
+      "微盟（微盟星启）",
+      "迈富时",
+      "蓝色光标",
+      "易点天下",
+      "清蓝",
+      "360（360智见GEO）",
+      "腾讯 AnswerBit",
+      "阿里 万小智",
+      "百度",
+      "火山引擎",
+      "GEOBase",
+      "可见GEO",
+      "AIPO"
+    ],
+    "海外工具": [
+      "Profound",
+      "Peec AI",
+      "Otterly.AI",
+      "AthenaHQ",
+      "Scrunch AI",
+      "Evertune",
+      "Bluefish",
+      "Brandlight",
+      "Searchable",
+      "Semrush",
+      "Ahrefs",
+      "Conductor",
+      "BrightEdge",
+      "Yext",
+      "Similarweb",
+      "Tealium",
+      "OptimizeGEO",
+      "Getfluence",
+      "Wellows",
+      "LLM Scout",
+      "State of Brand"
+    ],
+    "媒体可信GEO": [
+      "湖南日报 智眸可信GEO（华声在线/湖南在线 hunan.voc.com.cn）",
+      "新华网 新华GEO智能体",
+      "人民政协网 可信空间GEO",
+      "北京日报",
+      "南方报业",
+      "党媒可信GEO联盟"
+    ],
+    "研究机构": [
+      "中国信通院 / 中国人工智能产业发展联盟（AIIA）",
+      "中国广告协会",
+      "新榜（geo.newrank.cn）",
+      "IDC",
+      "QuestMobile",
+      "艾瑞咨询",
+      "易观分析",
+      "Aleyda Solis",
+      "Profound / State of Brand 研究",
+      "Ahrefs 研究",
+      "Wellows / LLM Scout（PR 分发型实测）"
+    ]
+  },
+  "whitelist_domestic": [
+    "央媒",
+    "新华网",
+    "人民网",
+    "中国消费者报",
+    "中华网",
+    "界面新闻",
+    "虎嗅",
+    "中国经济新闻网（cet.com.cn）",
+    "东方财富",
+    "同花顺",
+    "36氪",
+    "钛媒体",
+    "量子位",
+    "机器之心",
+    "InfoQ",
+    "凤凰网科技",
+    "新浪科技",
+    "网易科技",
+    "腾讯新闻（非 /rain/a/ 聚合路径）",
+    "搜狐科技",
+    "雷锋网",
+    "CSDN",
+    "腾讯云开发者社区",
+    "阿里云开发者社区",
+    "掘金",
+    "少数派",
+    "爱分析",
+    "亿邦动力",
+    "亿欧",
+    "财新",
+    "第一财经",
+    "21世纪经济报道",
+    "每日经济新闻",
+    "证券时报",
+    "中国经营报",
+    "澎湃新闻",
+    "南方周末",
+    "极客公园",
+    "DeepTech",
+    "数据猿",
+    "199IT",
+    "艾瑞网",
+    "易观",
+    "IDC / QuestMobile 等研究机构公开报告页",
+    "中国信通院 / 中国人工智能产业发展联盟（AIIA）等官方与行业组织发布页"
+  ],
+  "blacklist": [
+    "searchengineland.com",
+    "getsearchengine.com",
+    "new.qq.com/rain/a/",
+    "weibo.com"
+  ],
+  "aggregators": [
+    "lawrencehitches.com/ai-search-tracker"
+  ],
+  "domestic_domain_rule": {
+    "tld": ".cn",
+    "note": "国内信源 = 链接主域（eTLD+1）以 .cn 结尾，或属 whitelist_domestic_domains；按主域精确匹配，不用子串；new.qq.com/rain/a/ 除外（禁采）"
+  },
+  "whitelist_domestic_domains": [
+    "163.com",
+    "199it.com",
+    "21jingji.com",
+    "36kr.com",
+    "aliyun.com",
+    "caixin.com",
+    "cctv.com",
+    "china.com",
+    "csdn.net",
+    "eastmoney.com",
+    "ebrun.com",
+    "geekpark.net",
+    "huxiu.com",
+    "ifeng.com",
+    "ifenxi.com",
+    "infzm.com",
+    "iyiou.com",
+    "jiemian.com",
+    "jiqizhixin.com",
+    "leiphone.com",
+    "mittrchina.com",
+    "qbitai.com",
+    "qq.com",
+    "sohu.com",
+    "sspai.com",
+    "stcn.com",
+    "tencent.com",
+    "tmtpost.com",
+    "xinhuanet.com",
+    "yicai.com"
+  ],
+  "platform_values": [
+    "豆包",
+    "DeepSeek",
+    "Kimi",
+    "千问",
+    "文心",
+    "元宝",
+    "360",
+    "秘塔",
+    "抖音",
+    "Google",
+    "ChatGPT",
+    "Perplexity",
+    "Claude",
+    "Copilot",
+    "Meta AI",
+    "Apple Intelligence",
+    "多平台"
+  ],
+  "platform_aliases": {
+    "OpenAI": "ChatGPT",
+    "Gemini": "Google",
+    "AI Mode": "Google",
+    "AI Overviews": "Google",
+    "谷歌": "Google",
+    "Anthropic": "Claude",
+    "字节": "豆包",
+    "通义": "千问",
+    "文心一言": "文心",
+    "百度": "文心",
+    "Bing": "Copilot",
+    "Muse": "Meta AI"
+  },
+  "platforms_excluded": [
+    "Cloudflare",
+    "xAI",
+    "WordPress"
+  ]
+}

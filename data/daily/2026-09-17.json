@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-17",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [
+    "国内 GEO 治理\"标准 + 国家风险分类\"双层落地：中广协五项 GEO 团标正式公布（结束无标可依、定义七类计价单元与黑帽红线），框架 3.0 首将\"GEO 投毒\"纳入国家 AI 风险分类——GEO 合规从行业自律升格为\"可测量、可审计、可追责\"的国家口径。",
+    "平台付费层继续深化为\"对话式转化\"：OpenAI 测试 Sponsored Agents（广告点击后开启隔离的品牌对话代理）并接入 HubSpot/Shopify，ChatGPT 广告从静态位进化为多轮对话，但赞助代理仍与独立答案隔离，\"买广告≠被写进答案\"的边界维持。"
+  ],
+  "entries": [
+    {
+      "id": "2026-09-17-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "中广协《生成式引擎优化(GEO)》五项团体标准正式公布，\"无标可依\"终结",
+      "summary": "中国商务广告协会 9/16 公布《生成式引擎优化(GEO)》五项团体标准（通论术语/服务商评估/计价测量/可信语料/合规安全），覆盖术语、评估、计价、语料、安全五环节，定义七类计价最小单元与九项核心指标口径，划出黑帽GEO与语料投毒红线。",
+      "insight": "五项标准已公布，计价与指标口径明确，方案商应据此调整报价单位和效果报告口径。",
+      "published": null,
+      "links": [
+        {
+          "text": "GEO服务告别\"无标可依\" 行业首份团体标准公布（证券时报·网易）",
+          "url": "https://www.163.com/dy/article/L6VQP0AE053469RG.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-17-02",
+      "category": "行业政策",
+      "platform": "",
+      "region": "国内",
+      "title": "《人工智能安全治理框架3.0》发布，首将\"GEO投毒风险\"纳入国家AI风险分类",
+      "summary": "全国网安标委 9/14 发布框架3.0，在\"应用安全风险\"下新增\"内容传播行为风险\"，首次将\"GEO投毒风险\"（批量投放倾向性内容操纵模型检索推荐、把商业推广包装成客观答案）纳入国家层面AI安全风险分类，与既有团标红线衔接。",
+      "insight": "GEO投毒被纳入国家风险分类，方案商应在合同和交付中明确拒绝批量操纵手法。",
+      "published": null,
+      "links": [
+        {
+          "text": "框架3.0将GEO投毒纳入国家层面风险分类（搜狐）",
+          "url": "https://www.sohu.com/a/1077023910_122936705"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-09-17-03",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 测试 Sponsored Agents 并接入 HubSpot/Shopify，ChatGPT 广告进化为\"对话式转化\"",
+      "summary": "OpenAI 9/16 测试 Sponsored Agents：用户点击 ChatGPT 广告后开启独立标注、与答案隔离的品牌赞助对话代理；同步上线自然语言建投放的 Ads Manager 插件，接入 HubSpot、Shopify 集成。",
+      "insight": "点击广告后进入赞助对话代理，付费可见度延伸到对话转化，需评估对客户线索的影响。",
+      "published": null,
+      "links": [
+        {
+          "text": "OpenAI: Reimagining advertising with AI（官方博客）",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

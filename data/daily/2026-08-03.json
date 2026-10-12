@@ -1,0 +1,73 @@
+{
+  "date": "2026-08-03",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-03-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "国内",
+      "title": "生意盒子研究院发布 GEO 白皮书：提出「收录≠引用≠理解」三层级方法论",
+      "summary": "提出「收录≠引用≠理解」框架，定义 L0-L3 引用层级与 12 维 AI 可见度评估体系。",
+      "insight": "三层级引用框架和12维评估可用来拆解客户监测指标，区分被收录、被引用、被理解。",
+      "published": null,
+      "links": [
+        {
+          "text": "生意盒子研究院重磅发布丨万字GEO白皮书：收录≠引用≠理解（今日头条）",
+          "url": "https://www.toutiao.com/article/7668326336607404584"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-03-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 8 月核心更新加速 AEO，实战派称「AEO 已成独立学科」",
+      "summary": "谷歌 8 月核心更新加速 AEO 信号，实战派称 AEO 已成独立学科而非 SEO 分支。",
+      "insight": "核心更新后，客户应按AEO口径复核页面结构，不能只看传统排名。",
+      "published": null,
+      "links": [
+        {
+          "text": "Google's August 2026 Core Update Is Reshaping Affiliate SERP Real Estate（Affiliate Times）",
+          "url": "https://affiliate-times.com/googles-august-2026-core-update-is-reshaping-affiliate-serp-real-estate-2"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-03-03",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "LLM Pulse 发布《State of GEO 2026》统计基准：AI 搜索可见度度量手册",
+      "summary": "2026 GEO 基准手册：ChatGPT 9 亿周活、AI Overview 点击率骤降、优化最高+40%。",
+      "insight": "手册里的AI Overview点击率下降和优化提升幅度可作基准，引用前先核对原始来源。",
+      "published": null,
+      "links": [
+        {
+          "text": "Generative Engine Optimization Statistics 2026: State of GEO（LLM Pulse）",
+          "url": "https://llmpulse.ai/blog/state-of-geo"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

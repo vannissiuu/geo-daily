@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-13",
+  "status": "few",
+  "legacy": true,
+  "highlights": [
+    "AI 品牌可见度首个大规模基线：100+品牌/5引擎实测，企业站占78%引用、榜单占21%，情绪波动高6.7倍——GEO 扩至第三方/榜单/舆情治理。",
+    "Google 在英灰度 Search Console 站点级 AI 设置：出版方可退出内容驱动 AI 答案并要求署名，\"可被引用来源\"开关权向内容方回流。"
+  ],
+  "entries": [
+    {
+      "id": "2026-08-13-01",
+      "category": "行业方法论",
+      "platform": "",
+      "region": "海外",
+      "title": "首个大规模 AI 品牌可见度基线：自有站仅占被引极小份额，第三方/榜单主导引用",
+      "summary": "Kumar 测10万+回答/100+品牌：品牌阶梯73%/44%/11%，企业站占78%引用，榜单(listicle)占21%。",
+      "insight": "自有站被引份额小、榜单主导，方案商应把第三方榜单和评测内容纳入客户布局清单。",
+      "published": null,
+      "links": [
+        {
+          "text": "arXiv:2606.20065 GEO at Scale（Kumar, Ranqo）",
+          "url": "https://arxiv.org/abs/2606.20065"
+        },
+        {
+          "text": "CapstonAI AI Search Watch 周报（2026-08-10）",
+          "url": "https://capston.ai/ai-search-watch"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-13-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google Search Console 在英灰度站点级设置：出版方可退出内容驱动 AI Overviews/AI Mode",
+      "summary": "Google 在英灰度 Search Console 设置：出版方可退出内容驱动 AI 答案并要求清晰署名。",
+      "insight": "英国出版方可选择退出AI答案，品牌方需评估退出对可见度的代价，欧洲客户应关注该设置。",
+      "published": null,
+      "links": [
+        {
+          "text": "GOV.UK CMA 对 Google 搜索行为要求（2026-06-03）",
+          "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk"
+        },
+        {
+          "text": "CapstonAI AI Search Watch 周报（2026-08-10）",
+          "url": "https://capston.ai/ai-search-watch"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 2,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

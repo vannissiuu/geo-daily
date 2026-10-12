@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-07",
+  "status": "normal",
+  "legacy": true,
+  "highlights": [],
+  "entries": [
+    {
+      "id": "2026-08-07-01",
+      "category": "行业政策",
+      "platform": "",
+      "region": "海外",
+      "title": "IAB 发布 AI 可见度\"4 P's\"衡量框架",
+      "summary": "IAB 发布 AI 可见度衡量框架\"4 P's\"，指 20+ 厂商方法互不可比。",
+      "insight": "IAB指出20多家厂商方法互不可比，报价和报告应写清监测口径，便于客户横向比较。",
+      "published": null,
+      "links": [
+        {
+          "text": "IAB 发布 AI 可见度衡量指南（IAB 官方）",
+          "url": "https://www.iab.com/news/iab-releases-measuring-visibility-in-the-ai-era/"
+        },
+        {
+          "text": "IAB 官方指南全文",
+          "url": "https://www.iab.com/guidelines/measuring-visibility-in-the-ai-era/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-07-02",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Cloudflare 上线 AEO 可见度看板（网络层信号）",
+      "summary": "Cloudflare 上线 AEO 可见度看板，基于网络层信号拆引用/提及/突出/声量。",
+      "insight": "网络层信号可拆引用、提及、突出和声量，可借来补充自家监测缺少的指标。",
+      "published": null,
+      "links": [
+        {
+          "text": "Cloudflare 发布 AEO 可见度看板（Cloudflare 官方）",
+          "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-adds-aeo-visibility-dashboard-to-its-aeo-suite-showing-brands-whether-ai-assistants-are-recommending-them/"
+        },
+        {
+          "text": "Cloudflare 博客：从排名到被推荐",
+          "url": "https://blog.cloudflare.com/aeo"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "backfilled": true
+    },
+    {
+      "id": "2026-08-07-03",
+      "category": "新技术",
+      "platform": "",
+      "region": "海外",
+      "title": "Somantra 推 Brand Consideration Score 新 AEO 指标",
+      "summary": "Somantra 发布品牌考虑度指标，测 AI 是\"提到\"还是\"推荐\"品牌。",
+      "insight": "按提到与推荐两档区分监测，可借鉴Brand Consideration Score设计推荐度指标。",
+      "published": null,
+      "links": [
+        {
+          "text": "Somantra 发布 Brand Consideration Score（GlobeNewswire）",
+          "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/somantra-an-enterprise-grade-answer-engine-optimization-and-ai-search-visibility-platform-launches-brand-consideration-score-new-chatgpt-and-google-ai-search-ranking-factor-for-brands/2400210"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "backfilled": true
+    }
+  ],
+  "run": {
+    "candidates": null,
+    "selected": 3,
+    "domestic_ratio": null,
+    "domestic_ratio_30d": null,
+    "websearch_calls": null,
+    "webfetch_calls": null
+  }
+}

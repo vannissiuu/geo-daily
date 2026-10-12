@@ -1,0 +1,125 @@
+{
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "legacy": true,
+  "overview": {
+    "total": 8,
+    "by_category": {
+      "行业政策": {
+        "count": 2,
+        "pct": 0.25
+      },
+      "行业方法论": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "新技术": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "市场动态": {
+        "count": 1,
+        "pct": 0.13
+      },
+      "舆情": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "平台动态": {
+        "count": 3,
+        "pct": 0.38
+      }
+    },
+    "note": null
+  },
+  "trends": [
+    {
+      "text": "平台动态（平台可见度机制）：本周平台侧沿\"引用货币化\"与\"对话式转化\"两条线推进。Google 测试 AI Contribution Pilot，把\"内容对 AI 答案的生成期贡献\"向出版方付费，首次出现平台侧对引用贡献度的直接计价；OpenAI 把 Deep Research 推向 ChatGPT Work/Codex（带 citation 的可编辑报告），并测试 Sponsored Agents——广告点击后开启与答案隔离的品牌对话代理，ChatGPT 广告从静态位进化为多轮对话转化。",
+      "refs": [
+        "2026-09-15-01",
+        "2026-09-14-01",
+        "2026-09-17-03"
+      ],
+      "ref_links": [
+        {
+          "title": "Search Engine Roundtable：Google Al Contribution Pilot",
+          "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+        },
+        {
+          "title": "reconnAI：ChatGPT Deep Research 扩展至 Work/Codex",
+          "url": "https://reconn-ai.com/news/chatgpt-deep-research-work-codex-ai-visibility"
+        },
+        {
+          "title": "OpenAI: Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/"
+        }
+      ]
+    },
+    {
+      "text": "行业政策（治理双层落地）：中广协 9/16 公布《生成式引擎优化(GEO)》五项团体标准，结束\"无标可依\"；全国网安标委 9/14 发布框架 3.0，首将\"GEO 投毒风险\"纳入国家 AI 风险分类。GEO 合规从行业自律升格为\"可测量、可审计、可追责\"的国家口径。",
+      "refs": [
+        "2026-09-17-01",
+        "2026-09-17-02"
+      ],
+      "ref_links": [
+        {
+          "title": "证券时报·网易：GEO服务告别\"无标可依\"",
+          "url": "https://www.163.com/dy/article/L6VQP0AE053469RG.html"
+        },
+        {
+          "title": "搜狐：框架3.0将GEO投毒纳入国家层面风险分类",
+          "url": "https://www.sohu.com/a/1077023910_122936705"
+        }
+      ]
+    },
+    {
+      "text": "行业方法论 + 新技术：亿邦动力观察到 GEO/AEO 服务扩张但捷径被封堵（Reddit 刷量被 ChatGPT 识别降权、引用占比 3.83%→0.5%），白帽结构化内容成共识；央媒下场——新华网发布「新华GEO智能体平台」做工业企业出海获客，GEO 进入\"权威背书+标准引领\"阶段。",
+      "refs": [
+        "2026-09-14-02",
+        "2026-09-16-01"
+      ],
+      "ref_links": [
+        {
+          "title": "亿邦动力：AI搜索优化生意兴起 捷径玩法屡被大模型封堵",
+          "url": "https://www.ebrun.com/20260912/706912.shtml"
+        },
+        {
+          "title": "新华网：新华GEO智能体平台发布海外生成式引擎营销服务",
+          "url": "https://www.news.cn/digital/20260911/7b1e86ef00d54e3aae1538d5d5043bec/c.html"
+        }
+      ]
+    }
+  ],
+  "platform_changes": [
+    {
+      "dimension": "信源引用逻辑",
+      "text": "Google 用 AI Contribution Pilot 把\"被引用\"从流量逻辑推向\"按贡献付费\"逻辑，品牌高证据密度内容（白皮书/研究/数据）的价值坐标系延伸到\"贡献度计价\"；OpenAI Deep Research 把带 citation 的报告推向工作流，\"被引进入研究报告\"成为更持久可见度资产。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "收录周期",
+      "text": "平台付费层快速迭代——Sponsored Agents 与 Contribution Pilot 同周出现，说明\"引用→计价→转化\"闭环正在被平台快速产品化，品牌须同步跟踪\"自然引用\"与\"赞助代理\"两套机制。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "生态绑定",
+      "text": "新华GEO智能体平台（央媒）与 OpenAI HubSpot/Shopify 集成显示，GEO 正与\"权威媒体背书\"\"电商/CRM 数据闭环\"深度绑定；\"平台是否把你的品类划进自营\"继续是 GEO 风险评估维度。",
+      "refs": [],
+      "ref_links": []
+    },
+    {
+      "dimension": "爬虫可发现性",
+      "text": "白帽结构化内容成共识、Reddit 刷量降权警示——机器可读、一致、可被交叉验证的公开证据权重上升；智谱约 50 亿美元再融资抬高被优化平台的模型能力与引用判断上限。",
+      "refs": [],
+      "ref_links": []
+    }
+  ],
+  "implications": [
+    "交付从\"铺量占位\"转向\"贡献度计价 + 白帽结构化\"：Google 开始按引用贡献付费、平台反作弊降权刷量，方案商应把\"真实、一致、可被交叉验证的公开证据\"与\"高证据密度内容资产\"作为核心交付，而非短期刷量。",
+    "监测须覆盖\"自然引用\"与\"赞助代理\"双轨 + 工作流级引用：OpenAI Sponsored Agents、Deep Research 报告都要求 GEO 监测从单次回答提及扩展到多轮对话与可复用引用资产。",
+    "合规与权威背书成为门槛：中广协团标 + 框架 3.0 双层治理落地，金融/医疗等高合规行业须 100% 人工复核，采购 GEO 服务应将\"团标评估 + 来源底稿\"写入合同验收。",
+    "市场信号积极：智谱约 50 亿美元再融资显示基座模型资本军备加码，GEO 内容须面向更强推理、更重证据密度的下一代模型重做。"
+  ]
+}

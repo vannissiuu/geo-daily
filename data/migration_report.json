@@ -1,0 +1,176 @@
+{
+  "parse_anomalies": [
+    "2026-08-18 精华 4 条，超过 min(3, 条目数)=3（原样保留）"
+  ],
+  "illegal_category": [],
+  "cloudflare_reclassified": [],
+  "xai": [
+    "2026-07-27-04：已改归新技术（见 xai_reclassified）"
+  ],
+  "platform_multi": [
+    "2026-08-21-03：标题含多个平台 ['豆包', 'DeepSeek'] → 多平台  豆包 / DeepSeek 算法重构：「孤证不立」强制多源验证，AI 答案标注「营销软文」",
+    "2026-09-04-02：标题含多个平台 ['豆包', '文心', '千问', '元宝'] → 多平台  清朗·整治AI应用乱象 第二阶段：豆包/元宝/千问/文心一言强化标识与语料审核",
+    "2026-10-08-01：标题含多个平台 ['豆包', '文心', '千问', '元宝'] → 多平台  豆包/元宝/文心/千问 AI 回答内嵌可点商品卡，智推时代上线 SKU 级监测"
+  ],
+  "platform_unknown": [],
+  "highlight_stripped": [],
+  "url_cleaned_forms": [
+    "https://t.cj.sina.com.cn/articles/view/6153904342/16ecd20d600101b8u4?finpagefr=p_103&lk_jump_to_browser=true  →  https://t.cj.sina.com.cn/articles/view/6153904342/16ecd20d600101b8u4?finpagefr=p_103",
+    "https://k.sina.com.cn/article_5337473809_13e23631100101hco2.html?subch=otech&lk_jump_to_browser=true  →  https://k.sina.com.cn/article_5337473809_13e23631100101hco2.html?subch=otech",
+    "https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009&lk_jump_to_browser=true  →  https://new.qq.com/rain/a/20260803A09LPZ00?refer=cp_1009",
+    "https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1&lk_jump_to_browser=true  →  https://k.sina.com.cn/article_1931238691_731c5d2301902g8r8.html?kdurlshow=1",
+    "https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1&lk_jump_to_browser=true  →  https://k.sina.com.cn/article_5675440730_152485a5a020025xrq.html?kdurlshow=1",
+    "https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js&lk_jump_to_browser=true  →  https://finance.sina.com.cn/cj/2026-08-11/doc-inimxmep7523747.shtml?finpagefr=p_104_js",
+    "https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009&lk_jump_to_browser=true  →  https://new.qq.com/rain/a/20260818A0B2UY00?refer=cp_1009",
+    "https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf?lk_jump_to_browser=true  →  https://eastlawlibrary.court.gov.cn/court-digital-library-search/page/portal/newsDetail.html?id=68b34fe338ea4056ad58ac44346b8faf"
+  ],
+  "weekly_overview_mismatch": [],
+  "weekly_unmatched_refs": [],
+  "weekly_relaxed_match": [],
+  "weekly_platform_link_assignment": [
+    "周结 2026-08-31：[Search Engine Roundtable：Google AI] → 信源引用逻辑（得分 [3, 3, 0, 1]，不确定，请核对）",
+    "周结 2026-08-31：[World Programming：Google Search Co] → 收录周期（得分 [1, 4, 0, 1]，较确定）",
+    "周结 2026-08-31：[Cloudflare 官方博客：BotBase for Operat] → 爬虫可发现性（得分 [0, 0, 0, 7]，较确定）",
+    "周结 2026-08-24：[Something Inc：ChatGPT Citation Sou] → 信源引用逻辑（得分 [2, 0, 1, 0]，较确定）",
+    "周结 2026-08-24：[Search Engine Journal：Google Bring] → 信源引用逻辑（得分 [2, 1, 0, 0]，较确定）",
+    "周结 2026-08-24：[OpenAI 官方：ChatGPT Ads Expands Acro] → 生态绑定（得分 [1, 0, 2, 0]，较确定）",
+    "周结 2026-08-17：[AI-Generated Images In Google AI O] → 信源引用逻辑（得分 [1, 1, 1, 0]，不确定，请核对）",
+    "周结 2026-08-17：[DEV Community：JavaScript Links Can] → 爬虫可发现性（得分 [0, 0, 0, 3]，较确定）",
+    "周结 2026-08-10：[豆包订酒店抽佣约12%（新浪财经）] → 生态绑定（得分 [2, 0, 4, 0]，较确定）",
+    "周结 2026-08-10：[How Google counts an AI Overviews ] → 收录周期（得分 [1, 2, 0, 0]，较确定）",
+    "周结 2026-08-10：[GOV.UK CMA 对 Google 搜索行为要求（2026-06] → 收录周期（得分 [1, 2, 0, 0]，较确定）"
+  ],
+  "weekly_outside_week_match": [
+    "周结 2026-08-31：趋势链接匹配到周外条目 2026-08-03-02  Affiliate Times：Google's Septe",
+    "周结 2026-07-20：趋势链接匹配到周外条目 2026-07-27-03  《GEO 狂飙与隐忧》：低价交付陷阱实录曝光，网信办「清朗」"
+  ],
+  "weekly_daily_count_diff": [
+    "周结 2026-09-14~2026-09-20：原文 total=8，现日报区间内条目=9",
+    "周结 2026-08-31~2026-09-06：原文 total=13，现日报区间内条目=14",
+    "周结 2026-08-17~2026-08-23：原文 total=17，现日报区间内条目=18"
+  ],
+  "todo_online_verify": [],
+  "summary": {
+    "days": 57,
+    "entries": 142,
+    "none_days": 3,
+    "weeks": 9,
+    "by_category": {
+      "行业政策": 14,
+      "行业方法论": 35,
+      "新技术": 13,
+      "市场动态": 30,
+      "舆情": 8,
+      "平台动态": 42
+    },
+    "status": {
+      "normal": 29,
+      "few": 25,
+      "none": 3
+    },
+    "refs_trend": [
+      93,
+      94
+    ],
+    "refs_platform": [
+      11,
+      11
+    ]
+  },
+  "online_verify_optimizegeo": {
+    "date": "2026-10-12",
+    "entry": "2026-10-06-01",
+    "conclusion": "8000 万美元种子轮表述不成立：MartechCube 原文（PR Newswire 稿）未披露融资金额与轮次；Adweek/Dealroom 称 8000 万美元是估值（pre-Series A，Young Capital 领投），融资额同样未披露。已去掉金额与「种子轮」表述，published 改为 2026-10-05。",
+    "calls": {
+      "websearch": 1,
+      "webfetch": 3
+    },
+    "urls_opened": [
+      {
+        "url": "https://www.martechcube.com/optimizegeo-reaches-100-brands-as-michael-kassan-invests/",
+        "finding": "主链接，WebFetch 打开：标题 OptimizeGEO Reaches 100+ Brands as Michael Kassan Invests；发布日 2026-10-05（PRNewswire 原发）；无金额、未称 seed；Kassan 为投资人兼战略顾问；客户 100+ 全球品牌、20 国"
+      },
+      {
+        "url": "https://www.adweek.com/dealroom/michael-kassan-invests-in-80m-startup-optimizegeo/",
+        "finding": "WebFetch 打开：2026-10-01；8000 万美元为估值（pre-Series A，Young Capital 领投），未披露融资额"
+      },
+      {
+        "url": "https://dealroom.co/news/158294-kassan-backs-geo-startup-optimizegeo-at-80m-valuation/",
+        "finding": "WebFetch 打开：2026-10-01；同上，8000 万美元为估值，Kassan 拒绝披露投资额"
+      }
+    ],
+    "websearch_query": "OptimizeGEO Michael Kassan invests 100 brands",
+    "before": {
+      "title": "OptimizeGEO 完成 8000 万美元种子轮，服务 100+ 全球品牌",
+      "summary": "GEO 服务商 OptimizeGEO 宣布完成 8000 万美元种子轮（Michael Kassan 参与投资），已服务全球 100+ 品牌，为 GEO 赛道迄今最大种子轮融资之一，一级市场对生成式引擎优化价值的认可持续升温。",
+      "insight": "大额融资说明资本看好 GEO 服务层，可作向客户论证预算的行业信号，也提示竞争在加剧。",
+      "published": null,
+      "highlights": [
+        "OptimizeGEO 获 8000 万美元种子轮并服务 100+ 品牌，GEO 赛道资本热度延续，工具与服务层价值持续被一级市场重估。"
+      ]
+    },
+    "after": {
+      "title": "OptimizeGEO 宣布服务 100+ 全球品牌、覆盖 20 国，Michael Kassan 以投资人身份加入",
+      "summary": "GEO 服务商 OptimizeGEO 宣布客户已超 100 家全球品牌、覆盖 20 个国家，3C Ventures 创始人 Michael Kassan 以投资人兼战略顾问身份加入；原文未披露融资金额与轮次（信源为企业发布稿）。",
+      "insight": "对手有知名投资人背书并拓展20国客户，竞标时备好全球案例；融资额未披露，勿引用。",
+      "published": "2026-10-05",
+      "highlights": [
+        "OptimizeGEO 宣布服务 100+ 全球品牌，Michael Kassan 以投资人身份加入，原文未披露融资金额。"
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    },
+    "note": "links 未改动（仍为 MartechCube 主链接）；Adweek/Dealroom 仅用于交叉核验估值口径，未加入 links；原 insight 以「大额融资」为前提，已随之重写。"
+  },
+  "xai_reclassified": {
+    "entry": "2026-07-27-04",
+    "before": {
+      "category": "平台动态",
+      "platform": ""
+    },
+    "after": {
+      "category": "新技术",
+      "platform": ""
+    },
+    "reason": "03 第 2 节：xAI 属模型公司而非被优化平台，不算平台动态；其搜索层接入 Exa 属新基础设施，按 1.4 第 9 项归新技术。"
+  },
+  "platform_multi_review": [
+    {
+      "id": "2026-08-21-03",
+      "platform": "多平台",
+      "result": "保留：标题与摘要同时写豆包可信度分层 2.0 与 DeepSeek 通读筛选，两平台机制不可拆分"
+    },
+    {
+      "id": "2026-09-04-02",
+      "platform": "多平台",
+      "result": "保留：摘要点名豆包、元宝、千问、文心一言四平台共同执行语料审核与 AI 标识，不可拆分"
+    },
+    {
+      "id": "2026-10-08-01",
+      "platform": "多平台",
+      "result": "保留：豆包、元宝、文心、千问各自内嵌商品卡，为同一报道中的并列变化，不可拆分"
+    }
+  ],
+  "weekly_unmatched_refs_fixed": [
+    {
+      "week": "2026-07-27_2026-08-02",
+      "title": "80%消费者决策靠 AI 辅助、客户续约率 100%：AI搜索时代，品牌的钱该怎么花",
+      "old_url": "https://dy.163.com/article/L2VBVEIF05368W0A.html",
+      "new_url": "https://dy.163.com/article/L2VBVEIF05568W0A.html",
+      "matched_entry": "2026-07-30-02",
+      "result": "周结与日报 2026-07-30-02 文章标题一致（日报链接 …05568W0A，周结 …05368W0A 为单字符差异），确认为同一篇；周结 URL 已改为日报 URL，trends[0].refs 补入 2026-07-30-02。"
+    }
+  ],
+  "backfill": {
+    "date": "2026-10-12",
+    "entries": 142,
+    "fields": [
+      "insight",
+      "region",
+      "source_type",
+      "soft_class"
+    ],
+    "method": "AI 逐条读标题与摘要补写，不联网（OptimizeGEO 除外）；全部条目 backfilled=true",
+    "caveat": "source_type/soft_class 仅据标题、摘要与链接域名判断，未打开原文；企业发布稿 + B 的条目未含「（信源为企业发布稿）」，legacy 豁免 C16，如日后复核需补。2026-09-03-02 region 填国内（阿里团队发于 dev.to），可能触发 C22 告警。"
+  }
+}
