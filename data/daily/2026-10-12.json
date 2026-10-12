@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-12",
+  "status": "normal",
+  "highlights": [
+    "GEO 监管处罚累计 3 起且均指向“造评分、造榜单”，叠加党媒提出黑帽GEO负面清单与可信媒体名单，国内 GEO 正进入“可信合规”定价阶段，刷榜式交付的法律与声誉风险已显性化。",
+    "Meta Muse 购物 Agent 被曝优先知名商家与直营店、开放网页只查 3 站，AI 购物推荐的准入门槛从“内容可被抓取”抬到“品牌认知度”，电商 GEO 要同时补品牌信号与抓取可达性。",
+    "Wellows 38 万条回答研究指出跨主题引用广度比域名权威分更能预测被引，GEO 监测与选站口径应从 DA 转向引用分布指标。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-12-01",
+      "category": "行业政策",
+      "region": "国内",
+      "title": "深圳一 GEO 服务商因探测大模型收录偏好、编造行业评分被罚 5 万元，全国 GEO 监管处罚已达 3 起",
+      "summary": "21世纪经济报道10月10日汇总：深圳市监局9月23日通报一家GEO服务商用自研系统探测大模型回复偏好、编造虚假行业评分并多平台投放以提高被AI引用概率，认定虚假宣传罚5万元；此前广州越秀（虚构榜单数据，罚12万）、北京朝阳（虚构评分与市占率，罚5万）各1起。",
+      "insight": "把“不造假评分/榜单”写进服务合同与交付SOP，向客户卖进时以合规审计能力区隔“刷榜式”同行。",
+      "published": "2026-10-10",
+      "links": [
+        {
+          "text": "21世纪经济报道",
+          "url": "https://21jingji.com/article/20261010/herald/4ea02f4540b643b5468d483beb866537.html"
+        },
+        {
+          "text": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-10-10/doc-iniutqmk0626871.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-12-02",
+      "category": "平台动态",
+      "platform": "Meta AI",
+      "region": "海外",
+      "title": "Meta AI 购物 Agent Muse 指令文件曝光：前 5 推荐须来自知名商家，开放网页仅查 3 个站点",
+      "summary": "State of Brand 10月8日披露 Profound 提取的 Muse 系统指令：前五商品须来自知名商家或网站，价格异常商品被剔除，点名品牌的官方店置顶、直营优先于经销；浏览器每次最多查3个商家站、返回不超过10件商品。Meta 未回应。",
+      "insight": "为电商客户补品牌知名度与直营店信号，监测 Meta-WebIndexer 抓取，中小品牌先评估 Muse 准入门槛。",
+      "published": "2026-10-11",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/metas-shopping-agent-must-fill-its-top-5-picks-with-well-known-merchants/"
+        },
+        {
+          "text": "PPC Land：Profound 实测 Muse 推荐来源",
+          "url": "https://ppc.land/metas-muse-draws-4-of-6-shopping-picks-from-2-websites-profound-finds/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-12-03",
+      "category": "新技术",
+      "region": "国内",
+      "title": "湖南日报社携手 360 上线「智眸可信GEO」，党媒把权威内容加工成 AI 可读可溯的结构化语料",
+      "summary": "10月12日上线，湖南日报社与三六零集团签署战略合作：智眸可信GEO定位知识供应、AI输出常态监测、对标可信标准防投毒造假、帮助城市与单位叙事被AI准确呈现；360提供大模型安全监测、算法纠偏与语料净化，报社提供采编与事实核验资质。",
+      "insight": "党媒正以“可信信源”身份进入政企GEO市场，方案商可谋求合作做内容结构化与监测，政企项目需准备可信合规叙事应对竞争。",
+      "published": "2026-10-12",
+      "links": [
+        {
+          "text": "华声在线",
+          "url": "https://hunan.voc.com.cn/news/202610/33960053.html"
+        },
+        {
+          "text": "华声在线：智眸可信GEO正式发布",
+          "url": "https://hunan.voc.com.cn/news/202610/33964118.html"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "B"
+    },
+    {
+      "id": "2026-10-12-04",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Wellows 基于 9471 条提示词、38 万条回答的引用研究：跨主题“引用广度”比域名权威分更能预测 AI 引用",
+      "summary": "样本为151个主题的9471条英文提示词、38.2万条回答，覆盖ChatGPT、Gemini、Perplexity及谷歌AI概览与AI Mode；拆分验证显示站点跨主题被引频率与留出集引用相关性最高（0.29–0.37），四个引擎上主题内覆盖优于DA分；作者强调仅为相关性。",
+      "insight": "监测指标可新增“跨主题引用广度”，替代以DA为核心的选站逻辑；对客户说明这是相关非因果，避免过度承诺。",
+      "published": "2026-10-09",
+      "links": [
+        {
+          "text": "Digital Journal（ACCESS Newswire）",
+          "url": "https://www.digitaljournal.com/pr/news/access-newswire/wellows-publishes-ai-citation-study-142014287.html"
+        },
+        {
+          "text": "FinancialContent",
+          "url": "https://www.financialcontent.com/article/accwirecq-2026-10-9-wellows-publishes-ai-citation-study-based-on-9471-prompts"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-12-05",
+      "category": "舆情",
+      "region": "国内",
+      "title": "湖南日报社社长钟君撰文区分商业 GEO 与党媒可信 GEO，建议建立全国联盟与“黑帽GEO负面清单”",
+      "summary": "钟君10月12日在华声在线发文称商业GEO以流量争夺AI曝光位，党媒可信GEO以权威信源让内容被AI正确理解、可靠引用；建议成立全国党媒可信GEO联盟，制定可信语料标注与数据接口标准、动态管理“GEO可信媒体名单”，并建立黑帽GEO负面清单。",
+      "insight": "主流媒体在给“黑帽/白帽GEO”划线，方案商应主动对齐团体标准与可信媒体名单，提前把投放渠道向可信媒体倾斜。",
+      "published": "2026-10-12",
+      "links": [
+        {
+          "text": "华声在线·评论",
+          "url": "https://opinion.voc.com.cn/news/202610/33960193.html"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-12-06",
+      "category": "舆情",
+      "region": "海外",
+      "title": "USA Today Co. 起诉 OpenAI 索赔逾 2.5 亿美元，指其未经授权用旗下报刊文章训练模型",
+      "summary": "USA Today Co. 及旗下多家地方报业10月8日在纽约起诉OpenAI，称其复制数十万篇文章训练模型，涉及The Tennessean、IndyStar等，索赔逾2.5亿美元；指控尚未裁决，OpenAI未回应。",
+      "insight": "出版商与AI平台的授权博弈升级，媒体源可能限制抓取或转向授权，方案商需追踪“可被引用媒体池”变化并调整发稿渠道。",
+      "published": "2026-10-09",
+      "links": [
+        {
+          "text": "ContentGrip",
+          "url": "https://contentgrip.com/usa-today-openai-copyright-lawsuit"
+        },
+        {
+          "text": "Press Gazette 诉讼追踪",
+          "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 15,
+    "selected": 6,
+    "domestic_ratio": 0.5,
+    "domestic_ratio_30d": 0.4194,
+    "websearch_calls": 66,
+    "webfetch_calls": 93
+  }
+}
