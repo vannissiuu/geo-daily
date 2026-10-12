@@ -84,3 +84,14 @@
 # 2026-10-12 新增每日执行手册
 
 - 新增 `prompts/daily_run.md` 与 `tools/prepare_run.py`（每日定时任务执行手册）：手册给云端定时任务的全新会话提供自足的流程（准备、4 组子代理并行采集、汇总筛选、写文件、周一周结、检查提交、汇报）；前置脚本负责计算当天时效窗口（rules/02 第 7 节）、近 45 天去重清单、最近 5 份精华、周结 due / heal 判定与近 30 日国内占比。规则文件未改。
+
+# 2026-10-12 新增 GEO 相关性门槛
+
+起因：2026-10-12 日报误收「USA Today Co. 起诉 OpenAI 索赔逾 2.5 亿美元（训练数据版权）」（`2026-10-12-06`），该事与 GEO 关系很弱。根因：①规则把"出版商与 AI 平台冲突 / 版权诉讼"写成舆情采集方向，Press Gazette 诉讼追踪页列为每日必巡并配了版权诉讼检索词；②规则只问"属于哪一类"，没先问"是否与 GEO 相关"；③3–6 条与国内外平衡被当成指标去凑。
+
+- `rules/02`：新增第 0A 节「GEO 相关性门槛（先于分类，硬性）」——须直接影响 (a) AI 回答如何找到 / 引用 / 呈现第三方内容或品牌、(b) GEO / AEO / AI 可见度行业本身、(c) AI 回答中的营销与内容规则，三者至少其一；明确排除训练数据版权诉讼与授权纠纷、模型发布与跑分、泛 AI 融资 / 政策、与内容呈现无关的功能；附本案判例与自检口诀。第 6 节数量规则补充：3–6 条是上限范围而非指标，国内外平衡仅为参考，不得为凑数或平衡收弱相关条目，合格不足 3 条按 `few` 发布。为不打乱既有"第 N 节"引用，新节编号为 0A。
+- `rules/03`：舆情定义改为"影响 AI 回答引用来源或第三方内容呈现的出版商与平台冲突"；判定顺序最前加"先过 02 第 0A 节门槛，再判类"。
+- `rules/01` 与 `config/sources.json`：Press Gazette 出版商 AI 诉讼追踪页由每日必巡移入低频巡检，用法改为仅关注涉及 AI 回答引用 / 展示的授权协议；删除 "publisher lawsuit AI search copyright traffic …" 与 "{平台名} sued publishers …" 检索词，"AI answers publisher copyright lawsuit OR licensing" 改为 "publisher licensing deal AI citations OR AI search display"。
+- `prompts/daily_run.md`：B 组巡检去掉 Press Gazette；子代理模板加入先过门槛、不相关列 reject；汇总筛选要求每条入选在 runs 日志写 `geo_relevance`，不凑数、不为平衡收弱相关条目；自检清单加一项。
+- `rules/04`：采集日志候选字段加 `geo_relevance`（入选必填）。`tools/check_data.py` 不校验 runs 文件，未改脚本。
+- 数据：`data/daily/2026-10-12.json` 删除 `2026-10-12-06`（其余 id 不变），`run.selected` 6→5，`domestic_ratio` 0.5→0.6，`domestic_ratio_30d` 0.4194→0.4333（按 prepare_run 口径重算）；`data/runs/2026-10-12.json` 该候选改 `rejected` 并写明原因，统计同步。

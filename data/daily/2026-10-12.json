@@ -108,34 +108,13 @@
       ],
       "source_type": "官方",
       "soft_class": "无"
-    },
-    {
-      "id": "2026-10-12-06",
-      "category": "舆情",
-      "region": "海外",
-      "title": "USA Today Co. 起诉 OpenAI 索赔逾 2.5 亿美元，指其未经授权用旗下报刊文章训练模型",
-      "summary": "USA Today Co. 及旗下多家地方报业10月8日在纽约起诉OpenAI，称其复制数十万篇文章训练模型，涉及The Tennessean、IndyStar等，索赔逾2.5亿美元；指控尚未裁决，OpenAI未回应。",
-      "insight": "出版商与AI平台的授权博弈升级，媒体源可能限制抓取或转向授权，方案商需追踪“可被引用媒体池”变化并调整发稿渠道。",
-      "published": "2026-10-09",
-      "links": [
-        {
-          "text": "ContentGrip",
-          "url": "https://contentgrip.com/usa-today-openai-copyright-lawsuit"
-        },
-        {
-          "text": "Press Gazette 诉讼追踪",
-          "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/"
-        }
-      ],
-      "source_type": "中立媒体",
-      "soft_class": "无"
     }
   ],
   "run": {
     "candidates": 15,
-    "selected": 6,
-    "domestic_ratio": 0.5,
-    "domestic_ratio_30d": 0.4194,
+    "selected": 5,
+    "domestic_ratio": 0.6,
+    "domestic_ratio_30d": 0.4333,
     "websearch_calls": 66,
     "webfetch_calls": 93
   }

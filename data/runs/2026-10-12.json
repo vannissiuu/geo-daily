@@ -106,8 +106,8 @@
       "category_guess": "舆情",
       "soft_class": "无",
       "found_via": "搜索:AI answers publisher copyright lawsuit OR licensing deal October 2026 / 巡检:Press Gazette",
-      "decision": "selected",
-      "entry_id": "2026-10-12-06"
+      "decision": "rejected",
+      "reject_reason": "未过 GEO 相关性门槛：训练数据版权诉讼，不影响 AI 回答引用/呈现（2026-10-12 人工复核剔除）"
     },
     {
       "title": "湖南日报社携手360集团上线「智眸可信GEO」，以党媒审核底座做AI可信传播",
@@ -1231,14 +1231,14 @@
       "A 组 WebSearch 仅 7 次，未执行 DeepSeek/Kimi/秘塔/360/抖音/Apple Intelligence 专项查询",
       "智眸可信GEO 主链接为产品方所属媒体（华声在线）自发稿，换源至独立中立源失败（hunan.gov.cn 同稿 robots 禁止），标 soft_class=B、source_type=官方"
     ],
-    "domestic_ratio": 0.5,
-    "domestic_ratio_30d": 0.4194
+    "domestic_ratio": 0.6,
+    "domestic_ratio_30d": 0.4333
   },
   "stats": {
     "websearch_calls": 66,
     "webfetch_calls": 93,
     "candidates": 15,
-    "selected": 6
+    "selected": 5
   },
   "notes": "主会话 WebFetch 10 次（补巡 OpenAI Release Notes 失败、PPC Land、SEJ，及入选主链接复核）、WebSearch 0 次。四组 stats：A ws7/wf23，B ws20/wf16，C ws20/wf25，D ws19/wf19。深圳案通报日 9-23 但首次公开报道为 10-10 的汇总稿，按窗口内首次披露的新进展收录。"
 }

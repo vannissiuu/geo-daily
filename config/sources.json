@@ -125,16 +125,6 @@
       "tips": "一手研究/框架类博客；注意发布日。"
     },
     {
-      "name": "Press Gazette 出版商AI诉讼追踪",
-      "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/",
-      "region": "海外",
-      "categories": [
-        "舆情",
-        "行业政策"
-      ],
-      "tips": "出版商诉AI平台/授权协议的单页追踪，是诉讼类最佳单页；按条目日期核对。"
-    },
-    {
       "name": "IT之家 GEO标签页",
       "url": "https://www.ithome.com/tag/geo/",
       "region": "国内",
@@ -305,6 +295,15 @@
         "市场动态"
       ],
       "tips": "融资大盘，GEO/AEO相关稀少。"
+    },
+    {
+      "name": "Press Gazette 出版商AI诉讼追踪",
+      "url": "https://pressgazette.co.uk/platforms/news-publisher-ai-deals-lawsuits-openai-google/",
+      "region": "海外",
+      "categories": [
+        "行业政策"
+      ],
+      "tips": "每周看一次；仅关注涉及 AI 回答引用/展示的授权协议，训练数据版权诉讼不收（02 第 0A 节）；按条目日期核对。"
     },
     {
       "name": "TechCrunch",
@@ -550,7 +549,7 @@
         "Google spam policy OR spam update {Month} {Year}",
         "Google Search Status Dashboard spam update",
         "FTC OR EU AI search advertising disclosure sponsored answers {Month} {Year}（低频，改以巡检驱动）",
-        "AI answers publisher copyright lawsuit OR licensing {Month} {Year}（低频）"
+        "publisher licensing deal AI citations OR AI search display {Month} {Year}（低频，仅限涉及引用/展示的授权协议）"
       ]
     },
     "行业方法论": {
@@ -608,8 +607,6 @@
         "评论 GEO 可信 OR 治理 {月份} 市场监管局 处罚"
       ],
       "海外": [
-        "publisher lawsuit AI search copyright traffic Perplexity OR OpenAI OR Google news {Month} {Day} {Year}",
-        "{平台名} sued publishers {Month} {Year}",
         "ChatGPT OR Gemini OR Perplexity prompt injection brand recommendations manipulated study {Month} {Year}",
         "Profound OR State of Brand AI shopping agent {Month} {Year}",
         "chatbot ads sponsored answers backlash regulators FTC OR EU {Month} {Year}"
