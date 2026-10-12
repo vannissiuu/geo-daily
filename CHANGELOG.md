@@ -80,3 +80,7 @@
 - 网站（`site/index.html`）有三个视图：每日动态、分类索引、周度总结；数据来自 `site/data/bundle.json`，由 `tools/build_bundle.py` 从 `data/` 生成。
 - 发布流程在 `.github/workflows/pages.yml`：每次 push 到 main（且 `data/`、`site/`、`tools/`、`config/` 有变化）先跑 `tools/check_data.py`，检查通过才构建并发布到 GitHub Pages；检查失败则不发布。拉取请求只跑检查（`check.yml`）。
 - 历史资料（WorkBuddy 时期的任务说明、信源规则、飞书文档生成脚本、历史数据与周结快照）已脱敏后归档在 `docs/legacy/`，仅供参考，现行规则以 `rules/` 为准。运行台账 `memory.md` 含身份信息，未入库。
+
+# 2026-10-12 新增每日执行手册
+
+- 新增 `prompts/daily_run.md` 与 `tools/prepare_run.py`（每日定时任务执行手册）：手册给云端定时任务的全新会话提供自足的流程（准备、4 组子代理并行采集、汇总筛选、写文件、周一周结、检查提交、汇报）；前置脚本负责计算当天时效窗口（rules/02 第 7 节）、近 45 天去重清单、最近 5 份精华、周结 due / heal 判定与近 30 日国内占比。规则文件未改。
