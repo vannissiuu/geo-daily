@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-13",
+  "status": "normal",
+  "highlights": [
+    "大样本研究同时指向“官方一手源优先”：ChatGPT 事实类回答 84.4% 引用官方来源、扇出常用 site: 直达品牌官网，跨市场实测又显示本地源占比与平台强相关，GEO 交付重心应从铺第三方稿转向官网事实页建设与分市场引用审计。",
+    "Anthropic 把“伪造出处的站点网络操纵 AI 答案来源”写入使用政策禁令，Google 则在 AI Mode 中让广告外观趋近自然结果，AI 回答里“操纵”与“付费”的边界同时被重新划定，方案商需把合规与广告/自然分账纳入对客口径。",
+    "国内财经媒体开始公开讨论付费能否进入 AI 候选集及其披露与归因难题，GEO 与 AI 广告的关系正成为客户决策焦点，方案商需备好自然引用与付费位并存的组合打法。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-13-01",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Ahrefs 研究 1500 万条 ChatGPT 扇出查询：仅 14.4% 回答触发联网，事实类问题 84.4% 引用官方来源",
+      "summary": "Ahrefs基于6660万条免登录GPT-5.6回答、约1500万条扇出查询：14.4%回答触发搜索，平均每次约1.6条扇出，6.8%使用site:；事实类问题84.4%至少引用一个官方源，对比类为68.3%；美国ChatGPT回答中Reddit引用3月至9月下降88%。",
+      "insight": "把客户官网的价格、参数、公司信息做成可被 site: 直达的事实页，并在监测口径中单列“官方源引用率”与扇出触发率。",
+      "published": "2026-10-12",
+      "links": [
+        {
+          "text": "Ahrefs：How ChatGPT Does Query Fan-Out",
+          "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
+        },
+        {
+          "text": "Search Engine Journal 报道",
+          "url": "https://www.searchenginejournal.com/chatgpt-most-cited-sites-primary-sources-ahrefs/592682/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-13-02",
+      "category": "行业政策",
+      "region": "海外",
+      "title": "Anthropic 使用政策更新：禁止用 Claude 向搜索引擎与 AI 系统的答案来源投放伪造出处或独立性的内容，11 月 12 日生效",
+      "summary": "Anthropic 10月8日公布使用政策更新，新增“禁止欺骗性活动与人为制造声量”章节；据SEJ引述条款，禁止以伪造出处、作者或独立性的内容操纵搜索引擎或AI系统取材的来源，例如伪装成互不关联的站点网络；自动化发布移出高风险清单。11月12日生效。",
+      "insight": "站群互证、伪第三方测评已被头部模型厂商明令禁止，方案商应清理此类交付，把“可溯源作者+真实出处”写进合同与卖点。",
+      "published": "2026-10-09",
+      "links": [
+        {
+          "text": "Search Engine Journal：Claude's New Rules Target Fake Sources Built To Sway AI Answers",
+          "url": "https://www.searchenginejournal.com/claude-rules-fake-sources-ai-answers/592456/"
+        },
+        {
+          "text": "Anthropic：2026 Usage Policy update",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-13-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Aleyda Solis 跨市场实测：英、西、巴三国 ChatGPT、Gemini、AI Mode 本地域名引用占比仅 24%–41%",
+      "summary": "以美国为基线，在英、西、巴三国用本地化提示词测10个主题、3个平台：本地ccTLD引用占比巴西41.4%、英国38.3%、西班牙24.0%；Google与YouTube占AI Mode引用28.1%–45.1%；与美国同页面重合仅1.7%–35.7%。作者注明以国家域名作代理、部分样本不足100。",
+      "insight": "出海客户须按“市场×平台×主题”分别做引用审计，不能照搬美国信源清单；做 AI Mode 要同步布局 YouTube。",
+      "published": "2026-10-08",
+      "links": [
+        {
+          "text": "Aleyda Solis：Local vs Global AI Citations",
+          "url": "https://www.aleydasolis.com/en/ai-search/local-vs-global-ai-citations/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-13-04",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 测试 AI Mode 回答底部广告新样式：去掉边框并加入网站图标、站名与蓝色标题",
+      "summary": "Search Engine Watch 10月9日发现Google正测试AI Mode回答下方的广告新设计：先由灰底改为带边框白底，随后去掉边框并加入网站favicon、站点名、蓝色标题和描述，外观更接近传统自然结果；测试范围与起始日期未披露。",
+      "insight": "AI Mode 广告与自然引用外观趋同，汇报 AI 可见度时须区分付费与自然曝光，并设计广告+GEO 组合方案。",
+      "published": "2026-10-09",
+      "links": [
+        {
+          "text": "Search Engine Watch：Google tests new design for ads at bottom of AI Mode responses",
+          "url": "https://searchenginewatch.com/google-tests-new-design-for-ads-at-bottom-of-ai-mode-responses/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-13-05",
+      "category": "舆情",
+      "region": "国内",
+      "title": "界面新闻刊文梳理 AI 广告演进：从 GEO、答案旁广告位到 Sponsored Agents，付费能否进入 AI 候选集仍存争议",
+      "summary": "界面新闻10月10日转载“Alpha说”文章，将AI广告分为GEO（难买确定位置、难归因）、答案旁平台广告位、赞助对话Agent及面向机器的结构化数据与接口阶段；指出Agent能否收商家钱、付费商品能否进候选集、商业关系如何披露、无人看广告时如何算效果均未解决。",
+      "insight": "客户会问“GEO 和 AI 广告怎么选”，方案商应准备自然引用与付费位并存的组合方案，以及披露合规和归因口径。",
+      "published": "2026-10-10",
+      "links": [
+        {
+          "text": "界面新闻：AI下一站，广告投给谁？",
+          "url": "https://www.jiemian.com/article/15174664.html"
+        },
+        {
+          "text": "新浪财经转载",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutcvr7378722.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 76,
+    "selected": 5,
+    "domestic_ratio": 0.2,
+    "domestic_ratio_30d": 0.4,
+    "websearch_calls": 74,
+    "webfetch_calls": 100
+  }
+}
