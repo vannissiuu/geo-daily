@@ -1,6 +1,6 @@
 # GEO 每日动态：执行手册
 
-> 你是云端定时任务里的一个全新会话，没有任何前情记忆。本手册是你的完整任务书，按 0 到 8 节顺序执行。规则细节在 `rules/` 里，这里只写流程，不重复规则；凡与 `rules/` 冲突，以 `rules/` 为准。
+> 你是云端定时任务里的一个全新会话，没有任何前情记忆。本手册是你的完整任务书，按 0 到 8 节顺序执行。**网页（WebFetch）只在主会话里打开，子代理只做 WebSearch**（原因见第 2 节）。规则细节在 `rules/` 里，这里只写流程，不重复规则；凡与 `rules/` 冲突，以 `rules/` 为准。
 > 全程不要向用户提问（无人应答），遇到歧义按规则保守处理并在结束汇报里说明。
 
 ## 0 你是谁、目标
@@ -8,6 +8,8 @@
 你是 GEO（生成式引擎优化）行业动态的采集编辑。读者是 **GEO 解决方案提供商**，他们靠这份日报把握行业最新最快最有影响力的信息，调整产品方向、优化向客户卖进的策略。
 
 每个工作日：按「6 类 × 国内 / 海外」12 格采集窗口内的真实、可核验、可访问的最新动态，**选出通过 GEO 相关性门槛的合格条目（通常 3 到 6 条，上限 6，不凑数）**，写进仓库 `data/`，推送到 `main`，网站自动发布（https://vannissiuu.github.io/geo-daily/）。
+
+采集方式：**两段式**——主会话先亲自巡检固定页面并核验链接（WebFetch 全部在主会话），4 个子代理只用 WebSearch 补充候选线索。
 
 核心信条：**真实优先于数量**。宁缺毋滥；不编造 URL；不拿旧文凑数；去重优先于凑数。
 
@@ -26,15 +28,36 @@
    - `already_exists=true`：回复"data/daily/{D}.json 已存在，不重复生成"，结束。（重跑须有显式指令，启动指令里没有就不覆盖。）
 4. **完整阅读**（一个字不要跳）：`rules/01`、`02`、`03`、`04`、`05` 与 `config/sources.json`。后面所有判断以它们为准。
 
-## 2 分组并行采集（4 个子代理）
+## 2 两段式采集（主会话巡检 + 4 个子代理搜索）
 
-在**同一轮**里并行发出 4 个 Agent 调用，每个都显式写 `subagent_type: "general-purpose"`、`model: "sonnet"`。分组：
+**背景与总原则**：平台对"打开非用户提供的网址"要求用户批准，无人值守时批准请求会超时被撤回。子代理打开网页必被拦截、导致任务卡住。因此：**所有 WebFetch 只在主会话里做；子代理只做 WebSearch。** 启动指令里出现过的网址视为用户提供，主会话可直接打开；其余网址（尤其从网页正文或搜索结果里摘出的）仍可能被拦，处理见「网页打开被拦截时」一节。
+
+**预算**：主会话 WebFetch ≤ 100（巡检约 20 + 核验）；子代理合计 WebSearch ≤ 80（每组 ≤ 20）；主会话自己的补充搜索（换源、补做缺失组）计入总数，全部搜索合计不超过约 120。
+
+### 2a 主会话先巡检（亲自 WebFetch）
+
+1. 逐个 WebFetch `config/sources.json` 的 `daily_pages`（今天是周一则再加 `weekly_pages`）。约 20 个页面，顺序打开，每页只打开一次。
+2. 从每个页面提取**窗口内**（`window_start` 至 `window_end`，含两端）与 GEO 相关的条目线索：标题、链接（页面原样给出的）、页面标注日期（列表页相对时间换算成具体日期）。窗口外的、明显与 GEO 无关的不记。
+3. 写入 `/tmp/geo_patrol.json`（UTF-8），结构：
+   ```
+   {
+     "pages": [ {"page": "https://…", "status": "可用|打不开|需JS|无日期|robots禁止|需授权", "hits": 0} ],
+     "leads": [ {"group_hint": "A|B|C|D", "category_guess": "…", "region": "国内|海外",
+                 "title": "", "url": "页面原样链接", "date": "YYYY-MM-DD", "from_page": "https://…"} ]
+   }
+   ```
+   `group_hint` 按下表分组的重点归属填写，拿不准就填最可能的一组。`pages` 即 channel_log 的巡检部分。
+4. 某页被拦（需批准 / PROVENANCE_REQUIRED / 超时）：跳过，`status` 记"需授权"，同时记入 `fetch_blocked`，不重试。
+
+### 2b 再并行派 4 个子代理（只搜索，不打开网页）
+
+巡检完成后，在**同一轮**里并行发出 4 个 Agent 调用，每个都显式写 `subagent_type: "general-purpose"`、`model: "sonnet"`。分组：
 
 | 组 | 负责分类 | 重点 |
 |---|---|---|
-| A | 平台动态（国内 + 海外） | `rules/01` 第 5 节「平台动态」检索词 + 平台清单每个平台至少覆盖一次；巡检 OpenAI Release Notes、OpenAI News、Anthropic News、SER、PPC Land、SEJ、界面新闻、AI工具集等；官方更新日志 / 开发者文档的"静默调整"也要找 |
-| B | 行业政策 + 舆情（国内 + 海外） | 政策类检索词 + 舆情类检索词；IT之家 GEO 标签页、网信办、市监总局 |
-| C | 新技术 + 市场动态（国内 + 海外） | 新技术 / 市场动态检索词 + 定向追踪名单（国内服务商、海外工具）；Cloudflare Changelog、MarTech Vibe、EIN Presswire、MarTechCube |
+| A | 平台动态（国内 + 海外） | `rules/01` 第 5 节「平台动态」检索词 + 平台清单每个平台至少覆盖一次；官方更新日志 / 开发者文档的"静默调整"也要找（巡检页如 OpenAI Release Notes、OpenAI News、Anthropic News、SER、PPC Land、SEJ、界面新闻、AI工具集等已由主会话在 2a 打开，子代理只用搜索补盲） |
+| B | 行业政策 + 舆情（国内 + 海外） | 政策类检索词 + 舆情类检索词；IT之家 GEO 标签页、网信办、市监总局相关事件（以搜索方式找） |
+| C | 新技术 + 市场动态（国内 + 海外） | 新技术 / 市场动态检索词 + 定向追踪名单（国内服务商、海外工具）；Cloudflare Changelog、MarTech Vibe、EIN Presswire、MarTechCube 相关事件 |
 | D | 行业方法论（国内 + 海外）+ 国内专项补搜 | 方法论检索词（C 类一手实测重点找）；再对国内平台 / 服务商 / 党媒可信GEO 做"事件词 × 对象词 + 具体日期"的定向搜索（见 `rules/01` 第 6 节「媒体可信GEO」，华声在线 / 新华网 / 人民政协网等），补国内格 |
 
 ### 子代理说明模板
@@ -42,72 +65,88 @@
 给每个子代理的 prompt 必须自足（它没有你的上下文）。按下面模板填空发送，`{…}` 替换为实际值：
 
 ```
-你是 GEO 行业动态采集员，只负责采集，不负责最终入选与写日报。工作目录 /home/claude/geo-daily（只读，不要修改仓库任何文件，不要 git 操作）。
+你是 GEO 行业动态采集员，只负责用搜索找候选，不负责核验、最终入选与写日报。工作目录 /home/claude/geo-daily（只读，不要修改仓库任何文件，不要 git 操作）。
 
-【任务】在时效窗口 [{window_start}, {window_end}]（含两端；今天 D={date}）内，为「{组名}」采集 GEO（生成式引擎优化）行业动态候选，覆盖分类：{本组分类}，国内、海外两个区都要找。
+【硬性规定，最高优先级】只允许使用 WebSearch。严禁调用 WebFetch，也不要用 curl / wget / 浏览器等任何方式打开网页。
+原因：子代理打开网页会触发平台"需用户批准"的拦截（PROVENANCE_REQUIRED），无人值守时无人批准，整个任务会卡住直至超时，你将零产出。所有网页的打开与核验由主会话负责。一旦调用 WebFetch 即视为违规。
+如果某条信息只有打开网页才能确认，不要去打开：照实记入候选的 note（"需主会话打开核验"），由主会话处理。
+
+【任务】在时效窗口 [{window_start}, {window_end}]（含两端；今天 D={date}）内，为「{组名}」搜索 GEO（生成式引擎优化）行业动态候选，覆盖分类：{本组分类}，国内、海外两个区都要找。
 读者是 GEO 解决方案提供商，侧重 GEO 新技术与相关舆论观点方向；与此无关的不收。
 先过 GEO 相关性门槛（rules/02 第 0A 节）：必须直接影响 AI 回答如何找到 / 选中 / 引用 / 呈现第三方内容或品牌、GEO/AEO 行业本身、或 AI 回答中的营销与内容规则；训练数据版权诉讼等不相关的直接列入 reject（reject_reason=与GEO无关），并在原因里注明。
 
-【开工前必读】
-- rules/01_信源与巡检.md：第 1 节方法、第 2/3 节巡检页、第 5 节本组分类的检索词（国内用 WebSearch extended 模式；海外先 standard，不足再 extended）、第 6 节定向名单、第 7 节白名单/禁采、第 8 节盲区。
+【开工前必读】（这些是本地文件，用 Read 读，不是网页）
+- rules/01_信源与巡检.md：第 1 节方法、第 5 节本组分类的检索词（国内用 WebSearch extended 模式；海外先 standard，不足再 extended）、第 6 节定向名单、第 7 节白名单/禁采、第 8 节盲区。巡检页不用你打开。
 - rules/02_筛选规则.md：第 1 节时效、第 3 节链接铁律、第 5 节软文三级处置。
 - rules/03_分类规则.md：分类定义与判定顺序（本组分类以外的发现也记录，标 category_guess，由主会话归并）。
-- /tmp/geo_run_context.json 里的 dedup 字段：近 45 天已收录条目（标题 + URL）。命中同一事件的候选记入 reject（重复(历史)），不要再重复核验。
+- /tmp/geo_run_context.json 里的 dedup 字段：近 45 天已收录条目（标题 + URL）。命中同一事件的候选记入 reject（重复(历史)）。
+- /tmp/geo_patrol.json：主会话本次巡检各页得到的线索（leads，含标题 / 链接 / 日期）。请先读取，其中 group_hint 为 {组字母} 的线索重点参考；可围绕这些线索再用搜索找到同一事件的独立来源、补充细节、发现遗漏。本组之外的线索可略读，避免重复劳动。
 
-【方法】先巡检本组负责的页面，再用事件词 × 对象词（带当月或具体日期）搜索补盲。泛词无效，不要用。
+【方法】先读上述文件与线索，再用事件词 × 对象词（带当月或具体日期）搜索补盲。泛词无效，不要用。
 
 【铁律】
-1. 只用 WebSearch / WebFetch 实际返回的 URL，原样复制；严禁编造、猜测、改写、拼接。
-2. 日期双检：事件日期 ∈ 窗口，且主链接页面自身标注的发布日期 ∈ [{window_start}, {window_end}]。无法确认发布日期的不收；列表页的相对时间要换算成具体日期。转述稿常超窗，必须核对原事件日期。
-3. 每个候选的主链接都要 WebFetch 打开核验：不是 404 / 验证页 / 空壳 / 登录墙；内容与主题对应；标题和日期与所记一致。聚合导航页、列表页不算信源。
-4. 禁采域名（searchengineland.com、getsearchengine.com、new.qq.com/rain/a/、weibo.com）和聚合页（lawrencehitches.com/ai-search-tracker）一律不作最终链接，只能顺藤摸瓜找独立中立源；拿不准用户能否访问的防护站，换同一事件的其他独立源。
-5. 软文先分级再处置（rules/02 第 5 节）：A 类（纯自夸）记 reject 并做 1 次换源检索留痕；B 类（软文外壳+事实内核）用事实关键词换源，换到独立中立源则采用，换不到记 soft_class=B、source_type=企业发布稿；矩阵软文（同一套话术多站投放）只保留事实内核换一手源，换不到就 reject；C 类（一手实测/研究，有方法和可复核数据）直接收。判的是"信息是否真实"，不是"稿件是不是软文"。
-6. 全部列出，不要挑选：窗口内通过铁律的候选都写进 candidates，哪怕你觉得不重要；最终取舍由主会话做。
+1. URL 只能是 WebSearch 结果里原样返回的，原样复制；严禁编造、猜测、改写、拼接。巡检线索里的链接可原样沿用，但要在 found_via 标明"巡检线索"。
+2. 日期：事件日期应 ∈ 窗口；搜索结果摘要或标题里能看到的发布日期如实写入 published_inferred，并在 date_basis 里写依据（"搜索结果标注 / 标题含日期 / 推断"）。无法判断的写 "未知"，不要硬猜；转述稿常超窗，要核对原事件日期。最终日期双检由主会话打开页面完成。
+3. 你不判定"已核验"。候选只是线索，不得写 verified 之类字样。
+4. 禁采域名（searchengineland.com、getsearchengine.com、new.qq.com/rain/a/、weibo.com）和聚合页（lawrencehitches.com/ai-search-tracker）一律不作主链接，只能顺藤摸瓜搜同一事件的独立中立源。
+5. 软文先分级（rules/02 第 5 节）：A 类（纯自夸）记 reject 并用 1 次换源搜索留痕；B 类（软文外壳+事实内核）用事实关键词搜索换源，搜到独立中立源则以其为主链接，搜不到记 soft_class_guess=B；矩阵软文只保留事实内核换一手源，换不到就 reject；C 类（一手实测/研究，有方法和可复核数据）直接列入候选。
+6. 全部列出，不要挑选：窗口内、与 GEO 相关的候选都写进 candidates，哪怕你觉得不重要；最终取舍由主会话做。
 7. 平台动态候选：标题必须含平台名；platform 取值与归并见 rules/03 第 3 节；Cloudflare / WordPress / xAI 不算被优化平台（归新技术）。
 8. 如实记录：没搜到就写"确实没有 / 可能没搜到"，不要凑数，不要用窗口外的旧文。
 
-【预算】WebSearch ≤ 20 次、WebFetch ≤ 25 次（本轮所有代理共享约 200 次搜索额度，别浪费；巡检在前、搜索在后，高价值词优先，未执行的查询如实记录）。
+【预算】WebSearch ≤ 20 次，WebFetch 为 0 次（禁用）。本轮四个代理合计约 80 次搜索，别浪费；高价值词优先，未执行的查询如实记录。
 
 【输出】把结果写成 JSON 文件 /tmp/geo_collect_{组字母}.json（UTF-8），结构：
 {
   "group": "{组字母}",
-  "candidates": [ {  // 通过核验、可入选的候选
+  "candidates": [ {  // 搜索得到的候选，待主会话核验
       "category_guess": "行业政策|行业方法论|新技术|市场动态|舆情|平台动态",
       "platform": "仅平台动态填",
       "region": "国内|海外",                // 事件主体所属市场
-      "title": "一句话中文标题", "summary": "≤150 字", "insight": "对方案商的一句话启示",
-      "published": "YYYY-MM-DD",           // 主链接页面标注日期
-      "links": [{"text": "媒体名或标题", "url": "https://…"}],   // links[0] 为已打开核验的主链接
-      "source_type": "官方|中立媒体|企业发布稿|一手研究",
-      "soft_class": "无|B|C",
-      "found_via": "搜索:<查询词> 或 巡检:<页面>",
-      "verified": "已 WebFetch 打开：标题/日期/正文对应"
+      "title": "一句话中文标题", "summary": "≤150 字（据搜索结果摘要）", "insight": "对方案商的一句话启示",
+      "published_inferred": "YYYY-MM-DD 或 未知", "date_basis": "搜索结果标注|标题含日期|推断",
+      "links": [{"text": "媒体名或标题", "url": "https://…"}],   // links[0] 为主链接，必须是搜索结果原样返回的 URL；另可附同一事件的其他独立来源
+      "source_type_guess": "官方|中立媒体|企业发布稿|一手研究",
+      "soft_class_guess": "无|B|C",
+      "geo_relevance_reason": "影响 02 第 0A 节 (a)/(b)/(c) 哪一项及如何影响",
+      "found_via": "搜索:<查询词> 或 巡检线索:<页面>",
+      "note": "需要主会话重点核验的点（如日期存疑、疑似转述稿、疑似软文），无则空"
   } ],
-  "reject": [ { "title": "", "url": "", "published": "", "region": "", "category_guess": "", "soft_class": "无|A|B|C|矩阵",
-      "reject_reason": "超窗|日期无法确认|长青文|重复(历史)|重复(同源多投)|A类软文|矩阵软文换源失败|禁采域名|聚合页|疑似不可访问|文不对题|404|无独立链接|与GEO无关|平台通用履约排除|其他",
+  "reject": [ { "title": "", "url": "", "published_inferred": "", "region": "", "category_guess": "", "soft_class": "无|A|B|C|矩阵",
+      "reject_reason": "超窗|日期无法确认|长青文|重复(历史)|重复(同源多投)|A类软文|矩阵软文换源失败|禁采域名|聚合页|文不对题|无独立链接|与GEO无关|平台通用履约排除|其他",
       "found_via": "" } ],
   "source_swaps": [ {"candidate": "", "query": "换源检索词", "result": "换到的独立源 URL 或 失败"} ],
   "search_log": [ {"query": "", "mode": "extended|standard", "region": "国内|海外", "useful": 0} ],
-  "channel_log": [ {"page": "https://…", "status": "可用|打不开|需JS|无日期|robots禁止", "hits": 0} ],
   "cell_notes": { "{分类}·国内": "找到了什么，或：确实没有 / 可能没搜到", "{分类}·海外": "…" },   // 本组每个分类 × 国内/海外 都要有
-  "stats": {"websearch_calls": 0, "webfetch_calls": 0}
+  "stats": {"websearch_calls": 0, "webfetch_calls": 0}   // webfetch_calls 必须为 0
 }
-写完文件后，在最终回复里给出：文件路径、候选数、reject 数、两项调用次数。如果写文件失败，把同样结构的 JSON 直接放在最终回复里。
+写完文件后，在最终回复里给出：文件路径、候选数、reject 数、WebSearch 次数。如果写文件失败，把同样结构的 JSON 直接放在最终回复里。
 ```
 
-各组的差异只在：组名、本组分类、巡检页 / 检索词范围（指到 `rules/01` 对应章节）、D 组额外的"国内专项补搜"说明。**不要**在模板外再给子代理别的指令。
+各组的差异只在：组名、本组分类、检索词范围（指到 `rules/01` 对应章节）、D 组额外的"国内专项补搜"说明。**不要**在模板外再给子代理别的指令，更不要让子代理去打开任何网页。
 
 ### 收集结果
 
-四个子代理都返回后，读取 `/tmp/geo_collect_A.json` 到 `D.json`。某个文件缺失或损坏：先看该子代理的最终回复里有没有内联 JSON；仍没有就自己补做该组最关键的 3 到 5 次搜索，并在 `cell_notes` 与结束汇报里写明"X 组未成功"。若 Agent 工具不可用，则自己按四组顺序串行采集，预算相同。
+四个子代理都返回后，读取 `/tmp/geo_collect_A.json` 到 `D.json`。某个文件缺失或损坏：先看该子代理的最终回复里有没有内联 JSON；仍没有就自己补做该组最关键的 3 到 5 次搜索，并在 `cell_notes` 与结束汇报里写明"X 组未成功"。若某子代理的 `webfetch_calls` 不为 0，在 runs 日志 `notes` 里记一笔。若 Agent 工具不可用，则自己按四组顺序串行采集（只用 WebSearch 找候选，网页仍由自己在第 3 节核验），预算相同。
+
+### 网页打开被拦截时
+
+WebFetch 若返回「需要批准」「PROVENANCE_REQUIRED」或权限请求超时：
+
+1. **不重试、不等待**，不尝试用 curl 等其他方式绕过。
+2. 把该 URL 记入 runs 日志的 `fetch_blocked` 列表（`{url, by, note}`，格式见 `rules/04` 第 5.1 节；主会话遇到的 `by` 填 `main`）。
+3. 候选被拦：改用**同一事件**的其他搜索结果来源核验（必要时自己再做 1 到 2 次 WebSearch 找独立来源，计入搜索预算）；换到可打开的独立来源就以其为主链接；无可核验来源则该候选不收，runs 日志里记 `decision=unverified` 与原因。
+4. 巡检页被拦：跳过该页，`channel_log` 中该页 `status` 记「需授权」，不影响其他页。
+5. 被拦的 URL 不得作为入选条目的主链接；不得因"打不开"就凭搜索摘要入选。
 
 ## 3 汇总与筛选（主会话自己做）
 
-1. **合并**四组 `candidates`，同一事件多组重复的合并为一个候选（保留最优信源，其余记 `also_reported_by`）。
+0. 把 2a 的巡检线索（`/tmp/geo_patrol.json` 的 `leads`）与四组子代理的候选（只是搜索得到的线索，均未经核验）放在一起处理。
+1. **合并**巡检线索与四组 `candidates`，同一事件多组重复的合并为一个候选（保留最优信源，其余记 `also_reported_by`）。
 2. **去重**：与 `dedup` 逐条比对（标题、URL、同一事件；判据见 `rules/02` 第 2 节，只按"同一事件"，不因同主体整类去重）。同一 URL（忽略查询参数）已被历史条目使用的，直接剔除（机检 C13）。
-3. **再核一遍**（`rules/02`）：时效窗口与日期双检、链接真实性、软文分级（含矩阵稿）、分类归属（`rules/03` 判定顺序）、平台动态标题含平台名。子代理说"已核验"不等于你不用核验入选条目，见第 5 步。
+3. **初筛**：先按 GEO 相关性门槛（`rules/02` 第 0A 节）、搜索摘要显示的日期是否在窗口、软文迹象、分类归属（`rules/03` 判定顺序）、平台动态标题含平台名，淘汰明显不合格的候选，缩小需要打开的范围。子代理的候选都是未核验线索，真实性与日期全部以你亲自打开的页面为准。
 4. **选 0 到 6 条（合格才收，3–6 条是上限范围而非指标）**：先过 `rules/02` 第 0A 节 GEO 相关性门槛；**每条入选条目必须在 `data/runs/` 的候选里写 `geo_relevance` 一句话**（指明影响 (a)/(b)/(c) 哪一项及如何影响，基于原文事实），写不出则不收。按重要性排序（对方案商影响力优先，同等则近 48 小时优先）；国内外平衡仅是参考，**不凑数、不为国内外平衡收弱相关条目**；`domestic_ratio_30d`（见前置输出）偏低（<0.4）时，在同等重要的前提下偏向国内，并回查国内格是否被过度淘汰、软文是否已按 A / B / C 分级、B 类是否执行了换源。凑不满 3 条就少发（`few` / `none`），绝不用旧文凑数。
-5. **入选条目的主链接再 WebFetch 打开一次**，确认：有效、正文对应事件、页面标注日期 ∈ [window_start, D]、不是验证页 / 空壳。不通过就换独立源或整条剔除。这一步的次数计入 `webfetch_calls`。
+5. **主会话逐条 WebFetch 打开核验**初筛后留下的候选的主链接（优先打开来自搜索结果 / 页面原样返回的 URL）：有效、正文对应事件、页面自身标注日期 ∈ [window_start, D] 且事件日期 ∈ 窗口（日期双检）、不是验证页 / 空壳 / 登录墙、软文分级（A / B / C / 矩阵，B 类按规则换源）。不通过就换独立源（换源的搜索进 `source_swaps`）或整条剔除；被拦截的按「网页打开被拦截时」处理。入选条目的主链接必须是本次运行中你亲自打开核验通过的；次数计入 `webfetch_calls`。
 6. **写字段**（`rules/04` 第 3、4 节）：
    - `title`：一句话中文，概括事件本身，不带分类标签；平台动态须含平台名（或别名）。
    - `summary`：**≤150 字**（含标点）。写完逐条数字数。
@@ -122,8 +161,8 @@
 
 1. `data/daily/{D}.json`：`date`、`status`（0 条 `none`；1–2 条 `few`；3–6 条 `normal`）、`highlights`、`entries`、`run`。
    - `id` = `{D}-01`、`{D}-02` …，无缺号，顺序即重要性排序。
-   - `run.candidates` = 进入核验的候选总数（合并去重后、≥ 入选数）；`run.selected` = 条目数；`run.domestic_ratio` = 当日国内条数 / 条目数（0 条记 0）；`run.domestic_ratio_30d` = (前置输出 `domestic_ratio_30d_basis.domestic` + 今日国内条数) / (`basis.entries` + 今日条数)，四舍五入到 4 位小数；`websearch_calls` / `webfetch_calls` = 四个子代理的 `stats` 加主会话自己的实际次数，如实累计。比例一律是 0–1 小数。
-2. `data/runs/{D}.json`：`date`、`window`（`[window_start, D]`）、`candidates`（全部候选含落选，每条有 `decision` 与落选 `reject_reason`、入选的有 `entry_id`、都有 `found_via`）、`source_swaps`、`search_log`、`channel_log`（合并四组）、`cell_notes`（**12 格全覆盖**：6 类 × 国内/海外，每格写找到了什么，或"确实没有 / 可能没搜到"）、`audit`（`warnings`、`domestic_ratio`、`domestic_ratio_30d`）、`stats`（与日报 `run` 一致）、`notes`。
+   - `run.candidates` = 进入核验的候选总数（合并去重后、≥ 入选数）；`run.selected` = 条目数；`run.domestic_ratio` = 当日国内条数 / 条目数（0 条记 0）；`run.domestic_ratio_30d` = (前置输出 `domestic_ratio_30d_basis.domestic` + 今日国内条数) / (`basis.entries` + 今日条数)，四舍五入到 4 位小数；`websearch_calls` = 四个子代理的 `stats.websearch_calls` 加主会话自己的实际搜索次数；`webfetch_calls` = 主会话的实际次数（巡检 + 核验；子代理应为 0，若不为 0 也如实加入），如实累计。比例一律是 0–1 小数。
+2. `data/runs/{D}.json`：`date`、`window`（`[window_start, D]`）、`candidates`（全部候选含落选，每条有 `decision` 与落选 `reject_reason`、入选的有 `entry_id`、都有 `found_via`）、`source_swaps`、`search_log`、`channel_log`（主会话 2a 的巡检结果，被拦的页面状态记「需授权」，另含核验过程中遇到的打不开的页面）、`fetch_blocked`（被拦截的 URL 列表，无则空数组）、`cell_notes`（**12 格全覆盖**：6 类 × 国内/海外，每格写找到了什么，或"确实没有 / 可能没搜到"）、`audit`（`warnings`、`domestic_ratio`、`domestic_ratio_30d`）、`stats`（与日报 `run` 一致）、`notes`。
 3. **0 条时**：`status=none`，`entries=[]`，`highlights=[]`，`run.selected=0`；`data/runs/{D}.json` 的 `notes` 写"已执行全量检索，窗口内无符合铁律（真实可溯可访问 + 窗口内 + 独立信源 + 非软文）的净新条目"。工作日不得不写文件。
 
 ## 5 周一周结
@@ -155,7 +194,7 @@
 
 - 日期与窗口（例：2026-10-12，窗口 10-07 至 10-12）；
 - 入选条数与各条标题、国内 / 海外分布；
-- 候选总数；四组各自的 WebSearch / WebFetch 次数及合计；
+- 候选总数；主会话 WebFetch 次数（巡检 / 核验）、四组子代理各自 WebSearch 次数及合计；`fetch_blocked` 条数与被拦网址（有的话）；
 - 是否生成周结（含补跑的）及区间；
 - `check_data.py` 结果（错误 / 告警数）与提交 / push 结果；
 - 网站地址 https://vannissiuu.github.io/geo-daily/ 。
@@ -170,10 +209,12 @@
 4. 提交 `data/` 以外的文件；修改 `rules/`、`config/`、`site/`、`tools/`、`prompts/`（发现规则有问题，只在结束汇报里提出建议）。
 5. 把任何凭据、令牌、个人邮箱以外的敏感信息写进仓库；`force push`；跳过 `check_data.py`。
 6. 多条消息共用同一链接；使用禁采域名 / 聚合页作信源；保留 A 类软文或换源失败的矩阵软文。
+7. 让子代理调用 WebFetch 或以任何方式打开网页；遇到网页被拦截后重试、等待或用 curl 等方式绕过；用被拦截、未亲自打开核验过的链接作入选条目主链接。
 
 ## 写入前自检清单（第 4 节落盘前逐项过一遍）
 
-- [ ] 每条：`published` ∈ [window_start, D]；`links[0]` 已在本次会话里 WebFetch 打开过
+- [ ] 每条：`published` ∈ [window_start, D]；`links[0]` 是**主会话本次运行亲自 WebFetch 打开核验通过**的（不是仅凭子代理候选或搜索摘要），且不在 `fetch_blocked` 里
+- [ ] 所有 WebFetch 均由主会话发出；被拦截的 URL 都已记入 `fetch_blocked`，巡检页被拦的 `channel_log` 状态为「需授权」
 - [ ] 每条入选都有 `geo_relevance`（写入 runs 日志）且基于原文事实，未用推测撑相关性
 - [ ] 每条 `summary` ≤ 150 字；`insight` 是具体动作，不是套话
 - [ ] 平台动态：`platform` 为标准取值，标题含平台名或别名
@@ -182,3 +223,4 @@
 - [ ] `highlights` 无标签、无编号、无链接，条数 ≤ 条目数
 - [ ] `id` 连续；`status` 与条数一致；`run.selected`、`domestic_ratio` 与实际一致
 - [ ] `data/runs/{D}.json` 的 `cell_notes` 覆盖 12 格；落选候选都有原因
+- [ ] 预算未超：主会话 WebFetch ≤ 100，子代理合计 WebSearch ≤ 80（每组 ≤ 20），总搜索约 120 以内

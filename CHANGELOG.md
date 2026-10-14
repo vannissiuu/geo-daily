@@ -95,3 +95,13 @@
 - `prompts/daily_run.md`：B 组巡检去掉 Press Gazette；子代理模板加入先过门槛、不相关列 reject；汇总筛选要求每条入选在 runs 日志写 `geo_relevance`，不凑数、不为平衡收弱相关条目；自检清单加一项。
 - `rules/04`：采集日志候选字段加 `geo_relevance`（入选必填）。`tools/check_data.py` 不校验 runs 文件，未改脚本。
 - 数据：`data/daily/2026-10-12.json` 删除 `2026-10-12-06`（其余 id 不变），`run.selected` 6→5，`domestic_ratio` 0.5→0.6，`domestic_ratio_30d` 0.4194→0.4333（按 prepare_run 口径重算）；`data/runs/2026-10-12.json` 该候选改 `rejected` 并写明原因，统计同步。
+
+# 2026-10-14 采集改为两段式：网页打开集中在主会话
+
+起因：2026-10-14 运行中，4 个采集子代理的 WebFetch 全部被平台的"打开非用户提供网址需批准"机制拦截（返回 PROVENANCE_REQUIRED），无人值守时批准请求超时被撤回，子代理零产出，用户被迫手动点批准，不符合自动化要求；主会话自己的 WebFetch 大多可用，但从网页正文摘出的个别链接（blogs.bing.com、adweek.com 等）同样被拦。该检查无法通过指令关闭，故改流程规避。
+
+- `prompts/daily_run.md` 第 2 节改为两段式采集：2a 主会话亲自 WebFetch `config/sources.json` 的 `daily_pages`（周一加 `weekly_pages`），提取窗口内的条目线索写入 `/tmp/geo_patrol.json`；2b 再并行派 4 个子代理（分组不变），子代理只允许 WebSearch、严禁 WebFetch（模板中写成硬性规定并说明原因），读取巡检线索后产出候选清单（只给候选，不判定"已核验"），写 `/tmp/geo_collect_{组}.json`。
+- 第 3 节：候选的去重与 GEO 相关性初筛后，由主会话逐条 WebFetch 核验（日期双检、内容对应、软文分级），优先打开搜索结果返回的 URL。
+- 新增「网页打开被拦截时」一节：不重试、不等待、不用 curl 等绕过；记入 runs 日志 `fetch_blocked`；改用同一事件的其他搜索来源核验，没有则不收；巡检页被拦则跳过并在 channel_log 记"需授权"。
+- 预算调整：主会话 WebFetch ≤ 100（巡检约 20 + 核验）；子代理合计 WebSearch ≤ 80（每组 ≤ 20）；总搜索约 120 以内。自检清单、结束汇报、硬性禁止同步更新（入选条目主链接须为主会话本次运行亲自打开核验过的）。
+- `rules/04`：采集日志增加 `fetch_blocked` 字段说明（元素 `{url, by, note}`），`channel_log.status` 增加取值"需授权"。`tools/check_data.py` 不校验 runs 文件，未改脚本。
