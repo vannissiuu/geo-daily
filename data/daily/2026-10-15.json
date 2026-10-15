@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-15",
+  "status": "normal",
+  "highlights": [
+    "GEO 服务开始进入官方能力评估阶段：信通院首批评估把信源真实性、AIGC 标识与效果承诺管理列为核验重点，合规交付能力正成为国内方案商的准入门槛与卖进背书。",
+    "AI 可见度的“度量地基”同时松动：ChatGPT 去掉 UTM 使 AI 来访混入直接流量，Google 向抓取方返回污染结果页使 AIO 监测失真，方案商需改用多信号归因与异常采样复核来守住数据口径。",
+    "研究再次证明 AI 可见度高度依赖市场与语种：英国与美国的品牌重合度、引用源结构差异明显，同一问题换语言首选品牌即变，监测与优化必须按市场、语种、平台分别建基线。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-15-01",
+      "category": "行业政策",
+      "region": "国内",
+      "title": "中国信通院泰尔终端实验室启动首批“生成式引擎优化（GEO）服务能力”评估，面向企业开放报名",
+      "summary": "10月14日，中国信通院泰尔终端实验室启动首批GEO服务能力评估，围绕服务受理、内容审核、GEO服务实施、监测与追溯、风险处置及服务商组织能力展开，重点核验信息来源与事实真实性、语料接入与内容发布、生成合成内容标识、效果评估与承诺管理，并考察高风险场景管理能力。",
+      "insight": "按六大维度自查交付流程，补齐信源真实性留痕、AIGC标识与效果承诺管理，争取首批评估资质作为卖进背书。",
+      "published": "2026-10-14",
+      "links": [
+        {
+          "text": "每日经济新闻（网易）：中国信通院启动首批GEO服务能力评估",
+          "url": "https://www.163.com/dy/article/L9760NCH0512B07B.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-15-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 在 GPT-6 后去掉结果链接的 utm_source=chatgpt.com，AI 来访被统计为直接流量",
+      "summary": "GPT-6 上线后，ChatGPT 外链改用 noreferrer 打开并去掉 utm_source=chatgpt.com，访问既无标签也无来源。Adobe 的 Huesler 对比约500页：10月9–13日 ChatGPT 访问日减约3.1万，直接访问日增约2.6万。OpenAI 未置评。",
+      "insight": "立即复核客户 AI 流量看板，把直接流量异常增量纳入 ChatGPT 归因，避免误报“AI 流量下滑”。",
+      "published": "2026-10-14",
+      "links": [
+        {
+          "text": "Search Engine Roundtable：OpenAI Drops UTM Parameters From ChatGPT Results",
+          "url": "https://www.seroundtable.com/utm-parameters-missing-chatgpt-42299.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-15-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Semrush 发布 2026 AI 可见度指数首个英国基准：各平台品牌重合度低于美国，被提及与被引用高度错位",
+      "summary": "基于1–7月每月250万条英国、2500万条美国提示词，覆盖 ChatGPT、Gemini、AI Mode、AIO。英国任两平台前100品牌仅重合63–70个（美国70–78）；前100被提及域名仅36.7–45.3个同属前100被引用；ChatGPT 英国引用新闻站占29.5%（美国19.6%）。",
+      "insight": "监测报表要分市场、分平台、分“提及/引用”两口径出数，向出海客户强调本地新闻源投放，不可照搬美国打法。",
+      "published": "2026-10-14",
+      "links": [
+        {
+          "text": "MarTech Cube：Semrush Launches 2026 AI Visibility Index, Revealing Its First UK Benchmark",
+          "url": "https://www.martechcube.com/semrush-launches-2026-ai-visibility-index-revealing-its-first-uk-benchmark/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-15-04",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "1650 条回答实测：提问语言改变 AI 推荐的品牌，联网后五种语言的酒店首选全部变化",
+      "summary": "SALT.agency 的 Moaiandin 用 Claude 以英、阿、俄、简中、波斯语跑6个购物/预订场景共1650条回答：英航在波斯语中被推荐52.5%、英语仅12.5%、俄语为0；联网后五种语言的首选酒店全部改变；ChatGPT 与 Claude 首选仅1/10组合一致。",
+      "insight": "跨境客户的 AI 可见度监测须按目标语种分别建问题集与基线，并区分联网/非联网结果，多语种内容布局可作为增购项。",
+      "published": "2026-10-13",
+      "links": [
+        {
+          "text": "Search Engine Journal：Lost In Translation: How Language Changes Which Brand AI Recommends",
+          "url": "https://www.searchenginejournal.com/lost-in-translation-how-language-changes-which-brand-ai-recommends/591585/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-15-05",
+      "category": "舆情",
+      "region": "海外",
+      "title": "Nozzle 称 Google 向排名追踪与 AI 抓取返回“投毒”结果页，AI Overviews 出现率被低估",
+      "summary": "排名追踪商 Nozzle 称，自9月20日起 Google 向追踪器与 AI 抓取方返回被替换且无提示的结果页，10月以来日占5%–11%；受污染页 AI Overviews 出现率34.9%，正常页54.2%。Nozzle 认为意在阻击 AI 抓取与 grounding，Google 未回应。",
+      "insight": "依赖抓取 SERP 的 AIO 监测需加异常结果检测与多次采样复核，向客户说明数据波动来源，避免误判可见度涨跌。",
+      "published": "2026-10-14",
+      "links": [
+        {
+          "text": "Search Engine Journal：Analysis: Google Is Poisoning Search Results For Rank Trackers",
+          "url": "https://www.searchenginejournal.com/analysis-google-is-poisoning-search-results-for-rank-trackers/592873/"
+        },
+        {
+          "text": "Search Engine Roundtable：Third-Party Google Rank Tracking Struggling Now",
+          "url": "https://www.seroundtable.com/third-party-google-rank-tracking-broken-42272.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 33,
+    "selected": 5,
+    "domestic_ratio": 0.2,
+    "domestic_ratio_30d": 0.35,
+    "websearch_calls": 89,
+    "webfetch_calls": 32
+  }
+}
