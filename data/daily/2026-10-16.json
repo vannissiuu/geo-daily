@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-16",
+  "status": "normal",
+  "highlights": [
+    "Google 把更多内联链接上移并测试“官方网站”专区，AI 答案正向一手官方来源倾斜，但点击数据仍不开放，方案商要同时做官网事实页建设和独立的点击归因。",
+    "国内 GEO 进入“资质+资本”双驱动：信通院能力测评已出首批等级结果，前百度搜索团队的新公司以按结果付费模式拿到产业资本，合规背书与效果计量正成为竞争门槛。",
+    "AI 购物与 AEO 的执行层仍很粗糙：头部 Shopify 店的运费、退货信息几乎无法被 Agent 读取，过半营销团队靠猜选提示词，结构化数据审计与系统化监测是现成的交付机会。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-16-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 再调 AI Mode 与 AI Overviews 外链呈现：内联链接上移、测试顶部官方网站区，仍不提供点击数据",
+      "summary": "10月15日 Google 产品副总裁 Hema Budaraju 发文：AI Mode 与 AIO 内联链接大幅增加并上移；对仅有一两个官方来源的任务型查询，测试在顶部列出官网；相关文章加缩略图；偏好来源新闻轮播扩至更多地区。Google 仍未在 AI 表现报告中提供点击数据。",
+      "insight": "监测“官网是否被列为官方来源”，为客户补齐任务型查询的官方落地页，并另建 AI 点击归因。",
+      "published": "2026-10-15",
+      "links": [
+        {
+          "text": "Search Engine Journal：Google Puts Inline Links Higher In More AI Search Responses",
+          "url": "https://www.searchenginejournal.com/google-inline-links-higher-ai-search-responses/593089/"
+        },
+        {
+          "text": "Search Engine Roundtable：Google Updates Links In AI Mode & AI Overviews Again, Won't Show Click Data",
+          "url": "https://www.seroundtable.com/google-updates-links-in-ai-mode-and-ai-overviews-again-42308.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-16-02",
+      "category": "行业政策",
+      "region": "国内",
+      "title": "中国信通院 GEO 能力完备性测评出结果：翰智GEO 获“卓越级”，测评覆盖知识库到安全管控六大维度",
+      "summary": "科技日报10月13日报道，广东翰智智能科技的“翰智GEO”V1.0于10月10日通过中国信通院依托“铸基计划”、由泰尔终端实验室牵头的GEO能力完备性测评，获“卓越级”证书；测评维度为知识库构建、意图识别与内容生成、分发渠道、效果监测、策略优化、安全管控。报道未披露评分细则。",
+      "insight": "对照六大维度梳理自家产品能力短板，评估申报信通院测评；向客户卖进时可用测评等级做资质背书，但需说明其不等于效果保证。",
+      "published": "2026-10-13",
+      "links": [
+        {
+          "text": "科技日报：翰智GEO通过中国信通院GEO能力完备性测评获“卓越级”",
+          "url": "https://www.stdaily.com/web/gdxw/2026-10/13/content_595404.html"
+        },
+        {
+          "text": "中华网科技：翰智GEO获中国信通院GEO能力完备性测评卓越级",
+          "url": "https://tech.china.com/articles/20261014/202610141965430.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "B"
+    },
+    {
+      "id": "2026-10-16-03",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "前百度搜索团队创办的 GEO 公司深度云海获华工科技领投千万级天使轮",
+      "summary": "36氪10月13日报道，成立于2025年6月的深度云海完成千万元级天使轮，华工科技领投；公司做GEO，目标让ChatGPT、DeepSeek、豆包等优先推荐客户，产品含GEO RaaS系统（国内/海外版）与DeepWork工作台，按结果交付；称一年服务3000多家企业、年收入数千万元，团队70余人。",
+      "insight": "RaaS 按结果收费正成为新进入者打法，方案商需准备效果计量口径与对赌条款，并关注工业制造类 B2B 客户的竞争加剧。",
+      "published": "2026-10-13",
+      "links": [
+        {
+          "text": "36氪：深度云海获华工科技千万级天使轮",
+          "url": "https://www.36kr.com/p/4023041152585603"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-16-04",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "实测 122 家头部 Shopify 店铺：默认“Agent-Ready”难支撑 AI 购物决策，配送与退货信息几乎读不到",
+      "summary": "Bill Hunt 在 SEJ 发布实测：8–9月探测122家头部 Shopify 店的 agents.md、llms.txt、UCP、MCP 与结构化数据。89家有 agents.md，83家为模板；运费与送达问题0/88可答；仅7%商品页结构化标注退货天数；51家 robots 屏蔽政策页。",
+      "insight": "电商 GEO 交付加入“Agent 可读性审计”：补退货、运费结构化数据，解除 robots 对政策页的屏蔽。",
+      "published": "2026-10-14",
+      "links": [
+        {
+          "text": "Search Engine Journal：Your Store Is 'Agent-Ready' By Default, We Tested 122 Shopify Stores",
+          "url": "https://www.searchenginejournal.com/your-store-is-agent-ready-by-default-we-tested-122-shopify-stores/591767/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-16-05",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Typeface 500+ 英美营销高管调查：44% 计划加码 AEO，26% 为 AI 建隐藏页面",
+      "summary": "Typeface 10月14日发布调查，PPC Land 转述：44%计划在12–24个月增加AEO投入，49%将降级或停做传统SEO；26%建内部或隐藏页面，68%产出人类基本看不到的AI内容；仅39%用自动化提示词监测，50%靠猜选提示词。样本方法披露有限，属厂商调查。",
+      "insight": "客户普遍缺乏提示词选取与监测方法，可主推“提示词库构建+自动化监测”服务，同时提示隐藏页等做法的合规与降权风险。",
+      "published": "2026-10-15",
+      "links": [
+        {
+          "text": "PPC Land：49% of marketers plan to deprioritize SEO, Typeface survey finds",
+          "url": "https://ppc.land/49-of-marketers-plan-to-deprioritize-seo-typeface-survey-finds/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 17,
+    "selected": 5,
+    "domestic_ratio": 0.4,
+    "domestic_ratio_30d": 0.3095,
+    "websearch_calls": 99,
+    "webfetch_calls": 35
+  }
+}
