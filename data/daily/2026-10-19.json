@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "status": "normal",
+  "highlights": [
+    "搜索能力正变成 AI 应用的基础设施：DeepSeek 开放自研搜索 API 并宣称过滤 GEO 操纵内容，国内 AI 回答的取材入口进一步分散到各家自建索引，方案商需按索引来源分别做收录监测与合规内容建设。",
+    "AI 可见度的测量误差同时暴露：论文显示 API 加谷歌结果只能还原约四分之一 ChatGPT 被引页面，ChatGPT UTM 断档虽已修复却留下一周归因空洞，监测与报表必须写明采样方式并标注异常期。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-19-01",
+      "category": "平台动态",
+      "platform": "DeepSeek",
+      "region": "国内",
+      "title": "DeepSeek 开放自研搜索引擎 Search/Fetch API，宣称过滤 SEO 作弊与 GEO 操纵内容，11 月起按千次 5 元计费",
+      "summary": "10月17日，DeepSeek 宣布开放自研搜索引擎 API，含检索互联网的 Search 与把网页整理成 AI 可读格式的 Fetch；官方称网页索引达千亿级、日处理数亿次搜索，并将过滤 SEO 作弊、GEO 操纵与低质 AI 内容。网页搜索每千次成功请求 5 元，11 月 1 日起收费。",
+      "insight": "把 DeepSeek 自研索引的收录与“反 GEO 操纵”过滤纳入监测，交付改用可核实的原创内容，避免批量稿被滤掉。",
+      "published": "2026-10-17",
+      "links": [
+        {
+          "text": "虎嗅：DeepSeek开放自研搜索引擎API，腾讯、字节、阿里等AI厂商加速争夺搜索入口",
+          "url": "https://www.huxiu.com/article/4898316.html"
+        },
+        {
+          "text": "IT之家：DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
+          "url": "https://www.ithome.com/1/014/587.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-19-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "论文实测 ChatGPT 引用：OpenAI API 与 Google 结果合计只能找到约 27% 的被引页面",
+      "summary": "新加坡国立大学与西安交大预印本用 80 个中英文问题对 GPT-5.3/5.5 Instant 各跑 20 次，对比 OpenAI API 与 Google 前五页结果：两者合计仅找到 28.3%/26.2% 的被引页面，站点级约 50%，单用 Google 仅 6%–9%。",
+      "insight": "别用 API 或谷歌排名冒充 ChatGPT 监测：对客写明采样方式，优先报站点级指标，并补真实会话采样。",
+      "published": "2026-10-18",
+      "links": [
+        {
+          "text": "Search Engine Journal：OpenAI’s API Only Partly Matched ChatGPT’s Citations, Paper Finds",
+          "url": "https://www.searchenginejournal.com/openais-api-only-partly-matched-chatgpts-citations-paper-finds/593304/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-19-03",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 丢失 UTM 标签被证实为 bug，修复 10 月 15 日起推送，带标签点击恢复至上周同期水平",
+      "summary": "Adobe 的 Huesler 称OpenAI 于 10 月 14 日向其确认 utm_source=chatgpt.com 缺失属 bug，修复 15 日起推送，带标签点击数小时内恢复到上周同期 95%–100%；多数点击仍缺 referrer，已计直接流量的会话不回补，OpenAI未公开表态。",
+      "insight": "在 GA4 把 10 月 8–15 日标为 ChatGPT 归因断档期并校正季报，缺 referrer 仍需多信号归因。",
+      "published": "2026-10-16",
+      "links": [
+        {
+          "text": "Relevant Audience：ChatGPT UTM tag loss was a bug, says Adobe's Huesler; fix rolling out",
+          "url": "https://www.relevantaudience.com/analytics/chatgpt-utm-tag-bug-fixed-openai-confirmed-adobe/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 19,
+    "selected": 3,
+    "domestic_ratio": 0.3333,
+    "domestic_ratio_30d": 0.2857,
+    "websearch_calls": 111,
+    "webfetch_calls": 62
+  }
+}
