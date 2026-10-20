@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-20",
+  "status": "normal",
+  "highlights": [
+    "平台正同时收紧“抓取权”与放开“付费位”：Meta 用商业条款把企业官网纳入 Meta AI 抓取范围，Cloudflare 改用行为分决定 AI 爬虫能否进站，Google 与 ChatGPT 则在个性化 AI 答案和对话中放大广告，方案商要把爬虫策略体检和广告位分账监测一并纳入交付。",
+    "AI 购物推荐的入场门槛落在结构化商品数据上：国内双 11 豆包、拼多多等把 AI 推荐接入领券下单，海外 Google 让用户在引用侧栏直接设偏好信源，商品属性补全与“被用户选为偏好源”正成为新的可见度抓手。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-20-01",
+      "category": "平台动态",
+      "platform": "Meta AI",
+      "region": "海外",
+      "title": "Meta 新版商业条款 10 月 30 日生效：可抓取所有商业使用其产品的企业网站，用于 Meta AI 搜索引用与产品训练",
+      "summary": "Meta 更新商业条款与自助广告条款，凡以商业方式使用其产品（含只运营主页、不投广告）的企业，其官网页面均可被 Meta 爬虫抓取；Meta-WebIndexer 用于 Meta AI 搜索与回答中引用链接，条款未提 robots.txt，也无单独退出选项。",
+      "insight": "为客户逐站审计 Meta 四类爬虫的 robots 策略，区分训练抓取与 Meta AI 引用抓取，并把官网商品与事实页结构化，备战 Meta AI 推荐。",
+      "published": "2026-10-16",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/metas-new-terms-expand-crawling-rights-beyond-advertisers/593217/"
+        },
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/meta-grants-itself-the-right-to-crawl-advertisers-websites-for-ai/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-20-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在开启 Personal Intelligence 的 AI Mode 中测试广告，推翻此前“无广告”表态",
+      "summary": "Google 向媒体确认开始在连接个人应用（Personal Intelligence）的 AI Mode 中测试广告，广告可依据查询、回答语境、兴趣及连接应用的摘要与推断来选择，但不直接基于 Gmail、相册内容，广告主也无法访问这些应用；3 月时 Google 曾称该模式不放广告。",
+      "insight": "个性化 AI 回答里自然引用与付费位将并排出现，监测需按是否登录、是否开启个性化分样本，并向客户说明付费位无法替代自然引用。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ads-ai-mode-personal-intelligence-42320.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-20-03",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare 对已验证爬虫改为持续问责：按是否遵守 robots.txt 与 429 限速打“信任分档”",
+      "summary": "Cloudflare 10 月 16 日发文称，Verified bots 准入后将被持续评估：重复无视 robots.txt 或收到 429 仍不降速的会被降低信任分档；分档计划在 Radar 公开，客户可设阈值决定如何处理这类流量，具体处置方式与时间未定。",
+      "insight": "AI 爬虫能否进站将取决于行为分，方案商应把 robots 与限速配置纳入站点可抓取性体检，并跟踪各 AI 爬虫在 Radar 上的分档。",
+      "published": "2026-10-17",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/cloudflare-verified-bots-face-trust-scores-for-ignoring-site-rules/"
+        },
+        {
+          "text": "PPC Land（与 DeepSeek 搜索定价同篇）",
+          "url": "https://ppc.land/deepseek-sets-a-0-75-web-search-price-as-cloudflare-grades-bots-on-conduct/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-20-04",
+      "category": "舆情",
+      "region": "国内",
+      "title": "界面新闻刊文梳理双 11 AI 电商：豆包可领券下单，拼多多 AI 搜索依赖商品属性，小红书曾现广告与 AI 推荐之争",
+      "summary": "文章称抖音双 11 于 10 月 15 日开启，用户可在豆包等 App 领取平台券；拼多多 AI 搜索按型号、规格给出商品链接，要求商家补全商品属性；小红书“问一问”引用社区笔记，上半年商业团队曾希望 AI 搜索不主动生成购物推荐清单。",
+      "insight": "国内 AI 购物推荐高度依赖结构化商品数据，可向电商客户卖“商品属性补全+AI 推荐监测”，并提示平台付费与自然推荐边界仍在摇摆。",
+      "published": "2026-10-20",
+      "links": [
+        {
+          "text": "界面新闻",
+          "url": "https://www.jiemian.com/article/15208885.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-20-05",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "ChatGPT 广告测试更宽卡片与更大图片，多图格式即将推出",
+      "summary": "OpenAI 向广告主通知：ChatGPT 广告正测试更宽的卡片，桌面端图片更大、移动端改为全宽大图，多图视觉格式即将上线，沿用现有素材无需操作；同时改版转化页、推出每周效果邮件并新增多家归因与移动监测合作方。",
+      "insight": "ChatGPT 付费位视觉权重上升，会挤压自然推荐的注意力，监测报告应单列广告位曝光，并为客户评估“自然引用+广告”组合投放。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/openai-chatgpt-ads-updates-42321.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-20-06",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 测试在 AI Mode 引用侧栏直接管理“偏好信源”",
+      "summary": "有用户发现 Google 在 AI Mode 引用来源侧栏加入“Source preferences”按钮，可直接查看并增删自己的偏好信源列表；AI Mode 自 5 月起支持偏好信源，此次把入口放进引用界面，Google 尚未官方说明。",
+      "insight": "用户可在答案里直接把站点设为偏好源，媒体与品牌客户应推动受众添加偏好，并把“被设为偏好源”纳入 AI 可见度指标。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-mode-citations-preferred-sources-42323.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 22,
+    "selected": 6,
+    "domestic_ratio": 0.1667,
+    "domestic_ratio_30d": 0.2708,
+    "websearch_calls": 98,
+    "webfetch_calls": 34
+  }
+}
