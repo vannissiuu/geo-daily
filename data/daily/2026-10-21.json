@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "status": "normal",
+  "highlights": [
+    "国内 AI 搜索的取材底座正从平台私有走向对外开放：继 DeepSeek 之后，腾讯元宝搜索也通过云服务外放并公开“权威信源池+三层质量评估”口径，方案商需按各家索引的信源偏好分别做收录与质量体检。",
+    "海外平台的抓取权与监测工具同步重定价：Meta 在舆论压力下收窄爬取条款却保留抓取权，AI 可见度追踪则被做成按提示词计量的廉价商品，方案商的价值要落在爬虫策略把关与内容改进上。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-21-01",
+      "category": "平台动态",
+      "platform": "元宝",
+      "region": "国内",
+      "title": "腾讯元宝搜索经腾讯云对外开放：千亿级索引，接入 13 个行业 157 个权威信源",
+      "summary": "10 月 20 日，腾讯云宣布元宝搜索对外开放。其索引达千亿级、日均调用数亿次，支撑 WorkBuddy、ima 等 50 多个业务；接入金融、医疗、法律等 13 个垂直行业 157 个权威信源，内容入库前由大模型解析结构，并从站点、账号、页面三层评估质量，优先权威来源、过滤低质内容。",
+      "insight": "继 DeepSeek 后又一家自建索引外放，方案商应按“站点-账号-页面”三层质量口径体检客户内容，并争取进入垂直权威信源池。",
+      "published": "2026-10-20",
+      "links": [
+        {
+          "text": "北京商报",
+          "url": "https://www.bbtnews.com.cn/2026/1020/608507.shtml"
+        },
+        {
+          "text": "第一财经",
+          "url": "https://www.yicai.com/brief/103400768.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-21-02",
+      "category": "平台动态",
+      "platform": "Meta AI",
+      "region": "海外",
+      "title": "Meta 生效前改写商业条款爬取条款：删去“训练”用途、保留抓取企业网站权，是否涵盖 Meta AI 搜索抓取未明",
+      "summary": "Meta 将 10 月 30 日生效的新商业条款中爬取条款的用途限定为“广告与商业产品”，删去“训练”，并称尊重 robots.txt 偏好、不改变爬虫使用方式；但抓取与业务相关企业网站、定期获取更新的权限仍在，新文本不再提及 robots.txt，法律人士认为措辞仍可被宽泛解读。",
+      "insight": "10 月 30 日前帮客户逐一核对 Meta 各爬虫的 robots.txt 规则，区分广告商业抓取与 AI 搜索抓取，避免误封或误放。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/meta-removes-training-crawl-clause-commercial-terms/593584/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-21-03",
+      "category": "新技术",
+      "region": "海外",
+      "title": "BrandAxis 推出按量计费的 AI 可见度追踪，单个“提示词×模型×月”最低 0.23 美元（信源为企业发布稿）",
+      "summary": "BrandAxis 10 月 19 日推出按量付费 AI 追踪：每个提示词在每个模型上监测一月计一单位、每日更新，起价 0.51 美元另加 1 美元月费，量大降至 0.23 美元；覆盖 ChatGPT、AI Mode、AIO、Perplexity、Gemini、Copilot，无最低合约。",
+      "insight": "AI 可见度监测正走向按提示词计量的低价商品化，方案商应把报价重心从监测本身转向诊断与内容改进交付。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "EIN Presswire",
+          "url": "https://www.einpresswire.com/article/950668683/brandaxis-launches-pay-as-you-go-ai-visibility-tracking-to-help-agencies-and-businesses-cut-llm-tracking-costs"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 16,
+    "selected": 3,
+    "domestic_ratio": 0.3333,
+    "domestic_ratio_30d": 0.2857,
+    "websearch_calls": 86,
+    "webfetch_calls": 32
+  }
+}
