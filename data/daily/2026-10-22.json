@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-22",
+  "status": "normal",
+  "highlights": [
+    "ChatGPT 广告同时在“铺市场”和“改文案”：一边扩到 89 个市场，一边默认按对话上下文实时改写广告文案与落地页，AI 答案旁的付费位正变成自动生成内容，方案商需把落地页事实与品牌口径作为广告与自然引用共同的源头来治理。",
+    "国内 AI 回答的商业化与能力外放并进：豆包购物推荐直接内嵌抖音直播间与券，北京日报智源GEO以技能模块进入百度搭子，电商与媒体两条链路都在重塑品牌在 AI 中的呈现入口。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-22-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 将默认开启 ChatGPT 广告“创意增强”：按对话上下文实时改写标题文案、换落地页，10 月底生效",
+      "summary": "OpenAI 10 月 20 日通知广告主，10 月 29/30 日起自助投放的新老广告默认开启创意增强：系统可改写标题与描述、调整图片、更换落地页、翻译文案，并结合对话上下文或用户兴趣预生成或实时生成变体，无需逐条审核，需在 Ads Manager 手动关闭。",
+      "insight": "广告文案将随对话自动改写，方案商应把落地页事实与品牌口径作为源头治理，并监测广告变体。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/openai-to-rewrite-chatgpt-ads-by-default-as-advertisers-get-days-to-opt-out/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-22-02",
+      "category": "平台动态",
+      "platform": "豆包",
+      "region": "国内",
+      "title": "豆包升级“双11问豆包”：商品推荐内嵌抖音直播间，可在豆包内看播、领券、下单",
+      "summary": "21经济网转载字母榜文章称，抖音双11于 10 月 15 日开启后，豆包先前置“买前问豆包”入口，三天后升级为“双11问豆包”：商品推荐中每次嵌入约五个匹配的在播抖音直播间，用户可在豆包内看播、领券并支付，另发自有补贴券；直播间排序与抖音一致，选品与佣金规则未披露。",
+      "insight": "豆包购物回答直接挂直播间与券，电商 GEO 需联动抖音直播与商品数据一起优化。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "21经济网",
+          "url": "https://www.21jingji.com/article/20261021/herald/58912a1371118c15629fb775c046f361.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-22-03",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "region": "海外",
+      "title": "OpenAI 宣布 ChatGPT 广告再扩 26 国至 89 个市场，累计逾 10 万广告主投放",
+      "summary": "OpenAI 10 月 21 日发文称 ChatGPT 广告新增 26 个国家（拉美 14 个，欧洲、中东、非洲与亚洲 12 个），总数达 89 个市场，上线八个多月来已有超 10 万广告主投放；广告仅出现在 Free 与 Go 套餐，标注并与回答分开，官方称不影响回答内容。",
+      "insight": "ChatGPT 广告加速全球化，可为出海客户提供“自然被引+广告位”按市场的双线监测。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/advertisers-in-26-more-countries-gain-chatgpt-ads-bringing-the-total-to-89/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-22-04",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "北京日报社智源GEO接入百度搭子，向百度智能体生态输出 6 项 GEO 技能",
+      "summary": "据大众网 10 月 21 日报道，北京日报社与百度智能云在百度搭子杭州站产品发布会上宣布合作，智源GEO为百度搭子提供页面诊断、标题生成、科普长文、榜单评测、品牌对比等 6 项 GEO 相关技能，形成诊断、改造到测评的链路。",
+      "insight": "党媒可信GEO以技能模块进入大厂智能体平台，可考虑与媒体合作或纳入权威信源投放。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "大众网（网易号）",
+          "url": "https://www.163.com/dy/article/L9PGHU8B0514R9KU.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 19,
+    "selected": 4,
+    "domestic_ratio": 0.5,
+    "domestic_ratio_30d": 0.3,
+    "websearch_calls": 99,
+    "webfetch_calls": 25
+  }
+}
