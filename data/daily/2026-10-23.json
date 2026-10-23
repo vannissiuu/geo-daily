@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-23",
+  "status": "normal",
+  "highlights": [
+    "AI 可见度的“价值叙事”正受到数据挑战：Semrush 显示 AI 摘要已覆盖近九成商业决策词，但多项研究称 ChatGPT 来访不足 Google 的 1%、与品牌流量关联难证，方案商需用覆盖率、提及与辅助转化组合证据回应预算质疑。",
+    "国内 GEO 叙事从“铺量”转向“可信”：央媒集中推出可信 GEO 与语料平台、信通院专家呼吁商业服务与新闻公信力隔离，评论则警告平台反操纵将淘汰刷稿模式，事实举证与可核验语料正成为交付核心。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-23-01",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Semrush 追踪 400 个商业关键词：AI Overviews 覆盖率一年内从 46% 升至 88%",
+      "summary": "Semrush 以 400 个银行、电商、软件商业词为固定样本，按月追踪 2025 年 9 月至 2026 年 8 月美国桌面数据：AI Overviews 覆盖率从 45.75% 升至 88%，按搜索量加权达 97%；“评测”类词从约 30% 升至近 90%，“X 最适合 Y”类达 96%。",
+      "insight": "“对比/评测/最佳”类商业词几乎全被 AI 摘要覆盖，可据此把客户的选购决策词列为 GEO 优先监测与内容补强清单。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "Semrush：AI Overviews have nearly doubled across five commercial search modifiers",
+          "url": "https://www.semrush.com/blog/ai-overviews-commercial-modifiers-study/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-23-02",
+      "category": "舆情",
+      "region": "国内",
+      "title": "央视调查可信 GEO：主流媒体纷纷布局，信通院专家建议新闻公信力与商业 GEO 服务制度隔离",
+      "summary": "央视报道梳理总台、新华社、人民网及北京日报、湖南日报等推出 GEO 平台或语料服务；信通院专家称可信 GEO 应从“能见度”转向“可信度”，建议新闻采编与 GEO 商业服务建立制度隔离并共建效果评价标准；服务商称可信 GEO 无法强制大模型输出指定答案。",
+      "insight": "向客户卖“可信GEO”时，要讲清不承诺操控答案、以事实举证和复测为交付，并说明媒体语料投放与新闻采编的边界。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "中新网（来源：央视新闻客户端）：AI答案靠不住？GEO给大模型配上“参考书”",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-21/10718295.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-23-03",
+      "category": "舆情",
+      "region": "海外",
+      "title": "三项新研究质疑 AI 可见度投入价值：ChatGPT 来访仅为 Google 自然流量的 0.62%",
+      "summary": "SER 汇总三项研究：Marie Haynes 分析 100 站 1.45 亿会话，ChatGPT 会话仅为 Google 自然流量 0.62%，Google 占 96.5% 转化；SEO Works 称自然搜索流量为 AI 助手 39 倍；Indig 未见 AI 可见度与直接流量可靠关联。",
+      "insight": "客户会拿“AI 流量太小”质疑 GEO 预算，方案商需准备品牌提及、转化率与辅助归因数据，而非只报引用次数。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "Search Engine Roundtable：3 New Studies Suggest AI Visibility & Search Not Worth Investing In",
+          "url": "https://www.seroundtable.com/ai-search-studies-42359.html"
+        },
+        {
+          "text": "Marie Haynes：GEO is a distraction",
+          "url": "https://www.mariehaynes.com/geo-is-a-distraction/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-23-04",
+      "category": "舆情",
+      "region": "国内",
+      "title": "虎嗅评论《留给GEO的时间不多了》：DeepSeek 过滤操纵后，靠铺稿刷口碑的 GEO 生意或难持续",
+      "summary": "作者以 DeepSeek 开放搜索 API 并宣称过滤 GEO 操纵为切口，指出国内 GEO 市场规模口径从 30 亿到 942 亿元相差 30 倍且多出自服务商稿件；引央视 3·15 虚构手环两小时被 AI 推荐等案例，认为信息类 GEO 有真实价值，铺稿刷好评的优势会随平台规则消失。",
+      "insight": "把产品与报价重心从“铺稿量”转向参数整理、事实举证与可核验证据建设，提前应对平台反操纵过滤带来的效果波动。",
+      "published": "2026-10-19",
+      "links": [
+        {
+          "text": "虎嗅：留给GEO的时间不多了",
+          "url": "https://www.huxiu.com/article/4898656.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-23-05",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 更新“控制与 Google 搜索共享内容”文档，将 AI Overviews 与 AI Mode 退出开关列入七种方式",
+      "summary": "Google 10 月 21 日更新文档，主表由五种方式增至七种，新增 nosnippet 类标签与 Search Console“搜索生成式 AI”控制；后者为全站级开关，可纳入、排除或继承，覆盖 AI Overviews 与 AI Mode，不影响训练，与英国监管期限相关。",
+      "insight": "为客户评估是否退出 AI 摘要：用生成式 AI 报告测流量影响，并排查 nosnippet 类标签误伤被引片段。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "PPC Land：Google lists 7 ways to keep content out of Search, AI opt-out included",
+          "url": "https://ppc.land/google-lists-7-ways-to-keep-content-out-of-search-ai-opt-out-included/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-23-06",
+      "category": "新技术",
+      "region": "国内",
+      "title": "每经发布智见百科语料平台与“负责任GEO”产品体系，称词条在元宝、秘塔、DeepSeek 引用率超 60%（信源为企业发布稿）",
+      "summary": "每日经济新闻在上海发布智见百科垂直语料平台与“1+1+1+N”负责任 GEO 体系：以采编核查标准生产结构化可溯源词条，品牌可自主维护；配套 GEO 工作台覆盖可见度诊断、意图挖掘、事实核查与效果监测；自报某问题在元宝、秘塔、DeepSeek 引用率超 60%（企业自报，未经独立核验）。",
+      "insight": "媒体正把“权威语料+监测工作台”打包直售品牌，方案商宜与其合作分发语料，同时在报价中区分自有监测与媒体渠道费用。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "每经网：每经智见百科语料平台与负责任GEO产品体系重磅发布",
+          "url": "https://www.nbd.com.cn/articles/2026-10-22/4613482.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 16,
+    "selected": 6,
+    "domestic_ratio": 0.5,
+    "domestic_ratio_30d": 0.3333,
+    "websearch_calls": 85,
+    "webfetch_calls": 33
+  }
+}
