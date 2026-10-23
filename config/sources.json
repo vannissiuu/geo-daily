@@ -580,6 +580,7 @@
         "Cloudflare AI Crawl Control OR Markdown for Agents OR pay per crawl changelog",
         "Semrush OR Ahrefs OR Profound OR Peec OR Scrunch OR Conductor new AI visibility feature {Month} {Year}",
         "announces AI search visibility OR AEO OR GEO platform launch press release {Month} {Year}",
+        "agentic commerce optimization OR \"AI shopping agent\" visibility platform launch {Month} {Year}",
         "Skills over MCP OR WebMCP OR NLWeb websites agents announcement {Month} {Year}",
         "Yoast OR Rank Math OR Shopify OR Wix OR Webflow AI visibility llms.txt feature（低频）"
       ]
@@ -596,6 +597,18 @@
         "{公司名} AI visibility funding OR Series OR acquires {Month} {Year}（逐个公司定向）",
         "Getfluence OR Otterly.AI OR Peec OR Profound partnership announcement",
         "pulse2.com AI visibility funding（融资稿聚合，用于发现线索）"
+      ],
+      "融资专项·国内": [
+        "种子轮 OR 天使轮 OR Pre-A OR A轮 GEO OR 生成式引擎优化 OR AI搜索优化 完成融资 {日期}",
+        "融资 AI可见度 OR 品牌可见度 OR AI导购 OR 数字员工 OR 智能体营销 GEO {日期}",
+        "36氪 OR 投资界 OR 36氪欧洲站 GEO 融资 首次披露 {日期}（站点限定：eu.36kr.com、36kr.com、pedaily.cn）",
+        "seed round OR angel round GEO OR \"AI search\" OR \"digital employee\" brand（英文，站点限定 eu.36kr.com）"
+      ],
+      "融资专项·海外": [
+        "raises seed OR \"Series A\" OR \"Series B\" \"AI search\" OR \"AI visibility\" OR AEO OR GEO {Month} {Day} {Year}",
+        "raises \"AI shopping agents\" OR \"agentic commerce\" OR \"AI recommendations\" brands {Month} {Year}",
+        "raises Series A OR seed help brands recommended by AI shopping agents OR \"agentic commerce optimization\"",
+        "funding round generative engine optimization startup {Month} {Day}（站点限定：techstartups.com、retailtechinnovationhub.com、pulse2.com、thesaasnews.com、eu-startups.com）"
       ]
     },
     "舆情": {
@@ -672,7 +685,8 @@
       "火山引擎",
       "GEOBase",
       "可见GEO",
-      "AIPO"
+      "AIPO",
+      "臻奥数智（上海臻奥智能科技，Civitas 数字员工）"
     ],
     "海外工具": [
       "Profound",
@@ -695,7 +709,8 @@
       "Getfluence",
       "Wellows",
       "LLM Scout",
-      "State of Brand"
+      "State of Brand",
+      "Azoma（Agentic Commerce Optimization）"
     ],
     "媒体可信GEO": [
       "湖南日报 智眸可信GEO（华声在线/湖南在线 hunan.voc.com.cn）",
@@ -848,5 +863,32 @@
     "Cloudflare",
     "xAI",
     "WordPress"
-  ]
+  ],
+  "supplementary_sources": {
+    "note": "2026-10-23 复盘新增，见 rules/01 第 7 节「补充信源」",
+    "domestic": [
+      {
+        "name": "36氪欧洲站",
+        "domain": "eu.36kr.com",
+        "tips": "国内 GEO 服务商融资/产品稿常首发；「氪友」投稿按 rules/02 5.4b 企业发布稿处理"
+      }
+    ],
+    "overseas_funding_neutral": [
+      "techstartups.com",
+      "retailtechinnovationhub.com",
+      "pulse2.com",
+      "thesaasnews.com",
+      "eu-startups.com"
+    ],
+    "lead_only": [
+      "globenewswire.com（文章页，搜索页禁用）",
+      "tmcnet.com",
+      "dealroom.co/news"
+    ]
+  },
+  "patrol_fallback": {
+    "rule": "rules/01 第 1 节第 7 条",
+    "method": "巡检页被拦时，对该站做 1 次 WebSearch（allowed_domains=该站域名，查询词带具体日期或 recap 栏目名），用返回的文章/recap 页核验",
+    "budget": "每被拦页最多 1 次，合计约 10–15 次"
+  }
 }
