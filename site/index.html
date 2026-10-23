@@ -115,6 +115,13 @@ a:hover{text-decoration-thickness:2px}
 .top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:20px 0 12px}
 .top h1{margin:0;font-size:22px;line-height:1.3;letter-spacing:.01em}
 .sub{margin:4px 0 0;color:var(--text-secondary);font-size:13px}
+.intro{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin:0 0 14px;font-size:13.5px;line-height:1.7;color:var(--text-secondary)}
+.intro p{margin:0}
+.intro .src{color:var(--text-primary);font-weight:600;padding-bottom:8px;margin-bottom:8px;border-bottom:1px solid var(--grid)}
+.intro .guide-h{color:var(--text-primary);font-weight:600}
+.intro ul{margin:2px 0 0;padding-left:1.2em}
+.intro li{margin:2px 0}
+.intro li b{color:var(--text-primary)}
 .theme-btn{flex:none;border:1px solid var(--border);background:var(--chip-bg);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px;white-space:nowrap}
 .theme-btn:hover{border-color:var(--baseline)}
 
@@ -221,10 +228,19 @@ footer p{margin:4px 0}
   <header class="top">
     <div>
       <h1 id="siteTitle">GEO 每日行业动态</h1>
-      <p class="sub" id="subLine">加载中…</p>
     </div>
     <button type="button" class="theme-btn" id="themeBtn" aria-label="切换深浅主题">🌓 切换主题</button>
   </header>
+
+  <section class="intro" aria-label="信源筛选原则与阅读指引">
+    <p class="src" id="cSrc">🛡️ 本文档信源筛选原则：真实可溯可访问 + 优先权威/中立媒体 + 非软文 + 时效5天以内</p>
+    <p class="guide-h">💡 阅读指引：</p>
+    <ul>
+      <li><b>每日动态</b>：每个工作日上午 10 点自动采集更新，可优先查看今日精华，快速获得当日重点；</li>
+      <li><b>分类索引</b>：按消息类型分类，点击上方「分类索引」标签后可按分类筛选，快速找到关注领域；</li>
+      <li><b>周度总结</b>：每周一自动生成，汇总上周（上周一至上周日）GEO 行业动态，用于趋势研判和提炼对解决方案卖进的启示。</li>
+    </ul>
+  </section>
 
   <div class="bar">
     <div class="tabs" role="tablist" aria-label="视图">
@@ -600,17 +616,14 @@ function init(b){
   CATS.forEach(function(c, i){ CAT_COLOR[c] = 'var(--series-' + (i + 1) + ')'; });
   B.days.forEach(function(d){ (d.entries || []).forEach(function(e){ e._date = d.date; ENT[e.id] = e; ALL.push(e); }); });
   ALL.sort(function(a, b){ return a._date < b._date ? 1 : a._date > b._date ? -1 : 0; }); // 稳定：同日保持原序
-  var st = m.stats || {};
   document.getElementById('siteTitle').textContent = m.title || 'GEO 每日行业动态';
-  document.getElementById('subLine').textContent = '收录 ' + (st.first_date || '—') + ' 至 ' + (st.last_date || '—') + ' · 共 ' + (st.days != null ? st.days : B.days.length) + ' 天 ' + (st.entries != null ? st.entries : ALL.length) + ' 条 · 每个工作日 10:00 更新';
+  if(m.c_src) document.getElementById('cSrc').textContent = '🛡️ ' + m.c_src;
   var f = document.getElementById('foot');
-  f.appendChild(el('p', {text:m.c_src || ''}));
   f.appendChild(el('p', {text:'数据每个工作日由 AI 自动采集，链接均经打开核验。'}));
   S.view = viewFromHash();
   render();
 }
 getJSON('data/bundle.json').catch(function(){ return getJSON('data/sample_bundle.json'); }).then(init).catch(function(err){
-  document.getElementById('subLine').textContent = '数据加载失败';
   $main.replaceChildren(el('p', {class:'empty', text:'数据加载失败，请稍后刷新重试。'}));
   if(window.console) console.warn(err);
 });
