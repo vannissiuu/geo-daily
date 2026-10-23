@@ -36,6 +36,23 @@
       ]
     },
     {
+      "title": "Azoma 完成 1120 万美元 A 轮，帮欧莱雅、联合利华等品牌争夺 AI 购物助手推荐位",
+      "url": "https://techstartups.com/2026/10/21/azoma-raises-11-2m-to-help-brands-get-discovered-and-recommended-by-ai-shopping-agents/",
+      "source": "TechStartups",
+      "published": "2026-10-21",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "B",
+      "decision": "selected",
+      "geo_relevance": "(a)(b) Azoma 专做品牌在 Gemini、AI Overviews、Alexa 购物等 AI 购物助手中的发现与推荐优化，并披露各平台引用来源构成，属 GEO 赛道融资。",
+      "entry_id": "2026-10-23-03",
+      "also_reported_by": [
+        "https://retailtechinnovationhub.com/home/2026/10/22/agentic-commerce-platform-azoma-raises-112-million-in-series-a-round-led-by-puma-growth-partners",
+        "https://www.tmcnet.com/usubmit/-azoma-raises-112-million-series-to-continue-defining-/2026/10/21/10467432.htm"
+      ],
+      "found_via": "用户复核指出 → 搜索:Azoma Series A $11.2 million agentic commerce optimization"
+    },
+    {
       "title": "三项新研究质疑 AI 可见度投入价值：ChatGPT 来访仅为 Google 自然流量的 0.62%",
       "url": "https://www.seroundtable.com/ai-search-studies-42359.html",
       "source": "Search Engine Roundtable",
@@ -45,7 +62,7 @@
       "soft_class": "无",
       "decision": "selected",
       "geo_relevance": "(b) 多项数据研究直接质疑 GEO/AI 可见度投入的流量与转化回报，影响 GEO 行业的需求与客户预算判断。",
-      "entry_id": "2026-10-23-03",
+      "entry_id": "2026-10-23-04",
       "found_via": "搜索:SER 10-22 recap 线索"
     },
     {
@@ -58,11 +75,24 @@
       "soft_class": "无",
       "decision": "selected",
       "geo_relevance": "(b)(c) 评论 AI 平台过滤 GEO 操纵内容对 GEO 服务模式的冲击，区分信息类 GEO 与铺稿刷口碑式操纵。",
-      "entry_id": "2026-10-23-04",
+      "entry_id": "2026-10-23-05",
       "found_via": "搜索:D组（留给GEO的时间不多了 DeepSeek）",
       "also_reported_by": [
         "https://www.36kr.com/p/4032717708809091"
       ]
+    },
+    {
+      "title": "臻奥数智完成百万级种子轮，发布做 GEO 运营的 Civitas 数字员工（信源为企业发布稿）",
+      "url": "https://eu.36kr.com/en/p/4032666786877830",
+      "source": "36氪欧洲站（氪友投稿）",
+      "published": "2026-10-22",
+      "region": "国内",
+      "category_guess": "新技术",
+      "soft_class": "B",
+      "decision": "selected",
+      "geo_relevance": "(b) GEO 服务商首次披露融资并发布执行 GEO 诊断、内容、发布与 AI 引用监测的数字员工产品，直接影响 GEO 服务与工具市场。",
+      "entry_id": "2026-10-23-06",
+      "found_via": "用户复核指出 → 搜索:36Kr Europe Zhenao seed round Civitas GEO digital employee"
     },
     {
       "title": "Google 更新“控制与 Google 搜索共享内容”文档，将 AI Overviews 与 AI Mode 退出开关列入七种方式",
@@ -72,10 +102,11 @@
       "region": "海外",
       "category_guess": "平台动态",
       "soft_class": "无",
-      "decision": "selected",
+      "decision": "rejected",
       "geo_relevance": "(a) Google 官方文档明确站点可通过 Search Console 控制与片段标签决定内容是否被 AI Overviews / AI Mode 选用与呈现。",
-      "entry_id": "2026-10-23-05",
-      "found_via": "搜索:Google AI Mode AI Overviews October 22 2026"
+      "found_via": "搜索:Google AI Mode AI Overviews October 22 2026",
+      "reject_reason": "其他",
+      "note": "用户复核后修订（10-23）：名额让位于新补收的 Azoma、臻奥数智；原入选的 geo_relevance 保留"
     },
     {
       "title": "每经发布智见百科语料平台与“负责任GEO”产品体系，称词条在元宝、秘塔、DeepSeek 引用率超 60%（信源为企业发布稿）",
@@ -85,10 +116,11 @@
       "region": "国内",
       "category_guess": "新技术",
       "soft_class": "B",
-      "decision": "selected",
+      "decision": "rejected",
       "geo_relevance": "(b) 媒体推出面向 AI 引用的结构化语料平台与 GEO 工作台，直接进入 GEO 服务与工具市场，并自报在国内 AI 平台的引用率。",
-      "entry_id": "2026-10-23-06",
-      "found_via": "搜索:C组（每经智见百科 负责任GEO）"
+      "found_via": "搜索:C组（每经智见百科 负责任GEO）",
+      "reject_reason": "其他",
+      "note": "用户复核后修订（10-23）：名额让位于新补收的 Azoma、臻奥数智；原入选的 geo_relevance 保留"
     },
     {
       "decision": "rejected",
@@ -191,7 +223,7 @@
       "soft_class": "B",
       "reject_reason": "疑似不可访问",
       "found_via": "搜索:主会话",
-      "note": "WebFetch 打不开（client_error），无已核验独立源，不收；预算内未再换源"
+      "note": "首次运行时 TMCnet 打不开且未换源即剔除（违反 rules/02 3.8a）；复核换源成功，见同事件入选记录"
     },
     {
       "decision": "rejected",
@@ -566,6 +598,16 @@
       "candidate": "每经智见百科语料平台与负责任GEO产品体系",
       "query": "每经智见百科 语料平台 负责任GEO 发布 上海",
       "result": "失败（仅返回每经自家稿及其网易转载），保留企业发布稿并标注"
+    },
+    {
+      "candidate": "Azoma A 轮（TMCnet 新闻稿打不开）",
+      "query": "Azoma Series A $11.2 million agentic commerce optimization",
+      "result": "https://techstartups.com/2026/10/21/azoma-raises-11-2m-to-help-brands-get-discovered-and-recommended-by-ai-shopping-agents/"
+    },
+    {
+      "candidate": "臻奥数智种子轮（36氪欧洲站氪友投稿）",
+      "query": "\"臻奥智能\" 完成 百万级 种子轮 融资 GEO / Civitas GEO 数字员工 发布 臻奥",
+      "result": "失败（无独立中立报道），保留企业发布稿并标注"
     }
   ],
   "search_log": [
@@ -1078,6 +1120,48 @@
       "mode": "extended",
       "region": "国内",
       "useful": 0
+    },
+    {
+      "query": "Azoma Series A $11.2 million agentic commerce optimization",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "Azoma A轮融资 欧莱雅 联合利华 AI购物",
+      "mode": "extended",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "臻奥智能 种子轮 Civitas GEO运营专家 数字员工",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "\"臻奥智能\" 完成 百万级 种子轮 融资 GEO",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "Civitas GEO 数字员工 发布 臻奥",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "36Kr Europe Zhenao seed round Civitas GEO digital employee",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "臻奥智能 Civitas GEO（站点限定 eu.36kr.com/36kr.com）",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
     }
   ],
   "channel_log": [
@@ -1180,6 +1264,21 @@
       "page": "https://www.seroundtable.com/recap-10-22-2026-42360.html",
       "status": "可用",
       "hits": 3
+    },
+    {
+      "page": "https://retailtechinnovationhub.com/home/2026/10/22/agentic-commerce-platform-azoma-raises-112-million-in-series-a-round-led-by-puma-growth-partners",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://techstartups.com/2026/10/21/azoma-raises-11-2m-to-help-brands-get-discovered-and-recommended-by-ai-shopping-agents/",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://eu.36kr.com/en/p/4032666786877830",
+      "status": "可用",
+      "hits": 1
     }
   ],
   "fetch_blocked": [
@@ -1271,15 +1370,15 @@
   ],
   "cell_notes": {
     "平台动态·国内": "A组：仅找到双11 AI导购相关（多与历史重复）；元宝搜索开放、DeepSeek搜索API、豆包双11均已在历史中；百度/抖音/360/秘塔/Kimi 窗口内可能没搜到。 | D组：元宝搜索开放、DeepSeek搜索API均已在历史；豆包/文心/千问/Kimi/360/秘塔/抖音窗口内新规则未搜到，可能没搜到(公众号/App内发布盲区)。 | 主会话：豆包/千问双11 AI 导购稿无新事实（重复历史）；其余平台可能没搜到（公众号/App 内发布盲区）",
-    "平台动态·海外": "A组：搜索引擎对日期不敏感，Google/ChatGPT/Perplexity/Copilot/Meta 查询均只返回旧文或泛文，窗口内新事件可能没搜到（巡检页全部不可用，无线索）；需主会话靠巡检页补。 | D组：本组未检索，未执行。 | 主会话：入选 Google 10-21 文档更新（AI Overviews/AI Mode 退出控制）；ChatGPT 广告扩至 89 国与创意增强已于 10-22 收录",
-    "新技术·国内": "A组：非本组任务，未专门搜索 | C组：找到工经智媒“正本”、每经智见负责任GEO两条（均媒体系，窗口内10-22）；巡检页全部不可用，可能没搜到企业端产品（智推时代、微盟等定向搜索无窗口内命中） | D组：仅找到工经智媒“正本”GEO解决方案(10-22)，需核验；党媒可信GEO的新增事件未搜到(智眸、北京日报已在历史)。 | 主会话：入选每经智见百科（企业发布稿，换源失败）；工经智媒“正本”信息量低落选",
+    "平台动态·海外": "A组：搜索引擎对日期不敏感，Google/ChatGPT/Perplexity/Copilot/Meta 查询均只返回旧文或泛文，窗口内新事件可能没搜到（巡检页全部不可用，无线索）；需主会话靠巡检页补。 | D组：本组未检索，未执行。 | 主会话：入选 Google 10-21 文档更新（AI Overviews/AI Mode 退出控制）；ChatGPT 广告扩至 89 国与创意增强已于 10-22 收录 | 复核修订：Google 文档更新让出名额（落选）",
+    "新技术·国内": "A组：非本组任务，未专门搜索 | C组：找到工经智媒“正本”、每经智见负责任GEO两条（均媒体系，窗口内10-22）；巡检页全部不可用，可能没搜到企业端产品（智推时代、微盟等定向搜索无窗口内命中） | D组：仅找到工经智媒“正本”GEO解决方案(10-22)，需核验；党媒可信GEO的新增事件未搜到(智眸、北京日报已在历史)。 | 主会话：入选每经智见百科（企业发布稿，换源失败）；工经智媒“正本”信息量低落选 | 复核修订：补收臻奥数智种子轮+Civitas 数字员工（36氪欧洲站，企业发布稿）；每经智见百科让出名额",
     "新技术·海外": "A组：非本组任务，未专门搜索 | C组：确实没有/可能没搜到：多次标准搜索只返回旧稿、榜单与厂商对比页；Yoast Shopify 疑超窗 | D组：本组未专门检索，未执行。 | 可能没搜到：搜索仅返回旧稿与榜单；Cloudflare Changelog 巡检页被拦",
     "行业政策·国内": "B组：窗口内未搜到新的处罚/标准/监管事件；10月10日处罚、10月13-16日信通院测评均已收录或超窗；仅有深演智能参编团体标准稿(疑重复)。可能没搜到（巡检页全部不可用，网信办/市监总局未覆盖）。 | D组：团体标准发布会(中国商务广告协会，10-19/20)有多篇报道，需核验与9-17中广协标准是否同一事件；监管处罚类窗口内未搜到新案。 | 主会话：GEO 团体标准发布会 10-16 举行且标准已于 09-17 收录，未收",
     "行业政策·海外": "B组：确实没有窗口内新事件：Anthropic政策为10-13已收录；Google spam update为9月；FTC/EU搜索无窗口内结果。可能没搜到。 | D组：本组未检索，未执行。 | 确实没有 / 可能没搜到（Anthropic/OpenAI 新闻页被拦，搜索无窗口内新政策）",
     "舆情·国内": "B组：仅1条：中新网/21经济10-21的GEO可信度稿；未搜到窗口内新的投毒/乱象曝光，可能没搜到。 | D组：找到中新网/21财经10-21《AI答案靠不住？GEO给大模型配上参考书》，及DeepSeek过滤GEO操纵的评论文(日期未知)。 | 主会话：入选央视/中新网可信GEO报道（10-21）、虎嗅《留给GEO的时间不多了》（10-19）",
     "舆情·海外": "B组：确实没有/可能没搜到：提示注入、AI广告反弹、出版商冲突查询均只返回窗口外或泛旧文。 | D组：未检索，未执行。 | 主会话：入选 SER 汇总三项“AI 可见度不值得投入”研究（10-22）",
     "市场动态·国内": "C组：融资词搜索无GEO相关命中；媒体合作仅北京日报智源GEO×百度（历史已收）；可能没搜到 | D组：未专门检索融资/合作，仅顺带见深演智能、明略、智汇Growth参与标准发布会的企业稿。 | 确实没有 / 可能没搜到（国内融资栏目多为 JS 页面）",
-    "市场动态·海外": "C组：仅Obsero融资一条（日期待核）；Profound等定向融资无窗口内命中 | D组：本组未检索，未执行。 | 主会话：Obsero（10-15）、geoSurge（07-03）超窗；Azoma A 轮链接打不开未收",
+    "市场动态·海外": "C组：仅Obsero融资一条（日期待核）；Profound等定向融资无窗口内命中 | D组：本组未检索，未执行。 | 主会话：Obsero（10-15）、geoSurge（07-03）超窗；Azoma A 轮链接打不开未收 | 复核修订：补收 Azoma A 轮（TechStartups 10-21，换源成功）",
     "行业方法论·国内": "D组：可能没搜到：搜索只返回长青科普和旧文，窗口内未见国内一手引用实测/报告；仅有团体标准发布会相关(计价/评估/测量规范)可归此类。 | 确实没有 / 可能没搜到",
     "行业方法论·海外": "D组：可能没搜到：英文3次搜索(含standard/extended)只返回无日期长青统计页与窗口外旧文，未发现10-18至10-23的新研究；历史已收录Ahrefs/Wellows/Semrush/Aleyda等。 | 主会话：入选 Semrush AIO 商业词覆盖研究（10-21）；Illyes robots.txt 说法因重要性落选"
   },
@@ -1291,10 +1390,10 @@
     "domestic_ratio_30d": 0.3333
   },
   "stats": {
-    "websearch_calls": 85,
-    "webfetch_calls": 33,
-    "candidates": 16,
+    "websearch_calls": 92,
+    "webfetch_calls": 36,
+    "candidates": 17,
     "selected": 6
   },
-  "notes": "两段式采集：主会话巡检 17 个每日页全部被拦（需授权，未重试），无巡检线索。四组子代理各 WebSearch 20 次（WebFetch 均 0）；主会话补充搜索 5 次。主会话 WebFetch 33 次（巡检 17 次均被拦；核验 16 次，其中 eu-startups、tmcnet 打不开）。入选 6 条主链接均由主会话本次亲自打开核验。run.candidates=16 为进入核验/判定的主候选数（含本表前 16 条），其后为子代理直接剔除的记录。"
+  "notes": "两段式采集：主会话巡检 17 个每日页全部被拦（需授权，未重试），无巡检线索。四组子代理各 WebSearch 20 次（WebFetch 均 0）；主会话补充搜索 5 次。主会话 WebFetch 33 次（巡检 17 次均被拦；核验 16 次，其中 eu-startups、tmcnet 打不开）。入选 6 条主链接均由主会话本次亲自打开核验。run.candidates=16 为进入核验/判定的主候选数（含本表前 16 条），其后为子代理直接剔除的记录。 【用户复核修订 2026-10-23】用户指出漏收 Azoma A 轮与臻奥数智种子轮，经授权修订本日日报：补收两条（主链接均由主会话亲自打开核验），原 05（Google 文档更新）、06（每经智见百科）落选，条目重排；复核新增 WebSearch 7 次、WebFetch 3 次已计入 stats。"
 }
