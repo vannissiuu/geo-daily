@@ -571,6 +571,7 @@
       "国内": [
         "可信GEO 发布 上线 {月份}（党媒/官媒GEO产品）",
         "{机构名} {产品名} 可信GEO 产品发布会（如 湖南日报 智眸）",
+        "报社 OR 行业媒体 GEO解决方案 OR GEO服务平台 OR AI语料库 发布 {日期}（覆盖部委主管行业报社，如 中国工业报社 工经智媒·正本）",
         "GEO 产品 发布 上线 {日期} 监测 智能体",
         "GEO 监测 系统 正式上线 发布会 {公司名}",
         "MCP OR llms.txt OR WebMCP 网站 AI 接入 {月份}（低频）"
@@ -590,13 +591,17 @@
         "GEO 发布会 {月份} 正式发布 可信GEO 产品 战略合作 媒体",
         "媒体 OR 广告公司 布局 GEO {月份} 战略合作 签约",
         "{公司名} GEO 合作 OR 融资 OR 发布（逐个公司定向，见定向追踪名单）",
-        "GEO 完成融资 亿元 OR 万美元 {月份}（命中率低，每周一次）"
+        "GEO 完成融资 亿元 OR 万美元 {月份}（命中率低，每周一次）",
+        "【品牌方采购专项】生成式引擎优化 OR GEO OR AI搜索优化 服务 采购 OR 招标 OR 竞争性谈判 OR 中标 {月份}",
+        "【品牌方采购专项】{品牌名} GEO OR 生成式引擎优化 OR AI搜索优化 采购 OR 采招项目（逐个品牌定向；可站点限定品牌官网采招页）",
+        "【品牌方采购专项】GEO 服务商 招标公告 OR 中标公告 OR 成交公告 {日期}"
       ],
       "海外": [
         "\"AI search\" visibility platform announces partnership OR launch press release {Month} {Year} GEO",
         "{公司名} AI visibility funding OR Series OR acquires {Month} {Year}（逐个公司定向）",
         "Getfluence OR Otterly.AI OR Peec OR Profound partnership announcement",
-        "pulse2.com AI visibility funding（融资稿聚合，用于发现线索）"
+        "pulse2.com AI visibility funding（融资稿聚合，用于发现线索）",
+        "【品牌方采购专项】RFP OR tender OR \"selects\" \"generative engine optimization\" OR \"AI search visibility\" OR AEO agency {Month} {Year}"
       ],
       "融资专项·国内": [
         "种子轮 OR 天使轮 OR Pre-A OR A轮 GEO OR 生成式引擎优化 OR AI搜索优化 完成融资 {日期}",
@@ -718,7 +723,9 @@
       "人民政协网 可信空间GEO",
       "北京日报",
       "南方报业",
-      "党媒可信GEO联盟"
+      "党媒可信GEO联盟",
+      "中国工业报社 工经智媒·“正本”GEO解决方案（中国工业品牌AI语料库）",
+      "每日经济新闻 智见百科"
     ],
     "研究机构": [
       "中国信通院 / 中国人工智能产业发展联盟（AIIA）",
@@ -732,6 +739,10 @@
       "Profound / State of Brand 研究",
       "Ahrefs 研究",
       "Wellows / LLM Scout（PR 分发型实测）"
+    ],
+    "品牌方采购追踪": [
+      "蒙牛（mengniu.com.cn 采招公告）",
+      "苏宁易购"
     ]
   },
   "whitelist_domestic": [
@@ -821,6 +832,7 @@
     "sohu.com",
     "sspai.com",
     "stcn.com",
+    "stdaily.com",
     "tencent.com",
     "tmtpost.com",
     "xinhuanet.com",

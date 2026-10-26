@@ -73,11 +73,40 @@
       "soft_class": "B",
       "decision": "selected",
       "found_via": "C 组搜索；10-23 运行曾落选（名额）",
-      "entry_id": "2026-10-26-05",
+      "entry_id": "2026-10-26-06",
       "geo_relevance": "(b) 媒体推出面向 AI 引用的结构化语料平台与 GEO 服务体系，原文给出在元宝、秘塔、DeepSeek 的引用率口径，属 GEO 服务与工具市场。",
       "also_reported_by": [
         "https://www.163.com/dy/article/L9SMKEBC0512B07B.html"
       ]
+    },
+    {
+      "title": "中国工业报社发布“工经智媒·‘正本’GEO解决方案”，面向工业企业并设语料投毒、虚假共识等六项禁止清单",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-26/10720983.shtml",
+      "source": "中新网（经济日报客户端）",
+      "published": "2026-10-26",
+      "region": "国内",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "selected",
+      "found_via": "用户复核后补查：搜索:工经智谋 正本GEO 解决方案",
+      "entry_id": "2026-10-26-05",
+      "geo_relevance": "(b) 行业媒体推出面向工业企业的 GEO 解决方案与语料库，并设语料投毒、虚假共识、保证排名等负面清单，属 GEO 服务市场与行业规范本身。",
+      "category_reason": "主类新技术：核心事实是媒体推出 GEO 产品（03 1.5「媒体推出 GEO 产品或语料平台」），无合作 / 融资事实，不填副类。",
+      "also_reported_by": [
+        "https://www.stdaily.com/web/gdxw/2026-10/22/content_601135.html"
+      ]
+    },
+    {
+      "title": "蒙牛生成式引擎优化服务采购",
+      "url": "",
+      "source": "—",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "unverified",
+      "found_via": "用户复核后补查：搜索 5 次（含 mengniu.com.cn 站点限定），未找到公告",
+      "reject_reason": "无独立链接"
     },
     {
       "title": "Seer Interactive：ChatGPT 搜索响应流数据结构变化，单次运行测量不可靠",
@@ -1436,6 +1465,55 @@
       "region": "海外",
       "useful": 0,
       "by": "D"
+    },
+    {
+      "query": "工经智谋 正本GEO 解决方案",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "蒙牛 生成式引擎优化 服务 采购 GEO",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "蒙牛 生成式引擎优化服务采购项目 招标公告",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "蒙牛 GEO 生成式引擎优化 竞争性谈判 2026年10月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "蒙牛乳业 生成式引擎优化 GEO服务 采招项目（site:mengniu.com.cn）",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "\"蒙牛\" \"生成式引擎优化\" 采购",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
+    },
+    {
+      "query": "蒙牛 GEO服务 采购 中标 OR 竞谈 OR 招标 AI搜索优化",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main（用户复核补查）"
     }
   ],
   "channel_log": [
@@ -1713,6 +1791,16 @@
       "page": "https://www.21jingji.com/article/20261021/herald/06eb525c68ce61792c8859447fb45ca5.html",
       "status": "打不开",
       "hits": 0
+    },
+    {
+      "page": "https://www.stdaily.com/web/gdxw/2026-10/22/content_601135.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.chinanews.com.cn/cj/2026/10-26/10720983.shtml",
+      "status": "可用",
+      "hits": 1
     }
   ],
   "fetch_blocked": [
@@ -1845,24 +1933,24 @@
     "行业方法论·海外": "Sistrix 96,418 URL 配对研究入选 03；Seer ChatGPT 响应流观察样本过小未收；Ahrefs SoV 为长青科普；复旦论文 SEJ 报道 10-19 超窗。D 组海外方法论搜索 ≥5 次已执行。",
     "行业方法论·国内": "未搜到窗口内一手实测；凤凰网大风号 Kimi 横评为 A 类软文剔除；可能没搜到。",
     "新技术·海外": "Walmart Agent Gateway（MCP）入选 04；Cloudflare 博客 WebMCP×Commerce.com 为 10-20 超窗；Change Agents Beacon 日期无法确认。",
-    "新技术·国内": "每经智见百科语料平台入选 05（企业发布稿，已在 10-23 运行时换源失败，仅有网易转载）；新华GEO产品生态发布会页面 302 循环无法打开、换源失败，未收。",
+    "新技术·国内": "工经智媒·“正本”GEO 解决方案（中国工业报社 10-21 发布）原运行漏采，用户复核后补收为 05；每经智见百科语料平台为 06（企业发布稿）；新华GEO产品生态发布会页面 302 循环无法打开、换源失败，未收。",
     "市场动态·海外": "融资专项（C 组 ≥6 次）未见窗口内新 GEO 融资；Bazaarvoice×Profound 合作 10-20 超窗；xSeek 收购 LLMonade 为 09-15 超窗；Moz×Profound 对应 10-19 发布超窗。",
-    "市场动态·国内": "融资专项国内检索未见窗口内新融资；第二届 GEO&AI 营销智能体峰会为 10-16 超窗；新浪五家服务商分层观察为自媒体转载、无第三方数据，未收。",
+    "市场动态·国内": "融资专项国内检索未见窗口内新融资；第二届 GEO&AI 营销智能体峰会为 10-16 超窗；新浪五家服务商分层观察为自媒体转载、无第三方数据，未收。 用户复核指出的蒙牛 GEO 服务采购：原运行无此检索方向，补查 5 次仍未找到公告，未收。",
     "舆情·海外": "SparkToro 汇总三项研究质疑 AI 可见度价值，与 10-23-04 同一事件，判重复；其余未见。",
     "舆情·国内": "“AI答案靠不住？GEO给大模型配上参考书”与 10-23-02 同源重复；AI 投毒类检索仅返回 3 月旧文；确实没有新事件。"
   },
   "audit": {
     "warnings": [
-      "当日国内占比 0.2、近 30 日 0.2982，均低于 0.4：已复核国内格，国内候选多为历史重复、超窗、A 类软文或页面无法打开（新华网 302 循环），B 类已执行换源"
+      "当日国内占比 0.3333、近 30 日 0.3103，均低于 0.4：已复核国内格；原运行漏采工经智媒一条（追踪名单缺中国工业报社），已补收"
     ],
-    "domestic_ratio": 0.2,
-    "domestic_ratio_30d": 0.2982
+    "domestic_ratio": 0.3333,
+    "domestic_ratio_30d": 0.3103
   },
   "stats": {
-    "websearch_calls": 104,
-    "webfetch_calls": 73,
-    "candidates": 20,
-    "selected": 5
+    "websearch_calls": 111,
+    "webfetch_calls": 75,
+    "candidates": 21,
+    "selected": 6
   },
-  "notes": "两段式采集：主会话巡检 17 个每日页 + 31 个周一低频页（optimixed 按日期拼接 URL，未巡检）共 48 次 WebFetch，其中 24 页被拦（需授权，未重试：每日页 12 个均做站点限定搜索替代）。主会话核验 WebFetch 25 次；主会话 WebSearch 20 次；子代理 A/B/C/D WebSearch 20/20/20/24 次（D 组超预算 4 次），WebFetch 均为 0。run.candidates=20 为进入核验/判定的主候选数（本表前 24 条中含 4 条凭日期或重复直接判定），其后为子代理直接剔除的记录。入选 5 条主链接均由主会话本次亲自打开核验。"
+  "notes": "两段式采集：主会话巡检 17 个每日页 + 31 个周一低频页（optimixed 按日期拼接 URL，未巡检）共 48 次 WebFetch，其中 24 页被拦（需授权，未重试：每日页 12 个均做站点限定搜索替代）。主会话核验 WebFetch 25 次；主会话 WebSearch 20 次；子代理 A/B/C/D WebSearch 20/20/20/24 次（D 组超预算 4 次），WebFetch 均为 0。run.candidates=20 为进入核验/判定的主候选数（本表前 24 条中含 4 条凭日期或重复直接判定），其后为子代理直接剔除的记录。入选 5 条主链接均由主会话本次亲自打开核验。 【用户复核修订 2026-10-26】用户指出漏采“工经智媒·正本GEO解决方案”与蒙牛 GEO 服务采购。经授权补收前者为 05（主链接中新网 10-26、辅链科技日报 10-22，均由主会话本次打开核验），原 05 每经顺延为 06；蒙牛采购补查 5 次未找到公告，未收。漏采原因：媒体可信GEO 追踪名单无中国工业报社，且规则无品牌方采购 / 招标检索方向，已同步修订 rules/01。复核新增 WebSearch 7 次、WebFetch 2 次已计入 stats。"
 }
