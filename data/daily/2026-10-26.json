@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-26",
+  "status": "normal",
+  "highlights": [
+    "平台对第三方内容的“转述权”与“抓取权”同时扩张：Google 在 AI Overviews 引用卡片里用 AI 改写被引页面摘要，Meta 推迟新条款生效却保留抓取企业网站且不承诺 robots.txt，方案商需把引用呈现准确性监测与爬虫条款审查一并纳入交付。",
+    "AI 购物 Agent 的入口开始分化：Walmart 以 MCP 网关向获批 Agent 开放库存与下单，Amazon 则选择屏蔽，商品能否进入 Agent 候选集越来越取决于零售渠道的接入策略。",
+    "可见度优化的证据与供给同时加码：Sistrix 九万余 URL 配对研究显示目录与 Article、FAQ 标记和引用正相关而 llms.txt 无优势，国内每经推出可由品牌维护的百科语料平台，结构化页面与权威语料是当下最有据可依的抓手。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-26-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "region": "海外",
+      "title": "Google 在 AI Overviews 引用卡片中显示 AI 生成的被引页面摘要，文字并非取自原页",
+      "summary": "SER 10 月 23 日报道，Brodie Clark 发现 Google AI Overviews 旁的引用卡片开始显示 AI 生成的被引页面摘要，文字不在原页逐字出现，而是按查询挑选最相关信息生成；Barry Schwartz 在部分测试查询中复现，疑为测试或逐步推出，Google 未置评。",
+      "insight": "被引页面的展示文字由 Google 改写，需新增引用卡摘要准确性监测，并把关键事实写成可被直接概括的短句。",
+      "published": "2026-10-23",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overview-citation-ai-summaries-42361.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-26-02",
+      "category": "平台动态",
+      "platform": "Meta AI",
+      "region": "海外",
+      "title": "Meta 推迟新版商业条款至 11 月 20 日生效，企业网站抓取权与不承诺 robots.txt 未变，是否用于 Meta AI 仍未明",
+      "summary": "据 PPC Land 10 月 23 日报道，Meta 发言人向路透社表示，原定 10 月 30 日生效的新版商业条款与自助广告条款推迟至 11 月 20 日；条款已删去单列的 AI 训练用途，改为“广告与商业产品”，仍可抓取与企业产品服务相关的网站，且未承诺遵守 robots.txt。",
+      "insight": "为投放 Meta 广告的客户争取三周窗口：盘点官网可被抓取内容与 robots 策略，评估接受条款的取舍并留档。",
+      "published": "2026-10-23",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/meta-delays-its-ai-terms-to-november-20-the-trust-problem-does-not-move/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-26-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Sistrix 配对分析 96,418 个 URL：目录、Article 与 FAQ 结构化数据和 AI 引用正相关，llms.txt 无可测优势",
+      "summary": "Sistrix 将 DACH 区 ChatGPT、AI Mode、AI Overviews 被引的 4.8 万个 URL 与同域未被引页配对回归：目录 1.7 倍，Article 标记 1.6 倍，FAQPage 1.5 倍，多项达标页 2.1 倍；llms.txt 无优势，结论属相关非因果。",
+      "insight": "把目录、Article/FAQ 标记与作者信息列入页面改造清单，不把 llms.txt 当卖点，并向客户说明结论只是相关性。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "SISTRIX",
+          "url": "https://www.sistrix.com/blog/citation-worthiness-study/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-26-04",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Walmart 上线 MCP 服务 Agent Gateway，获批 AI 购物 Agent 可检索库存并代顾客下单，Amazon 则在屏蔽",
+      "summary": "据 TechCrunch，Walmart 推出基于 MCP 的 Agent Gateway，获批 AI Agent 可检索库存并代用户下单，下月上线可设审批与限额的 Agent Profiles；已接入 Muse、ChatGPT、Gemini，而 Amazon 开始阻止 Agent 代购。",
+      "insight": "零售客户的商品能否进入 AI Agent 候选集取决于渠道是否开放接口，监测与优化需区分开放与屏蔽 Agent 的渠道。",
+      "published": "2026-10-21",
+      "links": [
+        {
+          "text": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-26-05",
+      "category": "新技术",
+      "region": "国内",
+      "title": "每经发布智见百科语料平台与“负责任GEO”服务体系，称词条在元宝、秘塔、DeepSeek 引用率超 60%（信源为企业发布稿）",
+      "summary": "每日经济新闻 10 月 22 日发布财经与区域垂类“智见百科”语料平台，经事实核验把官网与报道整理为结构化词条并支持品牌自维护，同时推出含 GEO 工作台与治理方案的“1+1+1+N”体系；发布方称词条在元宝、秘塔、DeepSeek 引用率超 60%，未经独立验证。",
+      "insight": "媒体语料平台正成为可采购的高权重信源，可把权威百科词条纳入投放组合，但须用自有问题集复测引用率。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-10-22/4613482.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 20,
+    "selected": 5,
+    "domestic_ratio": 0.2,
+    "domestic_ratio_30d": 0.2982,
+    "websearch_calls": 104,
+    "webfetch_calls": 73
+  }
+}
