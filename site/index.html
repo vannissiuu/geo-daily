@@ -159,6 +159,10 @@ a:hover{text-decoration-thickness:2px}
 .entry{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin-top:10px}
 .e-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;font-size:12.5px;color:var(--text-secondary)}
 .tag{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--text-primary)}
+.sub{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;color:var(--text-secondary);border:1px solid var(--border);border-radius:999px;padding:0 8px;line-height:20px}
+.sub .dot{width:7px;height:7px}
+.chips.topics{margin:0 0 12px}
+.chips.topics .chip{font-size:12.5px;min-height:28px;padding:3px 10px}
 .e-title{margin:4px 0 4px;font-size:15.5px;line-height:1.5;font-weight:700}
 .e-sum{margin:0 0 8px;color:var(--text-secondary)}
 .insight{background:var(--chip-bg);border-radius:8px;padding:8px 12px;margin:0 0 8px;font-size:14px}
@@ -237,7 +241,7 @@ footer p{margin:4px 0}
     <p class="guide-h">💡 阅读指引：</p>
     <ul>
       <li><b>每日动态</b>：每个工作日上午 10 点自动采集更新，可优先查看今日精华，快速获得当日重点；</li>
-      <li><b>分类索引</b>：按消息类型分类，点击上方「分类索引」标签后可按分类筛选，快速找到关注领域；</li>
+      <li><b>分类索引</b>：按消息类型分类，点击上方「分类索引」标签后可按分类筛选，快速找到关注领域；一条消息可兼属第二类（标「兼」，计数中的「+N」即兼类条数），平台动态还可按子标签（引用与呈现、广告与商业化等）筛选；</li>
       <li><b>周度总结</b>：每周一自动生成，汇总上周（上周一至上周日）GEO 行业动态，用于趋势研判和提炼对解决方案卖进的启示。</li>
     </ul>
   </section>
@@ -263,7 +267,7 @@ footer p{margin:4px 0}
 (function(){
 var DAY_BATCH = 14;
 var B = null, CATS = [], CAT_COLOR = {}, ENT = {}, ALL = [];
-var S = { view:'daily', q:'', dcat:'', dayLimit:DAY_BATCH, ccat:'', cmonth:'', cLimit:60, wk:0 };
+var S = { view:'daily', q:'', dcat:'', dayLimit:DAY_BATCH, ccat:'', cmonth:'', ctopic:'', cLimit:60, wk:0 };
 var root = document.documentElement;
 var $main = document.getElementById('main'), $hits = document.getElementById('hits'), $q = document.getElementById('q');
 
@@ -317,6 +321,8 @@ function hl(text){ // 命中高亮
 function H(tag, attrs, text){ return el(tag, attrs, hl(text)); }
 function catColor(c){ return CAT_COLOR[c] || 'var(--baseline)'; }
 function catLabel(e){ return e.category === '平台动态' && e.platform ? '平台动态 · ' + e.platform : e.category; }
+function inCat(e, c){ return e.category === c || e.secondary_category === c; }
+function isPlat(e){ return inCat(e, '平台动态'); }
 function matchEntry(e){
   var q = lc(S.q.trim());
   if(!q) return true;
@@ -334,6 +340,13 @@ function linkList(links){
 function catTag(e){
   return el('span', {class:'tag', style:'--c:' + catColor(e.category)}, [el('span', {class:'dot', 'aria-hidden':'true'}), catLabel(e)]);
 }
+function secTag(e){ // 副类：「兼 市场动态」；副类为平台动态时带平台名
+  if(!e.secondary_category) return null;
+  var s = '兼 ' + e.secondary_category + (e.secondary_category === '平台动态' && e.platform ? ' · ' + e.platform : '');
+  return el('span', {class:'sub', title:'副类', style:'--c:' + catColor(e.secondary_category)}, [el('span', {class:'dot', 'aria-hidden':'true'}), s]);
+}
+function topicTag(e){ return e.platform_topic ? el('span', {class:'sub', title:'平台动态子标签', text:e.platform_topic}) : null; }
+function metaTags(e){ return [catTag(e), topicTag(e), secTag(e)].filter(Boolean); }
 
 /* ---------- 每日动态 ---------- */
 function renderDaily(){
@@ -350,7 +363,7 @@ function renderDaily(){
 
   var vis = [], hitEntries = 0;
   B.days.forEach(function(d){
-    var ents = d.entries.filter(function(e){ return (!S.dcat || e.category === S.dcat) && matchEntry(e); });
+    var ents = d.entries.filter(function(e){ return (!S.dcat || inCat(e, S.dcat)) && matchEntry(e); });
     var hlTexts = (d.highlights && d.highlights.length) ? d.highlights : [];
     var hlHit = !S.dcat && q && hlTexts.some(matchText);
     var show;
@@ -387,7 +400,7 @@ function renderDaily(){
         ]));
       }
       v.ents.forEach(function(e){
-        var meta = [catTag(e)];
+        var meta = metaTags(e);
         if(e.published) meta.push(el('span', {class:'date', text:'发布 ' + e.published}));
         var card = el('article', {class:'entry'}, [
           el('div', {class:'e-meta'}, meta),
@@ -415,13 +428,15 @@ function renderCategory(){
   var months = {};
   ALL.forEach(function(e){ months[e._date.slice(0,7)] = 1; });
   var monthList = Object.keys(months).sort().reverse();
-  var counts = {};
-  CATS.forEach(function(c){ counts[c] = 0; });
+  var counts = {}, scounts = {};
+  CATS.forEach(function(c){ counts[c] = 0; scounts[c] = 0; });
   ALL.forEach(function(e){
     if(!matchEntry(e)) return;
     if(S.cmonth && e._date.slice(0,7) !== S.cmonth) return;
     if(counts[e.category] != null) counts[e.category]++;
+    if(e.secondary_category && scounts[e.secondary_category] != null) scounts[e.secondary_category]++;
   });
+  function cntText(c){ return scounts[c] ? counts[c] + '+' + scounts[c] : String(counts[c]); }
 
   var descTxt = (B.meta.c_cat || []).join('\n');
   if(descTxt) frag.appendChild(el('details', {class:'desc'}, [el('summary', {text:'分类说明'}), el('pre', {text:descTxt})]));
@@ -429,8 +444,8 @@ function renderCategory(){
   var pane = el('div', {class:'pane'});
   var side = el('nav', {class:'side', 'aria-label':'分类'});
   CATS.forEach(function(c){
-    side.appendChild(el('button', {type:'button', 'aria-current':String(S.ccat === c), style:'--c:' + catColor(c), onclick:function(){ S.ccat = c; S.cLimit = 60; render(); }},
-      [el('span', {class:'dot', 'aria-hidden':'true'}), c, el('span', {class:'n num', text:String(counts[c])})]));
+    side.appendChild(el('button', {type:'button', 'aria-current':String(S.ccat === c), style:'--c:' + catColor(c), onclick:function(){ S.ccat = c; S.ctopic = ''; S.cLimit = 60; render(); }},
+      [el('span', {class:'dot', 'aria-hidden':'true'}), c, el('span', {class:'n num', title: scounts[c] ? '主类 ' + counts[c] + ' 条 + 兼类 ' + scounts[c] + ' 条' : '', text:cntText(c)})]));
   });
   pane.appendChild(side);
 
@@ -440,10 +455,21 @@ function renderCategory(){
       return el('option', {value:m, text:ym(m + '-01'), selected: S.cmonth === m});
     })));
   right.appendChild(el('div', {class:'filters'}, [el('label', {for:'monthSel', text:'月份'}), sel,
-    el('span', {class:'muted num', text: S.ccat + ' · ' + counts[S.ccat] + ' 条'})]));
+    el('span', {class:'muted num', text: S.ccat + ' · ' + counts[S.ccat] + ' 条' + (scounts[S.ccat] ? '，另兼类 ' + scounts[S.ccat] + ' 条' : '')})]));
+  // 平台动态：子标签筛选
+  var TOPICS = (B.meta && B.meta.platform_topics) || [];
+  if(S.ccat === '平台动态' && TOPICS.length){
+    var tchips = el('div', {class:'chips topics', role:'group', 'aria-label':'平台动态子标签筛选'});
+    [''].concat(TOPICS).forEach(function(tp){
+      tchips.appendChild(el('button', {class:'chip', type:'button', 'aria-pressed':String(S.ctopic === tp), onclick:function(){ S.ctopic = tp; S.cLimit = 60; render(); }, text: tp || '全部子标签'}));
+    });
+    right.appendChild(tchips);
+    right.appendChild(el('p', {class:'muted', style:'font-size:12.5px;margin:-4px 0 10px', text:'子标签自 2026-10-12 起标注，更早的历史条目只在「全部子标签」中显示。'}));
+  }
 
   var list = ALL.filter(function(e){
-    return e.category === S.ccat && matchEntry(e) && (!S.cmonth || e._date.slice(0,7) === S.cmonth);
+    return inCat(e, S.ccat) && matchEntry(e) && (!S.cmonth || e._date.slice(0,7) === S.cmonth) &&
+      (S.ccat !== '平台动态' || !S.ctopic || e.platform_topic === S.ctopic);
   });
   var total = 0; CATS.forEach(function(c){ total += counts[c]; });
   setHits((q || S.cmonth) ? '命中 ' + total + ' 条' : '');
@@ -454,7 +480,9 @@ function renderCategory(){
       var hasMore = e.summary || e.insight;
       var row = el('div', {class:'row'}, [
         el('span', {class:'date', text:e._date}),
-        e.category === '平台动态' && e.platform ? el('span', {class:'tag', text:e.platform}) : null,
+        isPlat(e) && e.platform ? el('span', {class:'tag', text:e.platform}) : null,
+        S.ccat === '平台动态' ? topicTag(e) : null,
+        e.secondary_category === S.ccat ? el('span', {class:'sub', title:'主类：' + e.category, text:'兼（主类 ' + e.category + '）'}) : (e.secondary_category ? secTag(e) : null),
         H('span', {class:'t'}, e.title)
       ]);
       var it = el('article', {class:'item'}, [row, linkList(e.links)]);

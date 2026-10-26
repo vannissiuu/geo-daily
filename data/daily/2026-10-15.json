@@ -28,6 +28,7 @@
       "id": "2026-10-15-02",
       "category": "平台动态",
       "platform": "ChatGPT",
+      "platform_topic": "测量与数据",
       "region": "海外",
       "title": "ChatGPT 在 GPT-6 后去掉结果链接的 utm_source=chatgpt.com，AI 来访被统计为直接流量",
       "summary": "GPT-6 上线后，ChatGPT 外链改用 noreferrer 打开并去掉 utm_source=chatgpt.com，访问既无标签也无来源。Adobe 的 Huesler 对比约500页：10月9–13日 ChatGPT 访问日减约3.1万，直接访问日增约2.6万。OpenAI 未置评。",
@@ -79,6 +80,9 @@
     {
       "id": "2026-10-15-05",
       "category": "舆情",
+      "secondary_category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "测量与数据",
       "region": "海外",
       "title": "Nozzle 称 Google 向排名追踪与 AI 抓取返回“投毒”结果页，AI Overviews 出现率被低估",
       "summary": "排名追踪商 Nozzle 称，自9月20日起 Google 向追踪器与 AI 抓取方返回被替换且无提示的结果页，10月以来日占5%–11%；受污染页 AI Overviews 出现率34.9%，正常页54.2%。Nozzle 认为意在阻击 AI 抓取与 grounding，Google 未回应。",

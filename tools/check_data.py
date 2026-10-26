@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""对 data/daily、data/weekly 做程序化检查（rules/04 第 6 节 C01–C22、rules/05 第 5 节 W01–W09）。
+"""对 data/daily、data/weekly 做程序化检查（rules/04 第 6 节 C01–C25、rules/05 第 5 节 W01–W09）。
 
 用法（仓库根）：python3 tools/check_data.py [-v]
   -v  打印全部告警/错误明细（默认每项最多 5 条样例）
@@ -85,6 +85,8 @@ for code, name in [
     ("C15", "平台动态 platform 与标题"), ("C16", "B 类企业发布稿标注"), ("C17", "region/source_type/soft_class 取值"),
     ("C18", "run.selected / domestic_ratio 一致"), ("C19", "国内占比偏低"), ("C20", "条数>6 / 周末 / candidates<selected"),
     ("C21", "legacy 豁免命中（合计，已计入各项告警）"), ("C22", "国内条目链接无国内域名"),
+    ("C23", "secondary_category 合法且≠主类"), ("C24", "平台动态 platform_topic / 副类平台"),
+    ("C25", "融资词与市场动态分类提示"),
     ("W01", "周结 JSON/字段/周一周日/文件名"), ("W02", "overview 总数与占比"), ("W03", "trends 条数与 refs"),
     ("W04", "platform_changes 维度与 refs"), ("W05", "平台变更 refs 多数为平台动态"), ("W06", "implications 2–4 条"),
     ("W07", "文本无编号/分类前缀"), ("W08", "同周只有一个文件"), ("W09", "区间内缺失工作日"),
@@ -121,6 +123,8 @@ AGG = CFG["aggregators"]
 DOM_WL = CFG["whitelist_domestic_domains"]
 PLATFORM_VALUES = CFG["platform_values"]
 ALIASES = CFG["platform_aliases"]
+PLATFORM_TOPICS = CFG.get("platform_topics", [])
+FUNDING_RE = re.compile(r"融资|种子轮|天使轮|Pre-?A|[A-E]\+?轮|raises|raised|Series [A-E]|seed round|funding", re.I)
 
 
 def blacklisted(url):
@@ -432,6 +436,50 @@ def check_daily(files):
                 R.skip("C17")  # legacy 空值已在 C03 告警
             else:
                 R.ok("C17")
+
+            # C23 副类
+            sec = e.get("secondary_category") or ""
+            if sec:
+                if sec not in CATEGORIES:
+                    R.fail("C23", f"{tag}: secondary_category={sec!r} 非法", leg)
+                elif sec == cat:
+                    R.fail("C23", f"{tag}: secondary_category 与主类相同", leg)
+                else:
+                    R.ok("C23")
+            else:
+                R.skip("C23")
+
+            # C24 平台动态子标签 / 副类为平台动态
+            topic = e.get("platform_topic") or ""
+            plat_related = cat == "平台动态" or sec == "平台动态"
+            p24 = []
+            if plat_related:
+                if not topic:
+                    if not leg:
+                        p24.append("缺 platform_topic")
+                elif topic not in PLATFORM_TOPICS:
+                    p24.append(f"platform_topic={topic!r} 非法")
+                if sec == "平台动态" and cat != "平台动态":
+                    pf2 = e.get("platform")
+                    if not pf2 or pf2 not in PLATFORM_VALUES:
+                        p24.append(f"副类为平台动态但 platform={pf2!r} 为空或不在标准取值")
+                    elif not (title_has_platform(t, pf2) or title_has_platform(sm, pf2)):
+                        p24.append(f"副类为平台动态但标题与摘要均不含平台 {pf2}")
+            elif topic:
+                p24.append("非平台动态条目不应填 platform_topic")
+            if p24:
+                for x in p24:
+                    R.fail("C24", f"{tag}: {x}", leg)
+            elif plat_related or topic:
+                R.ok("C24")
+            else:
+                R.skip("C24")
+
+            # C25 融资词提示
+            if FUNDING_RE.search(t) and "市场动态" not in (cat, sec):
+                R.warn("C25", f"{tag}: 标题含融资词，但主类/副类均非市场动态，请复核（03 1.5）")
+            else:
+                R.ok("C25")
 
         # C05（按日）
         bad5 = []

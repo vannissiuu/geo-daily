@@ -16,6 +16,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.environ.get("GEO_LEGACY_SRC", "/mnt/user-data/uploads/GEO行业动态日报")
 OUT = os.path.join(REPO, "site", "data", "bundle.json")
 CATEGORIES = ["行业政策", "行业方法论", "新技术", "市场动态", "舆情", "平台动态"]
+PLATFORM_TOPICS = json.load(open(os.path.join(REPO, "config", "sources.json"), encoding="utf-8")).get("platform_topics", [])
 WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 TAG_RE = re.compile(r"</?callout[^>]*>")
 
@@ -45,7 +46,9 @@ def build_entry(e):
     return {
         "id": e["id"],
         "category": e["category"],
+        "secondary_category": e.get("secondary_category") or "",
         "platform": e.get("platform") or "",
+        "platform_topic": e.get("platform_topic") or "",
         "region": e.get("region"),
         "title": e["title"],
         "summary": e["summary"],
@@ -126,6 +129,7 @@ def main():
         "meta": {
             "title": "GEO 每日行业动态",
             "categories": CATEGORIES,
+            "platform_topics": PLATFORM_TOPICS,
             "c_cat": read_fixed_text("C_CAT.md", old_meta, "c_cat"),
             "c_src": read_fixed_text("C_SRC.md", old_meta, "c_src"),
             "stats": {

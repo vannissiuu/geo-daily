@@ -31,6 +31,9 @@
     {
       "id": "2026-10-13-02",
       "category": "行业政策",
+      "secondary_category": "平台动态",
+      "platform": "Claude",
+      "platform_topic": "规则与治理",
       "region": "海外",
       "title": "Anthropic 使用政策更新：禁止用 Claude 向搜索引擎与 AI 系统的答案来源投放伪造出处或独立性的内容，11 月 12 日生效",
       "summary": "Anthropic 10月8日公布使用政策更新，新增“禁止欺骗性活动与人为制造声量”章节；据SEJ引述条款，禁止以伪造出处、作者或独立性的内容操纵搜索引擎或AI系统取材的来源，例如伪装成互不关联的站点网络；自动化发布移出高风险清单。11月12日生效。",
@@ -70,6 +73,7 @@
       "id": "2026-10-13-04",
       "category": "平台动态",
       "platform": "Google",
+      "platform_topic": "广告与商业化",
       "region": "海外",
       "title": "Google 测试 AI Mode 回答底部广告新样式：去掉边框并加入网站图标、站名与蓝色标题",
       "summary": "Search Engine Watch 10月9日发现Google正测试AI Mode回答下方的广告新设计：先由灰底改为带边框白底，随后去掉边框并加入网站favicon、站点名、蓝色标题和描述，外观更接近传统自然结果；测试范围与起始日期未披露。",

@@ -859,6 +859,15 @@
     "Bing": "Copilot",
     "Muse": "Meta AI"
   },
+  "platform_topics": [
+    "引用与呈现",
+    "检索与收录",
+    "爬虫与抓取",
+    "广告与商业化",
+    "购物与交易",
+    "测量与数据",
+    "规则与治理"
+  ],
   "platforms_excluded": [
     "Cloudflare",
     "xAI",
