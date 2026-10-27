@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-27",
+  "status": "normal",
+  "highlights": [
+    "AI 答案对第三方内容的“出口”在收窄而“入口”规则更需细分：Google Discover 测试关闭 AI 摘要来源按钮点击，Illyes 则明确 robots.txt 只管抓取、Google-Extended 单独决定 Gemini grounding，方案商要把被引监测与爬虫用途配置拆开做。",
+    "权威官方信源在 AI 回答中的权重被实测放大：Searchable 三万条英国本地问题中 ChatGPT 八成以上指向政府与市政页面，本地媒体几乎缺席，品牌事实需先在官方与协会页面上站稳。",
+    "国内 GEO 的市场与合规口径同步成形：中广协指导的沙利文报告与生态图谱给出百亿级规模估算，三项团体标准同日实施，ChatGPT 广告则开始经 Amazon DSP 外接投放，付费与自然曝光的分账监测变得更必要。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-27-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google Discover 测试禁用 AI 摘要卡片的“来源”按钮点击，用户无法再进入被引文章迷你信息流",
+      "summary": "SER 10月26日报道，有用户10月23日发现 Google Discover AI 摘要卡片的“sources”按钮被设为不可点（参数 disable_aio_sources_button_tap），被引文章迷你信息流不再打开；作者未能复现，Google 未置评。",
+      "insight": "把 Discover AI 摘要的被引次数与实际点击分开监测，提前向媒体客户提示来源入口收窄的流量风险。",
+      "published": "2026-10-26",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-discover-disabling-clicks-42369.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-27-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Searchable 3 万条英国本地问题实测：ChatGPT 81.3% 指向政府与市政信源，本地新闻仅 0.9%",
+      "summary": "Searchable 用100个英国城镇×20问约3万条提示测 ChatGPT、Perplexity、Gemini 与 Google AI 搜索，得24.47万条引用；ChatGPT 81.3%的问题指向市政或政府来源、仅0.9%指向本地新闻，治安类回答95.9%含警方网站。",
+      "insight": "做本地品牌与机构客户时，先校准政府、协会等官方页面上的事实一致性，再谈媒体铺稿。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "Press Gazette",
+          "url": "https://pressgazette.co.uk/news/ai-answer-engines-bypass-local-news-outlets-going-straight-to-official-sources/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-27-03",
+      "category": "平台动态",
+      "secondary_category": "行业政策",
+      "platform": "Google",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "Google Illyes：robots.txt 只管抓取不管用途，Google-Extended 决定 Gemini 训练与 grounding，Content-Usage 草案仍在 IETF",
+      "summary": "Illyes 称 robots.txt 只管可抓取的 URL、不管抓取后用途，拦特定 AI 爬虫须写明 user-agent；Google-Extended 决定内容能否用于 Gemini 训练与 grounding，不影响排名；其参与起草的 Content-Usage 规则仍为 IETF 草案。",
+      "insight": "爬虫体检要讲清：屏蔽 Google-Extended 即退出 Gemini 引用，防训练与被引用需权衡。",
+      "published": "2026-10-22",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-27-04",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "ChatGPT 广告测试带箭头的“Learn more”链接，部分广告经 Amazon DSP 投放",
+      "summary": "SER 10月26日报道，部分 ChatGPT 广告出现带上箭头的虚线“Learn more”链接新样式；另有观察者发现部分广告点击跳转经 Amazon 点击追踪服务器，显示经 Amazon DSP 投放，集成细节尚未公开。",
+      "insight": "把经 DSP 买入的 ChatGPT 对话广告纳入监测，区分客户在 AI 回答中的付费曝光与自然引用。",
+      "published": "2026-10-26",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/chatgpt-ads-learn-more-amazon-dsp-42371.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-27-05",
+      "category": "市场动态",
+      "secondary_category": "行业政策",
+      "region": "国内",
+      "title": "中广协指导、沙利文发布《2026年中国GEO营销实践与合规发展报告》与GEO营销生态图谱，估算2026年市场规模约137亿元",
+      "summary": "每经报道，10月23日沙利文与中国广告协会在京办会，发布GEO营销实践与合规发展报告及生态图谱1.0；沙利文估算国内GEO市场2025年57亿元、2026年约137亿元、2029年488亿元；中广协三项GEO团体标准同日实施。（信源为企业发布稿）",
+      "insight": "用中广协报告与图谱作预算论证的第三方口径，并核对自身是否入图、服务是否对齐三项标准。",
+      "published": "2026-10-26",
+      "links": [
+        {
+          "text": "每日经济新闻",
+          "url": "https://www.nbd.com.cn/articles/2026-10-26/4617463.html"
+        },
+        {
+          "text": "网易（每经稿转载）",
+          "url": "https://www.163.com/dy/article/LA63BRRO0512B07B.html"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 31,
+    "selected": 5,
+    "domestic_ratio": 0.2,
+    "domestic_ratio_30d": 0.3016,
+    "websearch_calls": 104,
+    "webfetch_calls": 46
+  }
+}
