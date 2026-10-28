@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-28",
+  "status": "few",
+  "highlights": [
+    "AI 平台对网站的“读取”与“推荐”正在脱钩：ChatGPT 在小企业站点上的页面读取量减半而带标签来访翻倍，方案商需把爬虫日志、引用与来访拆开度量，避免用抓取量下滑误判可见度。",
+    "电商渠道开始把商家事实做成供 AI Agent 直接读取的结构化资产：Shopify 后台知识库经 Storefront MCP 对外且须商家批准发布，品牌在 AI 购物回答中的准确度越来越取决于已发布事实的完整度。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-28-01",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "LovedByAI 724 个小企业站点日志：ChatGPT 读取页面减少 50%，带来的访客却增长 115%",
+      "summary": "AI 搜索优化平台LovedByAI 统计 724 个小企业站点 7 月 6 日至 10 月 25 日日志：ChatGPT-User 日均读取页面从 8817 次降至 4378 次，带 utm_source=chatgpt.com 的来访却翻倍；ChatGPT 仍触达约八成站点，但每站读取页数减少。",
+      "insight": "报表把 AI 爬虫读取、被引用与带标签来访拆成三项指标，别用抓取量下滑判可见度。",
+      "published": "2026-10-26",
+      "links": [
+        {
+          "text": "EIN Presswire：ChatGPT visits small business websites 50% less, but sends them 115% more traffic",
+          "url": "https://www.einpresswire.com/article/952392003/chatgpt-visits-small-business-websites-50-less-but-sends-them-115-more-traffic"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-10-28-02",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Shopify 将 AI Agent 知识库并入商家后台，已发布事实经 Storefront MCP 供 AI 购物应用读取",
+      "summary": "据 SEJ，Shopify 10 月 26 日更新日志显示，Knowledge Base 应用并入后台“销售渠道>Agentic>知识库”，最多容纳 1000 条补充事实；扫描店面所得事实须商家批准才发布，未发布内容不进入 AI Agent；旧应用 2027 年 1 月 15 日停用。",
+      "insight": "替 Shopify 客户把退换货、配送等高频问题补成已发布事实，用真实购买问题测试 AI 回答。",
+      "published": "2026-10-27",
+      "links": [
+        {
+          "text": "Search Engine Journal：Shopify Moves AI Agent Knowledge Base Into Merchant Admin",
+          "url": "https://www.searchenginejournal.com/shopify-ai-agent-knowledge-base-admin/594551/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 56,
+    "selected": 2,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2923,
+    "websearch_calls": 113,
+    "webfetch_calls": 45
+  }
+}
