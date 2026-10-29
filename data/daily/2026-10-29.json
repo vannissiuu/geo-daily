@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-29",
+  "status": "normal",
+  "highlights": [
+    "AI 引用的页面特征与实体准确性开始有大样本证据：直给答案、表格、近 12 个月更新与被引正相关，而高管换届等新事实在四大平台普遍滞后，页面结构诊断与实体事实同步可作为两条可量化交付线。",
+    "GEO 服务的商业化在加速成形：国内头部服务商披露累计 ARR 破亿元并按推荐率、可见度收效果费，海外工具补齐分国家语言监测与 schema 生成闭环，方案商需同时备好效果口径与多市场交付能力。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-29-01",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "智推时代披露 2026 上半年累计 ARR 破亿元、服务超 400 家企业，GEO 按推荐率与可见度计效果费",
+      "summary": "21世纪商业评论10月29日专访上海GEO服务商智推时代：2025年四季度ARR超2500万元，2026上半年累计ARR破1亿元、全年预计近2亿元；客户超400家、续约率90.5%；收费为SaaS底费加按推荐率、可见度计的效果费，并经ChatGPT Ads等做AI场景广告。数据为公司自述。",
+      "insight": "国内已出现亿元级 ARR 的 GEO 头部玩家与“底费+效果费”定价，方案商报价需备好可审计的推荐率、可见度口径应对效果计费竞争。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "21经济网：在AI搜索里抢排位，上海公司拿下千万融资",
+          "url": "https://www.21jingji.com/article/20261029/herald/9ab27c1c32cbf573288e6b7c763b38f5.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-29-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "TJ Digital 分析 19.35 万条 AI 回答：被引页面更常开篇直给答案，标题含年份、近 12 个月更新与表格显著提高被引几率",
+      "summary": "SEJ报道TJ Digital用Peec AI采集ChatGPT、AI Mode与AI Overviews对4167个问题的193507条回答：被引页23%开篇直接作答，检索未引页仅14%；标题含年份、12个月内更新、含表格的被引几率分别高2倍以上、88%、69%，有作者署名反低28%。仅为相关性。",
+      "insight": "可把“首段直答、表格、近 12 个月更新日期”列入页面诊断清单，但向客户讲清是相关不是因果，用对照改版实测验证再报效果。",
+      "published": "2026-10-28",
+      "links": [
+        {
+          "text": "Search Engine Journal：AI-Cited Pages More Often Got Straight To The Answer",
+          "url": "https://www.searchenginejournal.com/ai-cited-pages-more-often-got-straight-to-the-answer/594781/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-29-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Lilypath 测 ChatGPT、Gemini、Claude、Perplexity：首年 CEO 75% 被描述有误，约两成财富 500 强 CEO 被认成前任（信源为企业发布稿）",
+      "summary": "Lilypath 10月27日发布两项研究：以14个标准提示词在四大AI平台查询102位纳斯达克100与100位财富500强CEO，纳斯达克部分含7112条回答、67208条引用；AI识别96%的CEO，但首年CEO有75%描述错误或混淆，约20%财富500强CEO被指为前任。方法细节未公开。",
+      "insight": "高管换届、品牌更名等实体事实在 AI 中滞后明显，可做成“实体事实时效监测+权威页同步更新”服务卖给上市公司与公关部门。",
+      "published": "2026-10-27",
+      "links": [
+        {
+          "text": "EIN Presswire：AI Gets 75% of New CEOs Wrong, Lilypath Research Reveals",
+          "url": "https://www.einpresswire.com/article/952425531/ai-gets-75-of-new-ceos-wrong-lilypath-research-reveals"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    },
+    {
+      "id": "2026-10-29-04",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Brandi AI 推出 Content Compass 2.0，按国家、地区与语言拆分 AI 可见度并为发布内容生成 schema（信源为企业发布稿）",
+      "summary": "Brandi AI 10月27日经PR Newswire宣布更新GEO平台：Content Compass 2.0找出AI回答呈现品牌的缺口并给出内容建议，新版优化中心跟踪从建议到发布的流程，定稿内容可附生成的schema与元数据，分析新增国家、地区与语言筛选；平台不代写文章。",
+      "insight": "海外 GEO 工具在补“监测→内容→发布”闭环与多市场拆分，做出海服务的方案商应把分国家/语言可见度报表和结构化数据交付做成标配。",
+      "published": "2026-10-27",
+      "links": [
+        {
+          "text": "MarTech Cube：Brandi AI Connects AI Visibility, Content and Performance in GEO Platform",
+          "url": "https://www.martechcube.com/brandi-ai-connects-ai-visibility-content-and-performance-in-geo-platform/"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 57,
+    "selected": 4,
+    "domestic_ratio": 0.25,
+    "domestic_ratio_30d": 0.2899,
+    "websearch_calls": 108,
+    "webfetch_calls": 43
+  }
+}
