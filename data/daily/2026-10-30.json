@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-30",
+  "status": "normal",
+  "highlights": [
+    "Google 正在 AI 答案里加速变现：AI Mode 广告扩至 10 个新市场并进入美国追问轮次，赞助商品也开始与自然商品同栏混排，品牌在 AI Mode 的付费与自然曝光需要拆开监测、合并汇报。",
+    "AI 答案的外链出口与可追踪性同时收紧：AI Overviews 疑在测试去掉桌面引用卡片、查询气泡把用户导入 AI Mode，Semrush 也因 Copilot 访问要求变化停止追踪，方案商需备好多平台替代监测口径与断档说明。"
+  ],
+  "entries": [
+    {
+      "id": "2026-10-30-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "Google 将 AI Mode 广告扩至另外 10 个市场，并在美国把广告放进追问轮次",
+      "summary": "Google 10 月 28 日宣布在澳、加、印、新加坡等 10 国扩展 AI Mode 广告，英国、巴西、墨西哥四季度跟进；美国上线多轮对话广告，出现在追问回答中并标注 Sponsored。现有搜索、购物与 PMax 广告默认入选、不能单独退出，部分广告还附不可编辑的 Gemini 生成说明。",
+      "insight": "监测报表需区分 AI Mode 追问轮次中的 Sponsored 与自然推荐，向客户讲清付费与自然曝光分工。",
+      "published": "2026-10-28",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-expands-ads-ai-mode-42412.html"
+        },
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-search-growth-slows-again-ai-mode/594862/"
+        },
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/googles-ad-growth-slows-to-10-5-as-ai-mode-ads-go-to-10-more-markets/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-30-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "购物与交易",
+      "region": "海外",
+      "title": "Google AI Mode 测试把赞助商品混入自然商品结果，官方称两者点击率已接近",
+      "summary": "AI Mode 商品结果出现 Sponsored 与 All products 混排测试，Google 确认属 AI Mode 广告实验：商业查询的视觉商品轮播中购物广告可与自然商品并列，赞助项均标 Sponsored；Google 财报会上称 AI Mode 内赞助与自然商品点击率已相近。",
+      "insight": "把商品 feed 质量与 AI Mode 自然商品位占比纳入 AI 购物可见度监测，对冲广告挤占。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-mode-all-sponsored-products-42402.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-30-03",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google 被曝疑似测试去掉 AI Overviews 桌面端引用卡片，官方尚未回应",
+      "summary": "SEO 顾问 Brodie Clark 截图显示，桌面端 AI Overviews 的来源引用卡片在大量查询中消失、出现频率明显下降，或影响网站来访；SER 作者初测发现卡片延迟加载，Google 尚未确认是测试还是 bug，此前曾测试把卡片移到答案下方。",
+      "insight": "按日跟踪桌面端引用卡片出现率与来访，提前向客户说明“被引用但无卡片”的统计口径。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/citations-cards-google-ai-overviews-42413.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-30-04",
+      "category": "新技术",
+      "secondary_category": "平台动态",
+      "platform": "Copilot",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "Semrush 称 Copilot 访问要求变化，11 月 9 日起其 AI 可见度产品停止追踪 Copilot",
+      "summary": "Semrush 10 月 28 日通知 Enterprise AIO 客户，微软 Copilot 近期访问要求变化使 AI 可见度平台无法采集所需数据，11 月 9 日起停止追踪 Copilot，其余平台照常；客户可退回 Copilot 提示词额度或保留历史数据，产品支持平台由 9 个减至 8 个。",
+      "insight": "向客户披露各平台数据采集方式与断档风险，为 Copilot 等平台准备替代监测口径。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/semrush-drops-copilot-from-ai-visibility-tracking-on-november-9/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-10-30-05",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google AI Overviews 测试顶部查询细化气泡，点击后直接转入 AI Mode",
+      "summary": "SER 10 月 29 日报道，Google 在部分语言的 AI Overviews 顶部测试查询细化气泡，点击后并不改写搜索结果，而是把气泡文字作为提示词把用户带入 AI Mode 继续对话。",
+      "insight": "把 AI Mode 品牌提及与引用纳入与 AI Overviews 同频监测，覆盖从摘要转入对话的流量。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overviews-query-refinement-bubbles-42406.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 59,
+    "selected": 5,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2703,
+    "websearch_calls": 107,
+    "webfetch_calls": 37
+  }
+}
