@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-02",
+  "status": "normal",
+  "highlights": [
+    "AI 答案的内容使用权正在从“抓不抓”细化到“训不训、引不引”：Google、微软、OpenAI 拟共用训练退出规则，微软单列 grounding 偏好，百度则低价外放搜索 API 成为更多 AI 应用的取材入口，方案商需按训练、答案引用、联网信源三层分别管理客户的可见度。",
+    "AI 可见度的测量正变得更不稳定：Ahrefs 显示多数引用次日即流失又常回归，Gemini 停加 UTM 使来访归因断档，Bing 也在 AI 答案里放赞助结果，监测口径应改为多日留存、日志识别并区分付费与自然曝光。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-02-01",
+      "category": "平台动态",
+      "platform": "多平台",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "Google、微软、OpenAI 拟支持统一 robots.txt AI 训练退出规则，微软另设页面级 AI Grounding 偏好",
+      "summary": "规则源自 IETF 个人草案，以 __usage_ai-training 规则组退出训练、不管抓取。Google 视同禁用 Google-Extended（含 Gemini Apps grounding）；微软另设页面级 Grounding 偏好，2027 年 2 月起生效。",
+      "insight": "训练退出与 grounding 退出须分开配置，用旧标签限 Copilot 的客户要在 2027 年前迁移。",
+      "published": "2026-11-01",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://searchenginejournal.com/google-microsoft-openai-shared-ai-training-opt-out/595387"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-02-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Ahrefs 追踪约 3.75 万条 AI 引用 20 天：AI Mode 与 ChatGPT 约六成次日消失，Google 有排名的页面更易持续被引",
+      "summary": "同组问题在 AI Mode、ChatGPT、AI Overviews、Gemini、Copilot 每日重复 20 天：次日流失约 50%–80%，约 75% 流失引用 20 天内回归；在 Google 有排名的页面持续被引一周的概率约为无排名的 7 倍，DR 与外链影响小。",
+      "insight": "监测报表改用多日被引留存率替代单日快照，并把 Google 排名列为 AI Overviews 持续被引的前置指标。",
+      "published": "2026-10-29",
+      "links": [
+        {
+          "text": "Ahrefs Blog",
+          "url": "https://ahrefs.com/blog/how-stable-are-ai-citations/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-02-03",
+      "category": "平台动态",
+      "platform": "文心",
+      "platform_topic": "检索与收录",
+      "region": "国内",
+      "title": "百度 APP 升级搜索 AI API，支持 API/MCP/Skill 接入，促销价每千次 4.9 元低于 DeepSeek",
+      "summary": "百度 10 月 30 日 APP 升级沟通会称，搜索覆盖 170 余种工具场景、接入政务民生等 50 亿以上数据资源，复杂问题返回核实汇总结论；搜索 AI API 支持 API、MCP、Skill 接入，促销最低每千次 4.9 元，低于 DeepSeek。",
+      "insight": "百度索引正低价成为更多 AI 应用的联网信源，国内收录诊断应把百度收录与权威数据源覆盖列为首项。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "新浪财经（贝壳财经）",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwziir8101398.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-02-04",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "Google Gemini 被指停止给回答中的被引链接附加 utm_source=gemini 参数",
+      "summary": "SER 援引 Natzir 数据：Gemini 9 月初给被引链接加 utm_source=gemini，约 9 月 28 日起消失；桌面端仍传来源，iOS 应用内置 WebView 不带来源、GA4 记为 Direct，仅日志可见 GeminiiOS UA。Google 未回应。",
+      "insight": "Gemini 来访归因改用 referrer 加日志 UA 识别，并向客户说明 9 月底起 UTM 口径断档。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/gemini-utm-parameters-42399.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-02-05",
+      "category": "平台动态",
+      "platform": "Copilot",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "Bing 被曝在 Copilot 驱动的 AI Overviews 中展示赞助结果",
+      "summary": "SER 报道，Khushal Bherwani 截图显示 Bing 在 Copilot 驱动的 AI Overviews 内展示“Sponsored Results”；作者本人尚未复现，微软未置评。Bing 数月前已把 Copilot Search 框更名为 AI Overviews。",
+      "insight": "Copilot/Bing 监测需区分赞助与自然提及，可把微软 AI 答案广告纳入付费+自然一体化方案。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/bing-ads-copilot-ai-overviews-42416.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-02-06",
+      "category": "舆情",
+      "region": "海外",
+      "title": "Reddit CEO 称 Google AI Mode 不带流量，10 月搜索引荐周均减少逾百万，将测试仅登录可见以限制抓取",
+      "summary": "Reddit 称 10 月搜索引荐周均减少逾 100 万次，CEO Huffman 认为主因是 AI Overviews 与 AI Mode 压低其他结果、“AI Mode 不带流量”；四季度将在美国以外部分市场测试仅登录可见，称多数抓取来自未登录访问。",
+      "insight": "Reddit 是 AI 答案高频信源，依赖 Reddit 口碑的打法要备好官网、评测站等替代信源。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://searchenginejournal.com/reddit-to-test-login-only-mode-as-google-search-traffic-drops/595270"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 30,
+    "selected": 6,
+    "domestic_ratio": 0.1667,
+    "domestic_ratio_30d": 0.2625,
+    "websearch_calls": 95,
+    "webfetch_calls": 67
+  }
+}
