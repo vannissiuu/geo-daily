@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-03",
+  "status": "normal",
+  "highlights": [
+    "Google 正把品牌与新闻内容的入口进一步收进 AI 答案：品牌词的 AI 概览移入右栏取代知识面板，法国出版商则把 AI Overviews 与 AI Mode 的流量替代问题告到欧委会，方案商需把品牌事实在 AI 概览中的准确度与点击损失同时纳入交付和报告。",
+    "监管开始直接追问 AI 平台的数据与抓取规则：英国 CMA 要求 Google 12 月 3 日前给出 AI 功能点击数据并立案审查 Meta 的网站抓取条款，ChatGPT 广告位又在加宽，方案商应提前准备自建点击归因、爬虫策略清单和付费与自然曝光分账的监测口径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-03-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google 将品牌类搜索的 AI Overviews 移至桌面右栏，实质取代品牌知识面板",
+      "summary": "SER 11 月 2 日报道：搜索“Apple”等大量品牌词时，桌面端 AI Overviews 不再位于结果顶部，而出现在右侧栏，Chris Long 等指出其正替代原知识面板；David McSweeney 10 月 31 日最早发现，Google 暂无说明。",
+      "insight": "品牌词监测需新增“右栏 AI 概览”位，核对 AI 生成的品牌描述与官网事实是否一致并纳入纠错交付。",
+      "published": "2026-11-02",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overviews-brands-right-42440.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-03-02",
+      "category": "舆情",
+      "region": "海外",
+      "title": "法国五大出版商团体就 Google AI Overviews 与 AI Mode 向欧盟委员会投诉",
+      "summary": "CPA、FNPS、GESTE、SEPM、SPIIL 于 10 月 29 日发联合声明，称 7 月在法上线的 AI Overviews 与 AI Mode 单方面使用出版内容生成答案、替代访问，影响内容与品牌可见度及流量，要求欧委会在既有 102 条调查中全面审查。",
+      "insight": "为欧洲客户备好 AI 概览曝光与点击损失的量化报告，供其参与平台谈判与合规申诉。",
+      "published": "2026-10-31",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/google-faces-eu-complaint-from-five-french-publisher-groups-over-ai-overviews/"
+        },
+        {
+          "text": "MLex",
+          "url": "https://www.mlex.com/mlex/articles/2544409"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-03-03",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "距英国 CMA 12 月 3 日期限一个月，Google 仍未宣布为 AI Overviews 与 AI Mode 提供点击数据",
+      "summary": "CMA 要求 Google 12 月 3 日前向出版商提供 AI 功能的展示、点击与 CTR 等指标并可区分 AI 与自然结果。Search Console 生成式 AI 报告目前只有展示，Illyes 称团队想提供“有意义的数据”但暂无可宣布内容。",
+      "insight": "官方点击数据到位前，用日志与落地页归因自建 AI 概览点击估算，并预告 12 月 3 日后口径变化。",
+      "published": "2026-11-02",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-ai-click-reporting-uk-deadline/595663/"
+        },
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/click-data-search-console-ai-reporting-42437.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-03-04",
+      "category": "行业政策",
+      "secondary_category": "平台动态",
+      "platform": "Meta AI",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "英国 CMA 就 Meta 面向出版商与广告主的新商业条款立案，审查其抓取企业网站内容的权利",
+      "summary": "CMA 10 月 30 日依《竞争法》立案，评估 Meta 是否滥用支配地位强加“剥削性条款”：持 Meta 企业账户的网站内容可被抓取用于 AI 等产品开发，出版商称仍涵盖 Meta AI 服务。Meta 已删训练字样、推迟生效，称遵守 robots.txt 但未写入条款。",
+      "insight": "条款定案前，帮客户在 robots.txt 明确 Meta 爬虫策略并留档，把 Meta AI 抓取纳入授权管理清单。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "Press Gazette",
+          "url": "https://pressgazette.co.uk/news/uk-competition-watchdog-opens-investigation-into-meta-scraping-terms/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-03-05",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "ChatGPT 广告推出更宽的标准广告位，多图广告向全部广告主开放测试",
+      "summary": "据 OpenAI 给广告主的周报，ChatGPT 桌面端开始推出占据更多对话区域的加宽标准广告卡片，现有素材自动沿用；多图广告进入面向所有广告主的公开测试，创意增强已默认开启，广告覆盖 89 个国家。",
+      "insight": "广告位加宽会挤压自然推荐，监测报告需拆分广告与自然提及，并评估 GEO 与 ChatGPT 广告组合投放。",
+      "published": "2026-10-30",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://seroundtable.com/chatgpt-ads-update-42427.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 21,
+    "selected": 5,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2471,
+    "websearch_calls": 103,
+    "webfetch_calls": 37
+  }
+}
