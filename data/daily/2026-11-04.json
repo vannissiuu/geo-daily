@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-04",
+  "status": "normal",
+  "highlights": [
+    "Google 在自家垂类与 AI 答案中优先导向自有产品：AI Mode 航班回答只链 Google Flights，叠加此前赞助商品混排，方案商需把 Google 自营垂类查询的可见度预期单独下调并转投其他 AI 渠道。",
+    "AI 答案的流量与付费价值被重新量化：ChatGPT 联网查询约为 Google 五分之一，但广告每访问收入只有搜索广告约三分之一，客户 KPI 宜从点击转向答案内提及、引用与自然引荐归因。",
+    "AI 检索入口的访问与授权边界在收紧：NYT 起诉 Brave 的检索 API 与 AI 回答，Cloudflare 让站长逐个管理个人 Agent，方案商应把检索 API 收录与 Agent 放行策略纳入站点体检。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-04-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google AI Mode 被实测航班类回答只链接 Google Flights，不给第三方旅游网站链接",
+      "summary": "SER 11 月 3 日报道：Barry Schwartz 周末测试多个美国国内与国际航线，AI Mode 航班类回答中可点链接 100% 指向 Google Flights，无任何第三方旅游站；此现象由 Natzir 10 月 30 日在 X 上率先指出，Google 暂未回应。",
+      "insight": "Google 自营垂类词在 AI Mode 几无第三方引用位，应单列预期，转投其他 AI 渠道。",
+      "published": "2026-11-03",
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Google AI Mode Biased: It Only Shows Links To Google Flights",
+          "url": "https://www.seroundtable.com/google-ai-mode-links-google-flights-42428.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-04-02",
+      "category": "行业方法论",
+      "secondary_category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "维也纳经济大学等研究：ChatGPT 广告每次访问带来 0.89 美元收入，仅为 Google 搜索广告的约三分之一",
+      "summary": "研究用约 100 亿次 GA4 电商会话、以未上广告的欧盟 27 国为对照：ChatGPT 广告上线后 13 周自然引荐约降 5.9%（不显著），转化率无变化；美国付费流量每访问收入 0.89 美元对 Google 搜索广告 2.45 美元，转化率 0.37% 对 1.17%。",
+      "insight": "可据此劝客户优先投答案内自然可见度，而非 ChatGPT 付费位，并分开归因付费与自然引荐。",
+      "published": "2026-11-02",
+      "links": [
+        {
+          "text": "PPC Land：ChatGPT ad visits earn shops $0.89 against $2.45 for Google search ads",
+          "url": "https://ppc.land/chatgpt-ad-visits-earn-shops-0-89-against-2-45-for-google-search-ads/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-04-03",
+      "category": "舆情",
+      "region": "海外",
+      "title": "《纽约时报》起诉 Brave：指其抓取付费内容建索引，经 Ask Brave AI 回答和搜索 API 供 AI 检索使用",
+      "summary": "NYT 11 月 2 日起诉 Brave 浏览器与 Brave Search 母公司，称其抓取含付费墙在内的文章建立搜索索引，爬虫不表明身份、无法屏蔽，Ask Brave AI 在回答中复述摘要替代原文，并把搜索 API 卖给 AI 公司做 grounding 与 RAG；此前两次停止函被忽视。",
+      "insight": "盘点客户内容被哪些检索 API 收录，并跟踪出版商封锁后 AI 可引用信源池的变化。",
+      "published": "2026-11-02",
+      "links": [
+        {
+          "text": "Search Engine Journal：NY Times Accuses Brave Of Scraping And Exploiting Content",
+          "url": "https://www.searchenginejournal.com/ny-times-accuses-brave-of-scraping-and-exploiting-content/595679/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-04-04",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare 上线主流 Personal Agents 单独访问控制，并把 AI 爬虫设置更名为“AI 爬虫与 Agent 访问策略”",
+      "summary": "Cloudflare 11 月 4 日更新日志：站长可在 Security > Settings 中对主流个人 AI Agent 逐个设置放行或拦截，默认继承原有 Agents 策略，官方建议放行，便于用户借 Agent 用网站内容找答案、比商品；原 AI bot 策略同步更名。",
+      "insight": "把 Cloudflare 的 Agent 访问策略纳入站点体检，避免误挡替用户比价的个人 Agent。",
+      "published": "2026-11-04",
+      "links": [
+        {
+          "text": "Cloudflare Changelog：Granular access controls for the top Personal Agents",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-11-04-personal-agent-policies/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-04-05",
+      "category": "市场动态",
+      "region": "海外",
+      "title": "OpenAI 称 ChatGPT 联网搜索类查询约为 Google 搜索量的五分之一",
+      "summary": "ChatGPT 消费产品负责人 Adam Fry 在纽约活动上称，按“提问触发联网即一次搜索”口径，Google 搜索量约为 ChatGPT 的 5 倍；SEJ 对照 Ahrefs 10 月引荐数据（Google 24.74%、ChatGPT 0.36%），指出查询量与带来的流量是两回事。",
+      "insight": "用“查询量约五分之一、引荐流量不足 2%”对比，把客户 KPI 从流量转向答案内提及与引用。",
+      "published": "2026-11-03",
+      "links": [
+        {
+          "text": "Search Engine Journal：Google's Search Volume Is About 5x ChatGPT's, OpenAI Says",
+          "url": "https://www.searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 31,
+    "selected": 5,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.236,
+    "websearch_calls": 108,
+    "webfetch_calls": 43
+  }
+}
