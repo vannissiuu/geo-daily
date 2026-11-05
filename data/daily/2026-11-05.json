@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-05",
+  "status": "normal",
+  "highlights": [
+    "Google 继续在 AI Mode 里加码商业化：单次回答广告位最多到 4 条，家政服务也可在回答中直接预约报价，方案商需同时监测付费位挤压与合作平台接入带来的本地商家曝光。",
+    "国内 AI 答案的信源门槛与舆论压力同步上升：腾讯拟推强化权威信源排序的 C 端 AI 搜索，财新封面把黑帽 GEO 定性为不正当竞争，双11 AI 导购又被实测推荐偏差，合规信源建设与推荐偏差监测应成为方案商卖点。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-05-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "Google AI Mode 单次回答最多可展示 4 条广告，追问轮次广告也将在美国上线",
+      "summary": "SER 11 月 4 日报道，有截图显示 Google AI Mode 单个查询回答中已出现 4 条广告，此前通常 1–2 条、偶见 3 条；Google 在财报会上称将在 AI Mode 中更多、更频繁地展示广告，美国还将推出追问轮次广告。",
+      "insight": "AI Mode 广告位增至 4 条会下压自然引用，监测中应同时记录广告条数与自然引用位次，向客户给出付费加自然的组合。",
+      "published": "2026-11-04",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-mode-four-ads-42443.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-05-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "购物与交易",
+      "region": "海外",
+      "title": "Google AI Mode 上线家政服务预约与报价链接，经 Angi、Thumbtack、Jobber、Housecall Pro 接入商家",
+      "summary": "Google 搜索副总裁 Robby Stein 11 月 4 日宣布，美国用户可在 AI Mode 回答中直接向家政服务商预约或请求报价，首批经 Angi、Thumbtack、Jobber、Housecall Pro 接入；Jobber 要求付费订阅并关联同址 Google 商家资料，不收线索费。",
+      "insight": "本地商家能否在 AI Mode 被直接预约取决于合作平台接入与商家资料，可把这两项做成本地客户的 AI 可见度交付项。",
+      "published": "2026-11-04",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-ai-mode-home-services-booking-quote-links/595871/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-05-03",
+      "category": "平台动态",
+      "platform": "元宝",
+      "platform_topic": "检索与收录",
+      "region": "国内",
+      "title": "消息称腾讯将推 C 端 AI 搜索引擎，与元宝共享底层并强化权威信源排序",
+      "summary": "IT之家援引虎嗅消息，腾讯将推出面向 C 端的极简 AI 搜索引擎，融合 AI 问答与网页搜索并强化权威信源排序，与元宝 App 内置搜索及腾讯云“元宝搜索”API 共享底层能力；团队整合 QQ 浏览器、搜狗技术，腾讯官方暂未回应。",
+      "insight": "腾讯系搜索强化权威信源排序，应提前把客户内容铺到元宝已接入的权威信源，并把新引擎纳入元宝同一监测口径。",
+      "published": "2026-11-03",
+      "links": [
+        {
+          "text": "新浪科技（转 IT之家）",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncmx8638599.shtml"
+        },
+        {
+          "text": "凤凰网科技",
+          "url": "https://tech.ifeng.com/c/8xkptBSO4I2"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-05-04",
+      "category": "舆情",
+      "region": "国内",
+      "title": "《财新周刊》封面《规制向AI“投毒”》：以黑帽 GEO 案例拆解不正当竞争与行政处罚逻辑",
+      "summary": "《财新周刊》10 月 31 日刊发《规制向AI“投毒”》，梳理黑帽 GEO 不正当竞争：除央视 3·15 曝光案外，搜狐号虚假“测评”把某广州律所排第一、豆包回答复述该内容，越秀区市监局介入；文章还讨论行政处罚逻辑、白帽 GEO 规范与侵权救济。",
+      "insight": "财新把黑帽 GEO 定性为不正当竞争，可把信源真实性审查与禁用虚假测评写进服务合同，作为卖进合规 GEO 的依据。",
+      "published": "2026-10-31",
+      "links": [
+        {
+          "text": "财新周刊",
+          "url": "https://weekly.caixin.com/2026-10-31/102499328.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-05-05",
+      "category": "舆情",
+      "region": "国内",
+      "title": "双11 实测四家 AI 导购同一需求报价差超千元，调查称近四成用户认为 AI 优先推高价商品",
+      "summary": "虎嗅 11 月 1 日刊文，用同一 2500 元购物需求测试淘宝内嵌 AI、京东 AI 购、豆包与什么值得买，四方案报价 800–1900 元，最低价方案漏算跨店满减与国补；引上海消保委调查，84.56% 用户试过平台 AI 选购，38.79% 反馈 AI 优先推高价商品。",
+      "insight": "AI 导购推荐受平台激励影响，电商客户的可见度报告应区分站内 AI 与豆包等通用助手，并跟踪被推荐的价位带。",
+      "published": "2026-11-01",
+      "links": [
+        {
+          "text": "虎嗅",
+          "url": "https://www.huxiu.com/article/4902125.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 60,
+    "selected": 5,
+    "domestic_ratio": 0.6,
+    "domestic_ratio_30d": 0.2581,
+    "websearch_calls": 109,
+    "webfetch_calls": 38
+  }
+}
