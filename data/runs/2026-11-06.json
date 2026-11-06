@@ -1,0 +1,1669 @@
+{
+  "date": "2026-11-06",
+  "window": [
+    "2026-11-01",
+    "2026-11-06"
+  ],
+  "candidates": [
+    {
+      "title": "Apple Intelligence 国行版接入千问：Siri 与写作工具可调用千问，11 月 4 日开放开发者测试",
+      "url": "https://m.21jingji.com/article/20261103/herald/fd012e72cffa76a45bded374a618afeb.html",
+      "source": "21世纪经济报道",
+      "published": "2026-11-03",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-06-01",
+      "geo_relevance": "(a)：国行 Apple 智能的 Siri 与写作工具将调用千问作答，iPhone 系统级 AI 问答的取材与呈现由千问决定。",
+      "category_reason": "核心事实是被优化平台 Apple Intelligence 在中国市场改由千问提供 AI 回答能力，改变第三方内容经哪一模型被检索与呈现，按 03 1.4 第 1 条归平台动态，子标签检索与收录；合作背景不单列副类。",
+      "found_via": "巡检替代+A组线索（sina.cn 转载）→主会话搜索:Apple Intelligence 国行 千问 11月 测试"
+    },
+    {
+      "title": "温州市新闻传媒中心发布温州可信GEO体系，推出供 AI 读取的“智读稿”并联合 12 家县级融媒体",
+      "url": "https://news.hangzhou.com.cn/zjnews/content/2026-11/05/content_9367476.htm",
+      "source": "杭州网",
+      "published": "2026-11-05",
+      "region": "国内",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-06-02",
+      "geo_relevance": "(b)：地方党媒推出可信GEO体系与供 AI 读取的智读稿，属 GEO 服务/语料市场的新供给。",
+      "category_reason": "按 03 1.5「媒体/党媒推出 GEO 产品或语料平台」归新技术；现场多家政企与协会签约、联合 12 家县级融媒体为独立合作事实，副类市场动态。",
+      "found_via": "搜索:温州可信GEO（C、D组）",
+      "also_reported_by": [
+        "https://www.sohu.com/a/1097532422_115092",
+        "https://www.xinouzhou.com/wenzhang/186519-da-zao-quan-sheng-shou-ge-cheng-shi-shi-kong-ke-xin-nei-rong-shu-niu-wen-zhou-ke-xin-geo-ti-xi-jin-ri-fa-bu"
+      ]
+    },
+    {
+      "title": "900 次 ChatGPT 回答实测：负面措辞提示使品牌情感分下降约 56 分，同题五次运行仅 44% 结论一致（信源为企业发布稿）",
+      "url": "https://www.alfaweb.fr/prompts-negatifs-impact-x2-sentiment-marque-chatgpt/",
+      "source": "Alfaweb",
+      "published": "2026-11-04",
+      "region": "海外",
+      "category_guess": "行业方法论",
+      "soft_class": "B",
+      "decision": "selected",
+      "entry_id": "2026-11-06-03",
+      "geo_relevance": "(a)(b)：实测显示提示措辞与品牌顺序显著改变 ChatGPT 回答中品牌的情感呈现，直接关系 AI 可见度的测量方法。",
+      "category_reason": "核心事实是有样本量（180 题×3 语气×5 次）与可复核数字的实测，按 03 1.5「有方法、样本与可复核数据的研究」归行业方法论；原研究刊于禁采域名，主链接为代理商博客转述，按 B 类标注。",
+      "found_via": "巡检:SER recap 11-05 线索→主会话搜索:negative prompts 2x impact ChatGPT brand sentiment"
+    },
+    {
+      "title": "Meta 的 Facebook Answers 约 600 万个 AI 生成页面被 Google 收录，同时出现在 AI Overviews 与 AI Mode，被指规模化内容滥用",
+      "url": "https://www.seroundtable.com/facebook-answers-google-42467.html",
+      "source": "Search Engine Roundtable",
+      "published": "2026-11-05",
+      "region": "海外",
+      "category_guess": "舆情",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-06-04",
+      "geo_relevance": "(a)(c)：Meta 批量 AI 生成页被 Google 收录并在 AI Overviews 与 AI Mode 中排名，影响 AI 答案选中哪些第三方内容，涉及规模化内容滥用。",
+      "category_reason": "核心是业内指其构成规模化内容滥用的争议，按 03 1.5「以研究数据为论据的评论、质疑、争议」归舆情；未有 Google 官方动作，不填平台动态副类。",
+      "found_via": "巡检:https://www.seroundtable.com/（站点搜索→recap 11-05）"
+    },
+    {
+      "title": "OpenAI 调整 ChatGPT 广告出价：11 月 9 日起上线目标 CPA/CPC，最高出价模式 2027 年 1 月 1 日退役",
+      "url": "https://www.seroundtable.com/openai-updates-chatgpt-ads-bidding-options-42470.html",
+      "source": "Search Engine Roundtable",
+      "published": "2026-11-05",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-06-05",
+      "geo_relevance": "(c)：ChatGPT 回答中的广告竞价机制改为目标出价，影响付费内容在 AI 回答中的投放与呈现。",
+      "category_reason": "主语是被优化平台 OpenAI，变更其 AI 回答内广告的商业化规则，按 03 1.4 第 1 条归平台动态，platform 归并为 ChatGPT，子标签广告与商业化。",
+      "found_via": "巡检:https://www.seroundtable.com/（站点搜索）"
+    },
+    {
+      "title": "Profound Launches Ads Studio for AI Search Advertising",
+      "url": "https://www.contentgrip.com/profound-ads-studio/",
+      "source": "",
+      "published": "2026-07-08",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "C组搜索；主会话打开 ContentGrip 页标注 2026-07-08（eMarketer、MarTech Vibe 为同一发布）"
+    },
+    {
+      "title": "BrightEdge：Google AI Overviews 批评品牌概率比 ChatGPT 高 44%",
+      "url": "https://www.brightedge.com/news/press-releases/brightedge-data-google-ai-overviews-more-likely-to-criticize-brands-than-chatgpt",
+      "source": "",
+      "published": "2026-03-05",
+      "region": "海外",
+      "category_guess": "行业方法论",
+      "soft_class": "B",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "D组搜索；主会话打开核验为 2026-03-05 新闻稿"
+    },
+    {
+      "title": "Anthropic 与美联社达成首个内容授权协议（选举报道）",
+      "url": "https://www.seroundtable.com/recap-11-05-2026-42466.html",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "无独立链接",
+      "found_via": "巡检:SER recap 11-05",
+      "note": "A/B组与主会话共 3 次搜索未找到 AdWeek 原文或独立报道；recap 为聚合页不可作信源"
+    },
+    {
+      "title": "Google 在加拿大上线 AI 购物与通用购物车（CBC）",
+      "url": "https://www.seroundtable.com/recap-11-05-2026-42466.html",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "无独立链接",
+      "found_via": "巡检:SER recap 11-05",
+      "note": "主会话搜索只返回 2026-05 Universal Cart 旧闻，未找到 CBC 原文"
+    },
+    {
+      "title": "Bing 购物广告上方新增标题 / AI Mode 商品 feed 广告创意",
+      "url": "https://www.seroundtable.com/recap-11-05-2026-42466.html",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "无独立链接",
+      "found_via": "巡检:SER recap 11-05",
+      "note": "前者原文在 Search Engine Watch（历史上需授权），后者原文在禁采域名；均未换到独立源"
+    },
+    {
+      "title": "Google AI Mode gains a fourth ad slot below some answers",
+      "url": "https://ppc.land/google-ai-mode-gains-a-fourth-ad-slot-below-some-answers/",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "巡检:ppc.land 站点搜索",
+      "note": "同 2026-11-05-01 事件"
+    },
+    {
+      "title": "Google AI Mode 家政服务预约（SER 版）",
+      "url": "https://www.seroundtable.com/google-ai-mode-home-services-booking-42459.html",
+      "source": "",
+      "published": "2026-11-04",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "巡检:SER recap 11-05"
+    },
+    {
+      "title": "Google Q3 财报会：搜索与 AI 正合并为统一产品",
+      "url": "https://www.searchenginejournal.com/googles-q3-2026-earnings-call-search-ai-are-merging-into-one-unified-product/595484/",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "A组搜索",
+      "note": "Alphabet Q3 财报会在 10 月下旬，无新机制变更"
+    },
+    {
+      "title": "GEORBITAI 西语 GEO 代理宣传稿",
+      "url": "https://www.einpresswire.com/article/954812826/georbitai-la-agencia-geo-de-seo-soluciones-espa-a-ayuda-a-las-empresas-a-aparecer-en-chatgpt-y-otras-ia",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "巡检:EIN Presswire 站点搜索",
+      "note": "摘要显示为代理商自我介绍，未打开，低价值"
+    },
+    {
+      "title": "F&N Group 选定 Addlly AI 为 GEO 合作伙伴",
+      "url": "https://www.einpresswire.com/article/949818562/f-n-group-selects-addlly-ai-as-generative-engine-optimization-partner",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "C组搜索",
+      "note": "文章 ID 949818xxx 早于 10-21 的 950668683，按 EIN 编号推断在 10 月中旬前"
+    },
+    {
+      "title": "geoSurge 1200 万美元种子轮",
+      "url": "https://eu.36kr.com/en/newsflashes/3883918767665408",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "C组搜索",
+      "note": "11-05 运行已以日期无法确认/旧闻落选，无新进展"
+    },
+    {
+      "title": "Featured GEO Audit / AirOps Quill / Informa TechTarget / Mod Op / DISQO / AppTweak / Eskimoz 产品稿",
+      "url": "https://martechvibe.com/article/featured-launches-geo-audit-to-track-brand-visibility-in-ai-search/",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "C组搜索（MarTech Vibe/MarTechCube 站点搜索）",
+      "note": "搜索结果无日期，名额已满且价值较低，未逐一打开"
+    },
+    {
+      "title": "Apple Intelligence 接入千问（sina.cn 微博转载）",
+      "url": "https://www.sina.cn/weibo/detail/5360077235816493.html",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "其他",
+      "found_via": "A组搜索",
+      "note": "同事件，已换用 21世纪经济报道为主链接"
+    },
+    {
+      "title": "ITBear 2026 中国 GEO 服务商选型白皮书（11月更新版）",
+      "url": "https://www.itbear.com.cn/html/2026-11/1581169.html",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "长青文",
+      "found_via": "B组/主会话搜索",
+      "note": "选型榜单类，无具体事件"
+    },
+    {
+      "title": "IT之家 2026年11月 GEO 服务商 TOP10 / 选型指南",
+      "url": "https://www.ithome.com/1/021/050.htm",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "长青文",
+      "found_via": "巡检:IT之家 站点搜索"
+    },
+    {
+      "title": "深圳 GEO 服务商给 AI 植入广告被罚 5 万元",
+      "url": "https://finance.sina.com.cn/roll/2026-10-10/doc-iniutcvq0652329.shtml",
+      "source": "",
+      "published": "2026-10-10",
+      "region": "国内",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "主会话搜索"
+    },
+    {
+      "title": "市场监管总局公布五起人工智能领域不正当竞争典型案例",
+      "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "巡检:samr 站点搜索",
+      "note": "未在窗口内找到对应日期报道，疑为旧文"
+    },
+    {
+      "title": "Google AI Mode 接入家政服务预约（SER 版）",
+      "url": "https://www.seroundtable.com/google-ai-mode-home-services-booking-42459.html",
+      "source": "",
+      "published": "2026-11-04",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:巡检线索:seroundtable.com"
+    },
+    {
+      "title": "Google AI Mode 增加第四个广告位（ppc.land）",
+      "url": "https://ppc.land/google-ai-mode-gains-a-fourth-ad-slot-below-some-answers/",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:巡检线索:ppc.land（与 11-05 已收‘AI Mode 最多 4 条广告’同一事件）"
+    },
+    {
+      "title": "Bing 在 Copilot 驱动的 AI Overviews 中展示广告（SER）",
+      "url": "https://seroundtable.com/bing-ads-copilot-ai-overviews-42416.html",
+      "source": "",
+      "published": "2026-11-02",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:Bing Copilot new heading above Shopping ads"
+    },
+    {
+      "title": "Semrush 11月9日起停止追踪 Copilot（ppc.land）",
+      "url": "https://ppc.land/semrush-drops-copilot-from-ai-visibility-tracking-on-november-9/",
+      "source": "",
+      "published": "2026-10-30",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:ChatGPT OR Gemini ... (ppc.land)"
+    },
+    {
+      "title": "OpenAI 称 ChatGPT 搜索量约为 Google 的 20%（SER）",
+      "url": "https://www.seroundtable.com/chatgpt-20-percent-google-42451.html",
+      "source": "",
+      "published": "2026-11-04",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:Search Engine Roundtable recap Nov 6"
+    },
+    {
+      "title": "Reddit 将测试仅登录可见（SEJ）",
+      "url": "https://searchenginejournal.com/reddit-to-test-login-only-mode-as-google-search-traffic-drops/595270",
+      "source": "",
+      "published": "2026-11-02",
+      "region": "海外",
+      "category_guess": "舆情",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:SEJ 限定"
+    },
+    {
+      "title": "消息称腾讯将推 C 端 AI 搜索引擎（新浪科技/凤凰网）",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncmx8638599.shtml",
+      "source": "",
+      "published": "2026-11-03",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:元宝 腾讯 AI搜索（历史 11-05 已收）"
+    },
+    {
+      "title": "AI的双11迷局：商家忙买单，用户只薅羊毛（界面新闻）",
+      "url": "https://www.jiemian.com/article/15238641.html",
+      "source": "",
+      "published": "2026-10-26 前后",
+      "region": "国内",
+      "category_guess": "舆情",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "A组:搜索:豆包 商品卡...（新浪转载稿日期 10-26；界面原稿日期未核）"
+    },
+    {
+      "title": "豆包双11嵌入抖音直播间并主动发券（虎嗅）",
+      "url": "https://www.huxiu.com/article/4899270.html",
+      "source": "",
+      "published": "2026-10-22 前后",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "A组:搜索:豆包 商品卡...（历史 10-22 已收同一事件）"
+    },
+    {
+      "title": "千问与淘宝全面打通 AI购物（2026-05-11）",
+      "url": "https://www.stcn.com/article/detail/3902689.html",
+      "source": "",
+      "published": "2026-05-11",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "A组:搜索:千问 夸克 AI搜索 淘宝 购物"
+    },
+    {
+      "title": "AI给商家当“生意参谋”，“豆包工作”能力升级（21财经）",
+      "url": "https://m.21jingji.com/article/20261105/herald/dc8f1fea81d342c838ed20766b2e36ff.html",
+      "source": "",
+      "published": "2026-11-05",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "与GEO无关",
+      "found_via": "A组:搜索:豆包 OR 元宝 ...（仅据标题判为商家经营工具，非第三方内容引用/呈现；建议主会话快速确认）"
+    },
+    {
+      "title": "Google Universal Cart 发布（5月）",
+      "url": "https://thenextweb.com/news/google-universal-cart-agent-payments-shopping-io-2026",
+      "source": "",
+      "published": "2026-05",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "A组:搜索:Google launches AI shopping Canada universal checkout cart"
+    },
+    {
+      "title": "深圳一 GEO 服务商因给 AI 植入广告涉虚假宣传被罚 5 万元（多家转载）",
+      "url": "https://finance.sina.com.cn/stock/t/2026-10-10/doc-iniutqmm7397279.shtml",
+      "source": "",
+      "published": "2026-10-10",
+      "region": "国内",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "B组:搜索:GEO 服务商 罚款 OR 处罚 虚假宣传 11月（同时已在历史 2026-10-12-01 收录）"
+    },
+    {
+      "title": "中国广告协会 GEO 三项团体标准（10-14 发布，10-23 实施）",
+      "url": "https://www.china-caa.org/cnaa/newsdetail/1331",
+      "source": "",
+      "published": "2026-10-14",
+      "region": "国内",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "B组:搜索:信通院 OR 中国广告协会 生成式引擎优化 标准 OR 测评 OR 倡议 11月"
+    },
+    {
+      "title": "《财新周刊》封面《规制向AI投毒》",
+      "url": "https://weekly.caixin.com/2026-10-31/102499328.html",
+      "source": "",
+      "published": "2026-10-31",
+      "region": "国内",
+      "category_guess": "舆情",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "B组:巡检线索 + 搜索:财新周刊 规制向AI投毒 GEO 黑帽（dedup 已含；刊期 10-31 页面日期亦在窗口前，需注意）"
+    },
+    {
+      "title": "法国五大出版商团体就 Google AI Overviews/AI Mode 向欧盟委员会投诉",
+      "url": "https://ppc.land/google-faces-eu-complaint-from-five-french-publisher-groups-over-ai-overviews/",
+      "source": "",
+      "published": "2026-11-03",
+      "region": "海外",
+      "category_guess": "舆情",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "B组:搜索:Google AI Overviews publishers complaint European Commission OR CMA November 2026"
+    },
+    {
+      "title": "European Publishers Council 就 AI Overviews/AI Mode 向欧盟正式提起反垄断投诉",
+      "url": "https://www.epceurope.eu/post/european-publishers-council-files-formal-antitrust-complaint-against-google-over-ai-overviews-and-ai",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "B组:搜索:Google AI Overviews OR AI Mode publishers traffic lawsuit... （可能为较早事件，或与 11-03 法国出版商投诉同一事件脉络；摘要无日期）"
+    },
+    {
+      "title": "Anthropic 与 AP 首个授权协议（选举报道）",
+      "url": "",
+      "source": "",
+      "published": "2026-11-05",
+      "region": "海外",
+      "category_guess": "行业政策",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "无独立链接",
+      "found_via": "B组:巡检线索:SER recap 11-05（AdWeek 报道）；搜索 2 次均未返回 AdWeek 或 AP 原文，仅返回无关旧文。若协议约定 Claude 回答中的引用/展示方式则属 (a)，需主会话打开 SER recap 页追 AdWeek 链接"
+    },
+    {
+      "title": "负面提示词对 ChatGPT 品牌情感影响是中性提示的 2 倍（SEL 报道）",
+      "url": "",
+      "source": "",
+      "published": "2026-11-05",
+      "region": "海外",
+      "category_guess": "行业方法论",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "禁采域名",
+      "found_via": "B组:巡检线索:SER recap 11-05（原报道在 searchengineland.com）；搜索换源见 source_swaps，未找到窗口内独立源"
+    },
+    {
+      "title": "Google AI Mode 单次回答最多展示 4 条广告 / 家政预约 / OpenAI ChatGPT 广告竞价选项 / Meta 与英国 CMA 立案 / Reddit 登录可见 / NYT 起诉 Brave 等（巡检线索与历史）",
+      "url": "https://www.seroundtable.com/openai-updates-chatgpt-ads-bidding-options-42470.html",
+      "source": "",
+      "published": "2026-11-05",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "其他",
+      "found_via": "B组:巡检线索（A 组范围或已在 dedup 中；其中 ChatGPT 广告竞价选项 42470 未见于 dedup，属 A 组平台动态，交主会话归并，非本组）"
+    },
+    {
+      "title": "2026 中国生成式引擎优化（GEO）行业研究与服务商选型白皮书（11月更新版）",
+      "url": "https://www.itbear.com.cn/html/2026-11/1581169.html",
+      "source": "",
+      "published": "2026-11",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "长青文",
+      "found_via": "B组:搜索:信通院 OR 中国广告协会 生成式引擎优化 标准 OR 测评 OR 倡议 11月（疑似服务商选型榜单类，仅月份无具体日期，未读正文，不据此定级，主会话如需可打开复核）"
+    },
+    {
+      "title": "双11问豆包上线：AI推荐挂券挂链接，成交才收佣金",
+      "url": "https://post.smzdm.com/p/a5rxx407/",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "B组:搜索:双11 AI导购 豆包 千问 元宝 推荐 争议；事件疑似 10-20 前后（历史已含豆包双11 条目 2026-10-22），属 A 组平台范围，仅留痕"
+    },
+    {
+      "title": "Cloudflare 上线主流 Personal Agents 单独访问策略",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-04-personal-agent-policies/",
+      "source": "",
+      "published": "2026-11-04",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "C组:搜索:Cloudflare changelog ... (历史 2026-11-04-04 已收录)"
+    },
+    {
+      "title": "Profound 完成1.8亿美元D轮（估值18亿）",
+      "url": "https://pulse2.com/profound-raises-180-million-series-d-at-1-8-billion-valuation-to-build-ai-platform-for-marketing-teams/",
+      "source": "",
+      "published": "未知(salestools URL含september-2026，疑似9月)",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "C组:搜索:Profound raises $180M Series D；多源均无日期，疑似超窗，需主会话确认是否真超窗（高价值，建议打开核验）"
+    },
+    {
+      "title": "Akamai 推出 AI Brand Presence",
+      "url": "https://martechvibe.com/article/akamai-launches-ai-brand-presence-to-boost-visibility-in-ai-search",
+      "source": "",
+      "published": "2026-07-21(mfn.se标注)",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "C组:搜索:Akamai AI Brand Presence"
+    },
+    {
+      "title": "九号公司2025年短交通产品GEO年框供应商招标公告",
+      "url": "https://www.segway.com/content/dam/segway-ninebot/%E6%8B%9B%E6%A0%87%E9%99%84%E4%BB%B6/%E3%80%90%E5%85%AC%E5%91%8A%E3%80%91%E4%B9%9D%E5%8F%B7%E5%85%AC%E5%8F%B82025%E5%B9%B4%E7%9F%AD%E4%BA%A4%E9%80%9A%E4%BA%A7%E5%93%81GEO%E7%94%9F%E6%88%90%E5%BC%8F%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96%E6%9C%8D%E5%8A%A1%E4%BE%9B%E5%BA%94%E5%95%86%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A0923.pdf",
+      "source": "",
+      "published": "2025(文件名0923)",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "C组:搜索:GEO 采购 招标 11月"
+    },
+    {
+      "title": "Brandlight 3000万美元A轮 / genflux 4200万美元种子轮 / Searchable 1400万美元 / The Prompting Company 650万美元种子",
+      "url": "https://techintelpro.com/news/marketing/ai/brandlight-raises-30m-series-a-for-ai-visibility-platform",
+      "source": "",
+      "published": "未知",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "日期无法确认",
+      "found_via": "C组:搜索:raises seed OR Series A AI search；均无日期，大概率早期旧闻（Prompting Company 页标8月11日）"
+    },
+    {
+      "title": "ReFiBuy / Nudge / Spangle / Envive 等 agentic commerce 融资",
+      "url": "https://retailtechinnovationhub.com/home/2026/5/5/agentic-commerce-specialist-refibuy-raises-136-million-seed-round-led-by-newroad-capital-partners",
+      "source": "",
+      "published": "2026-05-05等",
+      "region": "海外",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "C组:搜索:raises agentic commerce"
+    },
+    {
+      "title": "多篇 GEO 服务商榜单/选型指南（IT之家、搜狐、cnblogs 等）",
+      "url": "https://www.ithome.com/1/019/341.htm",
+      "source": "",
+      "published": "2026-11(标题)",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "矩阵",
+      "decision": "rejected",
+      "reject_reason": "A类软文",
+      "found_via": "C组:搜索:GEO 采购 招标 11月；榜单软文，非采购事件"
+    },
+    {
+      "title": "蒙牛采招公告（数字媒体购买/数字化运营等，非GEO）",
+      "url": "https://www.mengniu.com.cn/contact/detail/21422.html",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "文不对题",
+      "found_via": "C组:搜索:蒙牛 GEO 采购；结果均为非GEO采招项目，未发现11月GEO采购公告"
+    },
+    {
+      "title": "极新月报：2026年10月人工智能领域投融资（泛AI融资）",
+      "url": "https://www.163.com/dy/article/LAJP62VK05562DGT.html&gsessionid=wt5OBKZNFALVDgkCZSc_76SwS1-22XkSWBXg3-lFhCIQgK0Y3CfqBA",
+      "source": "",
+      "published": "2026-11",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "与GEO无关",
+      "found_via": "C组:搜索:种子轮 OR 天使轮 GEO；泛AI融资，不满足0A"
+    },
+    {
+      "title": "QuestMobile 2026秋季榜单：千问增速夺冠，豆包稳居AI榜首",
+      "url": "https://news.qq.com/rain/a/20261103A04S8B00",
+      "source": "",
+      "published": "2026-11-03",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "禁采域名",
+      "found_via": "D组:搜索:信通院 OR 中广协 OR 新榜 OR 艾瑞 OR QuestMobile GEO 报告 发布 11月（且为AI App用户榜单，与GEO关联弱）"
+    },
+    {
+      "title": "豆包工作首次接入第三方模型，首批上线Kimi、智谱与DeepSeek",
+      "url": "https://www.chinaz.com/ainews/32104.shtml",
+      "source": "",
+      "published": "未知",
+      "region": "国内",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "与GEO无关",
+      "found_via": "D组:搜索:豆包 元宝 千问 DeepSeek Kimi AI搜索 更新 引用 信源 11月3日 OR 11月4日 OR 11月5日"
+    },
+    {
+      "title": "各类《2026年11月GEO服务商榜单/选型白皮书》(凤凰网、ITBear、天极网等)",
+      "url": "https://tech.ifeng.com/c/8xmIjwfsXdy",
+      "source": "",
+      "published": "2026-11(月度)",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "A",
+      "decision": "rejected",
+      "reject_reason": "A类软文",
+      "found_via": "D组:搜索:GEO 服务商 发布 产品 11月3日 OR 11月4日 OR 11月5日"
+    },
+    {
+      "title": "湖南日报智眸可信GEO正式发布(系列稿)",
+      "url": "https://hunan.voc.com.cn/news/202610/33965933.html",
+      "source": "",
+      "published": "2026-10",
+      "region": "国内",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "重复(历史)",
+      "found_via": "D组:搜索:可信GEO 发布 上线 11月4日 OR 11月5日 党媒 OR 报社"
+    },
+    {
+      "title": "新华GEO智能体平台发布会(新华网客户端)",
+      "url": "https://app.xinhuanet.com/news/article.html?articleId=20260510bbe1c58d1a1c407abf806e20f1c38985",
+      "source": "",
+      "published": "2026-05-10",
+      "region": "国内",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "D组:搜索:新华网 OR 人民政协网 OR 华声在线 OR 工经智媒 可信GEO 11月"
+    }
+  ],
+  "source_swaps": [
+    {
+      "candidate": "Anthropic-AP 授权协议",
+      "query": "Anthropic first licensing deal Associated Press AdWeek",
+      "result": "失败（仅得 AdWeek 旧稿，未找到协议原文）"
+    },
+    {
+      "candidate": "Google 加拿大 AI 购物",
+      "query": "Google AI shopping Canada launch universal cart CBC November 2026",
+      "result": "失败（只有 5 月旧稿）"
+    },
+    {
+      "candidate": "Bing 购物广告新标题 / AI Mode 商品 feed 新广告创意",
+      "query": "product feeds new ad creative Google AI Mode Shopping ads Bing heading",
+      "result": "失败（未找到独立文章）"
+    },
+    {
+      "candidate": "负面提示词使 ChatGPT 品牌情感影响翻倍（SEL）",
+      "query": "negative prompts double impact ChatGPT brand sentiment study",
+      "result": "失败：仅返回 IT Brief/CMOtech 的 'Google AI more negative than ChatGPT for brand reputation'（无日期，疑为 3 月旧文）、BrightEdge PDF（2-16-26）与 arXiv 旧文，均不在窗口"
+    },
+    {
+      "candidate": "Anthropic–AP 授权协议",
+      "query": "Anthropic Associated Press licensing agreement Claude news",
+      "result": "失败：返回的全是 2025 年版权和解旧文，无 AP 协议原文"
+    },
+    {
+      "candidate": "Facebook Answers 600 万 AI 页面 / Google scaled content abuse",
+      "query": "Facebook Answers AI-generated 6 million pages Google scaled content abuse",
+      "result": "未换到独立源（返回通用 scaled content abuse 介绍），故沿用巡检线索 seroundtable 链接"
+    },
+    {
+      "candidate": "Profound Ads Studio / MarTech Vibe 各企业稿",
+      "query": "Profound Ads Studio AI search advertising launch",
+      "result": "换到 eMarketer https://www.emarketer.com/content/ai-search-advertising-gets-early-measurement-framework-with-profound 与 ContentGrip https://www.contentgrip.com/profound-ads-studio/ （仅限Profound；其余未换源，需主会话处理）"
+    },
+    {
+      "candidate": "2x negative prompts ChatGPT brand sentiment (SEL, 禁采)",
+      "query": "negative prompts ChatGPT brand sentiment study 2x impact",
+      "result": "未换到确认同一研究的独立源；仅得MediaPost/BrightEdge相近主题稿，见候选note"
+    },
+    {
+      "candidate": "负面提示词对 ChatGPT 品牌情感影响（原文 SEL 禁采）",
+      "query": "negative prompts 2x impact ChatGPT brand sentiment study（屏蔽 searchengineland.com）",
+      "result": "https://www.alfaweb.fr/prompts-negatifs-impact-x2-sentiment-marque-chatgpt/"
+    },
+    {
+      "candidate": "Anthropic×AP 授权协议",
+      "query": "Anthropic Associated Press licensing deal election coverage Claude",
+      "result": "失败"
+    },
+    {
+      "candidate": "Google 加拿大 AI 购物通用购物车",
+      "query": "Google AI shopping Canada universal cart launch",
+      "result": "失败（仅返回 5 月旧闻）"
+    },
+    {
+      "candidate": "Apple Intelligence 接入千问（sina.cn 转载）",
+      "query": "Apple Intelligence 国行 千问 11月 测试 AI 搜索",
+      "result": "https://m.21jingji.com/article/20261103/herald/fd012e72cffa76a45bded374a618afeb.html"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "豆包 商品卡 OR 联网搜索 OR 引用 更新 11月 双11 AI导购",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "元宝 腾讯 AI搜索 引用 权威信源 上线 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "千问 夸克 AI搜索 淘宝 购物 引用 上线 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "百度 AI搜索 文心 权威溯源 收录 信源 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "ChatGPT ads shopping search citations change November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Google AI Mode shopping ads sources new feature rollout November 5 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Google launches AI shopping Canada universal checkout cart AI Mode",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Bing Copilot new heading above Shopping ads OR sponsored AI Overviews November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "Perplexity announces shopping OR publishers OR citations OR Comet November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Anthropic Associated Press licensing deal Claude election coverage citations",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Meta AI Muse shopping agent merchants November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "DeepSeek OR Kimi OR 秘塔 OR 360纳米搜索 联网搜索 更新 引用 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "Search Engine Roundtable recap November 6 2026 AI Mode ChatGPT (allowed seroundtable.com)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "ChatGPT OR Gemini OR Perplexity OR Copilot ads AI search November 2026 (allowed ppc.land)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "Google AI Mode OR AI Overviews OR Gemini citations publishers news November 5 2026 (allowed searchenginejournal.com)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "豆包 OR 元宝 OR 千问 OR 夸克 AI 11月5日 OR 11月4日 OR 11月6日 搜索 广告 商品 上线",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "Google Googlebot OR Google-Extended OR robots.txt crawler documentation change November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Google AI shopping Canada launch universal cart CBC November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "product feeds new ad creative Google AI Mode Shopping ads Bing heading",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Anthropic first licensing deal Associated Press AdWeek",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "GEO 服务商 罚款 OR 处罚 虚假宣传 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "给AI植入广告 OR AI投毒 监管 OR 执法 通报 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "网信办 清朗 AI 投毒 生成式人工智能 通报 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "AI 回答 植入广告 OR 软广 争议 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "GEO 乱象 OR 黑产 OR 骗局 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "GEO 11月3日 OR 11月4日 OR 11月5日 市场监管 AI搜索 投毒 通报",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "财新周刊 规制向AI投毒 GEO 黑帽",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "双11 AI导购 豆包 千问 元宝 推荐 争议 11月5日 OR 11月6日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "评论 GEO 可信 治理 市场监管局 处罚 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "信通院 OR 中国广告协会 生成式引擎优化 标准 OR 测评 OR 倡议 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "Google AI Overviews publishers complaint European Commission OR CMA November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "chatbot ads sponsored answers backlash regulators FTC OR EU November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "AI chatbot brand recommendations manipulated prompt injection study November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Google spam policy update scaled content abuse AI November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Anthropic AP licensing deal election coverage Claude citations",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Facebook Answers AI-generated 6 million pages Google scaled content abuse",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "negative prompts double impact ChatGPT brand sentiment study",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Anthropic Associated Press licensing agreement Claude news",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Google AI Overviews OR AI Mode publishers traffic lawsuit OR complaint OR regulator November 4-6 2026",
+      "mode": "extended",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "AI 搜索 推荐 品牌 误导 OR 投毒 OR 虚假信息 曝光 11月2日-5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "种子轮 OR 天使轮 OR A轮 GEO … 11月3日-5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "融资 AI可见度 OR 数字员工 … GEO 首次披露 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "eu.36kr.com/36kr/pedaily GEO 融资 首次披露 11月（站点限定）",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "seed round OR angel round GEO … (eu.36kr.com)",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "raises seed OR Series A AI search … November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "raises agentic commerce … November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "funding round GEO startup November 2026（techstartups等站点限定）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "GEO 服务 采购 招标 竞争性谈判 中标 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "蒙牛 OR 苏宁易购 GEO 采购 招标公告 2026年11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "RFP OR tender OR selects GEO/AEO agency November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Cloudflare changelog AI Crawl Control … November 2026（站点限定）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "martechvibe AI search visibility launches（站点限定 martechvibe/martechcube）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "einpresswire GEO announces launch November 2026（站点限定）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "Profound raises $180M Series D",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Profound Ads Studio",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "Akamai AI Brand Presence",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "GEO 产品发布 上线 智能体 监测 11月3-5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "可信GEO 发布 上线 报社 OR 党媒 11月 2026",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "Profound Series D date November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "温州可信GEO体系 发布 11月5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "study AI Mode citations sources brands percent prompts analyzed November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Perplexity OR Gemini OR Claude citations new research shows brands cited sources study Nov 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Ahrefs OR Semrush OR Similarweb OR BrightEdge new research AI search citations November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "ACCESS Newswire AI citation study November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "negative prompts ChatGPT brand sentiment study 2x impact",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1
+    },
+    {
+      "query": "AI citations study ChatGPT Gemini AI Overviews November 3/4/5 2026 analyzed",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Mueller OR Illyes OR Lily Ray OR Aleyda Solis AI search GEO llms.txt November 2026",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "AI citations research study brands ChatGPT Perplexity Gemini (allowed: SEJ, ppc.land, seroundtable)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "Practical Ecommerce studies reveal AI citation clues",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0
+    },
+    {
+      "query": "GEO 引用 来源 占比 实测 11月 豆包 元宝 DeepSeek 样本",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "可信GEO 发布 上线 11月4日 OR 11月5日 党媒 OR 报社",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "AI搜索 品牌 可见度 研究报告 发布 11月 GEO 白皮书 度量",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "豆包 元宝 千问 DeepSeek Kimi AI搜索 更新 引用 信源 11月3日 OR 11月4日 OR 11月5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "GEO 服务商 发布 产品 11月3日 OR 11月4日 OR 11月5日 2026 生成式引擎优化 上线",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "新华网 OR 人民政协网 OR 华声在线 OR 工经智媒 可信GEO 11月 发布 智能体",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "腾讯云开发者社区 OR 阿里云开发者社区 GEO 实测 引用率 样本 问题集 11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "百度AI搜索 OR 文心 OR 360纳米搜索 OR 秘塔 OR 抖音 AI搜索 更新 11月4日 OR 11月5日",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "温州可信GEO体系 发布 城市时空可信内容枢纽",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1
+    },
+    {
+      "query": "GEO 生成式引擎优化 11月5日 OR 11月4日 OR 11月3日 观点 评论 AI搜索 投毒 治理 规范",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "信通院 OR 中广协 OR 新榜 OR 艾瑞 OR QuestMobile GEO 报告 发布 11月 2026 AI搜索 引用",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0
+    },
+    {
+      "query": "Daily Search Forum Recap November 5 2026 (site:seroundtable.com)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "by": "main"
+    },
+    {
+      "query": "ppc.land AI Mode ChatGPT November 2026 (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Search Engine Journal news AI search November 5 2026 (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "ChatGPT release notes November 2026 (site:openai)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Cloudflare changelog November 2026 AI crawl agents (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "generative engine optimization November 2026 (site:einpresswire)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "AI search citations study November 2026 (site:SEJ)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Anthropic news November 2026 Claude (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "AI search visibility November 2026 (site:martechvibe/martechcube)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "GEO 生成式引擎优化 11月 (site:ithome)",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "界面新闻 AI搜索 豆包 元宝 千问 11月5日 (site:jiemian)",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "每日AI资讯 2026年11月5日 (site:ai-bot.cn)",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "网信办 生成式人工智能 2026年11月 (site:cac)",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "市场监管总局 人工智能 广告 2026年11月 (site:samr)",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Aleyda Solis AI search November 2026 (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "OpenAI news November 2026 ChatGPT search shopping publishers (site)",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Anthropic Associated Press licensing deal election coverage Claude",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "Google AI shopping Canada universal cart launch",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "negative prompts 2x impact ChatGPT brand sentiment study",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "by": "main"
+    },
+    {
+      "query": "Profound Ads Studio launch AI search ads",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "温州可信GEO体系 发布 城市时空可信内容枢纽",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1,
+      "by": "main"
+    },
+    {
+      "query": "Apple Intelligence 国行 千问 11月 测试 AI 搜索",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 1,
+      "by": "main"
+    },
+    {
+      "query": "豆包 OR 元宝 OR 千问 AI搜索 信源 引用 更新 11月4日 OR 11月5日 2026",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "GEO 生成式引擎优化 发布会 OR 签约 OR 融资 11月5日 2026",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    },
+    {
+      "query": "AI 投毒 GEO 处罚 OR 通报 2026年11月",
+      "mode": "extended",
+      "region": "国内",
+      "useful": 0,
+      "by": "main"
+    }
+  ],
+  "channel_log": [
+    {
+      "page": "https://www.seroundtable.com/",
+      "status": "需授权",
+      "hits": 4
+    },
+    {
+      "page": "https://ppc.land/",
+      "status": "需授权",
+      "hits": 1
+    },
+    {
+      "page": "https://www.searchenginejournal.com/category/news/",
+      "status": "需授权",
+      "hits": 1
+    },
+    {
+      "page": "https://www.searchenginejournal.com/category/digital/generative-ai/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://openai.com/news/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.anthropic.com/news",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://developers.cloudflare.com/changelog/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://martechvibe.com/tag/ai-search/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.einpresswire.com/search?query=generative+engine+optimization",
+      "status": "需授权",
+      "hits": 1
+    },
+    {
+      "page": "https://www.martechcube.com/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.aleydasolis.com/en/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.ithome.com/tag/geo/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.jiemian.com/lists/65.html",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://ai-bot.cn/daily-ai-news/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.cac.gov.cn/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.samr.gov.cn/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.seroundtable.com/recap-11-05-2026-42466.html",
+      "status": "可用",
+      "hits": 8
+    },
+    {
+      "page": "https://www.contentgrip.com/profound-ads-studio/",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://www.emarketer.com/content/ai-search-advertising-gets-early-measurement-framework-with-profound",
+      "status": "无日期",
+      "hits": 0
+    }
+  ],
+  "fetch_blocked": [
+    {
+      "url": "https://www.seroundtable.com/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://ppc.land/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.searchenginejournal.com/category/news/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.searchenginejournal.com/category/digital/generative-ai/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://openai.com/news/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://developers.cloudflare.com/changelog/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://martechvibe.com/tag/ai-search/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.einpresswire.com/search?query=generative+engine+optimization",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.martechcube.com/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.aleydasolis.com/en/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.ithome.com/tag/geo/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.jiemian.com/lists/65.html",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://ai-bot.cn/daily-ai-news/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.cac.gov.cn/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    },
+    {
+      "url": "https://www.samr.gov.cn/",
+      "by": "main",
+      "note": "PROVENANCE_REQUIRED（权限请求超时）；巡检页已跳过并以站点限定搜索替代"
+    }
+  ],
+  "cell_notes": {
+    "其他": "[D] 本组分类以外的发现：SER 11-05 recap提到Anthropic与AP首个授权协议(选举报道，AdWeek)，需判断是否涉及AI回答引用/展示(0A.3)，未搜；Google加拿大AI购物通用结账车、Meta Muse代理购物(Brainlabs)、Bing购物广告新标题、Google AI Mode产品feed广告创意均属A组平台动态线索，未在本组搜索。",
+    "其他发现": "[C] 无本组以外的新增发现；未做平台动态搜索（非本组范围）。",
+    "市场动态·国内": "[C] 融资专项国内5次（含站点限定）：未搜到窗口内GEO融资，仅命中旧闻（深度云海已在历史）；品牌方采购国内2次：未发现11月GEO采购公告，蒙牛采招页只命中非GEO项目；确实没有/可能没搜到。未做：智推时代、帷幄等逐个公司定向词。 | [D] 确实没找到窗口内新增(各类11月服务商榜单均为A类软文已剔除)；QuestMobile秋季榜单(11-03)与GEO关联弱且为qq rain/a禁采路径。",
+    "市场动态·海外": "[C] 融资专项海外3次+采购1次：命中geoSurge 1200万种子轮（日期未知）、Profound D轮（疑似9月，需确认）、Brandlight等均日期不明；品牌方采购仅F&N选定Addlly AI（日期存疑）。未做：逐个公司（Peec/Otterly/Athena/Azoma）定向词、pulse2站点限定。",
+    "平台动态·国内": "[main] 入选 Apple 智能国行接入千问（21财经）；豆包/元宝/千问 11-04/05 新机制主会话再搜 1 次无果，可能没搜到（App/公众号盲区） | [A] 可能没搜到。国内平台多经公众号/App发布，WebSearch 对豆包/元宝/千问/百度/DeepSeek/Kimi/360/秘塔/抖音 窗口内新动态召回很弱：仅得 Apple Intelligence 接入千问线索（日期存疑），腾讯 C 端 AI 搜索、元宝搜索开放、豆包双11 均已在历史。百度/文心、DeepSeek/Kimi/360/秘塔/抖音 本轮未搜到窗口内条目（百度、DeepSeek 等泛词仅返回旧文与 GEO 软文）。未执行：抖音 AI 搜索单独查询、豆包 火山引擎开发者文档、Kimi 单独查询。 | [D] 可能没搜到：豆包/元宝/千问/DeepSeek/Kimi/百度/360/秘塔/抖音在11-03至11-05仅搜到豆包工作接入第三方模型(与GEO无关)；历史已收录的腾讯C端AI搜索(11-05)等未重复列。公众号/App内发布存在盲区。",
+    "平台动态·海外": "[main] 入选 ChatGPT 广告出价变更（SER）；Anthropic×AP、Google 加拿大 AI 购物等 recap 线索无独立源 | [A] 找到 ChatGPT 广告出价选项更新（巡检线索）及来自 SER 11-05 recap 的 4 条线索（Google 加拿大 AI 购物、Bing 购物广告标题、AI Mode 商品 feed 广告创意、Anthropic-AP 授权），均需主会话打开 recap 页取原文。Perplexity、Meta Muse、Apple、Google 爬虫/robots 文档 窗口内未搜到新事件（可能没搜到；Google 抓取文档变更日志搜索只返回日志页本身，无法判日期，需主会话打开）。多数海外窗口内事件（AI Mode 4 条广告、Copilot 广告、Gemini UTM、AIO 品牌右栏等）已在历史。SER 11-04/11-05 recap 与 11月 Google Webmaster Report（https://www.seroundtable.com/november-2026-google-webmaster-report-42431.html）为主会话可打开的补盲入口。",
+    "新技术·国内": "[main] 入选温州可信GEO体系（杭州网） | [C] 仅找到温州可信GEO体系（11-05）；党媒可信GEO类以外未搜到新品；搜索引擎对日期不敏感，可能没搜到。未执行：行业媒体GEO解决方案/语料库专项、GEO监测系统发布会词、MCP/llms.txt低频词。 | [D] 找到1条：温州可信GEO体系(11-05)；湖南日报智眸/新华GEO/北京日报等均为历史已收录或超窗。工经智媒与人民政协网无新窗口内动态(可能没搜到)。",
+    "新技术·海外": "[C] Cloudflare 11-04 Personal Agents 已在历史；MarTech Vibe/MarTechCube/EIN 多条产品稿均无日期（需主会话打开核验）；WordPress/Semrush/Ahrefs/Yoast 等定向词及agentic commerce launch词未执行（预算用尽）。",
+    "舆情·国内": "[B] 可能没搜到：财新周刊《规制向AI投毒》（页面刊期 10-31，已 dedup）、双11 AI 导购报价差（虎嗅，已 dedup）均已收录；其余搜索只返回 3-4 月 315 投毒曝光旧文，窗口内新增为零。IT之家 GEO 标签页未能搜到窗口内条目。 | [D] 可能没搜到：11-05财新《规制向AI投毒》与双11 AI导购实测已在历史收录；窗口内无新增发现。",
+    "舆情·海外": "[main] 入选 Facebook Answers 600 万 AI 页被收录争议（SER） | [B] 新增仅 1 条：Facebook Answers 600 万 AI 页面与 Google 垃圾政策（SER 11-05，需核验相关性）。Reddit CEO 批评 AI Mode、NYT 起诉 Brave、法国出版商投诉均已在 dedup。SEL 的负面提示词研究为禁采域名，换源失败。prompt-injection 操纵品牌推荐的搜索只返回旧研究（Microsoft 'Summarize with AI'、arXiv），无窗口内新稿。",
+    "行业政策·国内": "[main] 网信办、市监总局站点搜索与投毒处罚搜索均只返回旧文，确实没有或可能没搜到；全部巡检页需授权，已以站点搜索替代 | [B] 可能没搜到：搜索引擎对 11 月内容索引滞后，返回的全是 10-10 深圳罚款（已收录）与 10-14 中广协标准（超窗）。网信办清朗 AI 专项仅返回 4-5 月、9-2 旧文，窗口内无新通报。巡检页 cac.gov.cn / samr.gov.cn 被拦，未做站点限定搜索（预算用尽）。 | [D] 本组未专搜，仅顺带搜索未发现新处罚/标准。",
+    "行业政策·海外": "[B] 窗口内线索 英国 CMA 立案 Meta 商业条款（11-03）、法国出版商向欧盟投诉（11-03）均已在 dedup。Anthropic–AP 授权协议（11-05，来自 SER recap）未换到独立源，交主会话追 AdWeek。FTC/EU 披露类搜索只返回旧文，确实没搜到窗口内新政策。",
+    "行业方法论·国内": "[D] 可能没搜到：腾讯云/阿里云开发者社区命中的均为无日期或旧实测文(如 developer.aliyun.com/article/1755950 45条AI引用源实测、cloud.tencent.com/developer/article/2692239 GEO可观测性)，日期未知，未列为候选，主会话如需可打开核验日期；窗口内未发现带样本量的国内引用研究。",
+    "行业方法论·海外": "[main] 入选负面提示词 ChatGPT 品牌情感实测（Alfaweb 转述，原文 SEL 禁采）；BrightEdge 同主题稿为 3 月超窗 | [D] 可能没搜到：9次搜索搜索引擎基本不按日期过滤，返回多为旧文/聚合页/authoritytech.io类营销博客；唯一窗口内线索为SER 11-05 recap的「负面提示词对ChatGPT品牌情感影响2倍」(原文SEL禁采，未换到确认源)。ppc.land/SEJ的AI引用研究条目(Yelp 3.4x、GetCited 86%、Similarweb框架、SEJ 587160/587560)搜索结果无日期，未判定在窗口内，需主会话打开查日期。未执行：ACCESS Newswire站内检索、Mueller/Illyes官方说法(仅1次泛搜无命中)。"
+  },
+  "audit": {
+    "warnings": [
+      "ALERT·国内占比偏低：domestic_ratio_30d=0.2680（当日 0.4）"
+    ],
+    "domestic_ratio": 0.4,
+    "domestic_ratio_30d": 0.268
+  },
+  "stats": {
+    "websearch_calls": 105,
+    "webfetch_calls": 26,
+    "candidates": 58,
+    "selected": 5
+  },
+  "notes": "本会话无直接 WebFetch 工具，网页均由主会话通过 web-fetch 代理（WebFetch 替身）发出；4 个搜索子代理 webfetch_calls 均为 0。17 个每日巡检页全部 PROVENANCE_REQUIRED，已各做站点限定搜索替代（martechvibe 与 martechcube 合并 1 次，共 16 次）；SER 11-05 recap 及搜索返回的文章页可正常打开核验。主会话 WebFetch 26 次（巡检 17 + 核验 9）；WebSearch A20、B20、C20、D20、主会话 25，合计 105。子代理搜索普遍反映索引滞后，窗口内新线索稀少；C 组逐公司定向词因预算未执行。"
+}

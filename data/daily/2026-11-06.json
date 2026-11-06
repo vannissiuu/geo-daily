@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-06",
+  "status": "normal",
+  "highlights": [
+    "国内 AI 答案入口与可信信源同步扩张：千问进入国行 iPhone 系统级问答，温州党媒推出供 AI 读取的智读稿与县级融媒体联盟，方案商需把千问收录与地方可信语料合作纳入区域客户方案。",
+    "AI 答案里的品牌呈现更易被问法与内容源左右：负面措辞可显著拉低 ChatGPT 品牌情感，Meta 批量 AI 生成页又挤进 AI Overviews 与 AI Mode，ChatGPT 广告也转向自动出价，监测应分问法多次采样并区分付费、UGC 聚合与自有内容。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-06-01",
+      "category": "平台动态",
+      "platform": "Apple Intelligence",
+      "platform_topic": "检索与收录",
+      "region": "国内",
+      "title": "Apple Intelligence 国行版接入千问：Siri 与写作工具可调用千问，11 月 4 日开放开发者测试",
+      "summary": "苹果与阿里 10 月 31 日宣布千问集成至国行 Apple 智能，用户可在 Siri、写作工具和视觉智能中调用千问，获得与 ChatGPT 对等的系统入口；11 月 4 日起开发者 Beta 测试，12 月随 iOS 27.3 正式推送，功能默认关闭，iPad 与 Mac 暂不含。",
+      "insight": "iPhone 国行的系统级 AI 问答将由千问作答，方案商应把千问的信源偏好与收录监测列为优先渠道，并向客户把千问可见度包装为覆盖苹果用户的卖点。",
+      "published": "2026-11-03",
+      "links": [
+        {
+          "text": "21世纪经济报道：苹果官宣牵手千问，国行AI落地，双方各图什么？",
+          "url": "https://m.21jingji.com/article/20261103/herald/fd012e72cffa76a45bded374a618afeb.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-06-02",
+      "category": "新技术",
+      "secondary_category": "市场动态",
+      "region": "国内",
+      "title": "温州市新闻传媒中心发布温州可信GEO体系，推出供 AI 读取的“智读稿”并联合 12 家县级融媒体",
+      "summary": "11 月 5 日，温州市新闻传媒中心发布可信GEO体系，含城市时空可信内容枢纽、12 家县级融媒体中心联盟、《城市可信内容供给实践指南1.0》、经编辑审核供 AI 读取的“智读稿”智能体及与温州理工学院共建的研究中心，多家政企与协会现场签约，覆盖政务、文旅、农业、跨境电商。",
+      "insight": "地市级党媒开始以“可信信源”身份承接本地政企 GEO 需求，方案商做区域客户时应评估与当地融媒体语料平台合作或分发，而非单纯铺稿。",
+      "published": "2026-11-05",
+      "links": [
+        {
+          "text": "杭州网（转自温州新闻网）：温州可信GEO体系今日发布",
+          "url": "https://news.hangzhou.com.cn/zjnews/content/2026-11/05/content_9367476.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-06-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "900 次 ChatGPT 回答实测：负面措辞提示使品牌情感分下降约 56 分，同题五次运行仅 44% 结论一致（信源为企业发布稿）",
+      "summary": "一项研究以 180 个问题分别写成正面、中性、负面措辞，每题运行 5 次共 900 次回答并按 -100 至 +100 打分：负面提示均值约 -36、中性约 +20、正面约 +46；仅 44% 问题五次情感分类一致，对比类提示调换品牌顺序可令得分由约 +91 翻至 -93。",
+      "insight": "品牌 AI 声誉监测须按正/中/负三种问法分别采样并多次重复取均值，向客户汇报时说明单次结果的波动区间，避免一次截图定结论。",
+      "published": "2026-11-04",
+      "links": [
+        {
+          "text": "Alfaweb：Prompts négatifs: impact x2 sur le sentiment de marque de ChatGPT",
+          "url": "https://www.alfaweb.fr/prompts-negatifs-impact-x2-sentiment-marque-chatgpt/"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    },
+    {
+      "id": "2026-11-06-04",
+      "category": "舆情",
+      "region": "海外",
+      "title": "Meta 的 Facebook Answers 约 600 万个 AI 生成页面被 Google 收录，同时出现在 AI Overviews 与 AI Mode，被指规模化内容滥用",
+      "summary": "Meta 的 Facebook Answers 用公开帖子与主页生成 AI 主题摘要页，截图显示约 600 万页被 Google 收录；Glenn Gabe 称其在蓝链、AI Overviews 和 AI Mode 中均有排名，属规模化内容滥用，该目录约自 6–7 月开始填充。",
+      "insight": "大平台批量 AI 生成页正与客户内容争夺 AI 答案引用位，方案商应在监测中识别此类 UGC 聚合源，并把原创一手内容与实体信号作为差异化卖点。",
+      "published": "2026-11-05",
+      "links": [
+        {
+          "text": "Search Engine Roundtable：Facebook Answers AI-Generated 6 Million Pages Is Google Scaled Content Abuse",
+          "url": "https://www.seroundtable.com/facebook-answers-google-42467.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-06-05",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "OpenAI 调整 ChatGPT 广告出价：11 月 9 日起上线目标 CPA/CPC，最高出价模式 2027 年 1 月 1 日退役",
+      "summary": "OpenAI 通知 ChatGPT 广告主：11 月 9 日起转化系列上线目标 CPA、点击系列上线目标 CPC，取代新建系列的 Max Bid 与 Max CPC；存量系列 2027 年 1 月 1 日迁移，“Maximize results”更名“intelligent bidding”。",
+      "insight": "ChatGPT 广告走向自动出价后付费曝光将更依赖转化信号，方案商可把 Pixel/转化 API 埋点与付费、自然提及分账监测打包进 AI 渠道服务。",
+      "published": "2026-11-05",
+      "links": [
+        {
+          "text": "Search Engine Roundtable：OpenAI Updates ChatGPT Ads Bidding Options For Max Bid or Max CPC",
+          "url": "https://www.seroundtable.com/openai-updates-chatgpt-ads-bidding-options-42470.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 58,
+    "selected": 5,
+    "domestic_ratio": 0.4,
+    "domestic_ratio_30d": 0.268,
+    "websearch_calls": 105,
+    "webfetch_calls": 26
+  }
+}
