@@ -639,7 +639,11 @@
         "AI 回答 商品卡 OR 广告 OR 推荐位 豆包 OR 元宝 OR 千问 {月份} 导购",
         "AI搜索 平台 规则 调整 信源 豆包 DeepSeek 算法 {月份}",
         "DeepSeek OR Kimi 联网搜索 更新 引用 {月份}",
-        "360 纳米搜索 OR 秘塔 OR 抖音 AI搜索 更新 {月份}"
+        "360 纳米搜索 OR 秘塔 OR 抖音 AI搜索 更新 {月份}",
+        "（以上国内平台查询一律加 allowed_domains = domestic_fast_domains）",
+        "火山引擎 OR 豆包大模型 更新公告 联网搜索 OR 引用 {日期}（官方渠道）",
+        "百度 开发者中心 OR 百度搜索资源平台 公告 AI搜索 {日期}（官方渠道）",
+        "腾讯云 元宝 OR 混元 搜索 API 更新 信源 {日期}（官方渠道）"
       ],
       "海外": [
         "UCP checkout AI Mode OR Merchant Center AI Mode（事件式，替代 Google AI Mode update）",
@@ -909,7 +913,126 @@
   },
   "patrol_fallback": {
     "rule": "rules/01 第 1 节第 7 条",
-    "method": "巡检页被拦时，对该站做 1 次 WebSearch（allowed_domains=该站域名，查询词带具体日期或 recap 栏目名），用返回的文章/recap 页核验",
+    "probe": "先只 WebFetch daily_pages 第一页（SER 首页）试探；被拦则其余巡检页不再尝试，全部记「需授权」，直接改用站点限定搜索",
+    "method": "对被拦巡检页做 1 次 WebSearch（allowed_domains=该站域名，查询词带具体日期或 recap 栏目名），用返回的文章/recap 页核验",
     "budget": "每被拦页最多 1 次，合计约 10–15 次"
+  },
+  "digest_queries": {
+    "rule": "rules/01 第 1 节第 11 条；只作线索，不作信源链接",
+    "overseas": [
+      {
+        "name": "SER Daily Search Forum Recap",
+        "domain": "seroundtable.com",
+        "query": "Daily Search Forum Recap {Month} {Day}, {Year}",
+        "scope": "窗口内未被历史 runs 覆盖的每一天各 1 页"
+      },
+      {
+        "name": "SEJ SEO Pulse",
+        "domain": "searchenginejournal.com",
+        "query": "SEO Pulse {Month} {Year}",
+        "scope": "窗口内最新 1 期"
+      }
+    ],
+    "domestic": [
+      {
+        "name": "界面新闻 AI早报",
+        "domain": "jiemian.com",
+        "query": "AI早报 {月}月{日}日",
+        "scope": "窗口内最近 2 天"
+      },
+      {
+        "name": "36氪 8点1氪",
+        "domain": "36kr.com",
+        "query": "8点1氪 {月}月{日}日",
+        "scope": "窗口内最近 2 天"
+      },
+      {
+        "name": "IT之家 当日 AI 搜索稿",
+        "domain": "ithome.com",
+        "query": "AI搜索 OR GEO OR 豆包 OR 元宝 OR 千问 {月}月{日}日",
+        "scope": "窗口内最近 2 天"
+      }
+    ]
+  },
+  "domestic_fast_domains": [
+    "sina.com.cn",
+    "21jingji.com",
+    "jiemian.com",
+    "36kr.com",
+    "ithome.com",
+    "caixin.com",
+    "stcn.com"
+  ],
+  "tracked_rotation": {
+    "rule": "rules/01 第 1 节第 13 条；按 prepare_run 输出的 weekday 取当天一份，一周轮完；品牌方采购追踪、媒体可信GEO 不轮转",
+    "周一": {
+      "国内服务商": [
+        "智推时代",
+        "帷幄",
+        "钛动科技",
+        "微盟（微盟星启）"
+      ],
+      "海外工具": [
+        "Profound",
+        "Peec AI",
+        "Otterly.AI",
+        "AthenaHQ",
+        "Scrunch AI"
+      ]
+    },
+    "周二": {
+      "国内服务商": [
+        "迈富时",
+        "蓝色光标",
+        "易点天下",
+        "清蓝"
+      ],
+      "海外工具": [
+        "Evertune",
+        "Bluefish",
+        "Brandlight",
+        "Searchable",
+        "Semrush"
+      ]
+    },
+    "周三": {
+      "国内服务商": [
+        "360（360智见GEO）",
+        "腾讯 AnswerBit",
+        "阿里 万小智"
+      ],
+      "海外工具": [
+        "Ahrefs",
+        "Conductor",
+        "BrightEdge",
+        "Yext"
+      ]
+    },
+    "周四": {
+      "国内服务商": [
+        "百度",
+        "火山引擎",
+        "GEOBase"
+      ],
+      "海外工具": [
+        "Similarweb",
+        "Tealium",
+        "OptimizeGEO",
+        "Getfluence"
+      ]
+    },
+    "周五": {
+      "国内服务商": [
+        "可见GEO",
+        "AIPO",
+        "臻奥数智（上海臻奥智能科技，Civitas 数字员工）"
+      ],
+      "海外工具": [
+        "Wellows",
+        "LLM Scout",
+        "State of Brand",
+        "Azoma（Agentic Commerce Optimization）"
+      ]
+    }
   }
 }
