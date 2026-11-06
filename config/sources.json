@@ -9,7 +9,8 @@
         "行业方法论",
         "行业政策"
       ],
-      "tips": "只显示最近一屏；同时开当日/周报 recap 页（一页列全部主题链接）；文章 ID 可粗判日期；多为 Google 动态，核对事件日期而非报道日期；也用于抓官方人员（Mueller/Illyes）说法。"
+      "tips": "只显示最近一屏；同时开当日/周报 recap 页（一页列全部主题链接）；文章 ID 可粗判日期；多为 Google 动态，核对事件日期而非报道日期；也用于抓官方人员（Mueller/Illyes）说法。",
+      "entry_query": "Search Engine Roundtable Daily Search Forum Recap {Month} {Day} {Year}"
     },
     {
       "name": "PPC Land",
@@ -23,7 +24,8 @@
         "市场动态",
         "行业政策"
       ],
-      "tips": "只显示最近一屏；多为转述报道，必须核对原事件日期（转述稿常超窗）；Meta/Muse、ChatGPT 标签页可单独看。"
+      "tips": "只显示最近一屏；多为转述报道，必须核对原事件日期（转述稿常超窗）；Meta/Muse、ChatGPT 标签页可单独看。",
+      "entry_query": "PPC Land AI search ChatGPT Google AI Mode {Month} {Year}"
     },
     {
       "name": "Search Engine Journal 新闻页",
@@ -35,7 +37,8 @@
         "行业政策",
         "行业方法论"
       ],
-      "tips": "日期标注清楚；含 AI Search 标签；只看首屏，必要时翻 page/2。"
+      "tips": "日期标注清楚；含 AI Search 标签；只看首屏，必要时翻 page/2。",
+      "entry_query": "Search Engine Journal news AI search {Month} {Day} {Year}"
     },
     {
       "name": "Search Engine Journal 生成式AI分类",
@@ -45,7 +48,8 @@
         "行业方法论",
         "新技术"
       ],
-      "tips": "比news分类页更贴近引用/可见度研究；常转述Ahrefs等研究，需追一手源。"
+      "tips": "比news分类页更贴近引用/可见度研究；常转述Ahrefs等研究，需追一手源。",
+      "entry_query": "Search Engine Journal generative AI category"
     },
     {
       "name": "OpenAI ChatGPT Release Notes",
@@ -54,7 +58,8 @@
       "categories": [
         "平台动态"
       ],
-      "tips": "按日期条目列出；关注搜索、购物、广告、引用相关条目；商品标签/视觉广告等需核对生效日。"
+      "tips": "按日期条目列出；关注搜索、购物、广告、引用相关条目；商品标签/视觉广告等需核对生效日。",
+      "entry_query": "ChatGPT release notes"
     },
     {
       "name": "OpenAI News",
@@ -64,7 +69,8 @@
         "平台动态",
         "行业政策"
       ],
-      "tips": "目录式页面，可快速排除；关注搜索/广告/政策公告。"
+      "tips": "目录式页面，可快速排除；关注搜索/广告/政策公告。",
+      "entry_query": "OpenAI News"
     },
     {
       "name": "Anthropic News",
@@ -74,7 +80,8 @@
         "行业政策",
         "平台动态"
       ],
-      "tips": "目录式；关注使用政策（Usage Policy）中关于操纵搜索/AI回答的条款。"
+      "tips": "目录式；关注使用政策（Usage Policy）中关于操纵搜索/AI回答的条款。",
+      "entry_query": "Anthropic News newsroom"
     },
     {
       "name": "Cloudflare Developers Changelog",
@@ -83,7 +90,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "比 blog.cloudflare.com 更能抓到 AI Crawl Control、Markdown for Agents、pay per crawl 等爬虫/Agent 功能更新；官方日志无软文；Cloudflare 的动态归新技术。"
+      "tips": "比 blog.cloudflare.com 更能抓到 AI Crawl Control、Markdown for Agents、pay per crawl 等爬虫/Agent 功能更新；官方日志无软文；Cloudflare 的动态归新技术。",
+      "entry_query": "Cloudflare changelog {Month} {Year}"
     },
     {
       "name": "MarTech Vibe AI搜索标签页",
@@ -93,7 +101,8 @@
         "新技术",
         "市场动态"
       ],
-      "tips": "AI搜索工具/厂商动态，多为企业稿，注意软文分级。"
+      "tips": "AI搜索工具/厂商动态，多为企业稿，注意软文分级。",
+      "entry_query": "MarTech Vibe AI search tag"
     },
     {
       "name": "EIN Presswire 关键词搜索页",
@@ -103,7 +112,8 @@
         "新技术",
         "市场动态"
       ],
-      "tips": "可翻页；B类新品稿集中，需看事件日期，尽量换到中立源；globenewswire搜索页robots禁止，不可用。"
+      "tips": "可翻页；B类新品稿集中，需看事件日期，尽量换到中立源；globenewswire搜索页robots禁止，不可用。",
+      "entry_query": "generative engine optimization {Month} {Year}"
     },
     {
       "name": "MarTechCube",
@@ -113,7 +123,8 @@
         "市场动态",
         "新技术"
       ],
-      "tips": "首页可见 GEO/AI 可见度厂商融资与合作稿；融资金额以原文为准。"
+      "tips": "首页可见 GEO/AI 可见度厂商融资与合作稿；融资金额以原文为准。",
+      "entry_query": "MarTech Cube AI visibility GEO {Month} {Year}"
     },
     {
       "name": "Aleyda Solis",
@@ -122,7 +133,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "一手研究/框架类博客；注意发布日。"
+      "tips": "一手研究/框架类博客；注意发布日。",
+      "entry_query": "Aleyda Solis AI search"
     },
     {
       "name": "IT之家 GEO标签页",
@@ -133,7 +145,8 @@
         "舆情",
         "新技术"
       ],
-      "tips": "GEO 处罚新闻的首发来源；转载稿多，换到新浪/21经济等独立源；厂商稿需软文分级。"
+      "tips": "GEO 处罚新闻的首发来源；转载稿多，换到新浪/21经济等独立源；厂商稿需软文分级。",
+      "entry_query": "IT之家 GEO 标签"
     },
     {
       "name": "界面新闻 科技/AI栏目",
@@ -144,7 +157,8 @@
         "舆情",
         "市场动态"
       ],
-      "tips": "白名单源；相对时间需换算成日期；也可看界面AI早报文章页（jiemian.com/article/...）。"
+      "tips": "白名单源；相对时间需换算成日期；也可看界面AI早报文章页（jiemian.com/article/...）。",
+      "entry_query": "界面新闻 科技 AI 栏目"
     },
     {
       "name": "AI工具集 每日AI资讯",
@@ -154,7 +168,8 @@
         "平台动态",
         "新技术"
       ],
-      "tips": "每日AI资讯汇总，用于发现国内平台动态线索，须再搜一手/中立源；不得直接作为最终链接。"
+      "tips": "每日AI资讯汇总，用于发现国内平台动态线索，须再搜一手/中立源；不得直接作为最终链接。",
+      "entry_query": "AI工具集 每日AI资讯"
     },
     {
       "name": "国家网信办",
@@ -163,7 +178,8 @@
       "categories": [
         "行业政策"
       ],
-      "tips": "仅标题列表，命中率低；关注清朗、生成式AI管理、算法备案。"
+      "tips": "仅标题列表，命中率低；关注清朗、生成式AI管理、算法备案。",
+      "entry_query": "国家网信办 {月}月 通报 生成式人工智能"
     },
     {
       "name": "国家市场监督管理总局",
@@ -172,7 +188,8 @@
       "categories": [
         "行业政策"
       ],
-      "tips": "仅标题列表；GEO处罚实际多由地方市监局通报，需配合搜索。"
+      "tips": "仅标题列表；GEO处罚实际多由地方市监局通报，需配合搜索。",
+      "entry_query": "市场监管总局 {月}月 广告 人工智能"
     }
   ],
   "weekly_pages": [
@@ -184,7 +201,8 @@
         "平台动态",
         "行业政策"
       ],
-      "tips": "每周看一次；部分抓取无日期。"
+      "tips": "每周看一次；部分抓取无日期。",
+      "entry_query": "Google Search Central 博客"
     },
     {
       "name": "Google 抓取文档变更日志",
@@ -193,7 +211,8 @@
       "categories": [
         "平台动态"
       ],
-      "tips": "爬虫/robots变更，每周一次。"
+      "tips": "爬虫/robots变更，每周一次。",
+      "entry_query": "Google 抓取文档变更日志"
     },
     {
       "name": "Perplexity Changelog",
@@ -202,7 +221,8 @@
       "categories": [
         "平台动态"
       ],
-      "tips": "更新周期超过 2 周，月度或每周顺看。"
+      "tips": "更新周期超过 2 周，月度或每周顺看。",
+      "entry_query": "Perplexity Changelog"
     },
     {
       "name": "Bing 搜索博客",
@@ -211,7 +231,8 @@
       "categories": [
         "平台动态"
       ],
-      "tips": "更新慢；Copilot 动态改用搜索。"
+      "tips": "更新慢；Copilot 动态改用搜索。",
+      "entry_query": "Bing 搜索博客"
     },
     {
       "name": "Search Engine Watch",
@@ -220,7 +241,8 @@
       "categories": [
         "平台动态"
       ],
-      "tips": "未充分测试，日常顺手验证。"
+      "tips": "未充分测试，日常顺手验证。",
+      "entry_query": "Search Engine Watch"
     },
     {
       "name": "Optimixed 按日聚合",
@@ -229,7 +251,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "未充分测试；URL 末段换成目标日期（YYYY-MM-DD）；按日聚合 SEO/AI 搜索新闻，只用于顺藤摸瓜，不作最终链接。"
+      "tips": "未充分测试；URL 末段换成目标日期（YYYY-MM-DD）；按日聚合 SEO/AI 搜索新闻，只用于顺藤摸瓜，不作最终链接。",
+      "entry_query": "Optimixed 按日聚合"
     },
     {
       "name": "Profound 博客",
@@ -238,7 +261,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "研究类稿件，不定期更新。"
+      "tips": "研究类稿件，不定期更新。",
+      "entry_query": "Profound 博客"
     },
     {
       "name": "Ahrefs 博客",
@@ -247,7 +271,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "有研究产出时才有命中。"
+      "tips": "有研究产出时才有命中。",
+      "entry_query": "Ahrefs 博客"
     },
     {
       "name": "Semrush 新闻",
@@ -257,7 +282,8 @@
         "行业方法论",
         "市场动态"
       ],
-      "tips": "更新慢。"
+      "tips": "更新慢。",
+      "entry_query": "Semrush 新闻"
     },
     {
       "name": "Cloudflare 博客",
@@ -266,7 +292,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "常有 AI crawler 类稿，多数无关。"
+      "tips": "常有 AI crawler 类稿，多数无关。",
+      "entry_query": "Cloudflare 博客"
     },
     {
       "name": "WordPress 新闻",
@@ -275,7 +302,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "MCP Adapter 类消息改靠 SEJ。"
+      "tips": "MCP Adapter 类消息改靠 SEJ。",
+      "entry_query": "WordPress 新闻"
     },
     {
       "name": "PR Newswire 新闻稿列表",
@@ -285,7 +313,8 @@
         "市场动态",
         "新技术"
       ],
-      "tips": "仅第一屏，不含主题过滤，GEO稿罕见；用关键词搜索代替。"
+      "tips": "仅第一屏，不含主题过滤，GEO稿罕见；用关键词搜索代替。",
+      "entry_query": "PR Newswire 新闻稿列表"
     },
     {
       "name": "Crunchbase News",
@@ -294,7 +323,8 @@
       "categories": [
         "市场动态"
       ],
-      "tips": "融资大盘，GEO/AEO相关稀少。"
+      "tips": "融资大盘，GEO/AEO相关稀少。",
+      "entry_query": "Crunchbase News"
     },
     {
       "name": "Press Gazette 出版商AI诉讼追踪",
@@ -303,7 +333,8 @@
       "categories": [
         "行业政策"
       ],
-      "tips": "每周看一次；仅关注涉及 AI 回答引用/展示的授权协议，训练数据版权诉讼不收（02 第 0A 节）；按条目日期核对。"
+      "tips": "每周看一次；仅关注涉及 AI 回答引用/展示的授权协议，训练数据版权诉讼不收（02 第 0A 节）；按条目日期核对。",
+      "entry_query": "Press Gazette 出版商AI诉讼追踪"
     },
     {
       "name": "TechCrunch",
@@ -312,7 +343,8 @@
       "categories": [
         "市场动态"
       ],
-      "tips": "首页只显示最近一屏，GEO相关稀少。"
+      "tips": "首页只显示最近一屏，GEO相关稀少。",
+      "entry_query": "TechCrunch"
     },
     {
       "name": "FTC 新闻稿",
@@ -321,7 +353,8 @@
       "categories": [
         "行业政策"
       ],
-      "tips": "AI 搜索相关稀少。"
+      "tips": "AI 搜索相关稀少。",
+      "entry_query": "FTC 新闻稿"
     },
     {
       "name": "MarTech.org AI营销新闻汇总",
@@ -330,7 +363,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "每日列出AEO/MCP工具发布，但无日期无链接，需配合搜索追一手源。"
+      "tips": "每日列出AEO/MCP工具发布，但无日期无链接，需配合搜索追一手源。",
+      "entry_query": "MarTech.org AI营销新闻汇总"
     },
     {
       "name": "36氪快讯",
@@ -341,7 +375,8 @@
         "平台动态",
         "新技术"
       ],
-      "tips": "不稳定（偶需 JS），只显示近半天；站内搜索被 robots 禁止。"
+      "tips": "不稳定（偶需 JS），只显示近半天；站内搜索被 robots 禁止。",
+      "entry_query": "36氪快讯"
     },
     {
       "name": "投资界",
@@ -350,7 +385,8 @@
       "categories": [
         "市场动态"
       ],
-      "tips": "融资快讯，首页只显示最近一屏，GEO相关稀少。"
+      "tips": "融资快讯，首页只显示最近一屏，GEO相关稀少。",
+      "entry_query": "投资界"
     },
     {
       "name": "投资界 新闻",
@@ -359,7 +395,8 @@
       "categories": [
         "市场动态"
       ],
-      "tips": "同上。"
+      "tips": "同上。",
+      "entry_query": "投资界 新闻"
     },
     {
       "name": "36氪 融资快讯",
@@ -368,7 +405,8 @@
       "categories": [
         "市场动态"
       ],
-      "tips": "融资快讯。"
+      "tips": "融资快讯。",
+      "entry_query": "36氪 融资快讯"
     },
     {
       "name": "199IT",
@@ -378,7 +416,8 @@
         "行业方法论",
         "市场动态"
       ],
-      "tips": "白名单源；偶有泛 AI 标题。"
+      "tips": "白名单源；偶有泛 AI 标题。",
+      "entry_query": "199IT"
     },
     {
       "name": "腾讯云开发者社区",
@@ -387,7 +426,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "可用于一手实测（C 类）；建议搜索「腾讯云开发者社区 GEO 实测」而非看首页。"
+      "tips": "可用于一手实测（C 类）；建议搜索「腾讯云开发者社区 GEO 实测」而非看首页。",
+      "entry_query": "腾讯云开发者社区"
     },
     {
       "name": "阿里云开发者社区",
@@ -396,7 +436,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "首页无日期，未充分测试。"
+      "tips": "首页无日期，未充分测试。",
+      "entry_query": "阿里云开发者社区"
     },
     {
       "name": "新榜 GEO研究",
@@ -405,7 +446,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "国内少有的一手引用研究位置，但无日期无文章链接，仅作线索，须按标题再搜一手源。"
+      "tips": "国内少有的一手引用研究位置，但无日期无文章链接，仅作线索，须按标题再搜一手源。",
+      "entry_query": "新榜 GEO研究"
     },
     {
       "name": "华声在线/湖南日报",
@@ -417,7 +459,8 @@
         "舆情",
         "行业政策"
       ],
-      "tips": "党媒可信GEO系列（智眸可信GEO、可信GEO评论）集中发布站；未充分测试，主要靠搜索命中文章页。"
+      "tips": "党媒可信GEO系列（智眸可信GEO、可信GEO评论）集中发布站；未充分测试，主要靠搜索命中文章页。",
+      "entry_query": "华声在线/湖南日报"
     },
     {
       "name": "人人都是产品经理 GEO标签",
@@ -426,7 +469,8 @@
       "categories": [
         "行业方法论"
       ],
-      "tips": "无日期，未充分测试。"
+      "tips": "无日期，未充分测试。",
+      "entry_query": "人人都是产品经理 GEO标签"
     },
     {
       "name": "53AI 智能营销",
@@ -435,7 +479,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "可用，窗口内相关条目少。"
+      "tips": "可用，窗口内相关条目少。",
+      "entry_query": "53AI 智能营销"
     },
     {
       "name": "虎嗅 AI频道",
@@ -444,7 +489,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "无日期，未充分测试。"
+      "tips": "无日期，未充分测试。",
+      "entry_query": "虎嗅 AI频道"
     },
     {
       "name": "DoNews",
@@ -453,7 +499,8 @@
       "categories": [
         "新技术"
       ],
-      "tips": "仅相对时间，未充分测试。"
+      "tips": "仅相对时间，未充分测试。",
+      "entry_query": "DoNews"
     },
     {
       "name": "澎湃新闻首页",
@@ -462,7 +509,8 @@
       "categories": [
         "舆情"
       ],
-      "tips": "首页无日期，仅作线索。"
+      "tips": "首页无日期，仅作线索。",
+      "entry_query": "澎湃新闻首页"
     },
     {
       "name": "新京报首页",
@@ -472,7 +520,8 @@
         "舆情",
         "平台动态"
       ],
-      "tips": "仅首页可用，/tech栏目跳转首页；商品卡类报道曾见于此。"
+      "tips": "仅首页可用，/tech栏目跳转首页；商品卡类报道曾见于此。",
+      "entry_query": "新京报首页"
     }
   ],
   "disabled_pages": [
@@ -912,10 +961,10 @@
     ]
   },
   "patrol_fallback": {
-    "rule": "rules/01 第 1 节第 7 条",
-    "probe": "先只 WebFetch daily_pages 第一页（SER 首页）试探；被拦则其余巡检页不再尝试，全部记「需授权」，直接改用站点限定搜索",
-    "method": "对被拦巡检页做 1 次 WebSearch（allowed_domains=该站域名，查询词带具体日期或 recap 栏目名），用返回的文章/recap 页核验",
-    "budget": "每被拦页最多 1 次，合计约 10–15 次"
+    "rule": "rules/01 第 1 节第 7 条（先搜后开）",
+    "method": "每个巡检页先做 1 次 WebSearch（allowed_domains=该页主机名，查询词=entry_query，无则 name）；结果含该页网址则按返回原样 WebFetch，不含则不直接打开原网址，改用同次搜索返回的窗口内文章/recap 页作替代线索",
+    "reason": "平台只放行本会话工具结果里出现过的网址；启动指令中的网址不算，直接打开会 PROVENANCE_REQUIRED 并等约 5 分钟超时（2026-11-06 对照实测）",
+    "budget": "每页 1 次：平日约 17 次，周一约 50 次"
   },
   "digest_queries": {
     "rule": "rules/01 第 1 节第 11 条；只作线索，不作信源链接",
