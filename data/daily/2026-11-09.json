@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-09",
+  "status": "normal",
+  "highlights": [
+    "AI 平台正把品牌曝光数据与成交闭环收归自有：ChatGPT 开发面向认证商家的曝光与点击报表，Google 把 UCP 直接结账推进到加拿大 AI Mode 与 Gemini，方案商需协助客户完成平台认领与商品数据接入，并用平台官方数据校准第三方监测。",
+    "AI 答案“只曝光不导流”与抓取授权争议同步发酵：Ziff Davis 的 AI 曝光近点击十倍、自然引荐降约 37%，Meta 在法院与监管压力下暂停抓取企业网站的新条款，客户 KPI 与爬虫授权管理都需重估。",
+    "党媒可信GEO扩展到大湾区：大洋GEO 以语料库与监测治理系统切入政企市场，区域方案应把党媒语料合作纳入可选项。"
+  ],
+  "entries": [
+    {
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "OpenAI 被曝开发 ChatGPT 企业分析工具：已验证商家可看品牌在回答中的每日曝光与点击",
+      "insight": "把客户“在 ChatGPT 认领商家”纳入交付清单，上线后以官方曝光与点击数据校准第三方采样监测，并据此重设 AI 可见度报告口径。",
+      "published": "2026-11-06",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/chatgpt-tools-for-business-42476.html"
+        },
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/chatgpt-builds-mention-and-click-charts-for-verified-businesses/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "id": "2026-11-09-01",
+      "summary": "SER 11 月 6 日援引 Juozas Kaziukėnas 发现：ChatGPT Business Hub 正开发面向已验证商家的类 Search Console 工具，显示品牌在回答中的每日曝光与点击官网次数，不含提示词与竞品数据；该功能 8 月起可见，尚未发布，OpenAI 未置评。"
+    },
+    {
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "购物与交易",
+      "region": "海外",
+      "title": "Google 在加拿大 AI Mode 与 Gemini 上线 UCP 直接结账，lululemon、Shoppers Drug Mart 等首批接入",
+      "insight": "AI 购物回答正从推荐跳转走向答案内成交，方案商应为零售客户评估 UCP 与 Merchant Center 接入及商品数据完整度，把“可直接结账”纳入 AI 可见度方案。",
+      "published": "2026-11-04",
+      "links": [
+        {
+          "text": "Google 加拿大官方博客",
+          "url": "https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/"
+        },
+        {
+          "text": "iPhone in Canada",
+          "url": "https://www.iphoneincanada.ca/2026/11/04/google-gemini-can-now-buy-stuff-for-you-in-canada/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无",
+      "id": "2026-11-09-02",
+      "summary": "Google 加拿大 11 月 4 日宣布在 AI Mode 与 Gemini 上线基于 UCP 的直接结账，经 Google Pay 付款、零售商仍为卖方；首批含 lululemon、Shoppers Drug Mart、Simons 及部分 Shopify 商家，明年将提供简化接入。"
+    },
+    {
+      "category": "平台动态",
+      "platform": "Meta AI",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "Meta 无限期暂停原定 11 月 20 日生效、允许其抓取企业网站的新商业条款，此前出版商质疑抓取内容可用于 Meta AI",
+      "insight": "Meta 抓取授权暂缓而非撤回，方案商应继续在客户 robots.txt 与授权清单中单列 Meta 爬虫策略，并跟踪条款重推时的抓取与 AI 使用范围。",
+      "published": "2026-11-08",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "id": "2026-11-09-03",
+      "summary": "PPC Land 报道，Meta 11 月 5 日通知无限期暂停商业条款、商品目录、自助广告及广告创意生成式 AI 四套条款修订，允许其以自动化程序访问企业网站的条款不会在 11 月 20 日生效；此前奥斯陆、圣保罗法院发令，英国 CMA 已立案。"
+    },
+    {
+      "category": "新技术",
+      "region": "国内",
+      "title": "广州日报报业集团上线大洋GEO可信AI传播平台，联合光明实验室研发（信源为企业发布稿）",
+      "insight": "继湖南、温州后华南党媒入局，做大湾区政企客户时应评估与大洋语料库合作分发，把党媒可信语料作为 AI 信源补位而非单纯铺稿。",
+      "published": "2026-11-06",
+      "links": [
+        {
+          "text": "广州日报大洋网",
+          "url": "https://news.dayoo.com/guangzhou/202611/06/139995_55021041.htm"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B",
+      "id": "2026-11-09-04",
+      "summary": "11 月 6 日，广州日报报业集团旗下大洋GEO上线，由广州日报报业经营有限公司与广东省人工智能与数字经济实验室（深圳）联合研发，含语义监测治理系统、大洋语料库与“大洋体”智能体，面向大湾区政企提供可信信息服务。"
+    },
+    {
+      "category": "舆情",
+      "region": "海外",
+      "title": "Ziff Davis 称三季度 Google 自然引荐降约 37%，其内容在 AI Overviews 与 AI Mode 曝光近点击的十倍",
+      "insight": "向客户汇报时把 AI 答案内曝光与点击分开计量，用“曝光/点击比”解释自然流量下滑，KPI 转向被引次数与品牌提及。",
+      "published": "2026-11-07",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/ziff-davis-loses-37-of-google-traffic-as-publishers-count-the-ai-bill/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无",
+      "id": "2026-11-09-05",
+      "summary": "Ziff Davis CEO 在 11 月 6 日财报会上称三季度来自 Google 的自然引荐约降 37%（上年同期约降 23%）；Search Console 显示其内容在 AI Overviews 与 AI Mode 中出现约 27 亿次，接近 Google 点击量的十倍。"
+    }
+  ],
+  "run": {
+    "candidates": 90,
+    "selected": 5,
+    "domestic_ratio": 0.2,
+    "domestic_ratio_30d": 0.2653,
+    "websearch_calls": 139,
+    "webfetch_calls": 54
+  }
+}
