@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-10",
+  "status": "normal",
+  "highlights": [
+    "AI 答案里的付费位继续向更多平台扩张：Bing AI Mode 在回答顶部与追问轮次同时展示搜索与购物广告，方案商的监测口径需把 Bing 广告位与自然引用分开计。",
+    "AI 可见度的衡量依据正在改变：单站实测显示 Google AI 功能曝光占比小却贡献约两成点击，Graphite 称 AI 带给网站的流量仍不足 1%，Victorious 发现高权威外链对 AI 点名的增益几近消失，客户 KPI 应从外链权重与引荐流量转向提及来源数和答案内点名率。",
+    "爬虫治理开始按用途细分：Cloudflare 机器人目录标注 AI 爬虫是用于训练索引、引用回链还是即时回答，可据此为客户制定分用途的放行策略。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-10-01",
+      "category": "平台动态",
+      "platform": "Copilot",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "Bing AI Mode 回答顶部出现搜索广告与购物广告，追问轮次也展示广告",
+      "summary": "SER 11 月 9 日报道，微软 Bing AI Mode（原 Copilot Search）开始在回答顶部展示常规搜索广告与购物广告，追问轮次同样出现广告；Sponsored 标识颜色很浅，作者起初未察觉。此前 Bing 已在 AI 概览中展示赞助结果。",
+      "insight": "监测报告应把 Bing AI Mode 首屏广告位与自然引用分开统计，并提醒客户评估 Microsoft Ads 投放。",
+      "published": "2026-11-09",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/bing-ads-top-ai-mode-results-42479.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-10-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "单站关闭 Google AI 功能 28 天实测：AI Overviews 与 AI Mode 约贡献两成搜索点击",
+      "summary": "Cyrus Shepard 9 月起用 Search Console 生成式 AI 控制让一站点退出 Google AI 功能 28 天。估算 AI 功能约占该站 10% 曝光，点击率约 0.9%（全站约 0.4%），贡献约 21% 搜索点击，计入光环效应约 23%；作者称仅为单站方向性结论。",
+      "insight": "向客户论证 AI 概览价值可引用“曝光少、点击率翻倍”的实测，屏蔽前先用退出开关做小范围对照。",
+      "published": "2026-11-09",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/googles-ai-features-sent-one-site-an-estimated-21-of-its-clicks/596267/"
+        },
+        {
+          "text": "Zyppy Signal（原文）",
+          "url": "https://signal.zyppy.com/p/we-opted-out-of-google-ai-search"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-10-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Victorious 三季度报告：高权威外链对 AI 可见度的预测增益从 0.14 降至 0.03",
+      "summary": "Victorious 11 月 6 日发布三季度报告，覆盖 9 个 AI 平台、161 个品牌约 1.65 万条回答：DR50+ 站点外链的预测增益由二季度 0.14 降至 0.03；链接站点数量与被 AI 点名的相关系数两季均为 0.49；提及品牌的页面仅约 6% 附带链接。",
+      "insight": "外链交付应从追逐高 DR 转向扩大提及来源数量与覆盖面，KPI 改为提及站点数与 AI 点名率，而非单纯链接权重。",
+      "published": "2026-11-06",
+      "links": [
+        {
+          "text": "EIN Presswire（Victorious）",
+          "url": "https://www.einpresswire.com/article/954632845/high-authority-links-lost-their-ai-visibility-edge-in-q3-victorious-finds"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-10-04",
+      "category": "行业方法论",
+      "secondary_category": "市场动态",
+      "region": "海外",
+      "title": "Graphite 更新 AI 使用报告：六大 AI 助手月访问 760 亿次，带给网站的流量仍不足 1%",
+      "summary": "Graphite 基于 Similarweb 数据的更新报告称，9 月六大 AI 助手全球月访问 760 亿次、同比增 37%；AI 带给网站的流量平均不足 1%，美国二季度自然搜索引荐为 AI 的 49 倍；7 月 AI 引荐同比增 92%，ChatGPT 占 60%。报告删去与搜索引擎的对比。",
+      "insight": "GEO 目标宜以答案内提及为主、引荐流量为辅，并按各 AI 平台引荐份额分配监测与优化资源。",
+      "published": "2026-11-09",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/ai-76-billion-monthly-sessions-search-comparison/596389/"
+        },
+        {
+          "text": "Graphite 报告",
+          "url": "https://graphite.io/research/the-state-of-genai"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-10-05",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare Radar 改版机器人目录，按访问身份与内容用途标注 AI 爬虫与 Agent",
+      "summary": "Cloudflare 11 月 9 日更新：Radar 机器人目录改由 BotBase 驱动，新增 accessLevel（直接或代他人访问）与 contentUse 字段（full 留存用于训练或索引、reference 引用回链、immediate 即时回答用户），类别可多选。",
+      "insight": "爬虫体检可按 contentUse 分类放行：引用与即时回答类放行保引用，训练留存类按客户授权处理。",
+      "published": "2026-11-09",
+      "links": [
+        {
+          "text": "Cloudflare Changelog",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-11-09-radar-bots-directory-botbase/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 25,
+    "selected": 5,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2524,
+    "websearch_calls": 109,
+    "webfetch_calls": 40
+  }
+}
