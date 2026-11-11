@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-11",
+  "status": "normal",
+  "highlights": [
+    "AI 平台开始向商家直接提供答案内曝光数据：ChatGPT Business Hub 测试版让认领商家查看品牌提及次数与点击，信通院测评也延伸到 GEO 价值交付验证，方案商应把平台官方数据与可验收的交付指标写进服务合同。",
+    "AI 答案的展示面与付费位继续挤压第三方入口：Google 测试去掉评价与操作按钮的 AI 本地包，ChatGPT 在生图等待期插入广告，监测口径需区分付费曝光、AI 摘要内描述与可点击入口。",
+    "AI 可读性正在变成可度量的技术项：Cloudflare Markdown for Agents 正式提供转换分析，Peec 测试显示视频描述更新可显著提升 AI 检索量，站点与多媒体元数据优化应纳入标准交付。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-11-01",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "OpenAI 上线 ChatGPT Business Hub 测试版：商家认领后可看品牌在回答中的提及次数与网站点击",
+      "summary": "OpenAI 推出“Businesses in ChatGPT”测试版，商家可经短信、电话或 DNS 验证认领 Business Hub 档案，查看品牌被提及次数、网站点击与引用其网站的对话话题，并为美国合格电商推出 Business Agents；官方注明点击不代表实际访问或转化。",
+      "insight": "先帮客户完成 DNS 认领，把官方提及与点击数据作监测基线，再用第三方采样补足问法与竞品对比。",
+      "published": "2026-11-10",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/chatgpt-business-hub-42505.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-11-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google 测试 AI Overviews 版本地商家包，移动端取代传统 Local Pack 且去掉评价、照片与操作按钮",
+      "summary": "Search Engine Roundtable 复现 Google 测试中的 AI Overviews 本地包：移动端替代传统 Local Pack，仍调用商家资料数据，但去掉致电、官网、导航等操作按钮及评价、照片、地址与营业时间，用户更难直接联系商家；Google 未给出官方说明或上线时间。",
+      "insight": "本地客户的可见度不能只看是否进入本地包，需监测 AI 摘要中的商家描述与排序，并强化商家资料与第三方评价语料。",
+      "published": "2026-11-10",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overview-local-pack-action-buttons-42483.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-11-03",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare Markdown for Agents 正式可用，新增转换分析、日志、对比工具与 GraphQL 接口",
+      "summary": "Cloudflare 11 月 9 日称 Markdown for Agents 结束测试正式可用，控制台新增转换结果、预估 token 节省、热门转换页面、主要 User Agent 与失败原因分析，并提供抽样日志、Markdown/HTML 对比工具和近 7 天 GraphQL 分析接口。",
+      "insight": "把 Markdown 转换成功率与失败原因纳入站点 AI 可读性体检，用于排查客户内容未被 AI 读取的原因。",
+      "published": "2026-11-09",
+      "links": [
+        {
+          "text": "Cloudflare Changelog",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-11-09-markdown-for-agents-observability/"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-11-04",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Peec AI 小样本测试：更新 YouTube 视频描述后日均 AI 检索量增 359%，AI Overviews 检索增 293%",
+      "summary": "Peec AI 于 10 月 19 日更新约 60 个 YouTube 视频描述（15 个加时间戳），前后两周对比：更新视频日均 AI 检索量增 359%，未更新仅增 17%，其中 AI Overviews 检索增 293%、AI Mode 增 129%；作者称属观察性测试，未衡量引用与流量。",
+      "insight": "可把视频描述与章节时间戳优化纳入多媒体 GEO 交付项，但向客户承诺前应先做对照组小测，以检索与引用双指标验证。",
+      "published": "2026-11-06",
+      "links": [
+        {
+          "text": "DEV Community",
+          "url": "https://dev.to/alifar/youtube-description-updates-were-linked-to-higher-ai-retrievals-in-a-small-peec-ai-test-3gl0"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-11-05",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "ChatGPT 视觉广告上线：用户生成图片的等待期间展示品牌广告",
+      "summary": "OpenAI 约一个月前宣布的 ChatGPT 视觉广告格式已上线：用户请求生成图片时，界面显示“Here's an ad while we create your image”并展示广告，图片生成完成后消失；有用户反映广告与对话主题无关。报道未披露投放范围、计价与官方说明。",
+      "insight": "ChatGPT 广告已进入非搜索场景，报告中应把付费曝光与回答内自然提及分开统计，并评估是否搭配投放。",
+      "published": "2026-11-10",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/openai-chatgpt-ads-visual-ads-42493.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-11-06",
+      "category": "行业政策",
+      "secondary_category": "市场动态",
+      "region": "国内",
+      "title": "星触达GEO 称首家通过中国信通院“GEO 价值交付测评”并获“卓越级”（信源为企业发布稿）",
+      "summary": "据 A5 创业网经新浪科技发布的稿件，中国信通院泰尔终端实验室依据《生成式引擎优化（GEO）价值交付测评方案》开展测评，测评共 16 项、围绕“承诺—交付—验证—保障”链条；上海星触达数智营销旗下星触达GEO 称为首家通过、获“卓越级”。暂未见信通院公告。",
+      "insight": "信通院测评延伸到价值交付，可对照 16 项要求梳理合同承诺与效果验收口径，并跟进官方名单。",
+      "published": "2026-11-10",
+      "links": [
+        {
+          "text": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-10/doc-iniyfeck9467650.shtml"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 31,
+    "selected": 6,
+    "domestic_ratio": 0.1667,
+    "domestic_ratio_30d": 0.2308,
+    "websearch_calls": 105,
+    "webfetch_calls": 37
+  }
+}
