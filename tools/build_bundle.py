@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 data/daily、data/weekly 与 C_CAT / C_SRC 原文打包成 site/data/bundle.json（格式见 site/BUNDLE_SCHEMA.md）。
+"""把 data/daily、data/weekly、data/monthly 与 C_CAT / C_SRC 原文打包成 site/data/bundle.json（格式见 site/BUNDLE_SCHEMA.md）。
 
 用法（仓库根）：python3 tools/build_bundle.py
 C_CAT / C_SRC 默认读 /mnt/user-data/uploads/GEO行业动态日报/（环境变量 GEO_LEGACY_SRC 可改）；
@@ -103,6 +103,47 @@ def main():
         })
     weeks.sort(key=lambda x: x["week_start"], reverse=True)
 
+    ent_by_id = {e["id"]: (d["date"], e) for d in days for e in d["entries"]}
+    months = []
+    for p in sorted(glob.glob(os.path.join(REPO, "data", "monthly", "*.json"))):
+        m = load(p)
+        regions = {}
+        for r in ("国内", "海外"):
+            rg = m["regions"][r]
+            secs = {}
+            for sec in ("insight", "rules"):
+                groups = []
+                for g in rg[sec]["groups"]:
+                    items = []
+                    for it in g.get("items", []):
+                        ref = it["ref"]
+                        if ref not in ent_by_id:
+                            errors.append(f"月度情报 {m['month']} 的 ref 指向不存在的条目 {ref}")
+                            continue
+                        dd, e = ent_by_id[ref]
+                        items.append({
+                            "ref": ref, "title": it["title"], "body": it["body"],
+                            "date": e.get("published") or dd,
+                            "category": e["category"], "platform": e.get("platform") or "",
+                            "links": [{"text": l["text"], "url": l["url"]} for l in e["links"]],
+                        })
+                    items.sort(key=lambda x: x["date"], reverse=True)
+                    groups.append({"name": g.get("name") or "", "items": items})
+                secs[sec] = {"groups": groups}
+            regions[r] = {"desc": rg.get("desc", ""), "insight": secs["insight"], "rules": secs["rules"]}
+        metrics = []
+        for k in m.get("metrics", []):
+            dd, e = ent_by_id.get(k["ref"], (None, None))
+            metrics.append({"value": k["value"], "unit": k["unit"], "caption": k["caption"], "ref": k["ref"],
+                            "url": e["links"][0]["url"] if e and e.get("links") else None})
+        months.append({
+            "month": m["month"], "period": m["period"], "generated": m.get("generated"),
+            "title": m["title"], "lede": m.get("lede", ""), "metrics": metrics, "regions": regions,
+            "summary": [{"title": x["title"], "text": x["text"]} for x in m.get("summary", [])],
+            "stats": m.get("stats", {}), "note": m.get("note"),
+        })
+    months.sort(key=lambda x: x["month"], reverse=True)
+
     # 基本一致性：refs 必须能在 days 里找到
     ids = {e["id"] for d in days for e in d["entries"]}
     for w in weeks:
@@ -136,19 +177,21 @@ def main():
                 "days": len(days),
                 "entries": sum(len(d["entries"]) for d in days),
                 "weeks": len(weeks),
+                "months": len(months),
                 "first_date": days[-1]["date"],
                 "last_date": days[0]["date"],
             },
         },
         "days": days,
         "weeks": weeks,
+        "months": months,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, indent=1)
         f.write("\n")
     s = bundle["meta"]["stats"]
-    print(f"bundle.json 已生成：{s['days']} 天 / {s['entries']} 条 / {s['weeks']} 周，"
+    print(f"bundle.json 已生成：{s['days']} 天 / {s['entries']} 条 / {s['weeks']} 周 / {s['months']} 期月度情报，"
           f"{s['first_date']} ~ {s['last_date']}，{os.path.getsize(OUT) // 1024} KB")
 
 

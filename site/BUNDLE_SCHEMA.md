@@ -1,6 +1,6 @@
 # 网站数据包格式 `site/data/bundle.json`
 
-由 `tools/build_bundle.py` 从 `data/daily/*.json`、`data/weekly/*.json` 和 C_CAT / C_SRC 原文打包生成；网站 `site/index.html` 用相对路径 `fetch('data/bundle.json')` 读取。
+由 `tools/build_bundle.py` 从 `data/daily/*.json`、`data/weekly/*.json`、`data/monthly/*.json` 和 C_CAT / C_SRC 原文打包生成；网站 `site/index.html` 用相对路径 `fetch('data/bundle.json')` 读取。
 
 ```json
 {
@@ -11,7 +11,7 @@
     "platform_topics": ["引用与呈现", "检索与收录", "爬虫与抓取", "广告与商业化", "购物与交易", "测量与数据", "规则与治理"],
     "c_cat": ["分类说明：", "- 行业政策：监管 / 标准 / ……", "……"],
     "c_src": "本文档信源筛选原则：真实可溯可访问 + 优先权威/中立媒体 + 非软文 + 时效5天以内",
-    "stats": {"days": 57, "entries": 145, "weeks": 9, "first_date": "2026-07-20", "last_date": "2026-10-09"}
+    "stats": {"days": 57, "entries": 145, "weeks": 9, "months": 1, "first_date": "2026-07-20", "last_date": "2026-10-09"}
   },
   "days": [
     {
@@ -50,6 +50,23 @@
       "platform_changes": [{"dimension": "信源引用逻辑", "text": "……", "refs": [], "ref_links": []}],
       "implications": ["……"]
     }
+  ],
+  "months": [
+    {
+      "month": "2026-10", "period": ["2026-10-01", "2026-10-31"], "generated": "2026-11-12",
+      "title": "2026 年 10 月 GEO 行业情报", "lede": "……",
+      "metrics": [{"value": "137", "unit": "亿元", "caption": "……", "ref": "2026-10-27-05", "url": "https://……"}],
+      "regions": {
+        "国内": {"desc": "……",
+                 "insight": {"groups": [{"name": "", "items": [{"ref": "…", "title": "…", "body": "含 **加粗** 的正文",
+                   "date": "YYYY-MM-DD", "category": "市场动态", "platform": "", "links": [{"text": "…", "url": "…"}]}]}]},
+                 "rules": {"groups": []}},
+        "海外": {"desc": "……", "insight": {"groups": []}, "rules": {"groups": []}}
+      },
+      "summary": [{"title": "……", "text": "……"}],
+      "stats": {"month_entries": 74, "selected": 35, "reopened": 8},
+      "note": null
+    }
   ]
 }
 ```
@@ -63,3 +80,4 @@
 - `platform` 只在主类或副类为平台动态时有值；网站在分类标签处显示为「平台动态 · 豆包」，有 `platform_topic` 时再附子标签（如「购物与交易」）。
 - `secondary_category`：副类，可为空字符串。每日动态的分类筛选、分类索引同时按主类与副类匹配；副类匹配的条目标「兼」。统计（周结占比等）只按 `category`。
 - `platform_topic`：平台动态子标签，取值见 `meta.platform_topics`；分类索引的平台动态类可按它筛选。2026-10-12 之前的历史条目为空字符串。
+- `months` 按 month 倒序（月度情报，规则见 `rules/06`）。条目的 `date`（主链接 published，无则日报日期）、`category`、`platform`、`links` 由构建脚本从日报条目回填；`body` 中 `**…**` 渲染为加粗。

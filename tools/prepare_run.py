@@ -5,7 +5,7 @@
   默认日期 = 北京时间（Asia/Shanghai）的今天。
 输出：JSON 打印到 stdout，同时写 /tmp/geo_run_context.json。仅依赖标准库，只读仓库，不改任何数据。
 
-口径依据：rules/02 第 7 节（缺口自适应窗口）、rules/05 第 1–2 节（周结与自愈）、rules/04 5.2（国内占比）。
+口径依据：rules/02 第 7 节（缺口自适应窗口）、rules/05 第 1–2 节（周结与自愈）、rules/06 第 1 节（月度情报与自愈）、rules/04 5.2（国内占比）。
 """
 import argparse
 import glob
@@ -65,8 +65,30 @@ def week_info(start, end):
     }
 
 
+def month_info(y, m, all_dates):
+    first = date(y, m, 1)
+    nxt = date(y + (m == 12), m % 12 + 1, 1)
+    last = nxt - timedelta(days=1)
+    key = "%04d-%02d" % (y, m)
+    rel = "data/monthly/%s.json" % key
+    exists = os.path.exists(os.path.join(REPO, rel))
+    return {
+        "month": key,
+        "start": first.isoformat(),
+        "end": last.isoformat(),
+        "file": rel,
+        "exists": exists,
+        "needed": not exists,
+        "daily_dates": [d.isoformat() for d in all_dates if first <= d <= last],
+    }
+
+
+def prev_month(y, m):
+    return (y - 1, 12) if m == 1 else (y, m - 1)
+
+
 def main():
-    ap = argparse.ArgumentParser(description="每日运行前置：窗口 / 去重 / 周结判定")
+    ap = argparse.ArgumentParser(description="每日运行前置：窗口 / 去重 / 周结 / 月度情报判定")
     ap.add_argument("--date", help="运行日 D（YYYY-MM-DD），默认北京时间今天")
     args = ap.parse_args()
     try:
@@ -134,6 +156,24 @@ def main():
             "note": "先补 heal（若 heal_needed），再生成 due；最多补 1 份，更早缺失的周不回溯（rules/05 第 2 节）。",
         }
 
+    # 月度情报（rules/06 第 1 节）：当月前 7 个自然日内的工作日给出 due（上月）与 heal（上上月）
+    monthly = None
+    if D.day <= 7 and D.weekday() < 5:
+        py, pm = prev_month(D.year, D.month)
+        hy, hm = prev_month(py, pm)
+        due = month_info(py, pm, all_dates)
+        heal = month_info(hy, hm, all_dates)
+        first_workday = D
+        while first_workday.day > 1 and (first_workday - timedelta(days=1)).weekday() < 5:
+            first_workday -= timedelta(days=1)
+        monthly = {
+            "due": due,
+            "heal": heal,
+            "heal_needed": heal["needed"],
+            "is_first_workday": first_workday == D,
+            "note": "due.needed=true 即生成上月月度情报；heal_needed=true 先补上上月这 1 份，更早不回溯；已存在不覆盖（rules/06 第 1 节）。",
+        }
+
     ctx = {
         "date": D.isoformat(),
         "weekday": WEEKDAYS[D.weekday()],
@@ -145,6 +185,7 @@ def main():
         "dedup": dedup,
         "recent_highlights": highlights,
         "weekly": weekly,
+        "monthly": monthly,
         "domestic_ratio_30d": ratio30,
         "domestic_ratio_30d_basis": {"entries": total, "domestic": dom, "from": r_from.isoformat(), "to": D.isoformat()},
         "problems": problems,

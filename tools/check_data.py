@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""对 data/daily、data/weekly 做程序化检查（rules/04 第 6 节 C01–C25、rules/05 第 5 节 W01–W09）。
+"""对 data/daily、data/weekly、data/monthly 做程序化检查（rules/04 第 6 节 C01–C25、rules/05 第 5 节 W01–W09、rules/06 第 5 节 M01–M09）。
 
 用法（仓库根）：python3 tools/check_data.py [-v]
   -v  打印全部告警/错误明细（默认每项最多 5 条样例）
@@ -90,6 +90,10 @@ for code, name in [
     ("W01", "周结 JSON/字段/周一周日/文件名"), ("W02", "overview 总数与占比"), ("W03", "trends 条数与 refs"),
     ("W04", "platform_changes 维度与 refs"), ("W05", "平台变更 refs 多数为平台动态"), ("W06", "implications 2–4 条"),
     ("W07", "文本无编号/分类前缀"), ("W08", "同周只有一个文件"), ("W09", "区间内缺失工作日"),
+    ("M01", "月度情报 JSON/字段/文件名/区间"), ("M02", "月报 ref 存在、在当月、不重复"),
+    ("M03", "月报条目 region 与所在区一致"), ("M04", "月报关键数字 3 个且可溯源"), ("M05", "月报小结 3 条"),
+    ("M06", "月报文本无链接/编号/标签前缀"), ("M07", "月报文字长度"), ("M08", "月报条数与节内分类构成"),
+    ("M09", "同月唯一且不晚于最新日报"),
     ("G01", "日期唯一且文件名有序"), ("G02", "6 类条数统计无错位"),
 ]:
     R.reg(code, name)
@@ -678,6 +682,176 @@ def check_weekly(files, days):
     return weeks
 
 
+# ------------------------------------------------------------------ 月度情报
+URL_RE = re.compile(r"https?://|www\.", re.I)
+MONTH_REGIONS = ["国内", "海外"]
+MONTH_SECTIONS = ["insight", "rules"]
+
+
+def mlen(t):
+    return len((t or "").replace("**", ""))
+
+
+def check_monthly(files, days):
+    ent_date = {}
+    for ds, d in days.items():
+        for en in d["entries"]:
+            ent_date[en["id"]] = (ds, en)
+    latest = max(days.keys()) if days else "0000-00-00"
+    seen_months = {}
+    for p in files:
+        name = os.path.basename(p)
+        try:
+            m = json.load(open(p, encoding="utf-8"))
+        except Exception as ex:
+            R.err("M01", f"{name}: JSON 无法解析 {ex}")
+            continue
+        miss = [k for k in ("month", "period", "generated", "title", "lede", "metrics", "regions", "summary", "stats") if k not in m]
+        if miss:
+            R.err("M01", f"{name}: 缺字段 {miss}")
+            continue
+        mo = m["month"]
+        if not (isinstance(mo, str) and re.fullmatch(r"\d{4}-\d{2}", mo)) or name != mo + ".json":
+            R.err("M01", f"{name}: month 与文件名不一致")
+            continue
+        y, mm = int(mo[:4]), int(mo[5:])
+        first = date(y, mm, 1)
+        last = date(y + (mm == 12), mm % 12 + 1, 1) - timedelta(days=1)
+        if m["period"] != [first.isoformat(), last.isoformat()]:
+            R.err("M01", f"{mo}: period 应为 {[first.isoformat(), last.isoformat()]}")
+            continue
+        regs = m["regions"]
+        if not isinstance(regs, dict) or sorted(regs.keys()) != sorted(MONTH_REGIONS) or any(
+                not isinstance(regs[r], dict) or any(not isinstance(regs[r].get(sec), dict) or not isinstance(regs[r][sec].get("groups"), list)
+                                                     for sec in MONTH_SECTIONS) or "desc" not in regs[r] for r in MONTH_REGIONS):
+            R.err("M01", f"{mo}: regions 须含 国内/海外，各含 desc、insight.groups、rules.groups")
+            continue
+        R.ok("M01")
+
+        # M09
+        if mo in seen_months:
+            R.err("M09", f"{mo}: 同月多个文件")
+        elif mo > latest[:7]:
+            R.err("M09", f"{mo}: 晚于最新日报所在月 {latest[:7]}")
+        else:
+            R.ok("M09")
+        seen_months[mo] = 1
+
+        in_month = {i: v for i, v in ent_date.items() if first.isoformat() <= v[0] <= last.isoformat()}
+        items = []  # (region, section, item)
+        for r in MONTH_REGIONS:
+            for sec in MONTH_SECTIONS:
+                for g in regs[r][sec]["groups"]:
+                    for it in g.get("items", []):
+                        items.append((r, sec, it))
+        body_by_ref = {it.get("ref"): it.get("body", "") for _, _, it in items}
+
+        # M02 / M03
+        p2, p3, refs = [], [], []
+        for r, sec, it in items:
+            ref = it.get("ref")
+            refs.append(ref)
+            if ref not in in_month:
+                p2.append(f"ref {ref} 不存在或不在 {mo}")
+                continue
+            if in_month[ref][1].get("region") != r:
+                p3.append(f"{ref} region={in_month[ref][1].get('region')} 却放在 {r}")
+        dup = sorted({x for x in refs if refs.count(x) > 1})
+        if dup:
+            p2.append(f"ref 重复 {dup}")
+        for x in p2:
+            R.err("M02", f"{mo}: {x}")
+        if not p2:
+            R.ok("M02")
+        for x in p3:
+            R.err("M03", f"{mo}: {x}")
+        if not p3:
+            R.ok("M03")
+
+        zero = len(in_month) == 0
+        # M04
+        mets = m["metrics"]
+        p4 = []
+        if zero:
+            if mets:
+                p4.append("本月 0 条，metrics 应为空")
+        else:
+            if len(mets) != 3:
+                p4.append(f"metrics {len(mets)} 个，应 3 个")
+            for k in mets:
+                v, ref = str(k.get("value", "")), k.get("ref")
+                if not v or empty(k.get("caption")) or empty(k.get("unit")):
+                    p4.append(f"metric 字段不全：{k}")
+                    continue
+                if ref not in in_month:
+                    p4.append(f"metric ref {ref} 不在本月")
+                    continue
+                en = in_month[ref][1]
+                hay = (en.get("title") or "") + (en.get("summary") or "") + body_by_ref.get(ref, "").replace("**", "")
+                if v not in hay:
+                    p4.append(f"metric {v}{k.get('unit')} 在 {ref} 的标题/摘要/正文中找不到")
+        for x in p4:
+            R.err("M04", f"{mo}: {x}")
+        if not p4:
+            R.ok("M04")
+
+        # M05
+        sm = m["summary"]
+        if (zero and not sm) or (len(sm) == 3 and all(not empty(x.get("title")) and not empty(x.get("text")) for x in sm)):
+            R.ok("M05")
+        else:
+            R.err("M05", f"{mo}: summary 应恰好 3 条且 title/text 非空")
+
+        # M06 / M07
+        texts = [("lede", m.get("lede", ""), 80)]
+        texts += [(f"{r}.desc", regs[r].get("desc", ""), 80) for r in MONTH_REGIONS]
+        texts += [("metric.caption", k.get("caption", ""), 40) for k in mets]
+        texts += [("summary.title", x.get("title", ""), 20) for x in sm] + [("summary.text", x.get("text", ""), 160) for x in sm]
+        for r, sec, it in items:
+            texts.append((f"{it.get('ref')}.title", it.get("title", ""), 60))
+            texts.append((f"{it.get('ref')}.body", it.get("body", ""), 220))
+            if empty(it.get("title")) or empty(it.get("body")):
+                R.err("M07", f"{mo}: {it.get('ref')} title/body 为空")
+        p6, p7 = [], []
+        for label, t, lim in texts:
+            t = t or ""
+            if URL_RE.search(t) or MD_LINK.search(t):
+                p6.append(f"{label} 含链接")
+            if NUM_PREFIX.match(t) or TAG_PREFIX.match(t):
+                p6.append(f"{label} 以编号或标签开头：{t[:14]}")
+            if mlen(t) > lim:
+                p7.append(f"{label} 长度 {mlen(t)} > {lim}")
+        for x in p6:
+            R.err("M06", f"{mo}: {x}")
+        if not p6:
+            R.ok("M06")
+        for x in p7:
+            R.err("M07", f"{mo}: {x}")
+        if not p7:
+            R.ok("M07")
+
+        # M08
+        w8 = []
+        n = len(items)
+        if not zero and not (12 <= n <= 40):
+            w8.append(f"全文 {n} 条，建议 12–40")
+        for sec, cats in (("rules", ("平台动态", "行业政策")), ("insight", ("行业方法论", "市场动态"))):
+            sel = [in_month[it["ref"]][1] for r, s2, it in items if s2 == sec and it.get("ref") in in_month]
+            if sel:
+                hit = sum(1 for en in sel if en.get("category") in cats)
+                if hit * 2 < len(sel):
+                    w8.append(f"{sec} 节中 {'/'.join(cats)} 仅 {hit}/{len(sel)}")
+        st = m.get("stats", {})
+        if st.get("selected") != n:
+            w8.append(f"stats.selected={st.get('selected')} 与实际 {n} 不符")
+        if st.get("month_entries") != len(in_month):
+            w8.append(f"stats.month_entries={st.get('month_entries')} 与该月日报条数 {len(in_month)} 不符")
+        for x in w8:
+            R.warn("M08", f"{mo}: {x}")
+        if not w8:
+            R.ok("M08")
+
+
 # ------------------------------------------------------------------ main
 def main():
     ap = argparse.ArgumentParser()
@@ -685,13 +859,15 @@ def main():
     args = ap.parse_args()
     dfiles = sorted(glob.glob(os.path.join(REPO, "data", "daily", "*.json")))
     wfiles = sorted(glob.glob(os.path.join(REPO, "data", "weekly", "*.json")))
+    mfiles = sorted(glob.glob(os.path.join(REPO, "data", "monthly", "*.json")))
     if not dfiles:
         print("ERROR: data/daily 为空")
         return 1
     days, cat_total = check_daily(dfiles)
     check_weekly(wfiles, days)
+    check_monthly(mfiles, days)
 
-    print(f"检查对象：日报 {len(dfiles)} 个文件（{sum(len(d['entries']) for d in days.values())} 条），周结 {len(wfiles)} 个文件")
+    print(f"检查对象：日报 {len(dfiles)} 个文件（{sum(len(d['entries']) for d in days.values())} 条），周结 {len(wfiles)} 个文件，月度情报 {len(mfiles)} 个文件")
     print("6 类条数：" + "  ".join(f"{c} {cat_total.get(c, 0)}" for c in CATEGORIES))
     print()
     print(ljust_w("编号", 6) + ljust_w("检查项", 44) + "通过".rjust(6) + "告警".rjust(6) + "错误".rjust(6) + "跳过".rjust(6))

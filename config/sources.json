@@ -702,7 +702,15 @@
         "Perplexity OR Claude OR Copilot OR Apple Intelligence citations crawler shopping ads {Month} {Year}",
         "Google crawler OR robots OR Googlebot change {Month} {Year}"
       ]
-    }
+    },
+    "用户规模专项·国内": [
+      "QuestMobile OR 月活 OR 日活 豆包 OR DeepSeek OR 元宝 OR 千问 OR Kimi OR 文心 月活跃用户 人均使用 {月份}",
+      "百度 OR 腾讯 OR 阿里 财报 AI搜索 OR 元宝 OR 千问 日活 OR 月活 OR 调用量 {月份}（财报季加跑）"
+    ],
+    "用户规模专项·海外": [
+      "ChatGPT weekly active users OR \"AI Mode\" monthly users OR Gemini MAU OR Perplexity queries {Month} {Year}",
+      "Similarweb OR Sensor Tower OR Comscore AI chatbot traffic share ChatGPT Gemini Perplexity Copilot {Month} {Year}"
+    ]
   },
   "platforms": {
     "国内": [
@@ -1083,5 +1091,18 @@
         "Azoma（Agentic Commerce Optimization）"
       ]
     }
+  },
+  "monthly": {
+    "rule": "rules/06；每月第一个工作日生成上月月度情报，自愈最多补 1 份",
+    "reopen_budget": 25,
+    "sections": {
+      "insight": "行业洞察报告 · 平台用户规模与市场趋势",
+      "rules_国内": "国内平台规则变化",
+      "rules_海外": "海外平台规则变化"
+    },
+    "items_range": [
+      12,
+      40
+    ]
   }
 }
