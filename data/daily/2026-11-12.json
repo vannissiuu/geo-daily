@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-12",
+  "status": "normal",
+  "highlights": [
+    "国内 AI 搜索入口与导购成交同时落地：元宝搜索以独立 C 端产品上线并强调权威信源优先、广告单列，商家称 AI App 导流已占店铺两至三成订单，方案商应把元宝收录与 AI 渠道成交纳入国内客户的效果口径。",
+    "Google 继续压低 AI Overviews 中第三方入口的显眼度：来源图标测试移至回答底部，定义类回答默认整段展开占满首屏，监测需记录引用位置版本并以答案内点名替代来源点击作为主要指标。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-12-01",
+      "category": "平台动态",
+      "platform": "元宝",
+      "platform_topic": "检索与收录",
+      "region": "国内",
+      "title": "腾讯元宝搜索面向 C 端正式上线：so.qq.com 与 QQ 浏览器可用，优先权威信源、广告单列可折叠",
+      "summary": "11月11日，腾讯上线独立搜索产品元宝搜索，用户可经 so.qq.com 或在 QQ 浏览器切换搜索引擎使用。产品基于元宝大模型重构理解、检索、排序与答案组织链路，千亿级索引覆盖网页、公众号、视频号与学术文献，结果优先权威机构与官方信源，广告以“相关广告”模块单列、可折叠。",
+      "insight": "元宝从 API 能力走到 C 端搜索入口，方案商应把公众号/视频号内容与权威信源背书纳入元宝优化方案，并单独监测其答案引用与广告位。",
+      "published": "2026-11-11",
+      "links": [
+        {
+          "text": "IT之家",
+          "url": "https://www.ithome.com/1/025/471.htm"
+        },
+        {
+          "text": "新浪科技（快科技）",
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-11-11/doc-iniykehc2301813.shtml"
+        },
+        {
+          "text": "界面新闻",
+          "url": "https://www.jiemian.com/article/15321028.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-12-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google 测试把 AI Overviews 的来源图标移至回答底部",
+      "summary": "Search Engine Roundtable 11月11日报道，Brodie Clark 发现 Google 正测试将 AI Overviews 中被引站点数量与来源图标从回答顶部移到底部，悬停可展开完整引用列表；Google 未置评，作者认为此举可能进一步减少点击。",
+      "insight": "引用入口下移会削弱被引品牌的可见度与点击，监测需记录 AIO 来源位置版本，并以答案内点名而非来源点击衡量效果。",
+      "published": "2026-11-11",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-overview-source-icons-bottom-42519.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-12-03",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "第一财经：双11 商家借 AI App 站外导流，速尔称 AI App 订单占店铺两至三成",
+      "summary": "第一财经11月11日报道，电商平台与 AI App 打通后，用户提问可直接跳转商品链接；家居品牌速尔称 AI App 导流订单占其店铺 20%–30%，无需额外投流、按成交付约 4% 佣金。QuestMobile 数据显示 9 月 DeepSeek、元宝人均月使用 65.9、38.7 次。",
+      "insight": "AI 导购已带来可计量成交，方案商可向电商客户卖 AI 回答商品推荐优化，并以 AI 渠道订单占比与佣金成本作效果口径。",
+      "published": "2026-11-11",
+      "links": [
+        {
+          "text": "新浪财经（第一财经）",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-11/doc-iniykkpz2327689.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-12-04",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google AI Overviews 在定义类搜索中默认完全展开",
+      "summary": "SER 11月11日报道，Glenn Gabe 发现定义类查询（如 define expandable）的 AI Overviews 现默认完全展开、无需点“显示更多”，可占满首屏；Google 暂无新说明，此前称 AIO 仅在系统判定最有用的主题上动态展开。",
+      "insight": "定义与概念类词的首屏将被 AIO 独占，方案商应把术语释义类内容的优化目标从排名转向成为 AIO 引用源。",
+      "published": "2026-11-11",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-expanding-definitions-42514.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 74,
+    "selected": 4,
+    "domestic_ratio": 0.5,
+    "domestic_ratio_30d": 0.2427,
+    "websearch_calls": 103,
+    "webfetch_calls": 38
+  }
+}
