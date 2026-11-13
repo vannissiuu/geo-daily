@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-13",
+  "status": "normal",
+  "highlights": [
+    "AI 回答中的付费位正被同时扩张与规制：Google AI Mode 出现本地零售商赞助商品包，欧盟《数字公平法》提案要求 AI 购物助手披露付费推荐，方案商应在监测与交付中把赞助曝光与自然推荐严格分开。",
+    "AI 检索与抓取的底层条件在变化：Gemini 4 Hydrogen 成为 AI Mode 默认模型并强调更广的查询扩展链接，Cloudflare 披露 OpenAI 为页面变更提示付费，引用基线需随模型与抓取机制更新重测。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-13-01",
+      "category": "行业政策",
+      "region": "海外",
+      "title": "欧盟《数字公平法》提案拟要求 AI 购物助手披露付费推荐，违规最高罚全球营业额 6%",
+      "summary": "PPC Land 11 月 12 日报道，欧盟委员会 11 月 11 日通过《数字公平法》提案，拟取代 2005 年《不公平商业行为指令》；其第 26 条要求 AI 购物 Agent 披露受付费影响的推荐，违规最高处全球营业额 6% 罚款，尚需欧洲议会与理事会通过，生效 12 个月后适用。",
+      "insight": "服务欧洲客户的 AI 购物推荐优化需区分自然推荐与付费位，提前把披露合规与可审计投放记录写进交付方案。",
+      "published": "2026-11-12",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/united-bans-ai-agents-from-bookings-as-brussels-targets-paid-ai-picks/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-13-02",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "检索与收录",
+      "region": "海外",
+      "title": "Google 将 Gemini 4 Hydrogen 设为 AI Mode 全球默认模型，称查询扩展可连接更广泛的链接",
+      "summary": "Google 11 月 12 日将 Gemini 4 Hydrogen 设为全球 AI Mode 默认模型，并用于 AI Overviews 中最难的问题；Google 称其更强的 query fan-out 能连接更广泛的有用链接，并新增图片、对比表格与工具，11 月核心更新 10 日已开始推送。",
+      "insight": "模型切换叠加核心更新，应在 11 月中旬重跑客户 AI Mode 引用基线，区分模型变更与排名变动各自带来的来源变化。",
+      "published": "2026-11-12",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-13-03",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "Google AI Mode 被发现展示“本地零售商”赞助商品包，本地库存广告进入 AI 回答",
+      "summary": "Glenn Gabe 11 月 12 日截图显示，Google AI Mode 回答下方出现标注 Sponsored 的“附近零售商可购选项”四张带门店定位商品卡，商品面板另有 Sponsored stores 层，Google 未置评，帮助文档已将本地库存广告列为 AI Mode 实验，疑仅美国。",
+      "insight": "有门店的零售客户应把本地库存数据纳入 AI Mode 方案，监测时将赞助商品卡与自然推荐分开计数。",
+      "published": "2026-11-12",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/google-ai-mode-gains-local-retailer-ads-after-search-growth-slows-to-12/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-13-04",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare CEO 称 AI Agent 优化是新版 SEO，透露 OpenAI 为爬虫“页面变更提示”付费",
+      "summary": "Cloudflare CEO Matthew Prince 在三季度财报电话会上把面向 AI Agent 的优化比作新一代 SEO，称三季度首次取得“Act 4”产品收入但未披露金额；他表示 OpenAI 为告知其爬虫页面何时变更的提示付费，并预期 Agent 未来可能按次微支付访问网站。",
+      "insight": "可把“页面变更及时通知 AI 爬虫”做成技术交付项，帮客户新内容更快被抓取引用，并评估按次付费抓取对收录的影响。",
+      "published": "2026-11-08",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/cloudflare-ai-agent-optimization-new-seo/596248/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 65,
+    "selected": 4,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2404,
+    "websearch_calls": 105,
+    "webfetch_calls": 39
+  }
+}
