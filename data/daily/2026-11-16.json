@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-16",
+  "status": "normal",
+  "highlights": [
+    "AI 购物 Agent 正在成为网站的主要“访客”，Meta Muse 一家占到安全公司所见 Agent 请求的近六成，品牌方则开始把搜索索引、答案 grounding 与 Agent 操作分开授权，抓取与授权策略需要按 Agent 细分管理。",
+    "AI 回答使用内容的付费通道与大促可见度数据同时出现：Yahoo Scout 经出版商集体 ILC 为引用付费，Profound 与 Ahrefs 的大样本研究显示零售与促销页在 ChatGPT 等回答中占据主导，适合作为客户对标基准。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-16-01",
+      "category": "行业方法论",
+      "secondary_category": "平台动态",
+      "platform": "Meta AI",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "HUMAN Security：Meta Muse 占其所见 AI Agent 请求 59%，10 月 Agent 请求量为 8 月 8 倍、85% 指向商品与搜索页",
+      "summary": "HUMAN Security 10 月数据：Muse 占其所见 Agent 请求 59%，为 ChatGPT Agent 的 3.7 倍，Meta 与 OpenAI 合计近九成；Agent 请求量约为 8 月 8 倍，85% 指向商品与搜索页；Muse 已把签名迁至 muse.ai。",
+      "insight": "把 Muse 按 muse.ai 签名纳入日志监测与放行名单，电商客户优先优化商品页与站内搜索页的 Agent 可读性。",
+      "published": "2026-11-14",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/meta-muse-ai-agent-requests-human-security/597388/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-16-02",
+      "category": "市场动态",
+      "region": "海外",
+      "title": "Yahoo Scout 成为出版商授权集体 ILC 首个商业授权方，为 AI 回答中使用的内容向出版商付费",
+      "summary": "新成立的非营利出版商授权集体 ILC 称有 3000 多个媒体品牌与内容方加入；Yahoo Scout 成为其首个商业授权方，将为 AI 回答中使用的出版商内容付费，金额未披露。",
+      "insight": "引用开始有集体授权付费通道，媒体类客户可评估加入 ILC，信源策略中区分付费引用与仅抓取的平台。",
+      "published": "2026-11-13",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/ilc-yahoo-42528.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-16-03",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Profound 黑五 AI 搜索研究：27.9 万条回答显示 AT&T 可见度同比增 645%，促销页与媒体导购文是被引关键",
+      "summary": "Profound 分析美英德法 25 个零售品类 279,741 条 AI 回答、逾 120 万次引用：AT&T 手机类可见度同比增 645%，黑五页被引率 0.7%→11.7%；Wayfair 家具类可见度 64.4%→85.0%，受 Forbes 导购文带动；有促销日历发布当天即获引用。",
+      "insight": "大促前为客户提前上线可长期复用的促销专页并争取进入媒体导购文，按品类追踪 AI 回答中的被引页面而非仅看品牌提及。",
+      "published": "2026-11-13",
+      "links": [
+        {
+          "text": "Profound",
+          "url": "https://www.tryprofound.com/blog/black-friday-in-ai-search-2026"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-16-04",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "Ahrefs 统计 551.6 万条美国 ChatGPT 回答：沃尔玛被提及 9.56 万次居首，前 100 品牌中零售商占 35% 提及",
+      "summary": "Ahrefs 用 Brand Radar 统计 11 月 5,516,381 条美国 ChatGPT 回答：Walmart 出现在 95,605 条（1.73%），约为第二名 Target 两倍；前 10 中 6 个是零售商，前 100 中零售商 23 席、占全部提及 35%，汽车品牌 15 席。",
+      "insight": "可用作客户 ChatGPT 品牌提及率的行业基准；零售与汽车客户应以头部品牌提及占比为对标，向客户说明竞争门槛。",
+      "published": "2026-11-11",
+      "links": [
+        {
+          "text": "Ahrefs",
+          "url": "https://ahrefs.com/blog/most-mentioned-brands-chatgpt/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-16-05",
+      "category": "舆情",
+      "region": "海外",
+      "title": "联合航空改条款：允许搜索引擎索引，AI Agent 搜索预订须事先书面许可，并禁止用其数据做 AI grounding",
+      "summary": "联合航空 11 月 11 日更新条款：公开页面仍允许搜索引擎索引，但 AI Agent 在官网或 App 搜索、预订须事先书面许可；禁止用票价、航班与库存数据训练或 grounding AI 模型，Agent 代订可无通知取消；robots.txt 未点名 AI 爬虫。",
+      "insight": "为客户设计抓取授权时，把搜索索引、答案 grounding 与 Agent 操作分三层单独配置与监测。",
+      "published": "2026-11-14",
+      "links": [
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/united-ai-agents-permission-search-indexing/597418/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 35,
+    "selected": 5,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2222,
+    "websearch_calls": 138,
+    "webfetch_calls": 54
+  }
+}
