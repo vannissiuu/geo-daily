@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-17",
+  "status": "normal",
+  "highlights": [
+    "ChatGPT 正在把答案改造成更像搜索结果的形态：正文外链占比在 10 月跃升至近半，同时测试网页结果列表与“See more”折叠版式，品牌在 ChatGPT 的可见度开始出现可点击、可排序的位次口径。",
+    "AI 答案入口格局在调整：Google 测试弱化 AI Mode 独立入口，百度 App 月活单季降约 6% 且未披露 AI 搜索用户数，方案商需要按入口实际规模动态调整平台投入与监测样本。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-17-01",
+      "category": "行业方法论",
+      "secondary_category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Peec AI 数据：ChatGPT 回答正文带外链的对话占比从约一成升至近半，链接多半不在引用来源中",
+      "summary": "Peec AI 8 月 27 日至 11 月 14 日数据：ChatGPT 正文含可点外链的对话占比 10 月初前约 10%，10 月 14 日峰值 49.5%，11 月 14 日为 47.8%；单链接占比由约 43% 降至 18%，63% 的链接 URL 不在同次回答的引用来源中。",
+      "insight": "GEO 监测需把正文内链与引用来源分开统计，按内链点击口径重估 ChatGPT 引荐流量与落地页优化优先级。",
+      "published": "2026-11-16",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/chatgpt-links-to-websites-in-nearly-half-of-chats-up-from-10-peec-ai-finds/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-17-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "OpenAI 被曝在 ChatGPT 测试多种搜索结果版式：纯网页结果、网页优先及带“See more”的答案",
+      "summary": "Search Engine Roundtable 汇总用户截图：ChatGPT 测试仅显示网页结果、先列网页结果再给常规答案，以及顶部 AI 答案加“See more”按钮、下接网页结果等版式，形似 Google AI Overviews；作者未能复现，OpenAI 未置评。",
+      "insight": "若网页结果列表上线，ChatGPT 可见度将出现类排名位次，监测工具应提前加入结果位次与点击位采集。",
+      "published": "2026-11-16",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/chatgpt-search-result-tests-42537.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-17-03",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "百度三季报未披露 AI 搜索用户数，百度 App 9 月月活 6.04 亿、较 6 月少约 4000 万",
+      "summary": "百度 11 月 16 日发布三季报：总营收 308 亿元；财报未单列文心 App 月活与 App 内 AI 搜索活跃用户，百度 App 月活 3 月、6 月、9 月分别为 6.55 亿、6.44 亿、6.04 亿，单季降约 6%；AI 原生营销服务收入 24 亿元，同比降 15%。",
+      "insight": "百度入口流量与 AI 营销收入同步走弱，国内平台投入排序宜下调百度权重，并向客户如实说明各入口规模变化。",
+      "published": "2026-11-17",
+      "links": [
+        {
+          "text": "网易《态度·财报》",
+          "url": "https://www.163.com/tech/article/LBU1SB0E00098IEO.html"
+        },
+        {
+          "text": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-11-16/doc-iniyxuex2342253.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-17-04",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google 测试从搜索结果页移除 AI Mode 标签及 AI Overviews 下的“Ask anything”追问框",
+      "summary": "据 Glenn Gabe 截图，Google 测试搜索结果页不显示 AI Mode 标签、AI Overviews 下方也去掉“Ask anything”追问框；此前已有首页 AI Mode 按钮被移除的报道，业内推测与 AI Mode 广告变现较弱或其并入常规搜索有关，Google 未置评。",
+      "insight": "AI Mode 入口可能弱化或并入常规搜索，监测样本应同时覆盖 AI Overviews 与 AI Mode，避免单押一个入口。",
+      "published": "2026-11-13",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-dropping-ai-mode-again-42534.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 37,
+    "selected": 4,
+    "domestic_ratio": 0.25,
+    "domestic_ratio_30d": 0.2233,
+    "websearch_calls": 106,
+    "webfetch_calls": 29
+  }
+}
