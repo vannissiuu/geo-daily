@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-18",
+  "status": "normal",
+  "highlights": [
+    "Google 对外部访问一手放行一手收紧：发布 Google-Agent 放行指南让站点为其 AI 代理开路，同时测试首次搜索即要求登录以阻挡抓取，站点的 AI 代理可达性与监测工具的采集稳定性都成为方案商要管理的技术变量。",
+    "SparkToro 面板数据显示 ChatGPT 中带购买意图的对话不足一成、回答点名品牌约一成二，ChatGPT 的导购价值需要按品类与提示类型精细测算，而非套用搜索引擎的商业意图口径。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-18-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "爬虫与抓取",
+      "region": "海外",
+      "title": "Google 发布“允许 Google-Agent 流量”指南：给出放行规则与六类仍会拦截其 AI 代理的情形",
+      "summary": "Google 11 月 17 日发布 Google-Agent 放行指南：按 user-agent、IP 列表、可选 Web Bot Auth 签名识别，对已验证请求跳过人机挑战；列出规则优先级、验证码、加购预订、共享 IP 限流等六类排查项；用户触发的抓取通常不遵守 robots.txt。",
+      "insight": "AI 代理可达性成为新的技术审计项，方案商应把 Google-Agent 放行与 WAF、验证码排查纳入站点 GEO 体检清单。",
+      "published": "2026-11-17",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/google-lists-six-ways-sites-still-block-its-ai-agent-after-allowing-it/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-18-02",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "SparkToro 分析 11.8 万条 ChatGPT 提示词：仅 6.9% 涉及购买意图，约 12% 的回答点名品牌",
+      "summary": "SparkToro 基于 Verso 美国面板，分析 12,321 名用户今年 1–10 月的 118,163 条 ChatGPT 提示词：购物、品牌与本地服务类对话约占 5.7%，涉购买意图的约 6.9%，远低于其此前测得 Google 查询的 15% 以上；12.1% 的回答点名品牌。",
+      "insight": "向客户卖进时应按品类测算 ChatGPT 商业意图占比，避免高估导购流量，监测问题集可向研究型、比较型提示词倾斜。",
+      "published": "2026-11-17",
+      "links": [
+        {
+          "text": "SparkToro",
+          "url": "https://sparktoro.com/blog/we-analyzed-11800-chatgpt-prompts-from-12000-users-to-answer-how-do-americans-use-ai-tools-in-2026/"
+        },
+        {
+          "text": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/chatgpt-purchase-intent-us-panel/597857/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-18-03",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "测量与数据",
+      "region": "海外",
+      "title": "Google 测试用户首次搜索即要求登录，被视为针对抓取与排名追踪工具的新举措",
+      "summary": "据 Search Engine Roundtable 11 月 17 日报道，SerpAlerts 的 Brodie Clark 在无痕模式下首次搜索即被要求登录才能看结果，已持续数天，以往需多次查询才触发；Google 的 Rajan Patel 称这不应出现在首页，但可能在测试。",
+      "insight": "依赖抓取 Google 结果页的 AI Overviews 与 AI Mode 监测可能更不稳定，方案商应评估采集链路冗余，并向客户说明数据缺口。",
+      "published": "2026-11-17",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-sign-in-protections-after-first-search-42557.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 24,
+    "selected": 3,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.2136,
+    "websearch_calls": 106,
+    "webfetch_calls": 39
+  }
+}
