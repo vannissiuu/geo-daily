@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-23",
+  "status": "normal",
+  "highlights": [
+    "AI 答案的商业层正在加厚：微软确认 Bing AI Overviews 全市场投放广告，Google、ChatGPT、Claude 黑五前在回答里直接发放优惠码，方案商需把赞助位、优惠信息与自然引用分层监测，并帮电商客户以结构化数据提交官方促销。",
+    "答案入口与检索底层同时洗牌：DeepSeek 取消联网检索单独计费、腾讯收缩元宝转押微信小微，DEJAN 实测 Gemini 4 Hydrogen 开启搜索后近半品牌推荐被替换，平台投入排序与监测口径都应以实时检索结果为准动态调整。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-23-01",
+      "category": "平台动态",
+      "platform": "Copilot",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "微软官方确认 Bing 搜索 AI Overviews 已展示广告：沿用现有广告系列投放，除中国外全市场可用",
+      "summary": "Microsoft Advertising 11 月更新确认，Bing 搜索 AI Overviews 旁可出现广告，如行程类回答旁展示酒店广告；无需单独建系列，经现有广告系列含 PMax、AI Max 投放，除中国外全市场可用。微软称 Copilot 互动后购买增 21%。",
+      "insight": "Bing AI 答案付费位常态化，监测需把 AI Overviews 赞助位与自然引用分开计数，提供付费与自然联动方案。",
+      "published": "2026-11-19",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/microsoft-ads-in-ai-overviews-on-bing-42578.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-23-02",
+      "category": "平台动态",
+      "platform": "多平台",
+      "platform_topic": "购物与交易",
+      "region": "海外",
+      "title": "黑五前 Google AI Overviews、ChatGPT、Claude 等直接在回答中给出优惠码，ChatGPT 以可复制卡片呈现",
+      "summary": "Google AI Overviews、AI Mode、ChatGPT、Claude 等开始在回答中直接列出优惠码；ChatGPT 免费版以带复制按钮与截止日期的卡片展示并标注来源，AI Mode 与 Claude 以文字列出并引用 HostAdvice、Reddit、Gizmodo 等站点。",
+      "insight": "优惠码站点击将被答案截留，电商客户应以结构化数据提交官方促销，并监测 AI 引用的优惠码来源。",
+      "published": "2026-11-20",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-chatgpt-coupon-codes-42581.html"
+        },
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/alibaba-and-temu-cut-marketing-as-ai-engines-start-handing-out-coupons/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-23-03",
+      "category": "平台动态",
+      "platform": "DeepSeek",
+      "platform_topic": "检索与收录",
+      "region": "国内",
+      "title": "DeepSeek 取消模型调用中联网搜索与网页抓取的单独计费，按次收费仅执行 18 天即并入 Token 计费",
+      "summary": "DeepSeek 官网显示，自 11 月 18 日 12:00 起，模型调用触发的服务端搜索与网页抓取不再按每千次 5 元单独计费，只按 Token 计；该收费 11 月 1 日才正式执行。独立 Search/Fetch API 仍按次计费，其自研搜索称过滤 SEO 作弊与 GEO 操纵。",
+      "insight": "联网检索变便宜将让更多 DeepSeek 应用默认搜索，应把其检索引用纳入监测，并按其反操纵规则规范投放。",
+      "published": "2026-11-18",
+      "links": [
+        {
+          "text": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/discovery/2026-11-18/doc-inizensv4714266.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-23-04",
+      "category": "市场动态",
+      "region": "国内",
+      "title": "腾讯称元宝“没有预期的那样成功”，大幅削减投入、不再以用户规模为目标，微信 AI 助手小微日活已达 3000 万",
+      "summary": "腾讯三季度业绩会上，总裁刘炽平称元宝未达预期，已大幅削减投入，不再把用户规模作为目标而转向提升模型能力；微信 AI 助手“小微”日活已达 3000 万且测试池仍在扩大。元宝春节红包活动后曾披露日活超 5000 万、月活 1.14 亿。",
+      "insight": "腾讯系 AI 入口重心可能从元宝转向微信小微，方案商应调整腾讯系平台的监测样本与投入排序，提前研究小微的信源与引用规则。",
+      "published": "2026-11-19",
+      "links": [
+        {
+          "text": "新浪科技（转 IT之家）",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-19/doc-inizfuni1041004.shtml"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-23-05",
+      "category": "行业方法论",
+      "region": "海外",
+      "title": "DEJAN 对 Gemini 4 Hydrogen 做 10,701 组对照：开启 Google 搜索后近半品牌推荐被替换，仅 1.8% 回答完全一致",
+      "summary": "DEJAN 于 11 月 13–18 日对 3,503 个提示词、119 个站点跑 10,701 组无联网与 Google 搜索 grounding 对照：每答品牌由 6.4 个变为 7.5 个，4.1 个保留、3.4 个由搜索新增、2.3 个被移除；仅 1.8% 回答完全一致。",
+      "insight": "AI Mode 品牌推荐主要受实时搜索左右，应以自然搜索可见度为抓手，监测时分开记录联网与非联网结果。",
+      "published": "2026-11-18",
+      "links": [
+        {
+          "text": "DEJAN",
+          "url": "https://dejan.ai/blog/gemini-4-hydrogen-keeps-45-of-its-brand-recommendations-when-google-search-is-switched-on/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-23-06",
+      "category": "市场动态",
+      "secondary_category": "新技术",
+      "region": "海外",
+      "title": "瑞典 Wilgot 完成 300 万美元种子轮，用“智能体商品优化”改写商品页与数据源让品牌被 AI 助手推荐",
+      "summary": "斯德哥尔摩 Wilgot 完成 300 万美元种子轮，Industrifonden 领投；其平台用搜索词、评论、客服与退货等一方数据改写商品页、Feed、FAQ 与结构化数据，客户含 Daniel Wellington、Signify，公司称 Myrqvist 7% 客户来自 ChatGPT。",
+      "insight": "商品级 AI 推荐优化获资本押注，可把商品页、Feed 与结构化数据改写纳入电商客户 GEO 交付。",
+      "published": "2026-11-19",
+      "links": [
+        {
+          "text": "Tech.eu",
+          "url": "https://tech.eu/2026/11/19/wilgot-raises-3m-in-seed-funding-to-help-brands-get-recommended-by-ai/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    }
+  ],
+  "run": {
+    "candidates": 29,
+    "selected": 6,
+    "domestic_ratio": 0.3333,
+    "domestic_ratio_30d": 0.1889,
+    "websearch_calls": 135,
+    "webfetch_calls": 51
+  }
+}
