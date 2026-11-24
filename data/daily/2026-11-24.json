@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-24",
+  "status": "normal",
+  "highlights": [
+    "AI 答案入口开始把来源链接做成醒目卡片，同时 Semrush 等工具把 AI 回答带来的流量写进报表，可见度监测正从“是否被提及”转向“是否被点击、带来多少访问”",
+    "AI 可见度需求向电商商品层与公关部门扩散：AI 购物可见度初创获投并整合，过半公关团队已在衡量 LLM 可见度",
+    "国内党媒推进城市传播语料库标准，而服务商实测显示各国产平台推荐的 GEO 服务商几乎互不重合，分平台信源建设与监测成为交付重点"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-24-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google AI Mode 上线“Dive deeper”：回答末尾相关文章链接改为带缩略图的醒目可点卡片",
+      "summary": "SER 11月23日报道，Google 10月宣布的“Dive deeper”更新已在AI Mode上线（此前见于Discover）：部分AI回答末尾的相关文章链接改为带缩略图、更易点击的卡片；Glenn Gabe约11月21日率先发现，但链接仍位于大段AI生成内容下方。",
+      "insight": "把是否进入AI Mode末尾Dive deeper卡片列为监测项，为客户重点页配好图与清晰标题，争取卡片展示与点击。",
+      "published": "2026-11-23",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/google-ai-mode-dive-deeper-feature-live-42589.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-24-02",
+      "category": "市场动态",
+      "region": "海外",
+      "title": "捷克初创 Ranketta 完成 100 万欧元种子轮，追踪商品在 ChatGPT、Gemini 等 AI 助手中的呈现并收购竞品 Phemly",
+      "summary": "2025年成立的Ranketta于11月20日完成100万欧元种子轮，Reflex Capital领投，累计融资约200万欧元，部分资金用于收购竞品Phemly；其SaaS追踪商品在ChatGPT、Gemini、Perplexity等AI助手中的呈现，并给出商品描述、标题与属性优化建议。",
+      "insight": "AI 购物可见度赛道持续获投且开始整合，方案商可把“商品详情与属性优化”打包为电商客户的标准交付模块。",
+      "published": "2026-11-22",
+      "links": [
+        {
+          "text": "The SaaS News",
+          "url": "https://www.thesaasnews.com/news/ranketta-raises-1m-seed/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-24-03",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Semrush 推出“AI 影响流量”指标与 Topics 层：用预测模型估算由 ChatGPT、AI Overviews 等 AI 回答带来的访问",
+      "summary": "PPC Land 11月23日报道，Semrush推出整合290亿余关键词与3.17亿余AI提示词的Topics层，新增“AI影响流量”指标与新点击率模型，覆盖ChatGPT、Gemini、AI Overviews与AI Mode；该指标为模型估算而非实际访问计数，先在美英上线，未公布准确度。",
+      "insight": "主流 SEO 工具已把 AI 回答带来的流量纳入报表，方案商需向客户说明估算口径差异，并以自有监测数据校准对比。",
+      "published": "2026-11-23",
+      "links": [
+        {
+          "text": "PPC Land",
+          "url": "https://ppc.land/semrush-puts-a-number-on-the-visits-that-begin-with-an-ai-answer/"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-24-04",
+      "category": "新技术",
+      "region": "国内",
+      "title": "北京日报携手宁波日报启动城市传播语料库参考标准建设，面向大模型与 GEO 服务商开放共建",
+      "summary": "据中国宁波网11月23日报道，北京日报与宁波日报在11月21日深圳第二届GEO大会上联合启动“城市传播语料库建设参考标准”建设，称为国内首个，覆盖城市品牌语料的采集、标注、存储与授权使用，先在京甬试点，邀请城市媒体、大模型厂商与GEO服务商参与。",
+      "insight": "党媒正把城市与政务信源做成可授权语料库，方案商可对接媒体语料渠道，为文旅、城市品牌客户设计权威信源投放方案。",
+      "published": "2026-11-23",
+      "links": [
+        {
+          "text": "杭州网（来源：中国宁波网）",
+          "url": "https://news.hangzhou.com.cn/gnxw/content/2026-11/23/content_9375777.htm"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-24-05",
+      "category": "行业方法论",
+      "secondary_category": "市场动态",
+      "region": "海外",
+      "title": "Muck Rack 公关测量报告：55% 的公关从业者已开始衡量 LLM 可见度，较 2025 年的 28% 近乎翻倍",
+      "summary": "Muck Rack 11月20日发布《2026公关测量现状》：55%的公关从业者已开始衡量LLM可见度（2025年为28%），另有23%计划开始；54%在测量与报告中使用AI。调查于9月22日至10月19日进行，回收697份、清洗后保留571份，样本主要来自其自有数据库。",
+      "insight": "公关部门正成为 AI 可见度预算的新买方，方案商可面向 PR 团队推出媒体报道与 AI 引用联动的测量报表与卖点。",
+      "published": "2026-11-20",
+      "links": [
+        {
+          "text": "MarTech Cube（GlobeNewswire）",
+          "url": "https://www.martechcube.com/over-half-of-pr-pros-now-measure-llm-visibility-up-from-28/"
+        }
+      ],
+      "source_type": "一手研究",
+      "soft_class": "C"
+    },
+    {
+      "id": "2026-11-24-06",
+      "category": "行业方法论",
+      "region": "国内",
+      "title": "GEO 服务商对六大国产 AI 平台实测 600 次：仅 6.5% 的回答给出 GEO 服务价格（信源为企业发布稿）",
+      "summary": "康诰GEO 11月19日经豆包、DeepSeek、Kimi、文心、千问、元宝官方API联网，按100个城市询问GEO报价共600次，有效584条中仅38条（6.5%）给出价格，报价从500元到1000万元；被点名的1033家服务商约89%只出现在一个平台。",
+      "insight": "各平台推荐的服务商高度不重合，方案商应按平台分别监测与优化，并在销售中用分平台可见度数据而非单一平台截图。",
+      "published": "2026-11-23",
+      "links": [
+        {
+          "text": "新浪财经",
+          "url": "https://finance.sina.com.cn/tjhz/2026-11-23/doc-iniztmtw5451070.shtml"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "candidates": 69,
+    "selected": 6,
+    "domestic_ratio": 0.3333,
+    "domestic_ratio_30d": 0.1979,
+    "websearch_calls": 110,
+    "webfetch_calls": 41
+  }
+}
