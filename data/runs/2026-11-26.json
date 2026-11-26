@@ -1,0 +1,474 @@
+{
+  "date": "2026-11-26",
+  "window": [
+    "2026-11-21",
+    "2026-11-26"
+  ],
+  "candidates": [
+    {
+      "title": "Google新增生成式搜索来源选择与引用呈现说明",
+      "url": "https://developers.google.com/search/updates",
+      "source": "Google Search Central",
+      "published": "2026-11-24",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-26-01",
+      "found_via": "固定巡检及搜索：Google Search Central updates与AI生成式搜索归因说明",
+      "geo_relevance": "（a）解释Google生成式搜索如何选择、交叉核验并展示第三方来源，直接影响内容被引用与点击。",
+      "category_reason": "核心事实是Google改变/披露AI答案来源链接的选择与展示，按03第1.5平台动态冲突规则归类，子标签引用与呈现。"
+    },
+    {
+      "title": "ChatGPT广告新增CTA、Sponsored Business Agents区域及广告触达指标",
+      "url": "https://www.seroundtable.com/chatgpt-ads-updates-42623.html",
+      "source": "Search Engine Roundtable",
+      "published": "2026-11-25",
+      "region": "海外",
+      "category_guess": "平台动态",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-26-02",
+      "found_via": "SER 11月25日Daily Search Forum Recap线索，后打开独立报道核验",
+      "geo_relevance": "（a）（c）ChatGPT答案中的赞助商家广告覆盖与受众测量变化，影响品牌在AI回答中的商业呈现。",
+      "category_reason": "核心事实为ChatGPT回答内广告CTA、投放区域和测量的变化，按03第1.5平台动态归类，子标签广告与商业化。"
+    },
+    {
+      "title": "Cloudflare推出Search for Agents站内搜索端点",
+      "url": "https://blog.cloudflare.com/search-for-agents",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-25",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "无",
+      "decision": "selected",
+      "entry_id": "2026-11-26-03",
+      "found_via": "固定巡检：Cloudflare Developers Changelog；C组新技术搜索补充",
+      "geo_relevance": "（a）（b）网站可发布Agent可发现的站内检索端点及索引能力，直接影响第三方内容被Agent找到的基础设施。",
+      "category_reason": "主语是Cloudflare基础设施服务商，新增可用产品能力，按03第1.4第9条归新技术。"
+    },
+    {
+      "title": "PMG360推出B2B AEO服务",
+      "url": "https://www.einpresswire.com/article-pdf/958531580/pmg360-launches-aeo-services-to-help-b2b-companies-get-cited-in-ai-search",
+      "source": "EIN Presswire（PMG360发布稿）",
+      "published": "2026-11-23",
+      "region": "海外",
+      "category_guess": "新技术",
+      "soft_class": "B",
+      "decision": "selected",
+      "entry_id": "2026-11-26-04",
+      "found_via": "固定信源EIN Presswire搜索；C组服务/市场搜索",
+      "geo_relevance": "（b）AEO服务新增可见度审计、问题映射、页面改写、技术修复及AI引荐线索测量，是GEO服务产品供给。",
+      "category_reason": "核心事实是GEO/AEO服务商发布具体产品服务，按03第1.4第6条服务商产品发布归新技术；发布稿事实明确，独立换源未成功，按02第5节B类保留并标注。"
+    },
+    {
+      "title": "北京航天金税询价采购GEO服务",
+      "url": "https://www.yfbzb.com/inviteBid/detail/20261124_650622910.html",
+      "source": "云飞招标（招标信息聚合页）",
+      "published": "2026-11-24",
+      "region": "国内",
+      "category_guess": "市场动态",
+      "soft_class": "无",
+      "decision": "rejected",
+      "reject_reason": "聚合页",
+      "found_via": "C组品牌方采购/招标专项搜索"
+    },
+    {
+      "title": "英国商会调查：企业采取AI搜索行动比例较低",
+      "url": "https://www.britishchambers.org.uk/news/2026/11/only-9-of-uk-businesses-taking-action-on-ai-search-despite-potential-to-attract-more-customers/",
+      "source": "British Chambers of Commerce",
+      "published": "2026-11-18",
+      "region": "海外",
+      "category_guess": "行业方法论",
+      "soft_class": "未分级",
+      "decision": "rejected",
+      "reject_reason": "超窗",
+      "found_via": "D组海外方法论/AI搜索采用情况搜索"
+    }
+  ],
+  "source_swaps": [
+    {
+      "candidate": "PMG360推出B2B AEO服务",
+      "query": "PMG360 AEO service launch independent media coverage November 23 2026",
+      "result": "未找到独立新闻报道；检索结果为EINPresswire转载、新闻稿聚合及服务目录。原发布稿已打开并含明确服务模块、方法与价格，按B类规则保留。"
+    },
+    {
+      "candidate": "北京航天金税GEO服务询价",
+      "query": "北京航天金税 GEO询价 2026-11-24 原始采购公告",
+      "result": "失败：只找到招标聚合页，未确认采购方或官方采购平台的原始公告；候选按聚合页规则剔除。"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "入口巡检：按config/sources.json逐页搜索17个固定信源（SAMR另作补充检索）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 2,
+      "calls": 18
+    },
+    {
+      "query": "汇总页：SER窗口内回顾及SEJ SEO Pulse最新一期",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "Google Search Central更新与生成式搜索归因说明",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "D组：GEO/AEO测量、AI搜索引用与可见度方法研究",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "B组：英国商会AI搜索采用与监管/舆情关联检索",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "C组：海外GEO/AEO与AI可见度融资专项",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "calls": 4
+    },
+    {
+      "query": "C组：国内GEO采购询价、海外GEO招标及平台用户规模专项",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "C组：AI搜索平台使用规模与追踪工具/服务检索",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "calls": 4
+    },
+    {
+      "query": "C组：融资补搜、新技术及Cloudflare产品更新",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "A组：国内平台产品、搜索机制与商业化变动",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 0,
+      "calls": 4
+    },
+    {
+      "query": "A组：Google、ChatGPT、Copilot等平台近期搜索及广告变动",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "B组：国内外AI搜索政策、治理与舆情线索",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 0,
+      "calls": 4
+    },
+    {
+      "query": "C组：北京航天金税GEO服务询价原始发布方换源检索",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 0,
+      "calls": 3
+    },
+    {
+      "query": "SER 11月23/24日回顾及界面AI早报按日期检索",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "国内36氪、IT之家汇总页及D组可信GEO/方法论定向补搜",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 1,
+      "calls": 8
+    },
+    {
+      "query": "界面、36氪、IT之家11月26日汇总页及Cloudflare Search for Agents官方更新核对",
+      "mode": "standard",
+      "region": "国内",
+      "useful": 1,
+      "calls": 4
+    },
+    {
+      "query": "SEJ SEO Pulse与36氪8点1氪日期补搜",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "calls": 2
+    },
+    {
+      "query": "SEJ SEO Pulse站内检索补查（无结果）",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 0,
+      "calls": 1
+    },
+    {
+      "query": "PMG360 AEO服务发布稿的独立报道换源检索",
+      "mode": "standard",
+      "region": "海外",
+      "useful": 1,
+      "calls": 1
+    }
+  ],
+  "channel_log": [
+    {
+      "page": "https://www.seroundtable.com/",
+      "status": "无日期",
+      "hits": 0
+    },
+    {
+      "page": "https://ppc.land/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.searchenginejournal.com/category/news/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.searchenginejournal.com/category/digital/generative-ai/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://openai.com/news/",
+      "status": "无日期",
+      "hits": 0
+    },
+    {
+      "page": "https://www.anthropic.com/news",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://developers.cloudflare.com/changelog/",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://martechvibe.com/tag/ai-search/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.einpresswire.com/search?query=generative+engine+optimization",
+      "status": "需授权",
+      "hits": 1
+    },
+    {
+      "page": "https://www.martechcube.com/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.aleydasolis.com/en/",
+      "status": "打不开",
+      "hits": 0
+    },
+    {
+      "page": "https://www.ithome.com/tag/geo/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.jiemian.com/lists/65.html",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://ai-bot.cn/daily-ai-news/",
+      "status": "打不开",
+      "hits": 0
+    },
+    {
+      "page": "https://www.cac.gov.cn/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.samr.gov.cn/",
+      "status": "需授权",
+      "hits": 0
+    },
+    {
+      "page": "https://www.seroundtable.com/recap-11-25-2026-42619.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.seroundtable.com/recap-11-24-2026-42608.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.seroundtable.com/recap-11-23-2026-42597.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.jiemian.com/",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://www.36kr.com/p/4084431441488260",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://www.36kr.com/p/4085847020153478",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://www.ithome.com/blog/",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://blog.cloudflare.com/search-for-agents",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://developers.google.com/search/updates",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.seroundtable.com/chatgpt-ads-updates-42623.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.einpresswire.com/article-pdf/958531580/pmg360-launches-aeo-services-to-help-b2b-companies-get-cited-in-ai-search",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.yfbzb.com/inviteBid/detail/20261124_650622910.html",
+      "status": "可用",
+      "hits": 1
+    },
+    {
+      "page": "https://www.cac.gov.cn/wxzw/wxfb/A093702index_1.htm",
+      "status": "可用",
+      "hits": 0
+    },
+    {
+      "page": "https://www.samr.gov.cn/",
+      "status": "需授权",
+      "hits": 0
+    }
+  ],
+  "fetch_blocked": [
+    {
+      "url": "https://ppc.land/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.searchenginejournal.com/category/news/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.searchenginejournal.com/category/digital/generative-ai/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://martechvibe.com/tag/ai-search/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.einpresswire.com/search?query=generative+engine+optimization",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.martechcube.com/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.ithome.com/tag/geo/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.cac.gov.cn/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    },
+    {
+      "url": "https://www.samr.gov.cn/",
+      "by": "main",
+      "note": "入口URL未出现在本次搜索结果，依手册未尝试直接打开；以站点搜索替代，故状态记需授权。"
+    }
+  ],
+  "cell_notes": {
+    "平台动态·国内": "已搜索豆包、DeepSeek、Kimi、千问、文心、元宝等平台近期更新；窗口内未找到可核验的检索、选源、引用、商业化变更。",
+    "平台动态·海外": "核验Google来源选择说明与ChatGPT广告市场/指标更新；其余平台搜索未见本窗口内合格机制变化。",
+    "行业政策·国内": "检索网信办及市监总局窗口内政策、执法与广告治理；已打开的网信办列表最新相关条目为11月20日且无GEO专项，未发现合格新规。",
+    "行业政策·海外": "检索AI搜索治理、广告与权威机构动态；英国商会AI搜索报告页面发布日期为11月18日，超出窗口。",
+    "新技术·国内": "检索国内GEO产品、技术及定向服务商；没有发现可用且满足窗口的独立新产品报道。",
+    "新技术·海外": "Cloudflare于11月25日推出Search for Agents；另核验PMG360 B2B AEO服务企业发布稿，含具体服务模块与定价，独立报道换源未成功，按B类保留并标注。",
+    "市场动态·国内": "检索融资及品牌采购；仅找到北京航天金税GEO询价聚合页，原始发布方换源未能确认，按聚合页规则剔除；没有合格国内融资。",
+    "市场动态·海外": "执行海外融资、合作、招标与平台规模专项，窗口内没有找到可核验GEO/AEO净新融资或招标事件。",
+    "舆情·国内": "检索GEO服务风险、虚假宣传、平台违规与监管曝光；未发现窗口内有可核验的新事件。",
+    "舆情·海外": "检索AI答案投毒、引用操纵、品牌与出版商争议；没有符合窗口且直接影响AI答案内容的合格事件。",
+    "行业方法论·国内": "检索可信GEO、党媒及行业媒体实测/方法；命中素材均为窗口外内容或缺乏可核验的独立方法证据。",
+    "行业方法论·海外": "完成至少7次海外方法论检索；未找到窗口内符合方法、样本与可复核数据要求的新研究。"
+  },
+  "audit": {
+    "warnings": [
+      "当日国内占比为0%，低于40%提示阈值；已复核国内搜索、软文分级和采购换源，窗口内未找到合格且非聚合来源的国内条目。",
+      "近30日国内占比为17.98%，低于40%提示阈值；本次无国内条目入选。"
+    ],
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.1798
+  },
+  "stats": {
+    "websearch_calls": 85,
+    "webfetch_calls": 24,
+    "candidates": 6,
+    "selected": 4
+  },
+  "notes": "窗口为2026-11-21至2026-11-26。today为工作日；本日未到周一，weekly=null；不在月初前7个工作日，monthly=null，故未生成周报/月报。固定巡检及四组搜索均由主会话完成，因运行环境未能创建搜索代理。WebSearch接口未提供standard/extended模式开关，按默认搜索执行。仅写本次daily与runs文件；未提交或推送。"
+}

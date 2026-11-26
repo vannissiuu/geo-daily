@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-26",
+  "status": "normal",
+  "highlights": [
+    "Google把生成式搜索的选源、交叉核验和链接展示规则写得更清楚，内容可索引与事实可靠仍是进入答案的基础条件。",
+    "ChatGPT广告开始扩展赞助商家覆盖范围并补充触达频次指标，付费展示与自然引用需要分开监测。",
+    "面向网站的Agent搜索端点和B2B AEO服务都在产品化，站点发现能力、内容结构和线索归因逐渐进入同一交付链。"
+  ],
+  "entries": [
+    {
+      "id": "2026-11-26-01",
+      "category": "平台动态",
+      "platform": "Google",
+      "platform_topic": "引用与呈现",
+      "region": "海外",
+      "title": "Google新增生成式搜索来源说明，披露 AI Overviews 与 AI Mode 的选源及链接呈现机制",
+      "summary": "Google于11月24日新增生成式搜索归因说明，解释AI Overviews、AI Mode如何从搜索索引、相关查询及交叉核验中选择来源并展示链接，并建议站点保持可索引、可靠且在Search Console监测。",
+      "insight": "把抓取、事实一致性与引用呈现分层核查，并用Search Console跟踪页面资格和点击。",
+      "published": "2026-11-24",
+      "links": [
+        {
+          "text": "Google Search Central 更新记录",
+          "url": "https://developers.google.com/search/updates"
+        },
+        {
+          "text": "Attribution and factuality in Search generative AI features",
+          "url": "https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-26-02",
+      "category": "平台动态",
+      "platform": "ChatGPT",
+      "platform_topic": "广告与商业化",
+      "region": "海外",
+      "title": "ChatGPT广告新增“了解更多”CTA并扩展Sponsored Business Agent投放区域和人群指标",
+      "summary": "SER报道，OpenAI为单图广告加入“Learn more”CTA，将Sponsored Business Agents拓展至美国以外的合资格商家，并在Ads Manager与API补充触达、频次和独立人群指标。",
+      "insight": "向客户拆分付费赞助展示与自然引用，并把新增市场、触达和频次纳入广告测量。",
+      "published": "2026-11-25",
+      "links": [
+        {
+          "text": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/chatgpt-ads-updates-42623.html"
+        }
+      ],
+      "source_type": "中立媒体",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-26-03",
+      "category": "新技术",
+      "region": "海外",
+      "title": "Cloudflare推出Search for Agents，一键创建站内AI搜索端点并发布Agent发现元数据",
+      "summary": "Cloudflare于11月25日推出Search for Agents，开启后自动为网站建立AI Search索引和自有域名搜索端点，并在页面发布发现元数据；Agent可查询Markdown内容，功能处于Beta。",
+      "insight": "把站点能否被Agent发现、索引和查询纳入技术审计，并核对开放范围与访问控制。",
+      "published": "2026-11-25",
+      "links": [
+        {
+          "text": "Cloudflare Blog",
+          "url": "https://blog.cloudflare.com/search-for-agents"
+        }
+      ],
+      "source_type": "官方",
+      "soft_class": "无"
+    },
+    {
+      "id": "2026-11-26-04",
+      "category": "新技术",
+      "region": "海外",
+      "title": "PMG360推出B2B AEO服务，纳入买家问题映射、页面改写与AI引荐归因（信源为企业发布稿）",
+      "summary": "PMG360于11月23日发布B2B AEO服务，包含多平台可见度审计、买家问题映射、答案优先页面改写、Schema与索引修复及AI引荐流量和线索月报；套餐起价每月5000美元。（信源为企业发布稿）",
+      "insight": "观察B2B服务将审计、内容和技术修复打包，并以AI引荐流量及线索作为交付指标。",
+      "published": "2026-11-23",
+      "links": [
+        {
+          "text": "EIN Presswire（PMG360发布稿）",
+          "url": "https://www.einpresswire.com/article-pdf/958531580/pmg360-launches-aeo-services-to-help-b2b-companies-get-cited-in-ai-search"
+        }
+      ],
+      "source_type": "企业发布稿",
+      "soft_class": "B"
+    }
+  ],
+  "run": {
+    "websearch_calls": 85,
+    "webfetch_calls": 24,
+    "candidates": 6,
+    "selected": 4,
+    "domestic_ratio": 0.0,
+    "domestic_ratio_30d": 0.1798
+  }
+}
